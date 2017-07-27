@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dTF-jt-VcH">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Featured-->
+        <scene sceneID="Gw8-iH-nRF">
+            <objects>
+                <viewController id="XKx-WU-31e" customClass="FeaturedController" customModule="Impact" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="us2-rI-pqM"/>
+                        <viewControllerLayoutGuide type="bottom" id="M47-R5-fY5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rUF-mb-leh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="85" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Lfx-1w-wsA">
+                                <rect key="frame" x="20" y="0.0" width="374" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OrgCell" rowHeight="85" id="U75-Q6-S2u" customClass="FeaturedTableViewCell" customModule="Impact" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="374" height="85"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U75-Q6-S2u" id="TC2-Za-BeI">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="84.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vDv-f2-cZO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="85"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Org Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GaL-dj-aV9">
+                                                    <rect key="frame" x="8" y="31" width="358" height="23"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="vDv-f2-cZO" firstAttribute="leading" secondItem="TC2-Za-BeI" secondAttribute="leading" id="HhK-6S-LQq"/>
+                                                <constraint firstItem="GaL-dj-aV9" firstAttribute="centerY" secondItem="vDv-f2-cZO" secondAttribute="centerY" id="Lru-oK-XIe"/>
+                                                <constraint firstItem="GaL-dj-aV9" firstAttribute="centerY" secondItem="TC2-Za-BeI" secondAttribute="centerY" id="YKt-Wk-v8K"/>
+                                                <constraint firstItem="GaL-dj-aV9" firstAttribute="leading" secondItem="TC2-Za-BeI" secondAttribute="leadingMargin" id="Zfd-ZO-qGS"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="GaL-dj-aV9" secondAttribute="trailing" id="aLJ-j5-Pr1"/>
+                                                <constraint firstItem="GaL-dj-aV9" firstAttribute="centerX" secondItem="vDv-f2-cZO" secondAttribute="centerX" id="tZz-vW-Ifr"/>
+                                                <constraint firstItem="vDv-f2-cZO" firstAttribute="top" secondItem="TC2-Za-BeI" secondAttribute="top" id="vgW-9E-y8L"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="orgImageView" destination="vDv-f2-cZO" id="trH-qM-ZV6"/>
+                                            <outlet property="orgNameLabel" destination="GaL-dj-aV9" id="0WA-S7-GHo"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="XKx-WU-31e" id="R5s-RL-oAL"/>
+                                    <outlet property="delegate" destination="XKx-WU-31e" id="e0E-Ub-BHp"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lfx-1w-wsA" secondAttribute="trailing" id="11R-IK-R2i"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Lfx-1w-wsA" secondAttribute="bottom" id="N1C-AM-T4Y"/>
+                            <constraint firstItem="Lfx-1w-wsA" firstAttribute="top" secondItem="rUF-mb-leh" secondAttribute="topMargin" id="Uab-KE-GTe"/>
+                            <constraint firstItem="Lfx-1w-wsA" firstAttribute="leading" secondItem="rUF-mb-leh" secondAttribute="leadingMargin" id="aj9-qP-Xps"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Featured" id="Sjq-Ja-bkc"/>
+                    <connections>
+                        <outlet property="tableView" destination="Lfx-1w-wsA" id="V5P-eW-WyR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qod-zc-1ct" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1844.9275362318842" y="-445.10869565217394"/>
+        </scene>
+        <!--Featured-->
+        <scene sceneID="XT7-lp-EmE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dTF-jt-VcH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Featured" image="Star 40" id="El9-Qn-qTi"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="vMZ-8h-vhu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XKx-WU-31e" kind="relationship" relationship="rootViewController" id="zXt-nY-Dme"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t0N-dF-YYc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="909.60000000000002" y="-443.02848575712147"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Star 40" width="40" height="40"/>
+    </resources>
+</document>

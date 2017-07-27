@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VdN-zI-LOT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile-->
+        <scene sceneID="V0c-9x-lkX">
+            <objects>
+                <viewController id="V0r-hZ-hn6" customClass="ProfileController" customModule="Impact" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R0A-BA-yhS"/>
+                        <viewControllerLayoutGuide type="bottom" id="BD0-KP-Gux"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gM5-Iw-t1I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.84313725490196079" green="1" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profile" id="o4Q-dh-pul">
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="kqL-RB-KWb">
+                            <connections>
+                                <action selector="logoutButtonTapped:" destination="V0r-hZ-hn6" id="XSA-WJ-YIP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="logoutButton" destination="kqL-RB-KWb" id="jVU-Rg-gb1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CzV-29-Joh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="391.19999999999999" y="-652.62368815592208"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="BmL-vU-nQc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VdN-zI-LOT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="Profil 40" id="Amk-7i-v1G"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="9fM-C7-yGI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="V0r-hZ-hn6" kind="relationship" relationship="rootViewController" id="63E-F5-JMU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OU2-HL-A83" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-548" y="-652.62368815592208"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Profil 40" width="40" height="40"/>
+    </resources>
+</document>
