@@ -10,8 +10,17 @@ import UIKit
 
 class InfoController: UIViewController{
     
+    @IBOutlet weak var donateButton: UIButton!
+    @IBOutlet weak var infoWebsiteLabel: UILabel!
+    @IBOutlet weak var infoDescriptionLabel: UILabel!
+    @IBOutlet weak var infoNameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+
+    @IBAction func donateButtonTapped(_ sender: UIButton) {
+    }
+
 }
 

@@ -10,43 +10,52 @@ import UIKit
 import SwiftyJSON
 import Alamofire
 
+
 class CategoriesController: UIViewController {
+    
+    var categories = [Category]()
     
     @IBOutlet weak var categoriesTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        let apiToContact = "http://data.orghunter.com/v1/categories?"
+        let parameters = ["user_key": "ea889e700c495c853a1f42c45f7da3f0" ] as [String: Any]
         
-        let apiURL = "http://data.orghunter.com/v1/categories"
-        let parameters: Parameters = ["user_key": "ea889e700c495c853a1f42c45f7da3f0"]
-        
-        Alamofire.request(apiURL, parameters: parameters).validate().responseJSON() { response in
-            switch response.result {
+        let request = Alamofire.request(apiToContact, method: .get, parameters: parameters, encoding: URLEncoding.queryString, headers: nil)
+        request.validate().responseJSON { (response) in
+            print(response)
+            switch response.result{
             case .success:
-                if let value = response.result.value {
+                if let value = response.result.value{
                     let json = JSON(value)
+                    let allCategoriesData = json["data"].arrayValue
                     
-                    // Do what you need to with JSON here!
-                    // The rest is all boiler plate code you'll use for API requests
-                    print(json)
-                    
-                    
+                    for i in 0..<allCategoriesData.count{
+                        let category = Category(json: allCategoriesData[i])
+                        self.categories.append(category)
+                        
+                    }
+                    self.categoriesTableView.reloadData()
                 }
             case .failure(let error):
                 print(error)
             }
         }
+        
     }
 }
 
 extension CategoriesController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return categories.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell", for: indexPath) as! CategoriesTableViewCell
-        cell.categoryLabel.text = "Category"
+        let category = categories[indexPath.row]
+        cell.categoryLabel.text = category.categoryName
         return cell
     }
 }
