@@ -10,6 +10,8 @@
 		38692218A9A2CBDCE03FCE34 /* Pods_Impact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9E28FD5A50C1F88EBE67EF /* Pods_Impact.framework */; };
 		794061341F29318A00D42FA1 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794061331F29318A00D42FA1 /* ListController.swift */; };
 		794061361F29319700D42FA1 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794061351F29319700D42FA1 /* ListTableViewCell.swift */; };
+		7940613A1F2A227600D42FA1 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794061391F2A227600D42FA1 /* InfoController.swift */; };
+		7940613C1F2A22BD00D42FA1 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7940613B1F2A22BD00D42FA1 /* Info.storyboard */; };
 		79DFC90A1F2666E2005502DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC9091F2666E2005502DB /* AppDelegate.swift */; };
 		79DFC9111F2666E2005502DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC9101F2666E2005502DB /* Assets.xcassets */; };
 		79DFC9211F26763E005502DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC91F1F26763E005502DB /* LaunchScreen.storyboard */; };
@@ -42,6 +44,8 @@
 		632AC2EC5FD5DD1DEB55703D /* Pods-Impact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Impact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Impact/Pods-Impact.debug.xcconfig"; sourceTree = "<group>"; };
 		794061331F29318A00D42FA1 /* ListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListController.swift; path = Controllers/ListController.swift; sourceTree = "<group>"; };
 		794061351F29319700D42FA1 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewCell.swift; path = Views/ListTableViewCell.swift; sourceTree = "<group>"; };
+		794061391F2A227600D42FA1 /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoController.swift; path = Controllers/InfoController.swift; sourceTree = "<group>"; };
+		7940613B1F2A22BD00D42FA1 /* Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Info.storyboard; path = Storyboards/Info.storyboard; sourceTree = "<group>"; };
 		79DFC9061F2666E2005502DB /* Impact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Impact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DFC9091F2666E2005502DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79DFC9101F2666E2005502DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -150,6 +154,7 @@
 				79DFC9511F27C2EB005502DB /* Categories.storyboard */,
 				79DFC94C1F279FD1005502DB /* Featured.storyboard */,
 				79DFC92A1F2676FA005502DB /* Login.storyboard */,
+				7940613B1F2A22BD00D42FA1 /* Info.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 				79DFC9481F2798ED005502DB /* SearchController.swift */,
 				79DFC94A1F279902005502DB /* ProfileController.swift */,
 				794061331F29318A00D42FA1 /* ListController.swift */,
+				794061391F2A227600D42FA1 /* InfoController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				79DFC94D1F279FD1005502DB /* Featured.storyboard in Resources */,
 				79DFC9311F2680AC005502DB /* The Braggest_Demo.otf in Resources */,
 				79DFC9541F27C318005502DB /* Favorites.storyboard in Resources */,
+				7940613C1F2A22BD00D42FA1 /* Info.storyboard in Resources */,
 				79DFC9521F27C2EB005502DB /* Categories.storyboard in Resources */,
 				79DFC9321F2680AC005502DB /* The Braggest_Demo.ttf in Resources */,
 				79DFC9111F2666E2005502DB /* Assets.xcassets in Resources */,
@@ -365,6 +372,7 @@
 				79DFC94F1F27BEBC005502DB /* FeaturedTableViewCell.swift in Sources */,
 				79DFC9401F2690AC005502DB /* Storyboard+Utility.swift in Sources */,
 				79DFC93E1F26906A005502DB /* Constants.swift in Sources */,
+				7940613A1F2A227600D42FA1 /* InfoController.swift in Sources */,
 				79DFC95A1F27D25B005502DB /* FavoritesTableViewCell.swift in Sources */,
 				79DFC9491F2798ED005502DB /* SearchController.swift in Sources */,
 				79DFC9391F268DA1005502DB /* CreateUsernameViewController.swift in Sources */,

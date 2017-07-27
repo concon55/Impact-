@@ -56,6 +56,7 @@
                                         <connections>
                                             <outlet property="orgImageView" destination="vDv-f2-cZO" id="trH-qM-ZV6"/>
                                             <outlet property="orgNameLabel" destination="GaL-dj-aV9" id="0WA-S7-GHo"/>
+                                            <segue destination="8bl-Px-PlG" kind="show" id="LzW-lr-WMV"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -81,6 +82,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qod-zc-1ct" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1844.9275362318842" y="-445.10869565217394"/>
+        </scene>
+        <!--InfoController-->
+        <scene sceneID="K8a-P2-dl9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Info" referencedIdentifier="InfoController" id="8bl-Px-PlG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KlZ-yO-CRo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2368" y="-445"/>
         </scene>
         <!--Featured-->
         <scene sceneID="XT7-lp-EmE">

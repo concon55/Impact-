@@ -128,6 +128,7 @@
                                     <outlet property="listCategoryLabel" destination="PDD-U5-Omx" id="d4u-IK-Rve"/>
                                     <outlet property="listImageView" destination="raY-IZ-BBK" id="Hqj-gh-QkG"/>
                                     <outlet property="listNameLabel" destination="dlz-rO-tdc" id="hHS-t1-DYd"/>
+                                    <segue destination="AcR-Tk-QJV" kind="show" id="zsP-Wk-Y7C"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -140,6 +141,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="okw-QX-GPQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2187" y="385"/>
+        </scene>
+        <!--InfoController-->
+        <scene sceneID="TM4-LP-Hye">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Info" referencedIdentifier="InfoController" id="AcR-Tk-QJV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JC6-JL-sD3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2725" y="385"/>
         </scene>
         <!--Categories-->
         <scene sceneID="SnX-Yp-7KF">

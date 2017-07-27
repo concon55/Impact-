@@ -73,6 +73,7 @@
                                             <outlet property="favoritesImageView" destination="3Qm-5n-u4F" id="yTE-2m-qYm"/>
                                             <outlet property="favoritesOrgCategoryLabel" destination="cIq-iI-SLW" id="9iZ-Et-mrZ"/>
                                             <outlet property="favoritesOrgNameLabel" destination="y4M-rh-OaY" id="z5s-Jz-ACh"/>
+                                            <segue destination="EGX-hv-mgt" kind="show" id="RUf-yV-VWU"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -98,6 +99,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GQn-W0-k99" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1340" y="-651.72413793103453"/>
+        </scene>
+        <!--InfoController-->
+        <scene sceneID="eLU-u4-Z9p">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Info" referencedIdentifier="InfoController" id="EGX-hv-mgt" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NDG-Gf-Fqn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1820" y="-652"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="mcM-Uz-M7q">
