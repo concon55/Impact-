@@ -12,8 +12,10 @@ import SwiftyJSON
 struct Category {
     
     let categoryName: String
+    let categoryId: String
     
     init(json: JSON) {
         self.categoryName = json["categoryDesc"].stringValue
+        self.categoryId = json["categoryId"].stringValue
     }
 }

@@ -30,14 +30,14 @@
                                         <rect key="frame" x="0.0" y="28" width="374" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U75-Q6-S2u" id="TC2-Za-BeI">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="99.666666666666671"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vDv-f2-cZO">
-                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="99.666666666666671"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Org Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GaL-dj-aV9">
-                                                    <rect key="frame" x="8" y="38.333333333333336" width="358" height="23"/>
+                                                    <rect key="frame" x="8" y="38" width="358" height="23"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -56,7 +56,7 @@
                                         <connections>
                                             <outlet property="orgImageView" destination="vDv-f2-cZO" id="trH-qM-ZV6"/>
                                             <outlet property="orgNameLabel" destination="GaL-dj-aV9" id="0WA-S7-GHo"/>
-                                            <segue destination="8bl-Px-PlG" kind="show" id="LzW-lr-WMV"/>
+                                            <segue destination="8bl-Px-PlG" kind="show" id="HBx-ga-RwX"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

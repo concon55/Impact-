@@ -12,6 +12,7 @@ import SwiftyJSON
 
 class ListController: UITableViewController{
     
+    var organizations = [SearchSummary]()
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,11 +27,12 @@ class ListController: UITableViewController{
                 if let value = response.result.value{
                     let json = JSON(value)
                     let allOrganizations = json["data"].arrayValue
-                    print(allOrganizations)
+                    for i in 0..<allOrganizations.count{
+                        let eachOrg = SearchSummary.init(json: allOrganizations[i])
+                        self.organizations.append(eachOrg)
+                    }
                     
-                    // if this works correctly after youve created organizations object
                     
-                    //print(json)
                 }
             case .failure(let error):
                 print(error)
@@ -40,13 +42,14 @@ class ListController: UITableViewController{
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return organizations.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell", for: indexPath) as! ListTableViewCell
-        cell.listNameLabel.text = "Organization Name"
-        cell.listCategoryLabel.text = "Category"
+        let eachOrg = organizations[indexPath.row]
+        cell.listNameLabel.text = eachOrg.charityName
+        cell.listCategoryLabel.text = eachOrg.category
         //cell.orgImageView.image = tbd
         return cell
     }

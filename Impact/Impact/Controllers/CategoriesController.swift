@@ -31,12 +31,16 @@ class CategoriesController: UIViewController {
                 if let value = response.result.value{
                     let json = JSON(value)
                     let allCategoriesData = json["data"].arrayValue
-                    
                     for i in 0..<allCategoriesData.count{
-                        let category = Category(json: allCategoriesData[i])
-                        self.categories.append(category)
+                        let category = Category.init(json: allCategoriesData[i])
+                        if category.categoryName == "Not Provided"  || category.categoryName == "Unknown"{
+                            print("skipped category")
+                        }else{
+                            self.categories.append(category)
+                        }
                         
                     }
+                    self.categories.sort(by: {$0.categoryName < $1.categoryName})
                     self.categoriesTableView.reloadData()
                 }
             case .failure(let error):
@@ -54,8 +58,12 @@ extension CategoriesController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell", for: indexPath) as! CategoriesTableViewCell
-        let category = categories[indexPath.row]
-        cell.categoryLabel.text = category.categoryName
+        if indexPath.row == 0{
+            cell.categoryLabel.text = "All"
+        } else {
+            let category = categories[indexPath.row]
+            cell.categoryLabel.text = category.categoryName
+        }
         return cell
     }
 }

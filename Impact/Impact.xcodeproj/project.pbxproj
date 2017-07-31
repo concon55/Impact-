@@ -13,7 +13,7 @@
 		7940613A1F2A227600D42FA1 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794061391F2A227600D42FA1 /* InfoController.swift */; };
 		7940613C1F2A22BD00D42FA1 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7940613B1F2A22BD00D42FA1 /* Info.storyboard */; };
 		7940613E1F2A4B3500D42FA1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940613D1F2A4B3500D42FA1 /* Category.swift */; };
-		794061401F2A5DD500D42FA1 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940613F1F2A5DD400D42FA1 /* Information.swift */; };
+		794061401F2A5DD500D42FA1 /* SearchSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940613F1F2A5DD400D42FA1 /* SearchSummary.swift */; };
 		79DFC90A1F2666E2005502DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC9091F2666E2005502DB /* AppDelegate.swift */; };
 		79DFC9111F2666E2005502DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC9101F2666E2005502DB /* Assets.xcassets */; };
 		79DFC9211F26763E005502DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC91F1F26763E005502DB /* LaunchScreen.storyboard */; };
@@ -49,7 +49,7 @@
 		794061391F2A227600D42FA1 /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoController.swift; path = Controllers/InfoController.swift; sourceTree = "<group>"; };
 		7940613B1F2A22BD00D42FA1 /* Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Info.storyboard; path = Storyboards/Info.storyboard; sourceTree = "<group>"; };
 		7940613D1F2A4B3500D42FA1 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = Impact/Models/Category.swift; sourceTree = "<group>"; };
-		7940613F1F2A5DD400D42FA1 /* Information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Information.swift; path = Impact/Models/Information.swift; sourceTree = "<group>"; };
+		7940613F1F2A5DD400D42FA1 /* SearchSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchSummary.swift; path = Impact/Models/SearchSummary.swift; sourceTree = "<group>"; };
 		79DFC9061F2666E2005502DB /* Impact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Impact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DFC9091F2666E2005502DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79DFC9101F2666E2005502DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -193,7 +193,7 @@
 			children = (
 				79DFC9351F26885A005502DB /* User.swift */,
 				7940613D1F2A4B3500D42FA1 /* Category.swift */,
-				7940613F1F2A5DD400D42FA1 /* Information.swift */,
+				7940613F1F2A5DD400D42FA1 /* SearchSummary.swift */,
 			);
 			name = Models;
 			path = ..;
@@ -385,7 +385,7 @@
 				79DFC9391F268DA1005502DB /* CreateUsernameViewController.swift in Sources */,
 				79DFC90A1F2666E2005502DB /* AppDelegate.swift in Sources */,
 				79DFC94B1F279902005502DB /* ProfileController.swift in Sources */,
-				794061401F2A5DD500D42FA1 /* Information.swift in Sources */,
+				794061401F2A5DD500D42FA1 /* SearchSummary.swift in Sources */,
 				794061341F29318A00D42FA1 /* ListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
