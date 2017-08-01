@@ -10,9 +10,7 @@ import UIKit
 
 class FavoritesTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var favoritesImageView: UIImageView!
-    
-    @IBOutlet weak var favoritesOrgNameLabel: UILabel!
-    
-    @IBOutlet weak var favoritesOrgCategoryLabel: UILabel!
+    @IBOutlet weak var favoritesImage: UIImageView!
+    @IBOutlet weak var favoritesOrgName: UILabel!
+    @IBOutlet weak var favoritesOrgCategory: UILabel!
 }

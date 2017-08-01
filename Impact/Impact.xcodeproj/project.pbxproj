@@ -15,6 +15,8 @@
 		7940613C1F2A22BD00D42FA1 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7940613B1F2A22BD00D42FA1 /* Info.storyboard */; };
 		7940613E1F2A4B3500D42FA1 /* OrganizationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940613D1F2A4B3500D42FA1 /* OrganizationClass.swift */; };
 		798CE31C1F30ED4F00406EFB /* featured.json in Resources */ = {isa = PBXBuildFile; fileRef = 798CE31B1F30ED4F00406EFB /* featured.json */; };
+		798CE3201F30F5B800406EFB /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CE31F1F30F5B800406EFB /* SearchController.swift */; };
+		798CE3211F30F8C500406EFB /* Om Telolet Om.otf in Resources */ = {isa = PBXBuildFile; fileRef = 798CE31E1F30F0DD00406EFB /* Om Telolet Om.otf */; };
 		79DFC90A1F2666E2005502DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC9091F2666E2005502DB /* AppDelegate.swift */; };
 		79DFC9111F2666E2005502DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC9101F2666E2005502DB /* Assets.xcassets */; };
 		79DFC9211F26763E005502DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC91F1F26763E005502DB /* LaunchScreen.storyboard */; };
@@ -22,8 +24,6 @@
 		79DFC9251F267646005502DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC9231F267646005502DB /* GoogleService-Info.plist */; };
 		79DFC92B1F2676FA005502DB /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC92A1F2676FA005502DB /* Login.storyboard */; };
 		79DFC92D1F26774F005502DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC92C1F26774F005502DB /* LoginViewController.swift */; };
-		79DFC9311F2680AC005502DB /* The Braggest_Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC92F1F2680AC005502DB /* The Braggest_Demo.otf */; };
-		79DFC9321F2680AC005502DB /* The Braggest_Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC9301F2680AC005502DB /* The Braggest_Demo.ttf */; };
 		79DFC9371F26885A005502DB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC9351F26885A005502DB /* User.swift */; };
 		79DFC9391F268DA1005502DB /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC9381F268DA1005502DB /* CreateUsernameViewController.swift */; };
 		79DFC93B1F268F79005502DB /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC93A1F268F79005502DB /* UserService.swift */; };
@@ -32,7 +32,6 @@
 		79DFC9431F2798B3005502DB /* FavoritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC9421F2798B3005502DB /* FavoritesController.swift */; };
 		79DFC9451F2798C3005502DB /* FeaturedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC9441F2798C3005502DB /* FeaturedController.swift */; };
 		79DFC9471F2798D9005502DB /* CategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC9461F2798D9005502DB /* CategoriesController.swift */; };
-		79DFC9491F2798ED005502DB /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC9481F2798ED005502DB /* SearchController.swift */; };
 		79DFC94B1F279902005502DB /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC94A1F279902005502DB /* ProfileController.swift */; };
 		79DFC94D1F279FD1005502DB /* Featured.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC94C1F279FD1005502DB /* Featured.storyboard */; };
 		79DFC94F1F27BEBC005502DB /* FeaturedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC94E1F27BEBC005502DB /* FeaturedTableViewCell.swift */; };
@@ -52,6 +51,8 @@
 		7940613B1F2A22BD00D42FA1 /* Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Info.storyboard; path = Storyboards/Info.storyboard; sourceTree = "<group>"; };
 		7940613D1F2A4B3500D42FA1 /* OrganizationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrganizationClass.swift; path = Impact/Models/OrganizationClass.swift; sourceTree = "<group>"; };
 		798CE31B1F30ED4F00406EFB /* featured.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = featured.json; sourceTree = "<group>"; };
+		798CE31E1F30F0DD00406EFB /* Om Telolet Om.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Om Telolet Om.otf"; sourceTree = "<group>"; };
+		798CE31F1F30F5B800406EFB /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchController.swift; path = Controllers/SearchController.swift; sourceTree = "<group>"; };
 		79DFC9061F2666E2005502DB /* Impact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Impact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DFC9091F2666E2005502DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79DFC9101F2666E2005502DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,8 +62,6 @@
 		79DFC9241F267646005502DB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
 		79DFC92A1F2676FA005502DB /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboards/Login.storyboard; sourceTree = "<group>"; };
 		79DFC92C1F26774F005502DB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
-		79DFC92F1F2680AC005502DB /* The Braggest_Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Braggest_Demo.otf"; sourceTree = "<group>"; };
-		79DFC9301F2680AC005502DB /* The Braggest_Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Braggest_Demo.ttf"; sourceTree = "<group>"; };
 		79DFC9351F26885A005502DB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Impact/Models/User.swift; sourceTree = "<group>"; };
 		79DFC9381F268DA1005502DB /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateUsernameViewController.swift; path = Controllers/CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		79DFC93A1F268F79005502DB /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Services/UserService.swift; sourceTree = "<group>"; };
@@ -71,7 +70,6 @@
 		79DFC9421F2798B3005502DB /* FavoritesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoritesController.swift; path = Controllers/FavoritesController.swift; sourceTree = "<group>"; };
 		79DFC9441F2798C3005502DB /* FeaturedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeaturedController.swift; path = Controllers/FeaturedController.swift; sourceTree = "<group>"; };
 		79DFC9461F2798D9005502DB /* CategoriesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesController.swift; path = Controllers/CategoriesController.swift; sourceTree = "<group>"; };
-		79DFC9481F2798ED005502DB /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchController.swift; path = Controllers/SearchController.swift; sourceTree = "<group>"; };
 		79DFC94A1F279902005502DB /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileController.swift; path = Controllers/ProfileController.swift; sourceTree = "<group>"; };
 		79DFC94C1F279FD1005502DB /* Featured.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Featured.storyboard; path = Storyboards/Featured.storyboard; sourceTree = "<group>"; };
 		79DFC94E1F27BEBC005502DB /* FeaturedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeaturedTableViewCell.swift; path = Views/FeaturedTableViewCell.swift; sourceTree = "<group>"; };
@@ -184,10 +182,10 @@
 				79DFC9421F2798B3005502DB /* FavoritesController.swift */,
 				79DFC9441F2798C3005502DB /* FeaturedController.swift */,
 				79DFC9461F2798D9005502DB /* CategoriesController.swift */,
-				79DFC9481F2798ED005502DB /* SearchController.swift */,
 				79DFC94A1F279902005502DB /* ProfileController.swift */,
 				794061331F29318A00D42FA1 /* ListController.swift */,
 				794061391F2A227600D42FA1 /* InfoController.swift */,
+				798CE31F1F30F5B800406EFB /* SearchController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -195,8 +193,7 @@
 		79DFC92E1F268098005502DB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				79DFC92F1F2680AC005502DB /* The Braggest_Demo.otf */,
-				79DFC9301F2680AC005502DB /* The Braggest_Demo.ttf */,
+				798CE31E1F30F0DD00406EFB /* Om Telolet Om.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -309,16 +306,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798CE3211F30F8C500406EFB /* Om Telolet Om.otf in Resources */,
 				79DFC9221F26763E005502DB /* Main.storyboard in Resources */,
 				798CE31C1F30ED4F00406EFB /* featured.json in Resources */,
 				79DFC9561F27C335005502DB /* Profile.storyboard in Resources */,
 				79DFC9251F267646005502DB /* GoogleService-Info.plist in Resources */,
 				79DFC94D1F279FD1005502DB /* Featured.storyboard in Resources */,
-				79DFC9311F2680AC005502DB /* The Braggest_Demo.otf in Resources */,
 				79DFC9541F27C318005502DB /* Favorites.storyboard in Resources */,
 				7940613C1F2A22BD00D42FA1 /* Info.storyboard in Resources */,
 				79DFC9521F27C2EB005502DB /* Categories.storyboard in Resources */,
-				79DFC9321F2680AC005502DB /* The Braggest_Demo.ttf in Resources */,
 				7902C2711F30C4CE006C1540 /* organizations.json in Resources */,
 				79DFC9111F2666E2005502DB /* Assets.xcassets in Resources */,
 				79DFC92B1F2676FA005502DB /* Login.storyboard in Resources */,
@@ -383,6 +379,7 @@
 			files = (
 				79DFC9451F2798C3005502DB /* FeaturedController.swift in Sources */,
 				79DFC9371F26885A005502DB /* User.swift in Sources */,
+				798CE3201F30F5B800406EFB /* SearchController.swift in Sources */,
 				7940613E1F2A4B3500D42FA1 /* OrganizationClass.swift in Sources */,
 				79DFC92D1F26774F005502DB /* LoginViewController.swift in Sources */,
 				79DFC9471F2798D9005502DB /* CategoriesController.swift in Sources */,
@@ -395,7 +392,6 @@
 				79DFC93E1F26906A005502DB /* Constants.swift in Sources */,
 				7940613A1F2A227600D42FA1 /* InfoController.swift in Sources */,
 				79DFC95A1F27D25B005502DB /* FavoritesTableViewCell.swift in Sources */,
-				79DFC9491F2798ED005502DB /* SearchController.swift in Sources */,
 				79DFC9391F268DA1005502DB /* CreateUsernameViewController.swift in Sources */,
 				79DFC90A1F2666E2005502DB /* AppDelegate.swift in Sources */,
 				79DFC94B1F279902005502DB /* ProfileController.swift in Sources */,

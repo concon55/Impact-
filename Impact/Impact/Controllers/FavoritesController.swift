@@ -27,8 +27,8 @@ extension FavoritesController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FavoritesCell", for: indexPath) as! FavoritesTableViewCell
-        cell.favoritesOrgNameLabel.text = "Organization Name"
-        cell.favoritesOrgCategoryLabel.text = "Category"
+        cell.favoritesOrgName.text = "Organization Name"
+        cell.favoritesOrgCategory.text = "Category"
         return cell
     }
 }

@@ -10,8 +10,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="The Braggest_Demo.otf">
-            <string>TheBraggest-Demo</string>
+        <array key="Om Telolet Om.otf">
+            <string>OmTeloletOm</string>
         </array>
     </customFonts>
     <scenes>
@@ -31,12 +31,12 @@
                                 <rect key="frame" x="20" y="304" width="374" height="128"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rc-4y-nCD">
-                                        <rect key="frame" x="106" y="33" width="163" height="62"/>
+                                        <rect key="frame" x="106" y="36" width="163" height="56"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="163" id="jw6-R9-vfd"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="TheBraggest-Demo" family="The BraggestDemo" pointSize="80"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="OmTeloletOm" family="Om Telolet Om" pointSize="55"/>
+                                        <color key="textColor" red="0.18200626969337463" green="0.29534885287284851" blue="0.38324946165084839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
@@ -50,11 +50,11 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2J-Lw-tJO">
                                 <rect key="frame" x="80" y="457" width="254" height="30"/>
-                                <color key="backgroundColor" red="0.10262409597635269" green="0.19636046886444092" blue="0.25900369882583618" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.18200626969337463" green="0.29534885287284851" blue="0.38324946165084839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="34S-4P-LP5"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <state key="normal" title="Register or Log In">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -90,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8pA-pk-VJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1132" y="98.50074962518741"/>
+            <point key="canvasLocation" x="1131.8840579710145" y="97.826086956521749"/>
         </scene>
         <!--Create Username View Controller-->
         <scene sceneID="Ifd-h7-fw0">
@@ -105,31 +105,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="7g0-Gl-ohI">
-                                <rect key="frame" x="55" y="291" width="304" height="155"/>
+                                <rect key="frame" x="55" y="288" width="304" height="160"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWY-8u-go5">
-                                        <rect key="frame" x="66" y="0.0" width="172" height="31"/>
-                                        <fontDescription key="fontDescription" name="TheBraggest-Demo" family="The BraggestDemo" pointSize="40"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="53" y="0.0" width="198.33333333333331" height="36"/>
+                                        <fontDescription key="fontDescription" name="OmTeloletOm" family="Om Telolet Om" pointSize="36"/>
+                                        <color key="textColor" red="0.18200626969337463" green="0.29534885287284851" blue="0.38324946165084839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eOq-uS-vrL">
-                                        <rect key="frame" x="35" y="49" width="234" height="44"/>
+                                        <rect key="frame" x="35" y="54" width="234" height="44"/>
                                         <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="Lwc-q7-fTS"/>
                                         </constraints>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJR-AI-5cH">
-                                        <rect key="frame" x="35" y="111" width="234" height="44"/>
-                                        <color key="backgroundColor" red="0.10262409597635269" green="0.19636046886444092" blue="0.25900369882583618" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="35" y="116" width="234" height="44"/>
+                                        <color key="backgroundColor" red="0.18200626969337463" green="0.29534885287284851" blue="0.38324946165084839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="UoN-Xf-YZ1"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                         <state key="normal" title="Next">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>

@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configureInitialRootViewController(for: window)
         
         UINavigationBar.appearance().titleTextAttributes = [
-            NSFontAttributeName: UIFont(name: "TheBraggest-Demo", size: 40)!
+            NSFontAttributeName: UIFont(name: "Avenir", size: 20)!
         ]
         
         return true

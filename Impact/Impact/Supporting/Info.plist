@@ -27,8 +27,7 @@
 	</dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>The Braggest_Demo.otf</string>
-		<string>The Braggest_Demo.ttf</string>
+		<string>Om Telolet Om.otf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

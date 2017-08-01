@@ -52,7 +52,11 @@ extension FeaturedController: UITableViewDataSource {
         cell.orgNameLabel.text = featuredOrg.charityName
         let featuredImageUrl = featuredOrg.imageUrl
         cell.featuredImage.af_setImage(withURL: URL(string: featuredImageUrl)!)
+        let cellColors = [UIColor(red:0.28, green:0.16, blue:0.23, alpha:0.7), UIColor(red:0.29, green:0.35, blue:0.40, alpha:0.7), UIColor(red:0.10, green:0.20, blue:0.26, alpha:0.7), UIColor(red:0.44, green:0.42, blue:0.41, alpha:0.7)]
+        let bgColor = cellColors[indexPath.row % cellColors.count]
+        cell.orgNameLabel.backgroundColor = bgColor
         return cell
     }
 }
+
 

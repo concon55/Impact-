@@ -12,7 +12,7 @@
         <!--Search-->
         <scene sceneID="NJy-kS-S8n">
             <objects>
-                <viewController id="r4O-ur-GUK" customClass="SearchController" sceneMemberID="viewController">
+                <viewController id="r4O-ur-GUK" customClass="SearchController" customModule="Impact" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wQv-zb-UdE"/>
                         <viewControllerLayoutGuide type="bottom" id="kW7-4i-bjb"/>
