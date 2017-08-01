@@ -13,18 +13,15 @@ import Alamofire
 
 class CategoriesController: UIViewController {
     
-    var categories = [Category]()
+    var categories = [OrganizationClass]()
     
     @IBOutlet weak var categoriesTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let apiToContact = "http://data.orghunter.com/v1/categories?"
-        let parameters = ["user_key": "ea889e700c495c853a1f42c45f7da3f0" ] as [String: Any]
         
-        let request = Alamofire.request(apiToContact, method: .get, parameters: parameters, encoding: URLEncoding.queryString, headers: nil)
-        request.validate().responseJSON { (response) in
+        let apiToContact = "file:///Users/connieguan/Desktop/Impact%20iOS/Impact/Impact/organizations.json"
+        Alamofire.request(apiToContact).validate().responseJSON() { response in
             print(response)
             switch response.result{
             case .success:
@@ -32,14 +29,10 @@ class CategoriesController: UIViewController {
                     let json = JSON(value)
                     let allCategoriesData = json["data"].arrayValue
                     for i in 0..<allCategoriesData.count{
-                        let category = Category.init(json: allCategoriesData[i])
-                        if category.categoryName == "Not Provided"  || category.categoryName == "Unknown"{
-                            print("skipped category")
-                        }else{
-                            self.categories.append(category)
-                        }
-                        
+                        let category = OrganizationClass.init(json: allCategoriesData[i])
+                        self.categories.append(category)
                     }
+                    self.categories = self.categories.orderedSet
                     self.categories.sort(by: {$0.categoryName < $1.categoryName})
                     self.categoriesTableView.reloadData()
                 }
@@ -65,5 +58,19 @@ extension CategoriesController: UITableViewDataSource {
             cell.categoryLabel.text = category.categoryName
         }
         return cell
+    }
+}
+
+extension Array where Element: Equatable {
+    var orderedSet: Array  {
+        var array: [Element] = []
+        return flatMap {
+            if array.contains($0) {
+                return nil
+            } else {
+                array.append($0)
+                return $0
+            }
+        }
     }
 }

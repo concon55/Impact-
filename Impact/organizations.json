@@ -1,0 +1,75 @@
+{
+	"data": [{
+			"name": "UNICEF",
+			"category": "Children, Emergency Relief",
+			"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/UNICEF_Logo.png/220px-UNICEF_Logo.png",
+			"websiteUrl": "https://www.unicef.org/",
+			"description": "For 70 years, UNICEF has worked to improve the lives of children and their families. Despite remarkable challenges around the world, UNICEF staffers fight for the rights of every child seeking safe shelter, nutrition, protection from disaster and conflicts, and equality.",
+			"donateUrl": "https://www.unicefusa.org/help/donate"
+		},
+		{
+			"name": "Human Rights Watch",
+			"category": "Human Rights, Civil Liberties",
+			"imageUrl": "http://www.y-mun.org/assets/images/HRWatch.png",
+			"websiteUrl": "https://www.hrw.org",
+			"description": "Human Rights Watch investigates and exposes human rights abuses like torture, violence against women, and child exploitation. At any given time we are actively researching, reporting, and advocating for change that protects rights and saves lives in more than 90 countries around the world. In order to maintain our independence, we accept no money from any government, directly or indirectly. We rely solely on the generosity of people like you to defend human rights.",
+			"donateUrl": "https://donate.hrw.org/ea-action/action?ea.client.id=1908&ea.campaign.id=36711&ea.tracking.id=ED2017EVSCgl"
+		},
+		{
+			"name": "Human Rights Campaign",
+			"category": "Human Rights, Civil Liberties",
+			"imageUrl": "http://assets.hrc.org//files/images/blog/HRCLogo-WithWords-1600x900.png",
+			"websiteUrl": "http://www.hrc.org/",
+			"description": "The Human Rights Campaign represents a force of more than 1.5 million members and supporters nationwide. As the largest national lesbian, gay, bisexual, transgender and queer civil rights organization, HRC envisions a world where LGBTQ people are ensured of their basic equal rights, and can be open, honest and safe at home, at work and in the community.",
+			"donateUrl": "https://give.hrc.org/ea-action/action?ea.client.id=1954&ea.campaign.id=51848&ea.tracking.id=or_gnr_hrc_homepage_donate&_ga=2.239043650.350421842.1501531494-1759916274.1501531494"
+		},
+		{
+			"name": "ACLU",
+			"category": "Human Rights, Civil Liberties",
+			"imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/American_Civil_Liberties_Union_logo.svg/250px-American_Civil_Liberties_Union_logo.svg.png",
+			"websiteUrl": "https://www.aclu.org/",
+			"description": "For nearly 100 years, the ACLU has been our nation’s guardian of liberty, working in courts, legislatures, and communities to defend and preserve the individual rights and liberties that the Constitution and the laws of the United States guarantee everyone in this country. \nWhether it’s achieving full equality for LGBT people, establishing new privacy protections for our digital age of widespread government surveillance, ending mass incarceration, or preserving the right to vote or the right to have an abortion, the ACLU takes up the toughest civil liberties cases and issues to defend all people from government abuse and overreach. \nWith more than 2 million members, activists, and supporters, the ACLU is a nationwide organization that fights tirelessly in all 50 states, Puerto Rico, and Washington, D.C., to safeguard everyone’s rights.",
+			"donateUrl": "https://action.aclu.org/donate-aclu?ms=web_horiz_nav_hp"
+		},
+		{
+			"name": "Doctors Without Borders",
+			"category": "Emergency Relief",
+			"imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Msf_logo.svg/250px-Msf_logo.svg.png",
+			"websiteUrl": "http://www.doctorswithoutborders.org/",
+			"description": "We are Doctors Without Borders/Médecins Sans Frontières (MSF). We help people worldwide where the need is greatest, delivering emergency medical aid to people affected by conflict, epidemics, disasters, or exclusion from health care.",
+			"donateUrl": "https://donate.doctorswithoutborders.org/onetime.cfm"
+		},
+		{
+			"name": "Kiva",
+			"category": "Economic Development",
+			"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kiva.org_logo_2016.svg/210px-Kiva.org_logo_2016.svg.png",
+			"websiteUrl": "https://www.kiva.org/",
+			"description": "Kiva is an international nonprofit, founded in 2005 and based in San Francisco, with a mission to connect people through lending to alleviate poverty. We celebrate and support people looking to create a better future for themselves, their families and their communities.",
+			"donateUrl": "https://www.kiva.org/lend"
+		},
+		{
+			"name": "Rotary",
+			"category": "Humanitarian Services",
+			"imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Rotary_International_Logo.svg/250px-Rotary_International_Logo.svg.png",
+			"websiteUrl": "https://www.rotary.org/",
+			"description": "Rotary is a global network of 1.2 million neighbors, friends, leaders, and problem-solvers who come together to make positive, lasting change in communities at home and abroad. \nSolving real problems takes real commitment and vision. For more than 110 years, Rotary members have used their passion, energy, and intelligence to take action on sustainable projects. From literacy and peace to water and health, we are always working to better our world, and we stay committed to the end.",
+			"donateUrl": "https://www.rotary.org/en/donate"
+		},
+		{
+			"name": "Sierra Club",
+			"category": "Environment",
+			"imageUrl": "http://www.riograndesierraclub.org/wp-content/uploads/2015/08/sierraclub-logo-green-cropped.jpg",
+			"websiteUrl": "http://www.sierraclub.org/",
+			"description": "To explore, enjoy, and protect the wild places of the earth; \nTo practice and promote the responsible use of the earth's ecosystems and resources; \nTo educate and enlist humanity to protect and restore the quality of the natural and human environment; and to use all lawful means to carry out these objectives.",
+			"donateUrl": "https://vault.sierraclub.org/ways-to-give/#join-maintab"
+		},
+		{
+			"name": "Feeding America",
+			"category": "Hunger Relief",
+			"imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Feeding_America_logo.svg/198px-Feeding_America_logo.svg.png",
+			"websiteUrl": "https://en.wikipedia.org/wiki/Feeding_America#/media/File:Feeding_America_logo.svg",
+			"description": "1 in 8 people struggle with hunger in the U.S. Feeding America is a hunger organization with a nationwide network of food banks feeding the hungry.",
+			"donateUrl": "https://secure.feedingamerica.org/site/Donation2;jsessionid=00000000.app213b?df_id=15040&15040.donation=form1&s_onsite_promo=MainNav_Donate&s_src=W177DIRCT&s_subsrc=http%3A%2F%2Fwww.feedingamerica.org%2F&_ga=2.66592045.249226212.1501532839-1248085890.1501532839&NONCE_TOKEN=ECFC3F5D88C8789B5D673657CA76E032"
+		}
+	]
+}

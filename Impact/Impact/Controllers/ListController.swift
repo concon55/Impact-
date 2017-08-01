@@ -12,7 +12,7 @@ import SwiftyJSON
 
 class ListController: UITableViewController{
     
-    var organizations = [SearchSummary]()
+    var organizations = [OrganizationClass]()
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,14 +21,14 @@ class ListController: UITableViewController{
         
         let request = Alamofire.request(apiToContact, method: .get, parameters: parameters, encoding: URLEncoding.queryString, headers: nil)
         request.validate().responseJSON { (response) in
-            print(response)
+            //print(response)
             switch response.result{
             case .success:
                 if let value = response.result.value{
                     let json = JSON(value)
                     let allOrganizations = json["data"].arrayValue
                     for i in 0..<allOrganizations.count{
-                        let eachOrg = SearchSummary.init(json: allOrganizations[i])
+                        let eachOrg = OrganizationClass.init(json: allOrganizations[i])
                         self.organizations.append(eachOrg)
                     }
                     
@@ -49,7 +49,7 @@ class ListController: UITableViewController{
         let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell", for: indexPath) as! ListTableViewCell
         let eachOrg = organizations[indexPath.row]
         cell.listNameLabel.text = eachOrg.charityName
-        cell.listCategoryLabel.text = eachOrg.category
+        cell.listCategoryLabel.text = eachOrg.categoryName
         //cell.orgImageView.image = tbd
         return cell
     }

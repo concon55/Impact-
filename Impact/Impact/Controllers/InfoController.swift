@@ -10,6 +10,8 @@ import UIKit
 
 class InfoController: UIViewController{
     
+    
+    @IBOutlet weak var favoriteButton: UIButton!
     @IBOutlet weak var donateButton: UIButton!
     @IBOutlet weak var infoWebsiteLabel: UILabel!
     @IBOutlet weak var infoDescriptionLabel: UILabel!
@@ -19,6 +21,12 @@ class InfoController: UIViewController{
         super.viewDidLoad()
     }
 
+    
+    
+    
+    @IBAction func favoriteButtonTapped(_ sender: UIButton) {
+    }
+    
     @IBAction func donateButtonTapped(_ sender: UIButton) {
     }
 

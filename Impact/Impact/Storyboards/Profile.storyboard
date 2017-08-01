@@ -8,6 +8,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="The Braggest_Demo.ttf">
+            <string>TheBraggest-Demo</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Profile-->
         <scene sceneID="V0c-9x-lkX">
@@ -20,7 +25,117 @@
                     <view key="view" contentMode="scaleToFill" id="gM5-Iw-t1I">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.84313725490196079" green="1" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U8o-KH-jB2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gkF-aa-sJT">
+                                        <rect key="frame" x="44" y="313" width="288.5" height="201"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="juK-Rw-bHW">
+                                                <rect key="frame" x="46" y="50" width="196" height="101"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oft-58-frB">
+                                                        <rect key="frame" x="0.0" y="0.0" width="196" height="35"/>
+                                                        <color key="backgroundColor" red="0.09255383163690567" green="0.17657104134559631" blue="0.23192307353019714" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                        <state key="normal" title="Submit an organization">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWl-Bm-vEQ">
+                                                        <rect key="frame" x="0.0" y="66" width="196" height="35"/>
+                                                        <color key="backgroundColor" red="0.09255383163690567" green="0.17657104134559631" blue="0.23192307353019714" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                        <state key="normal" title="History">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                </subviews>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.17909756302833557" green="0.295228511095047" blue="0.38320809602737427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="juK-Rw-bHW" firstAttribute="top" secondItem="gkF-aa-sJT" secondAttribute="top" constant="50" id="19A-JY-zg1"/>
+                                            <constraint firstItem="juK-Rw-bHW" firstAttribute="leading" secondItem="gkF-aa-sJT" secondAttribute="leading" constant="46" id="U80-mp-qaX"/>
+                                            <constraint firstAttribute="trailing" secondItem="juK-Rw-bHW" secondAttribute="trailing" constant="46" id="g5M-6T-j1B"/>
+                                            <constraint firstAttribute="bottom" secondItem="juK-Rw-bHW" secondAttribute="bottom" constant="50" id="mXd-RP-8aw"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RNa-FY-60y">
+                                        <rect key="frame" x="44" y="82" width="288.5" height="159"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="jhP-FR-nM4">
+                                                <rect key="frame" x="81" y="40" width="126.5" height="79"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Contributed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XU-Zf-tC3">
+                                                        <rect key="frame" x="0.0" y="0.0" width="126.5" height="36"/>
+                                                        <fontDescription key="fontDescription" name="TheBraggest-Demo" family="The BraggestDemo" pointSize="47"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUS-W1-GGx">
+                                                        <rect key="frame" x="30" y="53" width="66.5" height="26"/>
+                                                        <fontDescription key="fontDescription" name="TheBraggest-Demo" family="The BraggestDemo" pointSize="34"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.10262409597635269" green="0.19636046886444092" blue="0.25900369882583618" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="jhP-FR-nM4" secondAttribute="bottom" constant="40" id="EYY-gn-CiX"/>
+                                            <constraint firstAttribute="trailing" secondItem="jhP-FR-nM4" secondAttribute="trailing" constant="81" id="Mb3-rc-mUd"/>
+                                            <constraint firstItem="jhP-FR-nM4" firstAttribute="leading" secondItem="RNa-FY-60y" secondAttribute="leading" constant="81" id="Zc0-ue-l4o"/>
+                                            <constraint firstItem="jhP-FR-nM4" firstAttribute="top" secondItem="RNa-FY-60y" secondAttribute="top" constant="40" id="oGY-JK-BhO"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpT-ZR-vly">
+                                        <rect key="frame" x="148" y="53.5" width="79" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.10262409597635269" green="0.19636046886444092" blue="0.25900369882583618" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="gkF-aa-sJT" secondAttribute="bottom" constant="54" id="0ed-qF-MeL"/>
+                                    <constraint firstItem="gkF-aa-sJT" firstAttribute="top" secondItem="RNa-FY-60y" secondAttribute="bottom" constant="72" id="5py-ce-vgb"/>
+                                    <constraint firstItem="RNa-FY-60y" firstAttribute="trailing" secondItem="gkF-aa-sJT" secondAttribute="trailing" id="Bgw-6g-9fY"/>
+                                    <constraint firstItem="RNa-FY-60y" firstAttribute="top" secondItem="xpT-ZR-vly" secondAttribute="bottom" constant="8" id="Exg-RM-5uW"/>
+                                    <constraint firstItem="RNa-FY-60y" firstAttribute="centerX" secondItem="U8o-KH-jB2" secondAttribute="centerX" id="T6b-XB-Dqj"/>
+                                    <constraint firstItem="xpT-ZR-vly" firstAttribute="centerX" secondItem="U8o-KH-jB2" secondAttribute="centerX" id="Ton-Iq-uDU"/>
+                                    <constraint firstItem="RNa-FY-60y" firstAttribute="top" secondItem="U8o-KH-jB2" secondAttribute="top" constant="82" id="g7V-Nk-2O9"/>
+                                    <constraint firstItem="RNa-FY-60y" firstAttribute="leading" secondItem="gkF-aa-sJT" secondAttribute="leading" id="hPy-qP-uMh"/>
+                                    <constraint firstItem="RNa-FY-60y" firstAttribute="centerX" secondItem="U8o-KH-jB2" secondAttribute="centerX" id="ihu-D4-x9v"/>
+                                    <constraint firstItem="gkF-aa-sJT" firstAttribute="centerX" secondItem="U8o-KH-jB2" secondAttribute="centerX" id="mxi-yJ-l5y"/>
+                                    <constraint firstAttribute="bottom" secondItem="RNa-FY-60y" secondAttribute="bottom" constant="327" id="qRc-3q-wsV"/>
+                                    <constraint firstAttribute="trailing" secondItem="RNa-FY-60y" secondAttribute="trailing" constant="16" id="rFd-bK-6qu"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="U8o-KH-jB2" secondAttribute="trailing" id="XQ4-f6-AeQ"/>
+                            <constraint firstItem="U8o-KH-jB2" firstAttribute="leading" secondItem="gM5-Iw-t1I" secondAttribute="leading" id="dHI-Cv-G13"/>
+                            <constraint firstItem="U8o-KH-jB2" firstAttribute="top" secondItem="gM5-Iw-t1I" secondAttribute="top" id="jcA-vb-ozC"/>
+                            <constraint firstAttribute="bottom" secondItem="U8o-KH-jB2" secondAttribute="bottom" id="uSn-Iy-Hg3"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="o4Q-dh-pul">
                         <barButtonItem key="rightBarButtonItem" title="Log Out" id="kqL-RB-KWb">
@@ -35,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CzV-29-Joh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="391.19999999999999" y="-652.62368815592208"/>
+            <point key="canvasLocation" x="388.125" y="-653.87323943661977"/>
         </scene>
         <!--Profile-->
         <scene sceneID="BmL-vU-nQc">
@@ -44,7 +159,7 @@
                     <tabBarItem key="tabBarItem" title="Profile" image="Profil 40" id="Amk-7i-v1G"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="9fM-C7-yGI">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9fM-C7-yGI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

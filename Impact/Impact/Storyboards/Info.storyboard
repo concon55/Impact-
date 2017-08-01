@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,51 +22,101 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Org Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XyC-lz-f5C">
-                                <rect key="frame" x="16" y="431" width="168" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7q-5O-ayI">
-                                <rect key="frame" x="106" y="598" width="162" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="Donate "/>
-                                <connections>
-                                    <action selector="donateButtonTapped:" destination="bh0-6P-Nkn" eventType="touchUpInside" id="s7v-ty-57U"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Org Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3Z-Gn-NM6">
-                                <rect key="frame" x="16" y="65" width="343" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMa-1n-tsM">
-                                <rect key="frame" x="171" y="120" width="33" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="btn_heart_black_outline"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gwm-pW-Ah9">
-                                <rect key="frame" x="0.0" y="196" width="375" height="189"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Website" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOx-3c-hZT">
-                                <rect key="frame" x="16" y="157" width="117" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.011923936195671558" green="0.47466540336608887" blue="0.98470920324325562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5UD-RV-e72">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Org Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XyC-lz-f5C">
+                                        <rect key="frame" x="8" y="556" width="168" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="168" id="gro-vT-U7G"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9WG-j1-GYf">
+                                        <rect key="frame" x="0.0" y="293" width="375" height="165"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="1yn-w9-lPy">
+                                        <rect key="frame" x="0.0" y="46" width="374" height="145"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMa-1n-tsM">
+                                                <rect key="frame" x="170.5" y="0.0" width="33" height="36"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="36" id="Uky-RZ-RZU"/>
+                                                    <constraint firstAttribute="width" constant="33" id="aRh-bk-gzJ"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="btn_heart_black_outline"/>
+                                                <connections>
+                                                    <action selector="favoriteButtonTapped:" destination="bh0-6P-Nkn" eventType="touchUpInside" id="3Tu-Wj-nhp"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Org Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3Z-Gn-NM6">
+                                                <rect key="frame" x="139.5" y="47" width="95.5" height="25.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Website" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOx-3c-hZT">
+                                                <rect key="frame" x="128.5" y="83.5" width="117" height="20.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="117" id="dsK-P3-KHf"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.011923936195671558" green="0.47466540336608887" blue="0.98470920324325562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7q-5O-ayI">
+                                                <rect key="frame" x="106" y="115" width="162" height="30"/>
+                                                <color key="backgroundColor" red="0.10262409597635269" green="0.19636046886444092" blue="0.25900369882583618" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="Wvh-T4-OHQ"/>
+                                                    <constraint firstAttribute="width" constant="162" id="uOG-86-Wv0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="Donate ">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="donateButtonTapped:" destination="bh0-6P-Nkn" eventType="touchUpInside" id="s7v-ty-57U"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="1yn-w9-lPy" firstAttribute="top" secondItem="5UD-RV-e72" secondAttribute="top" constant="46" id="1qH-yx-Oyd"/>
+                                    <constraint firstAttribute="bottom" secondItem="XyC-lz-f5C" secondAttribute="bottom" constant="159" id="ETg-kZ-nMQ"/>
+                                    <constraint firstItem="XyC-lz-f5C" firstAttribute="leading" secondItem="5UD-RV-e72" secondAttribute="leadingMargin" id="XXY-iH-qad"/>
+                                    <constraint firstItem="9WG-j1-GYf" firstAttribute="leading" secondItem="5UD-RV-e72" secondAttribute="leading" id="bT5-Vd-Tmm"/>
+                                    <constraint firstItem="XyC-lz-f5C" firstAttribute="top" secondItem="9WG-j1-GYf" secondAttribute="bottom" constant="98" id="bl8-os-SyX"/>
+                                    <constraint firstAttribute="trailing" secondItem="9WG-j1-GYf" secondAttribute="trailing" id="gN2-qP-TqB"/>
+                                    <constraint firstItem="1yn-w9-lPy" firstAttribute="centerX" secondItem="5UD-RV-e72" secondAttribute="centerX" id="i9D-Er-Wmd"/>
+                                    <constraint firstAttribute="trailing" secondItem="1yn-w9-lPy" secondAttribute="trailing" constant="1" id="iQi-ab-8ks"/>
+                                    <constraint firstItem="9WG-j1-GYf" firstAttribute="top" secondItem="1yn-w9-lPy" secondAttribute="bottom" constant="102" id="mqc-SP-60v"/>
+                                    <constraint firstItem="XyC-lz-f5C" firstAttribute="top" secondItem="5UD-RV-e72" secondAttribute="top" constant="556" id="rRb-pr-4Pf"/>
+                                    <constraint firstItem="1yn-w9-lPy" firstAttribute="leading" secondItem="5UD-RV-e72" secondAttribute="leading" id="zcw-Fy-JSS"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5UD-RV-e72" secondAttribute="trailing" id="arI-dy-Qwb"/>
+                            <constraint firstItem="5UD-RV-e72" firstAttribute="top" secondItem="l4q-Tw-hAx" secondAttribute="top" id="bOa-DC-cs1"/>
+                            <constraint firstItem="5UD-RV-e72" firstAttribute="bottom" secondItem="PVh-A7-Giy" secondAttribute="top" id="hIY-Nc-YSD"/>
+                            <constraint firstItem="5UD-RV-e72" firstAttribute="leading" secondItem="l4q-Tw-hAx" secondAttribute="leading" id="u8O-xU-wUk"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Mf1-4A-CWY"/>
                     <connections>
                         <outlet property="donateButton" destination="X7q-5O-ayI" id="D6x-fL-Sjn"/>
+                        <outlet property="favoriteButton" destination="tMa-1n-tsM" id="jMj-Ay-0DM"/>
                         <outlet property="infoDescriptionLabel" destination="XyC-lz-f5C" id="7pL-7V-iSM"/>
                         <outlet property="infoNameLabel" destination="a3Z-Gn-NM6" id="pHi-In-hwY"/>
                         <outlet property="infoWebsiteLabel" destination="wOx-3c-hZT" id="GgW-om-jQ3"/>
@@ -73,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pyo-9A-eAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-364" y="13.943028485757123"/>
+            <point key="canvasLocation" x="-365.60000000000002" y="13.043478260869566"/>
         </scene>
     </scenes>
     <resources>

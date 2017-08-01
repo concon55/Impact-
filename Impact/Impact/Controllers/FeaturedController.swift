@@ -9,32 +9,28 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
+import AlamofireImage
 
 class FeaturedController: UIViewController {
     
-    var featuredOrganizations = [SearchSummary]()
+    var featuredOrganizations = [OrganizationClass]()
     
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let apiToContact = "http://data.orghunter.com/v1/charitysearch?"
-        let parameters = ["user_key": "ea889e700c495c853a1f42c45f7da3f0"] as [String: Any]
-        
-        let request = Alamofire.request(apiToContact, method: .get, parameters: parameters, encoding: URLEncoding.queryString, headers: nil)
-        request.validate().responseJSON { (response) in
-            print(response)
+        let apiToContact = "file:///Users/connieguan/Desktop/Impact%20iOS/Impact/Impact/featured.json"
+        Alamofire.request(apiToContact).validate().responseJSON() { response in
+            //print(response)
             switch response.result{
             case .success:
                 if let value = response.result.value{
                     let json = JSON(value)
                     let allOrganizations = json["data"].arrayValue
                     for i in 0..<allOrganizations.count{
-                        let eachOrg = SearchSummary.init(json: allOrganizations[i])
-                        if eachOrg.category == "Not Provided"{
-                            self.featuredOrganizations.append(eachOrg)
-                        }
+                        let eachOrg = OrganizationClass.init(json: allOrganizations[i])
+                        self.featuredOrganizations.append(eachOrg)
                     }
                     self.tableView.reloadData()
                 }
@@ -54,7 +50,9 @@ extension FeaturedController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "OrgCell", for: indexPath) as! FeaturedTableViewCell
         let featuredOrg = featuredOrganizations[indexPath.row]
         cell.orgNameLabel.text = featuredOrg.charityName
-        //cell.orgImageView.image = tbd
+        let featuredImageUrl = featuredOrg.imageUrl
+        cell.featuredImage.af_setImage(withURL: URL(string: featuredImageUrl)!)
         return cell
     }
 }
+

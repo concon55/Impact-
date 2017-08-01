@@ -10,8 +10,7 @@ import UIKit
 
 class FeaturedTableViewCell: UITableViewCell {
     
-    
-    @IBOutlet weak var orgImageView: UIImageView!
     @IBOutlet weak var orgNameLabel: UILabel!
     
+    @IBOutlet weak var featuredImage: UIImageView!
 }

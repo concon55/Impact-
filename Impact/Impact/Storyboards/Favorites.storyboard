@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JAD-S0-5ZD">
-    <device id="ipad12_9" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,18 +19,18 @@
                         <viewControllerLayoutGuide type="bottom" id="yrb-fW-tla"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="d4I-uF-dnp">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="65" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6bV-yg-9dH" userLabel="Favorites Table View">
-                                <rect key="frame" x="20" y="0.0" width="984" height="1366"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavoritesCell" rowHeight="65" id="l6l-GZ-Sm7" customClass="FavoritesTableViewCell" customModule="Impact" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="984" height="65"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="65"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l6l-GZ-Sm7" id="mux-I3-6Vw">
-                                            <rect key="frame" x="0.0" y="0.0" width="984" height="64.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Qm-5n-u4F">
@@ -43,13 +43,13 @@
                                                     <rect key="frame" x="66" y="4" width="98" height="51"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Org Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4M-rh-OaY">
-                                                            <rect key="frame" x="0.0" y="0.0" width="98" height="23.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="98" height="23"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                            <nil key="textColor"/>
+                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Org Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIq-iI-SLW">
-                                                            <rect key="frame" x="0.0" y="31.5" width="98" height="19.5"/>
+                                                            <rect key="frame" x="0.0" y="31" width="98" height="20"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -69,6 +69,7 @@
                                                 <constraint firstItem="3Qm-5n-u4F" firstAttribute="centerY" secondItem="5vE-Rj-kfo" secondAttribute="centerY" id="g5q-96-w1S"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="favoritesImageView" destination="3Qm-5n-u4F" id="yTE-2m-qYm"/>
                                             <outlet property="favoritesOrgCategoryLabel" destination="cIq-iI-SLW" id="9iZ-Et-mrZ"/>
@@ -86,8 +87,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottomMargin" secondItem="6bV-yg-9dH" secondAttribute="bottom" id="1Y6-po-XDP"/>
-                            <constraint firstItem="6bV-yg-9dH" firstAttribute="leading" secondItem="d4I-uF-dnp" secondAttribute="leadingMargin" id="5PU-cK-icx"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="6bV-yg-9dH" secondAttribute="trailing" id="9JM-Vr-Kj2"/>
+                            <constraint firstItem="6bV-yg-9dH" firstAttribute="leading" secondItem="d4I-uF-dnp" secondAttribute="leadingMargin" constant="-20" id="5PU-cK-icx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6bV-yg-9dH" secondAttribute="trailing" constant="-20" id="9JM-Vr-Kj2"/>
                             <constraint firstItem="6bV-yg-9dH" firstAttribute="top" secondItem="d4I-uF-dnp" secondAttribute="topMargin" id="Pex-CY-DAd"/>
                         </constraints>
                     </view>
@@ -98,7 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GQn-W0-k99" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1340" y="-651.72413793103453"/>
+            <point key="canvasLocation" x="1339.1304347826087" y="-652.17391304347836"/>
         </scene>
         <!--InfoController-->
         <scene sceneID="eLU-u4-Z9p">
@@ -115,7 +116,7 @@
                     <tabBarItem key="tabBarItem" title="Favorites" image="btn_heart_red_solid copy" id="enh-Cy-7MS"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="w79-g2-7yt">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="w79-g2-7yt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

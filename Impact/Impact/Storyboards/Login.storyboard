@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="The Braggest_Demo.ttf">
+        <array key="The Braggest_Demo.otf">
             <string>TheBraggest-Demo</string>
         </array>
     </customFonts>
@@ -31,7 +31,7 @@
                                 <rect key="frame" x="20" y="304" width="374" height="128"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rc-4y-nCD">
-                                        <rect key="frame" x="105.66666666666669" y="33.333333333333314" width="163" height="62"/>
+                                        <rect key="frame" x="106" y="33" width="163" height="62"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="163" id="jw6-R9-vfd"/>
                                         </constraints>
@@ -50,14 +50,17 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2J-Lw-tJO">
                                 <rect key="frame" x="80" y="457" width="254" height="30"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.10262409597635269" green="0.19636046886444092" blue="0.25900369882583618" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="34S-4P-LP5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="Register or Log In">
-                                    <color key="titleColor" red="0.074509803921568626" green="0.50588235294117645" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="loginButtonTapped:" destination="8MJ-Eb-VSJ" eventType="touchUpInside" id="5ra-yo-5i5"/>
                                 </connections>
@@ -75,6 +78,9 @@
                             <constraint firstItem="v2J-Lw-tJO" firstAttribute="leading" secondItem="Qbe-Dz-K6t" secondAttribute="leadingMargin" constant="60" id="jWb-Y4-H2c"/>
                             <constraint firstItem="v2J-Lw-tJO" firstAttribute="centerX" secondItem="Qbe-Dz-K6t" secondAttribute="centerX" id="zYZ-kZ-Pes"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <navigationItem key="navigationItem" id="grc-LX-OQd"/>
                     <connections>
@@ -99,16 +105,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="7g0-Gl-ohI">
-                                <rect key="frame" x="55" y="290.66666666666669" width="304" height="154.66666666666663"/>
+                                <rect key="frame" x="55" y="291" width="304" height="155"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWY-8u-go5">
-                                        <rect key="frame" x="66.333333333333343" y="0.0" width="171.66666666666669" height="30.666666666666629"/>
+                                        <rect key="frame" x="66" y="0.0" width="172" height="31"/>
                                         <fontDescription key="fontDescription" name="TheBraggest-Demo" family="The BraggestDemo" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eOq-uS-vrL">
-                                        <rect key="frame" x="35" y="48.666666666666629" width="234" height="44"/>
+                                        <rect key="frame" x="35" y="49" width="234" height="44"/>
                                         <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="Lwc-q7-fTS"/>
@@ -118,15 +124,18 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJR-AI-5cH">
-                                        <rect key="frame" x="35" y="110.66666666666663" width="234" height="44"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="35" y="111" width="234" height="44"/>
+                                        <color key="backgroundColor" red="0.10262409597635269" green="0.19636046886444092" blue="0.25900369882583618" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="UoN-Xf-YZ1"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                         <state key="normal" title="Next">
-                                            <color key="titleColor" red="0.074509803921568626" green="0.50588235294117645" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="nextButtonTapped:" destination="nxw-Es-sVZ" eventType="touchUpInside" id="wNW-gg-MMW"/>
                                         </connections>

@@ -12,5 +12,6 @@ target 'Impact' do
   pod 'Firebase/Storage'
   pod 'SwiftyJSON'
   pod 'Alamofire'
+  pod ‘AlamofireImage’
 
 end
