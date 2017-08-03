@@ -6,7 +6,11 @@
 //  Copyright © 2017 Connie Guan. All rights reserved.
 //
 
-import  UIKit
+import UIKit
+import Firebase
+import FirebaseAuthUI
+import FirebaseDatabase
+import FirebaseAuth
 
 class FavoritesController: UIViewController {
    
@@ -16,8 +20,6 @@ class FavoritesController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    
 }
 
 extension FavoritesController: UITableViewDataSource {

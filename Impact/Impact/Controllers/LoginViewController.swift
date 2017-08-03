@@ -22,6 +22,10 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
     @IBAction func loginButtonTapped(_ sender: UIButton) {
         guard let authUI = FUIAuth.defaultAuthUI()
             else { return }

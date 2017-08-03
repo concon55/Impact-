@@ -9,36 +9,39 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
+import AlamofireImage
 
 class ListController: UITableViewController{
     
+    //var categories = [OrganizationClass]()
     var organizations = [OrganizationClass]()
+    
+    @IBOutlet var listTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let apiToContact = "http://data.orghunter.com/v1/charitysearch?"
-        let parameters = ["user_key": "ea889e700c495c853a1f42c45f7da3f0"] as [String: Any]
-        
-        let request = Alamofire.request(apiToContact, method: .get, parameters: parameters, encoding: URLEncoding.queryString, headers: nil)
-        request.validate().responseJSON { (response) in
-            //print(response)
-            switch response.result{
-            case .success:
-                if let value = response.result.value{
-                    let json = JSON(value)
-                    let allOrganizations = json["data"].arrayValue
-                    for i in 0..<allOrganizations.count{
-                        let eachOrg = OrganizationClass.init(json: allOrganizations[i])
-                        self.organizations.append(eachOrg)
+        if let path = Bundle.main.path(forResource: "organizations", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped)
+                let jsonObj = JSON(data: data)
+                if jsonObj != JSON.null {
+                    //print("jsonData:\(jsonObj)")
+                    let allOrganizationsData = jsonObj["data"].arrayValue
+                    for i in 0..<allOrganizationsData.count{
+                        let listOrg = OrganizationClass.init(json: allOrganizationsData[i])
+                        organizations.append(listOrg)
                     }
-                    
-                    
+                    organizations.sort(by: {$0.categoryName < $1.categoryName})
+                } else {
+                    print("Could not get json from file, make sure that file contains valid json.")
                 }
-            case .failure(let error):
-                print(error)
+            } catch let error {
+                print(error.localizedDescription)
             }
+        } else {
+            print("Invalid filename/path.")
         }
-
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -50,10 +53,13 @@ class ListController: UITableViewController{
         let eachOrg = organizations[indexPath.row]
         cell.listNameLabel.text = eachOrg.charityName
         cell.listCategoryLabel.text = eachOrg.categoryName
-        //cell.orgImageView.image = tbd
+        let listImageUrl = eachOrg.iconImage
+        cell.listImageView.af_setImage(withURL: URL(string: listImageUrl)!)
+        
         return cell
     }
 }
+
 
     
     

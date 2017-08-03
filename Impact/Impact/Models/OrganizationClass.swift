@@ -21,6 +21,7 @@ struct OrganizationClass: Equatable{
     let websiteUrl: String
     let categoryName: String
     let imageUrl: String
+    let iconImage: String
     
     init(json: JSON) {
         self.categoryName = json["category"].stringValue
@@ -29,6 +30,7 @@ struct OrganizationClass: Equatable{
         self.donationURL = json["donationUrl"].stringValue
         self.websiteUrl = json["websiteUrl"].stringValue
         self.imageUrl = json["imageUrl"].stringValue
+        self.iconImage = json["iconImage"].stringValue
     }
 }
 

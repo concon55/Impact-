@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -30,84 +29,91 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5UD-RV-e72">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9WG-j1-GYf">
-                                        <rect key="frame" x="0.0" y="270" width="375" height="144"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="1yn-w9-lPy">
-                                        <rect key="frame" x="0.0" y="46" width="374" height="166"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p20-Iv-LgI">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMa-1n-tsM">
-                                                <rect key="frame" x="170.5" y="0.0" width="33" height="36"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Org Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XyC-lz-f5C">
+                                                <rect key="frame" x="35" y="456.5" width="168" height="20.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="36" id="Uky-RZ-RZU"/>
-                                                    <constraint firstAttribute="width" constant="33" id="aRh-bk-gzJ"/>
+                                                    <constraint firstAttribute="width" constant="168" id="gro-vT-U7G"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="OmTeloletOm" family="Om Telolet Om" pointSize="17"/>
-                                                <state key="normal" title="Button" image="btn_heart_black_outline"/>
-                                                <connections>
-                                                    <action selector="favoriteButtonTapped:" destination="bh0-6P-Nkn" eventType="touchUpInside" id="3Tu-Wj-nhp"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Org Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3Z-Gn-NM6">
-                                                <rect key="frame" x="116" y="47" width="142.5" height="41"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
-                                                <color key="textColor" red="0.10196078431372549" green="0.19607843137254902" blue="0.25882352941176467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Website" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOx-3c-hZT">
-                                                <rect key="frame" x="128.5" y="99" width="117" height="26"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="117" id="dsK-P3-KHf"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
-                                                <color key="textColor" red="0.011923936195671558" green="0.47466540336608887" blue="0.98470920324325562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7q-5O-ayI">
-                                                <rect key="frame" x="106" y="136" width="162" height="30"/>
-                                                <color key="backgroundColor" red="0.10262409597635269" green="0.19636046886444092" blue="0.25900369882583618" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="Wvh-T4-OHQ"/>
-                                                    <constraint firstAttribute="width" constant="162" id="uOG-86-Wv0"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                                <state key="normal" title="Donate ">
-                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9WG-j1-GYf">
+                                                <rect key="frame" x="0.0" y="261.5" width="375" height="136"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="donateButtonTapped:" destination="bh0-6P-Nkn" eventType="touchUpInside" id="s7v-ty-57U"/>
-                                                </connections>
-                                            </button>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1yn-w9-lPy">
+                                                <rect key="frame" x="106" y="73" width="162" height="158"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMa-1n-tsM">
+                                                        <rect key="frame" x="64.5" y="0.0" width="33" height="36"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="36" id="Uky-RZ-RZU"/>
+                                                            <constraint firstAttribute="width" constant="33" id="aRh-bk-gzJ"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="OmTeloletOm" family="Om Telolet Om" pointSize="17"/>
+                                                        <state key="normal" title="Button" image="btn_heart_black_outline"/>
+                                                        <connections>
+                                                            <action selector="favoriteButtonTapped:" destination="bh0-6P-Nkn" eventType="touchUpInside" id="3Tu-Wj-nhp"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Org Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3Z-Gn-NM6">
+                                                        <rect key="frame" x="10" y="41" width="142.5" height="41"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                                        <color key="textColor" red="0.10196078431372549" green="0.19607843137254902" blue="0.25882352941176467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MI8-ed-VZE">
+                                                        <rect key="frame" x="50" y="87" width="62" height="36"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                        <state key="normal" title="Website"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7q-5O-ayI">
+                                                        <rect key="frame" x="0.0" y="128" width="162" height="30"/>
+                                                        <color key="backgroundColor" red="0.10262409597635269" green="0.19636046886444092" blue="0.25900369882583618" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="Wvh-T4-OHQ"/>
+                                                            <constraint firstAttribute="width" constant="162" id="uOG-86-Wv0"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                        <state key="normal" title="Donate ">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="donateButtonTapped:" destination="bh0-6P-Nkn" eventType="touchUpInside" id="s7v-ty-57U"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
-                                    </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Org Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XyC-lz-f5C">
-                                        <rect key="frame" x="8" y="505" width="168" height="20.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="168" id="gro-vT-U7G"/>
+                                            <constraint firstItem="9WG-j1-GYf" firstAttribute="centerX" secondItem="1yn-w9-lPy" secondAttribute="centerX" id="NtJ-uu-u3C"/>
+                                            <constraint firstAttribute="bottom" secondItem="XyC-lz-f5C" secondAttribute="bottom" constant="190" id="PP7-5J-AQO"/>
+                                            <constraint firstAttribute="trailing" secondItem="9WG-j1-GYf" secondAttribute="trailing" id="W1c-bh-nMf"/>
+                                            <constraint firstItem="XyC-lz-f5C" firstAttribute="top" secondItem="9WG-j1-GYf" secondAttribute="bottom" constant="59" id="jWx-dt-odl"/>
+                                            <constraint firstItem="XyC-lz-f5C" firstAttribute="leading" secondItem="p20-Iv-LgI" secondAttribute="leading" constant="35" id="m47-WJ-4is"/>
+                                            <constraint firstItem="9WG-j1-GYf" firstAttribute="centerY" secondItem="p20-Iv-LgI" secondAttribute="centerY" constant="-4" id="rZw-na-0Zp"/>
+                                            <constraint firstItem="9WG-j1-GYf" firstAttribute="leading" secondItem="p20-Iv-LgI" secondAttribute="leading" id="sCY-hm-VFU"/>
+                                            <constraint firstItem="9WG-j1-GYf" firstAttribute="top" secondItem="1yn-w9-lPy" secondAttribute="bottom" constant="31" id="wY9-zb-mlH"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="1yn-w9-lPy" firstAttribute="top" secondItem="5UD-RV-e72" secondAttribute="top" constant="46" id="1qH-yx-Oyd"/>
-                                    <constraint firstAttribute="bottom" secondItem="XyC-lz-f5C" secondAttribute="bottom" constant="145" id="ETg-kZ-nMQ"/>
-                                    <constraint firstItem="XyC-lz-f5C" firstAttribute="leading" secondItem="5UD-RV-e72" secondAttribute="leadingMargin" id="XXY-iH-qad"/>
-                                    <constraint firstItem="9WG-j1-GYf" firstAttribute="leading" secondItem="5UD-RV-e72" secondAttribute="leading" id="bT5-Vd-Tmm"/>
-                                    <constraint firstItem="XyC-lz-f5C" firstAttribute="top" secondItem="9WG-j1-GYf" secondAttribute="bottom" constant="91" id="bl8-os-SyX"/>
-                                    <constraint firstAttribute="trailing" secondItem="9WG-j1-GYf" secondAttribute="trailing" id="gN2-qP-TqB"/>
-                                    <constraint firstItem="1yn-w9-lPy" firstAttribute="centerX" secondItem="5UD-RV-e72" secondAttribute="centerX" id="i9D-Er-Wmd"/>
-                                    <constraint firstAttribute="trailing" secondItem="1yn-w9-lPy" secondAttribute="trailing" constant="1" id="iQi-ab-8ks"/>
-                                    <constraint firstItem="9WG-j1-GYf" firstAttribute="top" secondItem="1yn-w9-lPy" secondAttribute="bottom" constant="58" id="mqc-SP-60v"/>
-                                    <constraint firstItem="XyC-lz-f5C" firstAttribute="top" secondItem="5UD-RV-e72" secondAttribute="top" constant="505" id="rRb-pr-4Pf"/>
-                                    <constraint firstItem="1yn-w9-lPy" firstAttribute="leading" secondItem="5UD-RV-e72" secondAttribute="leading" id="zcw-Fy-JSS"/>
+                                    <constraint firstItem="p20-Iv-LgI" firstAttribute="leading" secondItem="5UD-RV-e72" secondAttribute="leading" id="61f-gB-PG5"/>
+                                    <constraint firstItem="p20-Iv-LgI" firstAttribute="width" secondItem="5UD-RV-e72" secondAttribute="width" id="asJ-cx-F4L"/>
+                                    <constraint firstAttribute="trailing" secondItem="p20-Iv-LgI" secondAttribute="trailing" id="q08-4k-7Gw"/>
+                                    <constraint firstAttribute="bottom" secondItem="p20-Iv-LgI" secondAttribute="bottom" id="uFf-Aj-Kcg"/>
+                                    <constraint firstItem="p20-Iv-LgI" firstAttribute="height" secondItem="5UD-RV-e72" secondAttribute="height" id="vYo-IB-AsV"/>
+                                    <constraint firstItem="p20-Iv-LgI" firstAttribute="top" secondItem="5UD-RV-e72" secondAttribute="top" id="xlM-Th-M2K"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -125,7 +131,7 @@
                         <outlet property="favoriteButton" destination="tMa-1n-tsM" id="jMj-Ay-0DM"/>
                         <outlet property="infoDescriptionLabel" destination="XyC-lz-f5C" id="7pL-7V-iSM"/>
                         <outlet property="infoNameLabel" destination="a3Z-Gn-NM6" id="pHi-In-hwY"/>
-                        <outlet property="infoWebsiteLabel" destination="wOx-3c-hZT" id="GgW-om-jQ3"/>
+                        <outlet property="websiteButton" destination="MI8-ed-VZE" id="SlE-3A-wtG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pyo-9A-eAX" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -13,7 +13,7 @@ class InfoController: UIViewController{
     
     @IBOutlet weak var favoriteButton: UIButton!
     @IBOutlet weak var donateButton: UIButton!
-    @IBOutlet weak var infoWebsiteLabel: UILabel!
+    @IBOutlet weak var websiteButton: UIButton!
     @IBOutlet weak var infoDescriptionLabel: UILabel!
     @IBOutlet weak var infoNameLabel: UILabel!
     

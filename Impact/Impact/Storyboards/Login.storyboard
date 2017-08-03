@@ -49,10 +49,10 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2J-Lw-tJO">
-                                <rect key="frame" x="80" y="457" width="254" height="30"/>
+                                <rect key="frame" x="80" y="457" width="254" height="35"/>
                                 <color key="backgroundColor" red="0.18200626969337463" green="0.29534885287284851" blue="0.38324946165084839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="34S-4P-LP5"/>
+                                    <constraint firstAttribute="height" constant="35" id="34S-4P-LP5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <state key="normal" title="Register or Log In">
@@ -78,9 +78,6 @@
                             <constraint firstItem="v2J-Lw-tJO" firstAttribute="leading" secondItem="Qbe-Dz-K6t" secondAttribute="leadingMargin" constant="60" id="jWb-Y4-H2c"/>
                             <constraint firstItem="v2J-Lw-tJO" firstAttribute="centerX" secondItem="Qbe-Dz-K6t" secondAttribute="centerX" id="zYZ-kZ-Pes"/>
                         </constraints>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
-                        </userDefinedRuntimeAttributes>
                     </view>
                     <navigationItem key="navigationItem" id="grc-LX-OQd"/>
                     <connections>
@@ -149,7 +146,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.83921568627450982" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.84313725490196079" green="1" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="7g0-Gl-ohI" firstAttribute="leading" secondItem="tdK-SE-Q6a" secondAttribute="leadingMargin" constant="35" id="Lmp-tV-wV4"/>
                             <constraint firstItem="7g0-Gl-ohI" firstAttribute="centerY" secondItem="tdK-SE-Q6a" secondAttribute="centerY" id="ZHV-xc-VTr"/>
@@ -163,14 +160,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eT2-0f-olM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1977" y="100"/>
+            <point key="canvasLocation" x="1941" y="98"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ejr-e3-dwK">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="riN-8m-F9j" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="PWg-CE-z38">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PWg-CE-z38">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

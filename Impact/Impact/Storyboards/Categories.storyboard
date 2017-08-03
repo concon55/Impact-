@@ -89,19 +89,19 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="64.666666666666671"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Joi-tY-buB">
-                                            <rect key="frame" x="86.000000000000014" y="4" width="132.33333333333337" height="51"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Joi-tY-buB">
+                                            <rect key="frame" x="86.000000000000014" y="4" width="132.33333333333337" height="52"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Organization" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlz-rO-tdc">
-                                                    <rect key="frame" x="0.0" y="0.0" width="132.33333333333334" height="25"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="132.33333333333334" height="26"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="23"/>
-                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.1647058824" green="0.26274509800000001" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDD-U5-Omx">
-                                                    <rect key="frame" x="0.0" y="32" width="132.33333333333334" height="19"/>
+                                                    <rect key="frame" x="0.0" y="31" width="132.33333333333334" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="19" id="xRb-z1-fvv"/>
+                                                        <constraint firstAttribute="height" constant="21" id="xRb-z1-fvv"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                     <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -109,7 +109,7 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="51" id="5Du-j6-XWp"/>
+                                                <constraint firstAttribute="height" constant="52" id="5Du-j6-XWp"/>
                                             </constraints>
                                         </stackView>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="raY-IZ-BBK">
@@ -119,21 +119,22 @@
                                             </constraints>
                                         </imageView>
                                     </subviews>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstAttribute="bottomMargin" secondItem="Joi-tY-buB" secondAttribute="bottom" constant="1.6666666666666714" id="7hp-kd-lwe"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Joi-tY-buB" secondAttribute="bottom" constant="0.67000000000000004" id="7hp-kd-lwe"/>
+                                        <constraint firstItem="raY-IZ-BBK" firstAttribute="centerY" secondItem="pat-Lj-vL0" secondAttribute="centerY" id="AqK-5Y-Onr"/>
                                         <constraint firstItem="raY-IZ-BBK" firstAttribute="leading" secondItem="pat-Lj-vL0" secondAttribute="leading" constant="12" id="J30-r5-scO"/>
                                         <constraint firstItem="raY-IZ-BBK" firstAttribute="top" secondItem="pat-Lj-vL0" secondAttribute="top" constant="3" id="L7D-Pw-TcC"/>
-                                        <constraint firstItem="raY-IZ-BBK" firstAttribute="centerY" secondItem="Joi-tY-buB" secondAttribute="centerY" constant="2.5" id="gE1-uf-jAc"/>
                                         <constraint firstItem="Joi-tY-buB" firstAttribute="top" secondItem="pat-Lj-vL0" secondAttribute="topMargin" constant="-4" id="m8t-Q8-TOX"/>
                                         <constraint firstItem="Joi-tY-buB" firstAttribute="leading" secondItem="raY-IZ-BBK" secondAttribute="trailing" constant="16.000000000000014" id="tBB-fx-bkB"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.1019607843" green="0.1960784314" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="listCategoryLabel" destination="PDD-U5-Omx" id="d4u-IK-Rve"/>
                                     <outlet property="listImageView" destination="raY-IZ-BBK" id="Hqj-gh-QkG"/>
                                     <outlet property="listNameLabel" destination="dlz-rO-tdc" id="hHS-t1-DYd"/>
-                                    <segue destination="AcR-Tk-QJV" kind="show" id="zsP-Wk-Y7C"/>
+                                    <segue destination="AcR-Tk-QJV" kind="show" identifier="toInfo" id="zsP-Wk-Y7C"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -142,6 +143,9 @@
                             <outlet property="delegate" destination="kve-28-xzr" id="S6U-OO-VmC"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="listTableView" destination="oDt-fN-NfE" id="31V-Pb-b2j"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="okw-QX-GPQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

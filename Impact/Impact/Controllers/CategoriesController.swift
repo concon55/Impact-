@@ -17,34 +17,44 @@ class CategoriesController: UIViewController {
     
     @IBOutlet weak var categoriesTableView: UITableView!
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.categoriesTableView.reloadData()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let apiToContact = "file:///Users/connieguan/Desktop/Impact%20iOS/Impact/Impact/organizations.json"
-        Alamofire.request(apiToContact).validate().responseJSON() { response in
-            print(response)
-            switch response.result{
-            case .success:
-                if let value = response.result.value{
-                    let json = JSON(value)
-                    let allCategoriesData = json["data"].arrayValue
+        if let path = Bundle.main.path(forResource: "organizations", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped)
+                let jsonObj = JSON(data: data)
+                if jsonObj != JSON.null {
+                    //print("jsonData:\(jsonObj)")
+                    let allCategoriesData = jsonObj["data"].arrayValue
                     for i in 0..<allCategoriesData.count{
                         let category = OrganizationClass.init(json: allCategoriesData[i])
-                        self.categories.append(category)
+                        categories.append(category)
                     }
-                    self.categories = self.categories.orderedSet
-                    self.categories.sort(by: {$0.categoryName < $1.categoryName})
-                    self.categoriesTableView.reloadData()
+                    categories = categories.orderedSet
+                    categories.sort(by: {$0.categoryName < $1.categoryName})
+                } else {
+                    print("Could not get json from file, make sure that file contains valid json.")
                 }
-            case .failure(let error):
-                print(error)
+            } catch let error {
+                print(error.localizedDescription)
             }
+        } else {
+            print("Invalid filename/path.")
         }
         
     }
+    
+    
 }
 
 extension CategoriesController: UITableViewDataSource {
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return categories.count
     }
