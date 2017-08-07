@@ -1,5 +1,14 @@
 {
-	"data": [{
+    "data": [{
+             "name": "White Helmets",
+             "category": "Civil Defense",
+             "imageUrl": "https://pbs.twimg.com/media/CxaQYcXWIAAqvf9.jpg",
+             "websiteUrl": "https://www.whitehelmets.org/en",
+             "description": "When the bombs rain down, the Syrian Civil Defence rushes in. In a place where public services no longer function these unarmed volunteers risk their lives to help anyone in need - regardless of their religion or politics. Known as the White Helmets these volunteer rescue workers operate in the most dangerous place on earth.",
+             "donateUrl": "https://peoplesmillion.whitehelmets.org/act/peoples-million/?source=whweb",
+             "iconImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Syrian_Civil_Defense_logo.png/220px-Syrian_Civil_Defense_logo.png"
+        },
+        {
 			"name": "Human Rights Watch",
 			"category": "Human Rights, Civil Liberties",
 			"imageUrl": "http://www.y-mun.org/assets/images/HRWatch.png",
@@ -7,6 +16,15 @@
 			"description": "Human Rights Watch investigates and exposes human rights abuses like torture, violence against women, and child exploitation. At any given time we are actively researching, reporting, and advocating for change that protects rights and saves lives in more than 90 countries around the world. In order to maintain our independence, we accept no money from any government, directly or indirectly. We rely solely on the generosity of people like you to defend human rights.",
 			"donateUrl": "https://donate.hrw.org/ea-action/action?ea.client.id=1908&ea.campaign.id=36711&ea.tracking.id=ED2017EVSCgl"
 		},
+        {
+             "name": "WWF",
+             "category": "Environment",
+             "imageUrl": "http://assets.wwf.org.uk/custom/lpr2016/media/do-it-for-your-planet.png",
+             "websiteUrl": "http://wwf.panda.org/",
+             "description": "WWF's mission is to conserve nature and reduce the most pressing threats to the diversity of life on Earth. Our vision is to build a future where people live in harmony with nature.",
+             "donateUrl": "http://wwf.panda.org/how_you_can_help/support_wwf/donate/",
+             "iconImage": "http://d1diae5goewto1.cloudfront.net/_skins/pandaorg3/img/logo.png"
+        },
 		{
 			"name": "Human Rights Campaign",
 			"category": "Human Rights, Civil Liberties",

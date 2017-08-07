@@ -16,8 +16,8 @@
 		7940613E1F2A4B3500D42FA1 /* OrganizationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940613D1F2A4B3500D42FA1 /* OrganizationClass.swift */; };
 		798CE31C1F30ED4F00406EFB /* featured.json in Resources */ = {isa = PBXBuildFile; fileRef = 798CE31B1F30ED4F00406EFB /* featured.json */; };
 		798CE3201F30F5B800406EFB /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CE31F1F30F5B800406EFB /* SearchController.swift */; };
-		798CE3211F30F8C500406EFB /* Om Telolet Om.otf in Resources */ = {isa = PBXBuildFile; fileRef = 798CE31E1F30F0DD00406EFB /* Om Telolet Om.otf */; };
 		798CE3231F32190500406EFB /* SubmitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CE3221F32190500406EFB /* SubmitController.swift */; };
+		799FC4F71F34C13400A8B534 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799FC4F61F34C13400A8B534 /* Search.storyboard */; };
 		79DFC90A1F2666E2005502DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC9091F2666E2005502DB /* AppDelegate.swift */; };
 		79DFC9111F2666E2005502DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC9101F2666E2005502DB /* Assets.xcassets */; };
 		79DFC9211F26763E005502DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC91F1F26763E005502DB /* LaunchScreen.storyboard */; };
@@ -52,9 +52,9 @@
 		7940613B1F2A22BD00D42FA1 /* Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Info.storyboard; path = Storyboards/Info.storyboard; sourceTree = "<group>"; };
 		7940613D1F2A4B3500D42FA1 /* OrganizationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrganizationClass.swift; path = Impact/Models/OrganizationClass.swift; sourceTree = "<group>"; };
 		798CE31B1F30ED4F00406EFB /* featured.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = featured.json; sourceTree = "<group>"; };
-		798CE31E1F30F0DD00406EFB /* Om Telolet Om.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Om Telolet Om.otf"; sourceTree = "<group>"; };
 		798CE31F1F30F5B800406EFB /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchController.swift; path = Controllers/SearchController.swift; sourceTree = "<group>"; };
 		798CE3221F32190500406EFB /* SubmitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitController.swift; path = Controllers/SubmitController.swift; sourceTree = "<group>"; };
+		799FC4F61F34C13400A8B534 /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Search.storyboard; path = Storyboards/Search.storyboard; sourceTree = "<group>"; };
 		79DFC9061F2666E2005502DB /* Impact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Impact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DFC9091F2666E2005502DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79DFC9101F2666E2005502DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -166,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				79DFC9201F26763E005502DB /* Main.storyboard */,
+				799FC4F61F34C13400A8B534 /* Search.storyboard */,
 				79DFC9551F27C335005502DB /* Profile.storyboard */,
 				79DFC9531F27C318005502DB /* Favorites.storyboard */,
 				79DFC9511F27C2EB005502DB /* Categories.storyboard */,
@@ -196,7 +197,6 @@
 		79DFC92E1F268098005502DB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				798CE31E1F30F0DD00406EFB /* Om Telolet Om.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -309,7 +309,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				798CE3211F30F8C500406EFB /* Om Telolet Om.otf in Resources */,
 				79DFC9221F26763E005502DB /* Main.storyboard in Resources */,
 				798CE31C1F30ED4F00406EFB /* featured.json in Resources */,
 				79DFC9561F27C335005502DB /* Profile.storyboard in Resources */,
@@ -322,6 +321,7 @@
 				79DFC9111F2666E2005502DB /* Assets.xcassets in Resources */,
 				79DFC92B1F2676FA005502DB /* Login.storyboard in Resources */,
 				79DFC9211F26763E005502DB /* LaunchScreen.storyboard in Resources */,
+				799FC4F71F34C13400A8B534 /* Search.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

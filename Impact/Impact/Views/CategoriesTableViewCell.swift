@@ -9,7 +9,7 @@
 import UIKit
 
 class CategoriesTableViewCell: UITableViewCell {
-    
+   
     @IBOutlet weak var categoryLabel: UILabel!
       
 }

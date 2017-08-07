@@ -35,16 +35,16 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="uQv-Yn-FTb">
-                                                    <rect key="frame" x="86.000000000000014" y="4" width="132.33333333333337" height="52"/>
+                                                    <rect key="frame" x="86" y="4" width="312" height="52"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Organization" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rBs-Bu-ejm">
-                                                            <rect key="frame" x="0.0" y="0.0" width="132.33333333333334" height="26"/>
-                                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="23"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="312" height="26"/>
+                                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                                             <color key="textColor" red="0.1647058824" green="0.26274509800000001" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9th-VE-RH6">
-                                                            <rect key="frame" x="0.0" y="31" width="132.33333333333334" height="21"/>
+                                                            <rect key="frame" x="0.0" y="31" width="312" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="lqo-qT-g7G"/>
                                                             </constraints>
@@ -71,6 +71,7 @@
                                                 <constraint firstItem="ewU-b7-sB7" firstAttribute="top" secondItem="eh2-wi-W3p" secondAttribute="top" constant="3" id="Boy-Sy-eTO"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="uQv-Yn-FTb" secondAttribute="bottom" constant="0.67000000000000004" id="ID2-9f-9fq"/>
                                                 <constraint firstItem="ewU-b7-sB7" firstAttribute="leading" secondItem="eh2-wi-W3p" secondAttribute="leading" constant="12" id="Me2-dm-Oey"/>
+                                                <constraint firstAttribute="trailing" secondItem="uQv-Yn-FTb" secondAttribute="trailing" constant="16" id="axj-0K-thh"/>
                                                 <constraint firstItem="ewU-b7-sB7" firstAttribute="centerY" secondItem="eh2-wi-W3p" secondAttribute="centerY" id="rfa-Cn-333"/>
                                             </constraints>
                                         </tableViewCellContentView>

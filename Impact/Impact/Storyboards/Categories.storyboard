@@ -30,7 +30,7 @@
                                         <rect key="frame" x="0.0" y="28" width="406" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ujx-n9-otG" id="EtS-UJ-GED">
-                                            <rect key="frame" x="0.0" y="0.0" width="373" height="59.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="373" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0h-Be-gjQ">
@@ -46,7 +46,7 @@
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="categoryLabel" destination="U0h-Be-gjQ" id="OED-a7-6bf"/>
-                                            <segue destination="kve-28-xzr" kind="show" id="xeK-CX-aiY"/>
+                                            <segue destination="kve-28-xzr" kind="show" identifier="toList" id="xeK-CX-aiY"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -86,20 +86,20 @@
                                 <rect key="frame" x="0.0" y="28" width="414" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aoZ-lg-GyA" id="pat-Lj-vL0">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="64.666666666666671"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Joi-tY-buB">
-                                            <rect key="frame" x="86.000000000000014" y="4" width="132.33333333333337" height="52"/>
+                                            <rect key="frame" x="86" y="4" width="312" height="52"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Organization" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlz-rO-tdc">
-                                                    <rect key="frame" x="0.0" y="0.0" width="132.33333333333334" height="26"/>
-                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="23"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="312" height="26"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                                     <color key="textColor" red="0.1647058824" green="0.26274509800000001" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDD-U5-Omx">
-                                                    <rect key="frame" x="0.0" y="31" width="132.33333333333334" height="21"/>
+                                                    <rect key="frame" x="0.0" y="31" width="312" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="xRb-z1-fvv"/>
                                                     </constraints>
@@ -125,6 +125,7 @@
                                         <constraint firstItem="raY-IZ-BBK" firstAttribute="centerY" secondItem="pat-Lj-vL0" secondAttribute="centerY" id="AqK-5Y-Onr"/>
                                         <constraint firstItem="raY-IZ-BBK" firstAttribute="leading" secondItem="pat-Lj-vL0" secondAttribute="leading" constant="12" id="J30-r5-scO"/>
                                         <constraint firstItem="raY-IZ-BBK" firstAttribute="top" secondItem="pat-Lj-vL0" secondAttribute="top" constant="3" id="L7D-Pw-TcC"/>
+                                        <constraint firstAttribute="trailing" secondItem="Joi-tY-buB" secondAttribute="trailing" constant="16" id="XiP-bx-qy1"/>
                                         <constraint firstItem="Joi-tY-buB" firstAttribute="top" secondItem="pat-Lj-vL0" secondAttribute="topMargin" constant="-4" id="m8t-Q8-TOX"/>
                                         <constraint firstItem="Joi-tY-buB" firstAttribute="leading" secondItem="raY-IZ-BBK" secondAttribute="trailing" constant="16.000000000000014" id="tBB-fx-bkB"/>
                                     </constraints>
@@ -166,7 +167,7 @@
                     <tabBarItem key="tabBarItem" title="Categories" image="Icon-App-40x40" id="LCN-7S-bZ8"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="TfJ-3d-mtg">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TfJ-3d-mtg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

@@ -9,11 +9,6 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Om Telolet Om.otf">
-            <string>OmTeloletOm</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Login View Controller-->
         <scene sceneID="2Um-2m-xHq">
@@ -31,11 +26,11 @@
                                 <rect key="frame" x="20" y="304" width="374" height="128"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rc-4y-nCD">
-                                        <rect key="frame" x="106" y="36" width="163" height="56"/>
+                                        <rect key="frame" x="106" y="30.333333333333314" width="163" height="68"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="163" id="jw6-R9-vfd"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="OmTeloletOm" family="Om Telolet Om" pointSize="55"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="49"/>
                                         <color key="textColor" red="0.18200626969337463" green="0.29534885287284851" blue="0.38324946165084839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -102,16 +97,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="7g0-Gl-ohI">
-                                <rect key="frame" x="55" y="288" width="304" height="160"/>
+                                <rect key="frame" x="55" y="286.33333333333326" width="304" height="163.66666666666669"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWY-8u-go5">
-                                        <rect key="frame" x="53" y="0.0" width="198.33333333333331" height="36"/>
-                                        <fontDescription key="fontDescription" name="OmTeloletOm" family="Om Telolet Om" pointSize="36"/>
+                                        <rect key="frame" x="39.333333333333314" y="0.0" width="225.33333333333337" height="39.666666666666686"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="29"/>
                                         <color key="textColor" red="0.18200626969337463" green="0.29534885287284851" blue="0.38324946165084839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eOq-uS-vrL">
-                                        <rect key="frame" x="35" y="54" width="234" height="44"/>
+                                        <rect key="frame" x="35" y="57.666666666666686" width="234" height="44"/>
                                         <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="Lwc-q7-fTS"/>
@@ -121,7 +116,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJR-AI-5cH">
-                                        <rect key="frame" x="35" y="116" width="234" height="44"/>
+                                        <rect key="frame" x="35" y="119.66666666666669" width="234" height="44"/>
                                         <color key="backgroundColor" red="0.18200626969337463" green="0.29534885287284851" blue="0.38324946165084839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="UoN-Xf-YZ1"/>
@@ -167,7 +162,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="riN-8m-F9j" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PWg-CE-z38">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="PWg-CE-z38">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

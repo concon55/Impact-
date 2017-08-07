@@ -13,8 +13,10 @@ import AlamofireImage
 
 class ListController: UITableViewController{
     
-    //var categories = [OrganizationClass]()
+    var org: OrganizationClass?
     var organizations = [OrganizationClass]()
+    var filtered = [OrganizationClass]()
+    
     
     @IBOutlet var listTableView: UITableView!
     
@@ -32,7 +34,7 @@ class ListController: UITableViewController{
                         let listOrg = OrganizationClass.init(json: allOrganizationsData[i])
                         organizations.append(listOrg)
                     }
-                    organizations.sort(by: {$0.categoryName < $1.categoryName})
+                    organizations.sort(by: {$0.charityName < $1.charityName})
                 } else {
                     print("Could not get json from file, make sure that file contains valid json.")
                 }
@@ -42,22 +44,40 @@ class ListController: UITableViewController{
         } else {
             print("Invalid filename/path.")
         }
+
+        filtered = organizations.filter{$0.categoryName.contains((org?.categoryName)!)}
+        
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let identifier = segue.identifier {
+            if identifier == "toInfo"{
+                let indexPath = listTableView.indexPathForSelectedRow!
+                let eachOrg = filtered[indexPath.row]
+                let infoController = segue.destination as! InfoController
+                infoController.org = eachOrg
+                
+            }
+        }
+    }
+
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return organizations.count
+        return filtered.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell", for: indexPath) as! ListTableViewCell
-        let eachOrg = organizations[indexPath.row]
+        
+        let eachOrg = filtered[indexPath.row]
+        
         cell.listNameLabel.text = eachOrg.charityName
         cell.listCategoryLabel.text = eachOrg.categoryName
         let listImageUrl = eachOrg.iconImage
         cell.listImageView.af_setImage(withURL: URL(string: listImageUrl)!)
-        
         return cell
     }
+
 }
 
 

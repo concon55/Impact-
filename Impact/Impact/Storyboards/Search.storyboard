@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NeA-lO-XbQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search-->
+        <scene sceneID="PKi-kq-L9a">
+            <objects>
+                <tableViewController id="NgP-A7-sGx" customClass="SearchController" customModule="Impact" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="55" sectionHeaderHeight="28" sectionFooterHeight="28" id="Kfk-k8-PqC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="Knv-bO-y0l">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="NgP-A7-sGx" id="kyF-Sf-nK3"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="55" id="Gn0-xi-Yrj">
+                                <rect key="frame" x="0.0" y="72" width="375" height="55"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gn0-xi-Yrj" id="SeR-FD-96q">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="FV9-LT-Cxj">
+                                            <rect key="frame" x="24" y="1.5" width="109.5" height="52"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Organization" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7x7-ye-EHf">
+                                                    <rect key="frame" x="0.0" y="0.0" width="109.5" height="26"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
+                                                    <color key="textColor" red="0.1647058824" green="0.26274509800000001" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QC2-mk-62K">
+                                                    <rect key="frame" x="0.0" y="31" width="109.5" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="3Eh-e4-jDW"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="52" id="ITu-9P-SYl"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="FV9-LT-Cxj" firstAttribute="centerY" secondItem="SeR-FD-96q" secondAttribute="centerY" id="Bt2-QY-Vg4"/>
+                                        <constraint firstItem="FV9-LT-Cxj" firstAttribute="leading" secondItem="SeR-FD-96q" secondAttribute="leading" constant="23.999999999999993" id="Iyb-4c-jzD"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="ZUO-zq-hpa" kind="show" identifier="searchToInfo" id="fWf-xS-9fR"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="NgP-A7-sGx" id="j7G-2T-J8M"/>
+                            <outlet property="delegate" destination="NgP-A7-sGx" id="khg-lQ-0uW"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Search" id="Puc-bX-uYK"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="qZQ-E8-lDl" id="TRw-id-BNh"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nO2-KT-csc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="qZQ-E8-lDl">
+                    <connections>
+                        <outlet property="delegate" destination="NgP-A7-sGx" id="5YR-BS-8xg"/>
+                        <outlet property="searchBar" destination="Knv-bO-y0l" id="viB-OK-n4L"/>
+                        <outlet property="searchContentsController" destination="NgP-A7-sGx" id="lQ7-vF-ead"/>
+                        <outlet property="searchResultsDataSource" destination="NgP-A7-sGx" id="WoO-Vf-auv"/>
+                        <outlet property="searchResultsDelegate" destination="NgP-A7-sGx" id="ozv-Rx-31Z"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="1638" y="629"/>
+        </scene>
+        <!--InfoController-->
+        <scene sceneID="VuV-ch-uck">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Info" referencedIdentifier="InfoController" id="ZUO-zq-hpa" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Noz-4u-OhO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2231" y="628"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="WnU-26-E5o">
+            <objects>
+                <navigationController title="Search" automaticallyAdjustsScrollViewInsets="NO" id="NeA-lO-XbQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" image="Search 29" id="LKq-K8-z0c"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q9W-p2-MTE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NgP-A7-sGx" kind="relationship" relationship="rootViewController" id="luK-wH-Lu4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4AR-yq-k0o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="803" y="629"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Search 29" width="29" height="29"/>
+    </resources>
+</document>

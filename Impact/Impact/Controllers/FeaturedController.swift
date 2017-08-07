@@ -45,6 +45,18 @@ class FeaturedController: UIViewController {
             print("Invalid filename/path.")
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let identifier = segue.identifier {
+            if identifier == "toInfo"{
+                let indexPath = tableView.indexPathForSelectedRow!
+                let eachOrg = featuredOrganizations[indexPath.row]
+                let infoController = segue.destination as! InfoController
+                infoController.org = eachOrg
+                
+            }
+        }
+    }
 }
 
 extension FeaturedController: UITableViewDataSource {

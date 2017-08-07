@@ -1,7 +1,7 @@
 {
     "data": [{
              "name": "Human Rights Watch",
-             "category": "Human Rights, Civil Liberties",
+             "category": "Human and Civil Rights",
              "imageUrl": "http://www.y-mun.org/assets/images/HRWatch.png",
              "websiteUrl": "https://www.hrw.org",
              "description": "Human Rights Watch investigates and exposes human rights abuses like torture, violence against women, and child exploitation. At any given time we are actively researching, reporting, and advocating for change that protects rights and saves lives in more than 90 countries around the world. In order to maintain our independence, we accept no money from any government, directly or indirectly. We rely solely on the generosity of people like you to defend human rights.",
@@ -10,7 +10,7 @@
              },
              {
              "name": "Human Rights Campaign",
-             "category": "Human Rights, Civil Liberties",
+             "category": "Human and Civil Rights",
              "imageUrl": "http://assets.hrc.org//files/images/blog/HRCLogo-WithWords-1600x900.png",
              "websiteUrl": "http://www.hrc.org/",
              "description": "The Human Rights Campaign represents a force of more than 1.5 million members and supporters nationwide. As the largest national lesbian, gay, bisexual, transgender and queer civil rights organization, HRC envisions a world where LGBTQ people are ensured of their basic equal rights, and can be open, honest and safe at home, at work and in the community.",
@@ -19,7 +19,7 @@
              },
              {
              "name": "ACLU",
-             "category": "Human Rights, Civil Liberties",
+             "category": "Human and Civil Rights",
              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/American_Civil_Liberties_Union_logo.svg/250px-American_Civil_Liberties_Union_logo.svg.png",
              "websiteUrl": "https://www.aclu.org/",
              "description": "For nearly 100 years, the ACLU has been our nation’s guardian of liberty, working in courts, legislatures, and communities to defend and preserve the individual rights and liberties that the Constitution and the laws of the United States guarantee everyone in this country. \nWhether it’s achieving full equality for LGBT people, establishing new privacy protections for our digital age of widespread government surveillance, ending mass incarceration, or preserving the right to vote or the right to have an abortion, the ACLU takes up the toughest civil liberties cases and issues to defend all people from government abuse and overreach. \nWith more than 2 million members, activists, and supporters, the ACLU is a nationwide organization that fights tirelessly in all 50 states, Puerto Rico, and Washington, D.C., to safeguard everyone’s rights.",
@@ -37,7 +37,7 @@
              },
              {
              "name": "Doctors Without Borders",
-             "category": "Emergency Relief",
+             "category": "Health",
              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Msf_logo.svg/250px-Msf_logo.svg.png",
              "websiteUrl": "http://www.doctorswithoutborders.org/",
              "description": "We are Doctors Without Borders/Médecins Sans Frontières (MSF). We help people worldwide where the need is greatest, delivering emergency medical aid to people affected by conflict, epidemics, disasters, or exclusion from health care.",
@@ -55,7 +55,7 @@
              },
              {
              "name": "Rotary",
-             "category": "Humanitarian Services",
+             "category": "Human Services",
              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Rotary_International_Logo.svg/250px-Rotary_International_Logo.svg.png",
              "websiteUrl": "https://www.rotary.org/",
              "description": "Rotary is a global network of 1.2 million neighbors, friends, leaders, and problem-solvers who come together to make positive, lasting change in communities at home and abroad. \nSolving real problems takes real commitment and vision. For more than 110 years, Rotary members have used their passion, energy, and intelligence to take action on sustainable projects. From literacy and peace to water and health, we are always working to better our world, and we stay committed to the end.",
@@ -64,13 +64,166 @@
              },
              {
              "name": "Feeding America",
-             "category": "Hunger Relief",
+             "category": "Human Services",
              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Feeding_America_logo.svg/198px-Feeding_America_logo.svg.png",
-             "websiteUrl": "https://en.wikipedia.org/wiki/Feeding_America#/media/File:Feeding_America_logo.svg",
+             "websiteUrl": "www.feedingamerica.org/",
              "description": "1 in 8 people struggle with hunger in the U.S. Feeding America is a hunger organization with a nationwide network of food banks feeding the hungry.",
              "donateUrl": "https://secure.feedingamerica.org/site/Donation2;jsessionid=00000000.app213b?df_id=15040&15040.donation=form1&s_onsite_promo=MainNav_Donate&s_src=W177DIRCT&s_subsrc=http%3A%2F%2Fwww.feedingamerica.org%2F&_ga=2.66592045.249226212.1501532839-1248085890.1501532839&NONCE_TOKEN=ECFC3F5D88C8789B5D673657CA76E032",
              "iconImage": "https://lh3.googleusercontent.com/-i7Mqtn1dlUY/AAAAAAAAAAI/AAAAAAAAAy4/4tzJbbCyiD4/s0-c-k-no-ns/photo.jpg"
-             }
+             },
+             {
+             "name": "UNICEF",
+             "category": "Human Services",
+             "imageUrl": "http://www.montblanc.com/content/campaigns/montblanc/mtb-unicef-prod-20170427-1/images/logo-unicef.svg",
+             "websiteUrl": "https://www.unicef.org/",
+             "description": "For 70 years, UNICEF has worked to improve the lives of children and their families. \nDespite remarkable challenges around the world, UNICEF staffers fight for the rights of every child seeking safe shelter, nutrition, protection from disaster and conflicts, and equality.",
+             "donateUrl": "https://www.unicefusa.org/help/donate",
+             "iconImage": "https://lh5.googleusercontent.com/-CrELa3pxVEc/AAAAAAAAAAI/AAAAAAAAKSU/EdvsmLkJwgo/s0-c-k-no-ns/photo.jpg"
+             },
+             {
+             "name": "American Red Cross",
+             "category": "Human Services",
+             "imageUrl": "https://www.pembrokemall.com/media/1075/American-Red-Cross.jpg",
+             "websiteUrl": "http://www.redcross.org/",
+             "description": "Red Cross volunteers and staff work to deliver vital services – from providing relief and support to those in crisis, to helping you be prepared to respond in emergencies.",
+             "donateUrl": "https://www.redcross.org/donate/donation",
+             "iconImage": "https://lh3.googleusercontent.com/-r7N7svPcX44/AAAAAAAAAAI/AAAAAAAACm0/D5I1qUoMKqg/s0-c-k-no-ns/photo.jpg"
+             },
+             {
+             "name": "WWF",
+             "category": "Environment",
+             "imageUrl": "http://assets.wwf.org.uk/custom/lpr2016/media/do-it-for-your-planet.png",
+             "websiteUrl": "http://wwf.panda.org/",
+             "description": "WWF's mission is to conserve nature and reduce the most pressing threats to the diversity of life on Earth. Our vision is to build a future where people live in harmony with nature.",
+             "donateUrl": "http://wwf.panda.org/how_you_can_help/support_wwf/donate/",
+             "iconImage": "http://d1diae5goewto1.cloudfront.net/_skins/pandaorg3/img/logo.png"
+             },
+             {
+             "name": "ASPCA",
+             "category": "Animals",
+             "imageUrl": "http://www.aspcapro.org/sites/default/files/aspca-low-res-color_logo.png",
+             "websiteUrl": "https://www.aspca.org",
+             "description": "From rescue to recovery to adoption, the ASPCA is there for animals every step of the way. We pride ourselves in not just saving lives, but in changing them for the better—and none of it would be possible without the support of people like you. When you donate to the ASPCA today, you can help us continue to fight for animals on all fronts. Please make a gift right now.",
+             "donateUrl": "https://secure.aspca.org/donate/donate?ms=wb_top_homepage-donate&initialms=wb_top_homepage-donate&pcode=WEBMEMBER&lpcode=WEBGUARD",
+             "iconImage": "https://lh4.googleusercontent.com/-U5FuCoT0KaM/AAAAAAAAAAI/AAAAAAAAVj4/fsT8K5HQglE/s0-c-k-no-ns/photo.jpg"
+             },
+             {
+             "name": "Greenpeace",
+             "category": "Environment",
+             "imageUrl": "http://www.greenpeace.org/usa/wp-content/uploads/2015/07/Greenpeace-logo.png",
+             "websiteUrl": "www.greenpeaceusa.org/",
+             "description": "Greenpeace is the leading independent campaigning organization that uses peaceful protest and creative communication to expose global environmental problems and promote solutions that are essential to a green and peaceful future.",
+             "donateUrl": "https://engage.us.greenpeace.org/onlineactions/0Dz8eFnSfEGAkQBffzy_1A2?&utm_source=website&utm_medium=homepage&utm_campaign=website_donation_form_(header)&r=true&am=15&_ga=2.214747284.208698634.1501788173-1366418029.1501788173",
+             "iconImage": "https://media.licdn.com/mpr/mpr/shrink_100_100/p/1/000/01c/2e6/1d57d01.png"
+             },
+             {
+             "name": "Environmental Defense Fund",
+             "category": "Environment",
+             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e7/Logo_for_the_Environmental_Defense_Fund_-_white_background.jpg",
+             "websiteUrl": "https://www.edf.org/",
+             "description": "Environmental Defense Fund is dedicated to protecting the environmental rights of all people, including future generations. Among these rights are access to clean air and water, healthy and nourishing food, and flourishing ecosystems. \nGuided by science, Environmental Defense Fund evaluates environmental problems and works to create and advocate solutions that win lasting political, economic and social support because they are nonpartisan, cost-efficient and fair.",
+             "donateUrl": "https://secure2.edf.org/site/Donation2?df_id=18393&18393.donation=form1&addl_info=nav-button_/",
+             "iconImage": "https://lh3.googleusercontent.com/-OkiFAi_yePw/AAAAAAAAAAI/AAAAAAAACss/Q5SfTqCpsDo/photo.jpg"
+             },
+             {
+             "name": "White Helmets",
+             "category": "International",
+             "imageUrl": "https://pbs.twimg.com/media/CxaQYcXWIAAqvf9.jpg",
+             "websiteUrl": "https://www.whitehelmets.org/en",
+             "description": "When the bombs rain down, the Syrian Civil Defence rushes in. In a place where public services no longer function these unarmed volunteers risk their lives to help anyone in need - regardless of their religion or politics. Known as the White Helmets these volunteer rescue workers operate in the most dangerous place on earth.",
+             "donateUrl": "https://peoplesmillion.whitehelmets.org/act/peoples-million/?source=whweb",
+             "iconImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Syrian_Civil_Defense_logo.png/220px-Syrian_Civil_Defense_logo.png"
+             },
+             {
+             "name": "Teach for America",
+             "category": "Education",
+             "imageUrl": "https://www.teachforamerica.org/profiles/tfa/themes/tfa/logo.png",
+             "websiteUrl": "https://www.teachforamerica.org/",
+             "description": "Our mission is to enlist, develop, and mobilize as many as possible of our nation's most promising future leaders to grow and strengthen the movement for educational equity and excellence.",
+             "donateUrl": "https://www.teachforamerica.org/get-involved/donate?clientField.dispOpt=9",
+             "iconImage": "https://lh3.googleusercontent.com/-oLOpx0fWtIA/AAAAAAAAAAI/AAAAAAAAEvc/p1Vk4mCCR-c/s0-c-k-no-ns/photo.jpg"
+             },
+             {
+             "name": "World Food Programme",
+             "category": "Human Services",
+             "imageUrl": "http://www.humanrightscareers.com/wp-content/uploads/2016/11/world-food-programme-wfp.gif",
+             "websiteUrl": "http://www1.wfp.org/",
+             "description": "WFP is the leading humanitarian organization fighting hunger worldwide, delivering food assistance in emergencies & working with communities to improve nutrition & build resilience. On average we assist 80 million people in around 80 countries each year.",
+             "donateUrl": "http://cdn.wfp.org/donate/",
+             "iconImage": "https://lh6.googleusercontent.com/-hult3_nm-Yo/AAAAAAAAAAI/AAAAAAAASJ4/NszfLn5IK7k/photo.jpg"
+             },
+             {
+             "name": "St. Jude's Children's Research Hospital",
+             "category": "Health",
+             "imageUrl": "https://jobs.newscientist.com/getasset/9df069c4-b5ca-4ddd-9edc-45e69fadf0d2/",
+             "websiteUrl": "https://www.stjude.org/",
+             "description": "St. Jude is leading the way the world understands, treats and defeats childhood cancer and other life-threatening diseases.",
+             "donateUrl": "https://shop.stjude.org/GiftCatalog/donation.do?cID=14262&pID=24671&sc_icid=header-btn-donate-now",
+             "iconImage": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAc9AAAAJDg1MjY4ZjEzLWZkN2ItNGJiNi05Yzk1LTY3MWQ4Y2EzYmQ3ZQ.png"
+             },
+             {
+             "name": "Alzheimer's Association",
+             "category": "Health",
+             "imageUrl": "http://www.alz.org/au/images/alzimage.jpg",
+             "websiteUrl": "http://www.alz.org/",
+             "description": "To eliminate Alzheimer's disease through the advancement of research; to provide and enhance care and support for all affected; and to reduce the risk of dementia through the promotion of brain health. Our vision is a world without Alzheimer's disease.",
+             "donateUrl": "https://act.alz.org/site/Donation2?df_id=32112&32112.donation=form1&",
+             "iconImage": "https://lh6.googleusercontent.com/-KcG74zXLNQI/AAAAAAAAAAI/AAAAAAAAAqU/sr4y_u36yXQ/s0-c-k-no-ns/photo.jpg"
+             },
+             {
+             "name": "International Rescue Committee",
+             "category": "International",
+             "imageUrl": "http://job.bangkokpost.com/img_company/thumbnail/prefix_1/0036/36/company-36-960X200.jpg",
+             "websiteUrl": "https://www.rescue.org/",
+             "description": "International Rescue Committee (IRC) responds to the world’s worst humanitarian crises & helps people to survive, recover & gain control of their future.",
+             "donateUrl": "https://help.rescue.org/donate?ms=ws_resq_top_nav_btn_161010&initialms=ws_resq_top_nav_btn_161010",
+             "iconImage": "https://lh5.googleusercontent.com/-NJ6anwslbKA/AAAAAAAAAAI/AAAAAAAAGKA/YUwikWQtMbM/s0-c-k-no-ns/photo.jpg"
+             },
+             {
+             "name": "Disabled American Veterans",
+             "category": "Human Services",
+             "imageUrl": "http://www.mi-dav.org/portals/0/logo.jpg",
+             "websiteUrl": "https://www.dav.org/",
+             "description": "DAV (Disabled American Veterans) is a leading nonprofit that provides a lifetime of support for veterans of all generations and their families. Every year, we help more than 1 million veterans in positive, life-changing ways by helping them access benefits they earned, like healthcare, education and disability, and connecting them to meaningful employment opportunities. DAV is the nation’s most resourceful veterans service organization, keeping the promise to support America’s veterans.",
+             "donateUrl": "https://secure.dav.org/site/Donation2;jsessionid=00000000.app311a?df_id=9420&9420.donation=form1&s_src=1402DRWEB01&NONCE_TOKEN=14337F87D5C7FEB790B39EEEDA19C72F",
+             "iconImage": "https://upload.wikimedia.org/wikipedia/en/e/ee/Disabled_American_Veterans_logo.jpg"
+             },
+             {
+             "name": "National Audubon Society",
+             "category": "Animals",
+             "imageUrl": "http://www.campionadvocacyfund.org/wp-content/uploads/2015/08/grantee_audubon_logo.png",
+             "websiteUrl": "http://www.audubon.org/",
+             "description": "The National Audubon Society protects birds and the places they need, today and tomorrow, throughout the Americas using science, advocacy, education, and on-the-ground conservation.",
+             "donateUrl": "https://action.audubon.org/donate/now",
+             "iconImage": "http://www.sfiprogram.org/SFI/assets/Image/ConsGrants/rotator-logos-Audubon2.jpg"
+             },
+             {
+             "name": "Water.org",
+             "category": "International",
+             "imageUrl": "https://mb4mh.files.wordpress.com/2012/01/waterorg_2clr_rgb_tm1.jpg",
+             "websiteUrl": "https://water.org/",
+             "description": "With your help, we have empowered more than six million people with access to safe water and sanitation. And there's more to be done. With programs and people working in 14 countries, we're scaling and exploring new markets and solutions to help end the water crisis.",
+             "donateUrl": "https://water.org/donate/",
+             "iconImage": "https://yt3.ggpht.com/-z_upDQxzy2U/AAAAAAAAAAI/AAAAAAAAAAA/zSWml6IYu5A/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
+             },
+             {
+             "name": "The Trevor Project",
+             "category": "Human Services",
+             "imageUrl": "http://www.thetrevorproject.org/page/-/files/resources/newTTP_ORANGE.png/",
+             "websiteUrl": "http://www.thetrevorproject.org/",
+             "description": "Founded in 1998 by the creators of the Academy Award®-winning short film TREVOR, The Trevor Project is the leading national organization providing crisis intervention and suicide prevention services to lesbian, gay, bisexual, transgender and questioning (LGBTQ) young people ages 13-24.",
+             "donateUrl": "https://give.thetrevorproject.org/checkout/donation?eid=63307",
+             "iconImage": "https://pbs.twimg.com/profile_images/819233275696680960/cbcuZAEQ.jpg"
+             },
+             {
+             "name": "The Nature Conservancy ",
+             "category": "Environment",
+             "imageUrl": "https://www.nature.org/cs/groups/webasset/documents/webasset/tnc-share-logo.gif",
+             "websiteUrl": "nature.org",
+             "description": "The Nature Conservancy is the leading conservation organization working around the world to protect ecologically important lands and waters for nature and people.",
+             "donateUrl": "https://support.nature.org/site/Donation2?10420.donation=form1&df_id=10420&intc=nature.tnav.button.donate",
+             "iconImage": "https://lh6.googleusercontent.com/-Jhd3smCU8hE/AAAAAAAAAAI/AAAAAAAAXSc/F_jImdnK8S0/s0-c-k-no-ns/photo.jpg"
+             },
     ]
 }
 
