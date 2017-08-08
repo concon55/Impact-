@@ -14,6 +14,10 @@
 		7940613A1F2A227600D42FA1 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794061391F2A227600D42FA1 /* InfoController.swift */; };
 		7940613C1F2A22BD00D42FA1 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7940613B1F2A22BD00D42FA1 /* Info.storyboard */; };
 		7940613E1F2A4B3500D42FA1 /* OrganizationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940613D1F2A4B3500D42FA1 /* OrganizationClass.swift */; };
+		794CCEA81F3A00CB00E11A31 /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794CCEA71F3A00CB00E11A31 /* LikeService.swift */; };
+		794CCEAA1F3A025F00E11A31 /* WebsiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794CCEA91F3A025F00E11A31 /* WebsiteController.swift */; };
+		794CCEAC1F3A0D6D00E11A31 /* DonateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794CCEAB1F3A0D6D00E11A31 /* DonateController.swift */; };
+		794CCEAE1F3A414000E11A31 /* NewAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794CCEAD1F3A414000E11A31 /* NewAccountController.swift */; };
 		798CE31C1F30ED4F00406EFB /* featured.json in Resources */ = {isa = PBXBuildFile; fileRef = 798CE31B1F30ED4F00406EFB /* featured.json */; };
 		798CE3201F30F5B800406EFB /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CE31F1F30F5B800406EFB /* SearchController.swift */; };
 		798CE3231F32190500406EFB /* SubmitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CE3221F32190500406EFB /* SubmitController.swift */; };
@@ -26,7 +30,6 @@
 		79DFC92B1F2676FA005502DB /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DFC92A1F2676FA005502DB /* Login.storyboard */; };
 		79DFC92D1F26774F005502DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC92C1F26774F005502DB /* LoginViewController.swift */; };
 		79DFC9371F26885A005502DB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC9351F26885A005502DB /* User.swift */; };
-		79DFC9391F268DA1005502DB /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC9381F268DA1005502DB /* CreateUsernameViewController.swift */; };
 		79DFC93B1F268F79005502DB /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC93A1F268F79005502DB /* UserService.swift */; };
 		79DFC93E1F26906A005502DB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC93D1F26906A005502DB /* Constants.swift */; };
 		79DFC9401F2690AC005502DB /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFC93F1F2690AC005502DB /* Storyboard+Utility.swift */; };
@@ -51,6 +54,10 @@
 		794061391F2A227600D42FA1 /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoController.swift; path = Controllers/InfoController.swift; sourceTree = "<group>"; };
 		7940613B1F2A22BD00D42FA1 /* Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Info.storyboard; path = Storyboards/Info.storyboard; sourceTree = "<group>"; };
 		7940613D1F2A4B3500D42FA1 /* OrganizationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrganizationClass.swift; path = Impact/Models/OrganizationClass.swift; sourceTree = "<group>"; };
+		794CCEA71F3A00CB00E11A31 /* LikeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LikeService.swift; path = Services/LikeService.swift; sourceTree = "<group>"; };
+		794CCEA91F3A025F00E11A31 /* WebsiteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebsiteController.swift; path = Controllers/WebsiteController.swift; sourceTree = "<group>"; };
+		794CCEAB1F3A0D6D00E11A31 /* DonateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DonateController.swift; path = Controllers/DonateController.swift; sourceTree = "<group>"; };
+		794CCEAD1F3A414000E11A31 /* NewAccountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewAccountController.swift; path = Controllers/NewAccountController.swift; sourceTree = "<group>"; };
 		798CE31B1F30ED4F00406EFB /* featured.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = featured.json; sourceTree = "<group>"; };
 		798CE31F1F30F5B800406EFB /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchController.swift; path = Controllers/SearchController.swift; sourceTree = "<group>"; };
 		798CE3221F32190500406EFB /* SubmitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitController.swift; path = Controllers/SubmitController.swift; sourceTree = "<group>"; };
@@ -65,7 +72,6 @@
 		79DFC92A1F2676FA005502DB /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboards/Login.storyboard; sourceTree = "<group>"; };
 		79DFC92C1F26774F005502DB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
 		79DFC9351F26885A005502DB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Impact/Models/User.swift; sourceTree = "<group>"; };
-		79DFC9381F268DA1005502DB /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateUsernameViewController.swift; path = Controllers/CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		79DFC93A1F268F79005502DB /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Services/UserService.swift; sourceTree = "<group>"; };
 		79DFC93D1F26906A005502DB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Supporting/Constants.swift; sourceTree = "<group>"; };
 		79DFC93F1F2690AC005502DB /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Storyboard+Utility.swift"; path = "Extensions/Storyboard+Utility.swift"; sourceTree = "<group>"; };
@@ -181,7 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				79DFC92C1F26774F005502DB /* LoginViewController.swift */,
-				79DFC9381F268DA1005502DB /* CreateUsernameViewController.swift */,
 				79DFC9421F2798B3005502DB /* FavoritesController.swift */,
 				79DFC9441F2798C3005502DB /* FeaturedController.swift */,
 				79DFC9461F2798D9005502DB /* CategoriesController.swift */,
@@ -190,6 +195,9 @@
 				794061331F29318A00D42FA1 /* ListController.swift */,
 				794061391F2A227600D42FA1 /* InfoController.swift */,
 				798CE31F1F30F5B800406EFB /* SearchController.swift */,
+				794CCEA91F3A025F00E11A31 /* WebsiteController.swift */,
+				794CCEAB1F3A0D6D00E11A31 /* DonateController.swift */,
+				794CCEAD1F3A414000E11A31 /* NewAccountController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -215,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				79DFC93A1F268F79005502DB /* UserService.swift */,
+				794CCEA71F3A00CB00E11A31 /* LikeService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -388,7 +397,9 @@
 				79DFC9471F2798D9005502DB /* CategoriesController.swift in Sources */,
 				79DFC93B1F268F79005502DB /* UserService.swift in Sources */,
 				794061361F29319700D42FA1 /* ListTableViewCell.swift in Sources */,
+				794CCEAE1F3A414000E11A31 /* NewAccountController.swift in Sources */,
 				79DFC9581F27C4FF005502DB /* CategoriesTableViewCell.swift in Sources */,
+				794CCEAA1F3A025F00E11A31 /* WebsiteController.swift in Sources */,
 				79DFC9431F2798B3005502DB /* FavoritesController.swift in Sources */,
 				79DFC94F1F27BEBC005502DB /* FeaturedTableViewCell.swift in Sources */,
 				79DFC9401F2690AC005502DB /* Storyboard+Utility.swift in Sources */,
@@ -396,8 +407,9 @@
 				798CE3231F32190500406EFB /* SubmitController.swift in Sources */,
 				7940613A1F2A227600D42FA1 /* InfoController.swift in Sources */,
 				79DFC95A1F27D25B005502DB /* FavoritesTableViewCell.swift in Sources */,
-				79DFC9391F268DA1005502DB /* CreateUsernameViewController.swift in Sources */,
+				794CCEA81F3A00CB00E11A31 /* LikeService.swift in Sources */,
 				79DFC90A1F2666E2005502DB /* AppDelegate.swift in Sources */,
+				794CCEAC1F3A0D6D00E11A31 /* DonateController.swift in Sources */,
 				79DFC94B1F279902005502DB /* ProfileController.swift in Sources */,
 				794061341F29318A00D42FA1 /* ListController.swift in Sources */,
 			);

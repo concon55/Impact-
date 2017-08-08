@@ -39,8 +39,19 @@ class InfoController: UIViewController{
     @IBAction func favoriteButtonTapped(_ sender: UIButton) {
     }
     
-    @IBAction func donateButtonTapped(_ sender: UIButton) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let identifier = segue.identifier {
+            if identifier == "toWebView"{
+                let website = org?.websiteUrl
+                let websiteController = segue.destination as! WebsiteController
+                websiteController.websiteUrl = website!
+                
+            }
+        }
     }
+
+    
+    
 
 }
 
