@@ -14,11 +14,12 @@ import AlamofireImage
 
 class WebsiteController: UIViewController, UIWebViewDelegate{
 
+    
     @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var forwardButton: UIButton!
     
-    var websiteUrl: String = ""
+    var websiteUrl = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()

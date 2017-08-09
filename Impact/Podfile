@@ -13,5 +13,6 @@ target 'Impact' do
   pod 'SwiftyJSON'
   pod 'Alamofire'
   pod ‘AlamofireImage’
+  pod ‘KeychainSwift’
 
 end

@@ -111,7 +111,7 @@
              "name": "Greenpeace",
              "category": "Environment",
              "imageUrl": "http://www.greenpeace.org/usa/wp-content/uploads/2015/07/Greenpeace-logo.png",
-             "websiteUrl": "www.greenpeaceusa.org/",
+             "websiteUrl": "https://www.greenpeaceusa.org/",
              "description": "Greenpeace is the leading independent campaigning organization that uses peaceful protest and creative communication to expose global environmental problems and promote solutions that are essential to a green and peaceful future.",
              "donateUrl": "https://engage.us.greenpeace.org/onlineactions/0Dz8eFnSfEGAkQBffzy_1A2?&utm_source=website&utm_medium=homepage&utm_campaign=website_donation_form_(header)&r=true&am=15&_ga=2.214747284.208698634.1501788173-1366418029.1501788173",
              "iconImage": "https://media.licdn.com/mpr/mpr/shrink_100_100/p/1/000/01c/2e6/1d57d01.png"
@@ -173,7 +173,7 @@
              {
              "name": "International Rescue Committee",
              "category": "International",
-             "imageUrl": "http://job.bangkokpost.com/img_company/thumbnail/prefix_1/0036/36/company-36-960X200.jpg",
+             "imageUrl": "https://img0bm.b8cdn.com/images/logo/03/1371803_logo_1462343874_n.png",
              "websiteUrl": "https://www.rescue.org/",
              "description": "International Rescue Committee (IRC) responds to the world’s worst humanitarian crises & helps people to survive, recover & gain control of their future.",
              "donateUrl": "https://help.rescue.org/donate?ms=ws_resq_top_nav_btn_161010&initialms=ws_resq_top_nav_btn_161010",
@@ -216,14 +216,122 @@
              "iconImage": "https://pbs.twimg.com/profile_images/819233275696680960/cbcuZAEQ.jpg"
              },
              {
-             "name": "The Nature Conservancy ",
+             "name": "The Nature Conservancy",
              "category": "Environment",
              "imageUrl": "https://www.nature.org/cs/groups/webasset/documents/webasset/tnc-share-logo.gif",
-             "websiteUrl": "nature.org",
+             "websiteUrl": "https://nature.org",
              "description": "The Nature Conservancy is the leading conservation organization working around the world to protect ecologically important lands and waters for nature and people.",
              "donateUrl": "https://support.nature.org/site/Donation2?10420.donation=form1&df_id=10420&intc=nature.tnav.button.donate",
              "iconImage": "https://lh6.googleusercontent.com/-Jhd3smCU8hE/AAAAAAAAAAI/AAAAAAAAXSc/F_jImdnK8S0/s0-c-k-no-ns/photo.jpg"
              },
+             {
+             "name": "Charity: Water",
+             "category": "International",
+             "imageUrl": "http://www.heaviland.net/wp-content/uploads/2013/04/charity-water-logo.jpg",
+             "websiteUrl": "https://www.charitywater.org/",
+             "description": "charity: water is a non-profit bringing clean and safe drinking water to people in developing nations. In just ten years, we've funded more than 22,000 water projects in 24 developing countries. When complete, these projects will provide clean, safe drinking water for more than 7 million people. \nNearly 663 million people in our world don’t have access to clean drinking water. Unsafe water and lack of basic sanitation cause 80% of diseases and kill more people every year than all forms of violence, including war. \nThe good news: there are simple solutions, from deep drilled wells to water filtration systems. And with the help of 1,000,000+ donors and individual fundraisers, we're forming a strong force against the water crisis. Join us.",
+             "donateUrl": "https://www.charitywater.org/donate",
+             "iconImage": "https://www.charitywater.org/_site/images/jerrycan.png"
+             },
+             {
+             "name": "Make-A-Wish Foundation",
+             "category": "Health",
+             "imageUrl": "http://site.wish.org/assets/images/logos/Make-A-Wish-Logo-1-1024x631.jpg",
+             "websiteUrl": "http://wish.org/",
+             "description": "We grant the wishes of children with life-threatening medical conditions to enrich the human experience with hope, strength and joy.",
+             "donateUrl": "https://secure2.wish.org/site/SPageServer?pagename=donate_now&chid=100-000#sm.0000pcpw7az3qfd2tl82gtoopyj4b",
+             "iconImage": "https://lh5.googleusercontent.com/-Odfhsyf5f-E/AAAAAAAAAAI/AAAAAAAADHA/49TkDtQWi7g/s0-c-k-no-ns/photo.jpg"
+             },
+             {
+             "name": "National Geographic Society",
+             "category": "Education",
+             "imageUrl": "https://www.nationalgeographic.org/static/ngs/home/img/logo.e6616dca.png",
+             "websiteUrl": "http://www.nationalgeographic.com/",
+             "description": "National Geographic gets you closer to the stories that matter. Through the world’s best scientists, photographers, journalists, and filmmakers, National Geographic captivates and entertains a global community through television channels, magazines, children’s media, travel expeditions, books, maps, consumer products, location-based entertainment and experiences, and some of the most engaging digital and social media platforms in the world. A joint venture with 21st Century Fox, National Geographic reinvests 27% of proceeds to help fund the conservation and education efforts of the National Geographic Society.",
+             "donateUrl": "https://donate.nationalgeographic.org/17-ge-adw?gclid=EAIaIQobChMI4-iinrvI1QIV3lcNCh2dEgUMEAAYASAAEgJ5F_D_BwE",
+             "iconImage": "http://images.nationalgeographic.com/wpf/sites/common/i/presentation/NGLogo560x430-cb1343821768.png"
+             },
+             {
+             "name": "Wildlife Conservation Society",
+             "category": "Environment",
+             "imageUrl": "http://www.animalafrica.com/wp-content/uploads/2015/03/conservation1.jpg",
+             "websiteUrl": "https://www.wcs.org/",
+             "description": "WCS's goal is to conserve the world's largest wild places in 16 priority regions, home to more than 50% of the world's biodiversity. \nThis is outlined in our 2020 strategy, which positions WCS to maintain its historic focus on the protection of species while developing an ambitious plan to engage with a rapidly changing world. \nThe challenges are greater than ever, but with the focus, dedication, and passion of a committed staff—combined with a unique mixture of field, zoo, and aquarium expertise—WCS will continue to set the bar for science, conservation action, and education that has driven our success in protecting wildlife and wild places for over a century. We hold ourselves to the highest standards, adhering to core values of respect, accountability and transparency, innovation, diversity and inclusion, collaboration, and integrity.",
+             "donateUrl": "https://secure.wcs.org/donate/donate-and-help-save-wildlife",
+             "iconImage": "https://lh4.googleusercontent.com/-t990-x0zvus/AAAAAAAAAAI/AAAAAAAADFs/Vhp03ltg5N4/s0-c-k-no-ns/photo.jpg"
+             },
+             {
+             "name": "Mercy Corps",
+             "category": "International",
+             "imageUrl": "https://www.mercycorps.org/sites/all/themes/mercycorps/static/logo-new-retina.png",
+             "websiteUrl": "https://www.mercycorps.org/",
+             "description": "Since 1979, Mercy Corps has provided $1.7 billion in assistance to people in 107 nations. Our global programs are supported by headquarters in North America and Europe and field offices in some of the world's most troubled and challenging regions. \n Our mission is to alleviate suffering, poverty and oppression by helping people build secure, productive and just communities.",
+             "donateUrl": "https://www.mercycorps.org/donate",
+             "iconImage": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAUuAAAAJGRmNjBjM2YzLWE4ODYtNDc3My1hZjcwLTg5ZmZiMjZiMTc4NQ.png"
+             },
+             {
+             "name": "Natural Resources Defense Council",
+             "category": "Environment",
+             "imageUrl": "https://www.nrdc.org/sites/all/themes/custom/nrdc/images/logofb.v2.png",
+             "websiteUrl": "https://www.nrdc.org/",
+             "description": "NRDC works to safeguard the earth—its people, its plants and animals, and the natural systems on which all life depends. \nWe combine the power of more than two million members and online activists with the expertise of some 500 scientists, lawyers, and policy advocates across the globe to ensure the rights of all people to the air, the water, and the wild.",
+             "donateUrl": "https://secure.nrdconline.org/site/Donation2?df_id=16977&16977.donation=form1&s_src=WBLFFCDONNGSC&_ga=2.14829878.168352304.1502302653-2028762965.1502302653",
+             "iconImage": "http://maryscottnabers.com/wp-content/uploads/2016/07/ISD_NRDC-logo_web.jpg"
+             },
+             {
+             "name": "Planned Parenthood",
+             "category": "Health",
+             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Planned_Parenthood_logo.svg/1200px-Planned_Parenthood_logo.svg.png",
+             "websiteUrl": "https://plannedparenthood.org",
+             "description": "A trusted health care provider, an informed educator, a passionate advocate, and a global partner helping similar organizations around the world, Planned Parenthood delivers vital reproductive health care, sex education, and information to millions of women, men, and young people worldwide. For 100 years, Planned Parenthood has promoted a commonsense approach to women’s health and well-being, based on respect for each individual’s right to make informed, independent decisions about health, sex, and family planning.",
+             "donateUrl": "https://secure.ppaction.org/site/Donation2?df_id=24756&24756.donation=form1",
+             "iconImage": "https://lh3.googleusercontent.com/-asKoiXAhrxc/AAAAAAAAAAI/AAAAAAAAAXI/pAa3hf3l63E/photo.jpg"
+             },
+             {
+             "name": "Safe Kids Worldwide",
+             "category": "Health",
+             "imageUrl": "https://www.safekids.org/sites/default/files/Images/GetInvloved/team-safe-kids.jpg",
+             "websiteUrl": "https://www.safekids.org/",
+             "description": "Safe Kids Worldwide is a global organization dedicated to preventing injuries in children, the number one killer of kids in the United States. Around the world, a child dies from an unintentional injury every 30 seconds. And millions of children are injured in ways that can affect them for a lifetime. \nWhen a child dies or is seriously injured, the lives of families and entire communities are changed forever. But these tragedies don’t have to happen. The important thing to remember about preventable injuries is that they are preventable. They often occur in predictable ways and can be completely avoided with the right education, awareness and planning. \nSafe Kids works with an extensive network of more than 400 coalitions in the United States and partners with organizations in 25 countries around the world to reduce injuries from motor vehicles, sports, drownings, falls, burns, poisonings and more. \nSince 1988, when Safe Kids was founded by Dr. Marty Eichelberger of the Children’s National Health System with support from founding sponsor, Johnson & Johnson, there has been a 60 percent decrease in the unintentional injury rate among children 19 years and younger. \nWorking together, we can do much more for kids everywhere.",
+             "donateUrl": "https://salsa4.salsalabs.com/o/51121/p/salsa/donation/common/public/?donate_page_KEY=10600",
+             "iconImage": "https://www.safekids.org/sites/default/files/SafeKidsLogo_corp_rgb_pos.jpg"
+             },
+             {
+             "name": "Oxfam International",
+             "category": "International",
+             "imageUrl": "http://static.oxfamamerica.org.s3.amazonaws.com/images/logos/oxfam_logo_horizontal_green_rgb.png",
+             "websiteUrl": "https://www.oxfam.org/",
+             "description": "Oxfam is a global movement of people working together to end the injustice of poverty. With 70 years of experience in more than 90 countries, Oxfam takes on the big issues that keep people poor: inequality, discrimination, and unequal access to resources including food, water, and land. We help people save lives in disasters, build stronger futures for themselves, and hold the powerful accountable.",
+             "donateUrl": "https://www.oxfamamerica.org/donate/",
+             "iconImage": "http://www.cosmopolitalians.eu/wp-content/uploads/2015/07/OI-Oxfam-International-Logo.jpg"
+             },
+             {
+             "name": "Cystic Fibrosis Foundation",
+             "category": "Health",
+             "imageUrl": "http://fightcf.cff.org/gs13/image/national/cystic-fibrosis-foundation-2x.png",
+             "websiteUrl": "https://www.cff.org/",
+             "description": "The mission of the Cystic Fibrosis Foundation is to cure cystic fibrosis and to provide all people with the disease the opportunity to lead full, productive lives by funding research and drug development, promoting individualized treatment and ensuring access to high-quality, specialized care.",
+             "donateUrl": "https://secure2.convio.net/cffh/site/Donation2;jsessionid=74EF1DA9F9D559FFE65DCB760E0F8CDD.app212a?1761.donation=form1&df_id=1761&_ga=2.208674523.899662305.1502305383-574906743.1502305383",
+             "iconImage": "https://lh6.googleusercontent.com/-L9-S5yNfZik/AAAAAAAAAAI/AAAAAAAAAKE/SsfoQXydouo/s0-c-k-no-ns/photo.jpg"
+             },
+             {
+             "name": "National Multiple Sclerosis Society",
+             "category": "Health",
+             "imageUrl": "http://www.nchc.org/wp-content/uploads/2017/04/National-Multiple-Sclerosis-Society-Logo.png",
+             "websiteUrl": "http://www.nationalmssociety.org/",
+             "description": "The National MS Society's vision is a world free of MS. \nThe Society mobilizes people and resources so that everyone affected by MS can live their best lives as we stop MS in its tracks, restore what has been lost and end MS forever.",
+             "donateUrl": "http://www.nationalmssociety.org/Donate",
+             "iconImage": "https://secure3.convio.net/nmss/images/content/pagebuilder/logo-nmss-square.jpg"
+             },
+             {
+             "name": "Humane Society",
+             "category": "Animals",
+             "imageUrl": "https://www.animalsheltering.org/sites/all/themes/aso/images/HSUSLogoDesktop.svg",
+             "websiteUrl": "http://www.humanesociety.org/",
+             "description": "The Humane Society of the United States is the nation’s largest and most effective animal protection organization. \nWe and our affiliates provide hands-on care and services to more than 100,000 animals each year, and we professionalize the field through education and training for local organizations. We are the leading animal advocacy organization, seeking a humane world for people and animals alike. We are driving transformational change in the U.S. and around the world by combating large-scale cruelties such as puppy mills, animal fighting, factory farming, seal slaughter, horse cruelty, captive hunts and the wildlife trade.",
+             "donateUrl": "https://secure.humanesociety.org/site/Donation2?df_id=23356&23356.donation=form1&s_pDX=1&s_pFreq=m&s_pAmt=19&s_src=web_topnav_bd_monthly_lform_id93480558",
+             "iconImage": "http://humanesocietycc.org/wp-content/uploads/2015/07/humanesocietylogo.jpeg"
+             }
     ]
 }
 

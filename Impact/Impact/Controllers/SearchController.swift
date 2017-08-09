@@ -12,7 +12,7 @@ import UIKit
 
 class SearchController: UITableViewController, UISearchResultsUpdating{
     
-    
+    var org: OrganizationClass?
     var unfilteredOrgs = [OrganizationClass]()
     var filteredOrgs = [OrganizationClass]()
     let searchController = UISearchController(searchResultsController: nil)
@@ -47,7 +47,7 @@ class SearchController: UITableViewController, UISearchResultsUpdating{
         definesPresentationContext = true
         tableView.tableHeaderView = searchController.searchBar
         
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "searchCell")
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -55,7 +55,7 @@ class SearchController: UITableViewController, UISearchResultsUpdating{
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell 	{
-        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "cell")
+        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "searchCell")
         
         cell.textLabel?.text = self.filteredOrgs[indexPath.row].charityName
         cell.detailTextLabel?.text = self.filteredOrgs[indexPath.row].categoryName
@@ -74,6 +74,19 @@ class SearchController: UITableViewController, UISearchResultsUpdating{
         
         self.tableView.reloadData()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let identifier = segue.identifier {
+            if identifier == "searchToInfo"{
+                let indexPath = tableView.indexPathForSelectedRow!
+                let eachOrg = filteredOrgs[indexPath.row]
+                let infoController = segue.destination as! InfoController
+                infoController.org = eachOrg
+                
+            }
+        }
+    }
+
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "searchToInfo", sender: self)

@@ -26,7 +26,7 @@
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="55" id="Gn0-xi-Yrj">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="searchCell" rowHeight="55" id="Gn0-xi-Yrj">
                                 <rect key="frame" x="0.0" y="72" width="375" height="55"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gn0-xi-Yrj" id="SeR-FD-96q">
@@ -62,9 +62,6 @@
                                         <constraint firstItem="FV9-LT-Cxj" firstAttribute="leading" secondItem="SeR-FD-96q" secondAttribute="leading" constant="23.999999999999993" id="Iyb-4c-jzD"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="ZUO-zq-hpa" kind="show" identifier="searchToInfo" id="fWf-xS-9fR"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -75,6 +72,7 @@
                     <navigationItem key="navigationItem" title="Search" id="Puc-bX-uYK"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="qZQ-E8-lDl" id="TRw-id-BNh"/>
+                        <segue destination="ZUO-zq-hpa" kind="show" identifier="searchToInfo" id="D79-sV-gNM"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nO2-KT-csc" userLabel="First Responder" sceneMemberID="firstResponder"/>

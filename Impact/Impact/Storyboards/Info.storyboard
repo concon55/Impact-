@@ -102,7 +102,7 @@
                                                             <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <segue destination="R7X-UE-Ked" kind="show" identifier="toDonate" id="Kor-3E-Wrx"/>
+                                                            <segue destination="R7X-UE-Ked" kind="show" identifier="toDonate" id="e66-6I-6sd"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -155,7 +155,7 @@
             </objects>
             <point key="canvasLocation" x="488" y="13"/>
         </scene>
-        <!--Website Controller-->
+        <!--Website-->
         <scene sceneID="1nN-lC-6Yu">
             <objects>
                 <viewController id="0SO-Bs-PhB" customClass="WebsiteController" customModule="Impact" customModuleProvider="target" sceneMemberID="viewController">
@@ -198,6 +198,7 @@
                             <constraint firstItem="pIo-IK-lBN" firstAttribute="top" secondItem="wwI-e3-0sb" secondAttribute="bottom" constant="8" id="gsQ-ph-762"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Website" id="aij-s4-UV2"/>
                     <connections>
                         <outlet property="backButton" destination="cl6-Fg-Axx" id="iHG-Ev-nhO"/>
                         <outlet property="forwardButton" destination="pIo-IK-lBN" id="anD-db-D4Y"/>
@@ -211,7 +212,7 @@
         <!--Donate-->
         <scene sceneID="fXN-Vl-dE4">
             <objects>
-                <viewController id="R7X-UE-Ked" sceneMemberID="viewController">
+                <viewController id="R7X-UE-Ked" customClass="DonateController" customModule="Impact" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iWJ-OA-mfB"/>
                         <viewControllerLayoutGuide type="bottom" id="q47-in-53c"/>
@@ -219,9 +220,47 @@
                     <view key="view" contentMode="scaleToFill" id="QES-zu-D7i">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JeA-rZ-F02">
+                                <rect key="frame" x="20" y="686" width="80" height="40"/>
+                                <state key="normal" title="Back" image="Back 40"/>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="0SO-Bs-PhB" eventType="touchUpInside" id="Nz2-Mu-4gv"/>
+                                    <action selector="donateBackTapped:" destination="R7X-UE-Ked" eventType="touchUpInside" id="kMu-o7-gnd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwe-xJ-Xn6">
+                                <rect key="frame" x="62" y="686" width="107" height="40"/>
+                                <state key="normal" title="Forward" image="Forward 40"/>
+                                <connections>
+                                    <action selector="donateForwardTapped:" destination="R7X-UE-Ked" eventType="touchUpInside" id="xem-TJ-d37"/>
+                                    <action selector="forwardButtonTapped:" destination="0SO-Bs-PhB" eventType="touchUpInside" id="qbb-u3-TZc"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zQs-KQ-bs1">
+                                <rect key="frame" x="0.0" y="64" width="414" height="614"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fwe-xJ-Xn6" firstAttribute="top" secondItem="zQs-KQ-bs1" secondAttribute="bottom" constant="8" id="0eA-PD-Qpk"/>
+                            <constraint firstItem="zQs-KQ-bs1" firstAttribute="leading" secondItem="QES-zu-D7i" secondAttribute="leading" id="2QH-Ry-EYu"/>
+                            <constraint firstItem="JeA-rZ-F02" firstAttribute="leading" secondItem="QES-zu-D7i" secondAttribute="leadingMargin" id="4i0-pI-oqA"/>
+                            <constraint firstItem="fwe-xJ-Xn6" firstAttribute="top" secondItem="zQs-KQ-bs1" secondAttribute="bottom" constant="8" id="7hY-gU-zR0"/>
+                            <constraint firstItem="q47-in-53c" firstAttribute="top" secondItem="JeA-rZ-F02" secondAttribute="bottom" constant="10" id="EQK-9p-6aK"/>
+                            <constraint firstItem="fwe-xJ-Xn6" firstAttribute="leading" secondItem="QES-zu-D7i" secondAttribute="leadingMargin" constant="42" id="Suq-uL-lxk"/>
+                            <constraint firstAttribute="trailing" secondItem="zQs-KQ-bs1" secondAttribute="trailing" id="aZL-PD-DVl"/>
+                            <constraint firstItem="JeA-rZ-F02" firstAttribute="top" secondItem="zQs-KQ-bs1" secondAttribute="bottom" constant="8" id="jl3-gf-HoH"/>
+                            <constraint firstItem="zQs-KQ-bs1" firstAttribute="top" secondItem="QES-zu-D7i" secondAttribute="top" constant="64" id="lme-l7-C64"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Donate" id="nx3-25-jal"/>
+                    <connections>
+                        <outlet property="donateBackButton" destination="JeA-rZ-F02" id="PUD-2m-Sfg"/>
+                        <outlet property="donateForwardButton" destination="fwe-xJ-Xn6" id="7dd-UO-wb3"/>
+                        <outlet property="donateWebView" destination="zQs-KQ-bs1" id="Byo-DD-qUv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BDg-fN-L8t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

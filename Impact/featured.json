@@ -25,6 +25,24 @@
              "donateUrl": "http://wwf.panda.org/how_you_can_help/support_wwf/donate/",
              "iconImage": "http://d1diae5goewto1.cloudfront.net/_skins/pandaorg3/img/logo.png"
         },
+        {
+             "name": "International Rescue Committee",
+             "category": "International",
+             "imageUrl": "http://job.bangkokpost.com/img_company/thumbnail/prefix_1/0036/36/company-36-960X200.jpg",
+             "websiteUrl": "https://www.rescue.org/",
+             "description": "International Rescue Committee (IRC) responds to the world’s worst humanitarian crises & helps people to survive, recover & gain control of their future.",
+             "donateUrl": "https://help.rescue.org/donate?ms=ws_resq_top_nav_btn_161010&initialms=ws_resq_top_nav_btn_161010",
+             "iconImage": "https://lh5.googleusercontent.com/-NJ6anwslbKA/AAAAAAAAAAI/AAAAAAAAGKA/YUwikWQtMbM/s0-c-k-no-ns/photo.jpg"
+        },
+        {
+             "name": "Disabled American Veterans",
+             "category": "Human Services",
+             "imageUrl": "http://www.mi-dav.org/portals/0/logo.jpg",
+             "websiteUrl": "https://www.dav.org/",
+             "description": "DAV (Disabled American Veterans) is a leading nonprofit that provides a lifetime of support for veterans of all generations and their families. Every year, we help more than 1 million veterans in positive, life-changing ways by helping them access benefits they earned, like healthcare, education and disability, and connecting them to meaningful employment opportunities. DAV is the nation’s most resourceful veterans service organization, keeping the promise to support America’s veterans.",
+             "donateUrl": "https://secure.dav.org/site/Donation2;jsessionid=00000000.app311a?df_id=9420&9420.donation=form1&s_src=1402DRWEB01&NONCE_TOKEN=14337F87D5C7FEB790B39EEEDA19C72F",
+             "iconImage": "https://upload.wikimedia.org/wikipedia/en/e/ee/Disabled_American_Veterans_logo.jpg"
+        },
 		{
 			"name": "Human Rights Campaign",
 			"category": "Human Rights, Civil Liberties",

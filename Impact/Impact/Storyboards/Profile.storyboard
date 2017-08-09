@@ -22,31 +22,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpT-ZR-vly">
-                                <rect key="frame" x="98" y="113" width="218" height="30.333333333333314"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpT-ZR-vly">
+                                <rect key="frame" x="98" y="112.99999999999999" width="218" height="30.666666666666643"/>
                                 <color key="tintColor" red="0.29411764705882354" green="0.34509803921568627" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.4392156862745098" green="0.41568627450980389" blue="0.41176470588235292" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oft-58-frB">
-                                <rect key="frame" x="46" y="189" width="322" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.11372549019607843" green="0.090196078431372548" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Recommend an organization">
-                                    <color key="titleColor" red="0.84313725490196079" green="1" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zw-Uw-ge6">
+                                <rect key="frame" x="102" y="264" width="210" height="36"/>
+                                <color key="backgroundColor" red="0.12415765970945358" green="0.13311344385147095" blue="0.17874377965927124" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="Account Settings">
+                                    <color key="titleColor" red="0.84313725490000002" green="1" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="oD3-Bc-juH" kind="show" id="Zq1-TZ-5rf"/>
+                                    <segue destination="8HP-vS-tdV" kind="show" id="Art-U3-7io"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oft-58-frB">
+                                <rect key="frame" x="46" y="350" width="322" height="37"/>
+                                <color key="backgroundColor" red="0.11372549019607843" green="0.090196078431372548" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="Recommend an organization">
+                                    <color key="titleColor" red="0.84313725490000002" green="1" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="oD3-Bc-juH" kind="show" identifier="toSubmit" id="Zq1-TZ-5rf"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1647058824" green="0.26403784749999998" blue="0.34450948240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="oft-58-frB" secondAttribute="trailing" constant="26" id="3OA-F3-rcB"/>
+                            <constraint firstItem="oft-58-frB" firstAttribute="centerX" secondItem="gM5-Iw-t1I" secondAttribute="centerX" id="6Vd-dd-L1L"/>
+                            <constraint firstItem="9zw-Uw-ge6" firstAttribute="top" secondItem="xpT-ZR-vly" secondAttribute="bottom" constant="120.33" id="7sw-ba-PMH"/>
+                            <constraint firstItem="oft-58-frB" firstAttribute="leading" secondItem="gM5-Iw-t1I" secondAttribute="leadingMargin" constant="26" id="DXG-2z-HE7"/>
+                            <constraint firstItem="9zw-Uw-ge6" firstAttribute="leading" secondItem="gM5-Iw-t1I" secondAttribute="leadingMargin" constant="82" id="Dy6-3Y-BcP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xpT-ZR-vly" secondAttribute="trailing" constant="78" id="HH8-ja-jnp"/>
+                            <constraint firstItem="xpT-ZR-vly" firstAttribute="leading" secondItem="gM5-Iw-t1I" secondAttribute="leadingMargin" constant="78" id="L2f-IE-SIr"/>
+                            <constraint firstItem="xpT-ZR-vly" firstAttribute="top" secondItem="R0A-BA-yhS" secondAttribute="bottom" constant="49" id="Nlx-lV-8W4"/>
+                            <constraint firstItem="oft-58-frB" firstAttribute="top" secondItem="xpT-ZR-vly" secondAttribute="bottom" constant="206.33333333333337" id="aPw-IS-x8O"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9zw-Uw-ge6" secondAttribute="trailing" constant="82" id="pTc-YI-q8k"/>
+                            <constraint firstItem="9zw-Uw-ge6" firstAttribute="centerX" secondItem="gM5-Iw-t1I" secondAttribute="centerX" id="wPy-Gs-lti"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="o4Q-dh-pul">
                         <barButtonItem key="rightBarButtonItem" title="Log Out" id="kqL-RB-KWb">
@@ -57,16 +82,18 @@
                     </navigationItem>
                     <connections>
                         <outlet property="logoutButton" destination="kqL-RB-KWb" id="jVU-Rg-gb1"/>
+                        <outlet property="recommendButton" destination="oft-58-frB" id="BOK-Tc-Tap"/>
+                        <outlet property="usernameLabel" destination="xpT-ZR-vly" id="eK4-aJ-1yO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CzV-29-Joh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="388.125" y="-653.87323943661977"/>
+            <point key="canvasLocation" x="386.95652173913044" y="-654.61956521739137"/>
         </scene>
         <!--Submit-->
         <scene sceneID="mQp-pC-nKF">
             <objects>
-                <viewController id="oD3-Bc-juH" sceneMemberID="viewController">
+                <viewController id="oD3-Bc-juH" customClass="SubmitController" customModule="Impact" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jbU-gM-y8q"/>
                         <viewControllerLayoutGuide type="bottom" id="eeX-pr-ulL"/>
@@ -159,12 +186,41 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Submit" id="XLH-09-FMx">
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="sn7-Vb-PfG"/>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="sn7-Vb-PfG">
+                            <connections>
+                                <action selector="doneButtonTapped:" destination="oD3-Bc-juH" id="2gE-jc-jVw"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="descriptionTextField" destination="7Dq-IP-q6W" id="pBp-do-zRS"/>
+                        <outlet property="doneButton" destination="sn7-Vb-PfG" id="4Rq-KY-v9v"/>
+                        <outlet property="nameTextField" destination="hBr-Hk-hNP" id="Lut-9F-DAA"/>
+                        <outlet property="urlTextField" destination="pcI-eB-qpp" id="Sco-Cg-fId"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yO4-YB-Fcr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1232" y="-655"/>
+            <point key="canvasLocation" x="1154" y="-902"/>
+        </scene>
+        <!--Account Settings-->
+        <scene sceneID="sr6-aG-hup">
+            <objects>
+                <viewController id="8HP-vS-tdV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="M0H-Wc-KgF"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Kn-xU-4n5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A4k-WD-QQs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Account Settings" id="B2K-Eg-p6U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KRE-2N-FXx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1154" y="-240"/>
         </scene>
         <!--Profile-->
         <scene sceneID="BmL-vU-nQc">

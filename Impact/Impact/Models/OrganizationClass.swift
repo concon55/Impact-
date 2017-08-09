@@ -27,7 +27,7 @@ struct OrganizationClass: Equatable{
         self.categoryName = json["category"].stringValue
         self.charityName = json["name"].stringValue
         self.description = json["description"].stringValue
-        self.donationURL = json["donationUrl"].stringValue
+        self.donationURL = json["donateUrl"].stringValue
         self.websiteUrl = json["websiteUrl"].stringValue
         self.imageUrl = json["imageUrl"].stringValue
         self.iconImage = json["iconImage"].stringValue

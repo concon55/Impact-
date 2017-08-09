@@ -47,6 +47,11 @@ class InfoController: UIViewController{
                 websiteController.websiteUrl = website!
                 
             }
+            if identifier == "toDonate"{
+                let donate = org?.donationURL
+                let donateController = segue.destination as! DonateController
+                donateController.donateUrl = donate!
+            }
         }
     }
 

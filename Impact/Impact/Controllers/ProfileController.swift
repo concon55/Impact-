@@ -16,10 +16,15 @@ class ProfileController: UIViewController{
     
     var authHandle: AuthStateDidChangeListenerHandle?
     
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var recommendButton: UIButton!
     @IBOutlet weak var logoutButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        let username = User.current.username
+        usernameLabel.text = username
         
         authHandle = Auth.auth().addStateDidChangeListener() { [unowned self] (auth, user) in
             guard user == nil else { return }

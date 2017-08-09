@@ -15,61 +15,43 @@ typealias FIRUser = FirebaseAuth.User
 
 class LoginViewController: UIViewController {
     
-    
-    @IBOutlet weak var impactLabel: UILabel!
-    @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var forgotButton: UIButton!
-    @IBOutlet weak var loginButton: UIButton!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
-        
-        //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
-        //tap.cancelsTouchesInView = false
-        
-        view.addGestureRecognizer(tap)
+    @IBOutlet weak var loginRegisterButton: UIButton!
 
-    }
-    
-    func dismissKeyboard() {
-        //Causes the view (or one of its embedded text fields) to resign the first responder status.
-        view.endEditing(true)
+    override func viewDidLoad(){
+        super.viewDidLoad()
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    @IBAction func forgotButtonTapped(_ sender: UIButton) {
+    @IBAction func loginButtonTapped(_ sender: Any) {
+        // 1: access FUIAuth default auth UI singleton
+        guard let authUI = FUIAuth.defaultAuthUI()
+            else { return }
         
+        // 2: set FUIAuth's singleton delegate
+        authUI.delegate = self
+        
+        // 3: present the auth view controller
+        let authViewController = authUI.authViewController()
+        present(authViewController, animated: true)
     }
-    
-    @IBAction func loginButtonTapped(_ sender: UIButton) {
-        guard let email = emailTextField.text, let password = passwordTextField.text else { return }
-        Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
-            if let error = error {
-                print(error.localizedDescription)
-                return
-            }
-        }
-    }
-    
+
 }
 
 extension LoginViewController: FUIAuthDelegate {
+    
     func authUI(_ authUI: FUIAuth, didSignInWith user: FIRUser?, error: Error?) {
 //        if let error = error {
 //            assertionFailure("Error signing in: \(error.localizedDescription)")
 //            return
 //        }
         
-        // 1
         guard let user = user
             else { return }
         
+        //store current user in UserDefaults
         UserService.show(forUID: user.uid) { (user) in
             if let user = user {
                 // handle existing user
@@ -80,14 +62,8 @@ extension LoginViewController: FUIAuthDelegate {
                 self.view.window?.makeKeyAndVisible()
             } else {
                 // handle new user
-                self.performSegue(withIdentifier: "toCreateNew", sender: self)
+                self.performSegue(withIdentifier: Constants.Segue.toCreateUsername, sender: self)
             }
         }
-    }
-    
-    func sendPasswordReset(withEmail email: String, completion: SendPasswordResetCallback? = nil){
-        print("Email sent")
-        
-        
     }
 }
