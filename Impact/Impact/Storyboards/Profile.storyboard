@@ -74,7 +74,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="o4Q-dh-pul">
-                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="kqL-RB-KWb">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="kqL-RB-KWb">
                             <connections>
                                 <action selector="logoutButtonTapped:" destination="V0r-hZ-hn6" id="XSA-WJ-YIP"/>
                             </connections>
@@ -88,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CzV-29-Joh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="386.95652173913044" y="-654.61956521739137"/>
+            <point key="canvasLocation" x="322" y="-655"/>
         </scene>
         <!--Submit-->
         <scene sceneID="mQp-pC-nKF">
@@ -201,12 +201,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yO4-YB-Fcr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1154" y="-902"/>
+            <point key="canvasLocation" x="1090" y="-980"/>
         </scene>
         <!--Account Settings-->
         <scene sceneID="sr6-aG-hup">
             <objects>
-                <viewController id="8HP-vS-tdV" sceneMemberID="viewController">
+                <viewController id="8HP-vS-tdV" customClass="SettingsController" customModule="Impact" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M0H-Wc-KgF"/>
                         <viewControllerLayoutGuide type="bottom" id="8Kn-xU-4n5"/>
@@ -214,13 +214,70 @@
                     <view key="view" contentMode="scaleToFill" id="A4k-WD-QQs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="Ga2-RX-QN1">
+                                <rect key="frame" x="47" y="161" width="320" height="136"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UzF-Sz-ZxA">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TTM-kO-PlA">
+                                        <rect key="frame" x="0.0" y="53" width="320" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Epx-1U-nSO">
+                                        <rect key="frame" x="0.0" y="106" width="320" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oqx-EP-QHY">
+                                <rect key="frame" x="70" y="649" width="274" height="30"/>
+                                <state key="normal" title="Delete account">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="deleteTapped:" destination="8HP-vS-tdV" eventType="touchUpInside" id="cy5-bX-7WG"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Oqx-EP-QHY" firstAttribute="leading" secondItem="A4k-WD-QQs" secondAttribute="leadingMargin" constant="50" id="D9S-6A-n5n"/>
+                            <constraint firstItem="Oqx-EP-QHY" firstAttribute="centerX" secondItem="A4k-WD-QQs" secondAttribute="centerX" id="WVv-GI-8JQ"/>
+                            <constraint firstItem="Ga2-RX-QN1" firstAttribute="top" secondItem="M0H-Wc-KgF" secondAttribute="bottom" constant="97" id="YSV-Yr-yxG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Oqx-EP-QHY" secondAttribute="trailing" constant="50" id="hti-WH-6sh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ga2-RX-QN1" secondAttribute="trailing" constant="27" id="n0F-1J-MDG"/>
+                            <constraint firstItem="8Kn-xU-4n5" firstAttribute="top" secondItem="Oqx-EP-QHY" secondAttribute="bottom" constant="8" id="nm4-eh-O6W"/>
+                            <constraint firstItem="Ga2-RX-QN1" firstAttribute="centerX" secondItem="A4k-WD-QQs" secondAttribute="centerX" id="t1q-FX-anB"/>
+                            <constraint firstItem="Ga2-RX-QN1" firstAttribute="leading" secondItem="A4k-WD-QQs" secondAttribute="leadingMargin" constant="27" id="xT1-6B-wFt"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Account Settings" id="B2K-Eg-p6U"/>
+                    <navigationItem key="navigationItem" title="Account Settings" id="B2K-Eg-p6U">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="Vsm-Yd-yRq">
+                            <connections>
+                                <action selector="doneButtonTapped:" destination="8HP-vS-tdV" id="LuD-Jm-eua"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="deleteButton" destination="Oqx-EP-QHY" id="uDz-ej-5Ye"/>
+                        <outlet property="doneButton" destination="Vsm-Yd-yRq" id="O3K-dq-hAC"/>
+                        <outlet property="emailTextField" destination="Epx-1U-nSO" id="TYb-BR-VKw"/>
+                        <outlet property="nameTextField" destination="UzF-Sz-ZxA" id="wXb-Tb-KkW"/>
+                        <outlet property="usernameTextField" destination="TTM-kO-PlA" id="8aZ-YM-0Nx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KRE-2N-FXx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1154" y="-240"/>
+            <point key="canvasLocation" x="1090" y="-308"/>
         </scene>
         <!--Profile-->
         <scene sceneID="BmL-vU-nQc">

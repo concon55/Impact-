@@ -48,7 +48,7 @@ class SubmitController: UIViewController{
             // For Dismissing the Popup
             self.dismiss(animated: true, completion: nil)
             
-            // Dismiss current Viewcontroller and back to ViewController B
+            // Dismiss current Viewcontroller and go back 
             self.navigationController?.popViewController(animated: true)
             
         }

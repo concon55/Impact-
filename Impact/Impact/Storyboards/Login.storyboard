@@ -37,7 +37,7 @@
                                     <constraint firstAttribute="height" constant="35" id="reG-Mj-CAf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="Log In / Register">
+                                <state key="normal" title="Log In or Register">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>

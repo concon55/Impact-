@@ -17,6 +17,15 @@
 			"donateUrl": "https://donate.hrw.org/ea-action/action?ea.client.id=1908&ea.campaign.id=36711&ea.tracking.id=ED2017EVSCgl"
 		},
         {
+             "name": "Planned Parenthood",
+             "category": "Health",
+             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Planned_Parenthood_logo.svg/1200px-Planned_Parenthood_logo.svg.png",
+             "websiteUrl": "https://plannedparenthood.org",
+             "description": "A trusted health care provider, an informed educator, a passionate advocate, and a global partner helping similar organizations around the world, Planned Parenthood delivers vital reproductive health care, sex education, and information to millions of women, men, and young people worldwide. For 100 years, Planned Parenthood has promoted a commonsense approach to women’s health and well-being, based on respect for each individual’s right to make informed, independent decisions about health, sex, and family planning.",
+             "donateUrl": "https://secure.ppaction.org/site/Donation2?df_id=24756&24756.donation=form1",
+             "iconImage": "https://lh3.googleusercontent.com/-asKoiXAhrxc/AAAAAAAAAAI/AAAAAAAAAXI/pAa3hf3l63E/photo.jpg"
+        },
+        {
              "name": "WWF",
              "category": "Environment",
              "imageUrl": "http://assets.wwf.org.uk/custom/lpr2016/media/do-it-for-your-planet.png",
