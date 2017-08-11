@@ -25,11 +25,11 @@
                                 <rect key="frame" x="0.0" y="304" width="414" height="128"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfv-gv-Set">
-                                        <rect key="frame" x="125.66666666666669" y="30" width="163" height="68"/>
+                                        <rect key="frame" x="125.66666666666669" y="32.666666666666686" width="163" height="62.666666666666629"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="163" id="rHe-uK-u3g"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="49"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="45"/>
                                         <color key="textColor" red="0.1820062697" green="0.29534885290000001" blue="0.38324946170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="0.99019607840000001" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

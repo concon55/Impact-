@@ -17,7 +17,6 @@ class InfoController: UIViewController{
     var organizations = [OrganizationClass]()
     var filtered = [OrganizationClass]()
     
-    @IBOutlet weak var favoriteButton: UIButton!
     @IBOutlet weak var donateButton: UIButton!
     @IBOutlet weak var websiteButton: UIButton!
     @IBOutlet weak var infoDescriptionLabel: UILabel!
@@ -33,7 +32,6 @@ class InfoController: UIViewController{
         infoDescriptionLabel.numberOfLines = 0
         let imageUrl = org?.imageUrl
         infoImageView.af_setImage(withURL: URL(string: imageUrl!)!)
-        
     }
     
     @IBAction func favoriteButtonTapped(_ sender: UIButton) {
@@ -45,8 +43,8 @@ class InfoController: UIViewController{
                 let website = org?.websiteUrl
                 let websiteController = segue.destination as! WebsiteController
                 websiteController.websiteUrl = website!
-                
             }
+            
             if identifier == "toDonate"{
                 let donate = org?.donationURL
                 let donateController = segue.destination as! DonateController

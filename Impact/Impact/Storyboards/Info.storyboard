@@ -9,11 +9,6 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Om Telolet Om.otf">
-            <string>OmTeloletOm</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Info Controller-->
         <scene sceneID="ZEq-qI-V8v">
@@ -61,26 +56,14 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1yn-w9-lPy">
                                                 <rect key="frame" x="10" y="54" width="394" height="158"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMa-1n-tsM">
-                                                        <rect key="frame" x="180.66666666666666" y="0.0" width="33" height="36"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="36" id="Uky-RZ-RZU"/>
-                                                            <constraint firstAttribute="width" constant="33" id="aRh-bk-gzJ"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="OmTeloletOm" family="Om Telolet Om" pointSize="17"/>
-                                                        <state key="normal" title="Button" image="btn_heart_black_outline"/>
-                                                        <connections>
-                                                            <action selector="favoriteButtonTapped:" destination="bh0-6P-Nkn" eventType="touchUpInside" id="3Tu-Wj-nhp"/>
-                                                        </connections>
-                                                    </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Org Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="a3Z-Gn-NM6">
-                                                        <rect key="frame" x="0.0" y="41" width="394" height="41"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="41"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
                                                         <color key="textColor" red="0.10196078431372549" green="0.19607843137254902" blue="0.25882352941176467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MI8-ed-VZE">
-                                                        <rect key="frame" x="166" y="87" width="62" height="36"/>
+                                                        <rect key="frame" x="166" y="46" width="62" height="77"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                         <state key="normal" title="Website"/>
                                                         <connections>
@@ -144,7 +127,6 @@
                     <navigationItem key="navigationItem" id="Mf1-4A-CWY"/>
                     <connections>
                         <outlet property="donateButton" destination="X7q-5O-ayI" id="D6x-fL-Sjn"/>
-                        <outlet property="favoriteButton" destination="tMa-1n-tsM" id="jMj-Ay-0DM"/>
                         <outlet property="infoDescriptionLabel" destination="XyC-lz-f5C" id="7pL-7V-iSM"/>
                         <outlet property="infoImageView" destination="9WG-j1-GYf" id="qx4-8B-0Wi"/>
                         <outlet property="infoNameLabel" destination="a3Z-Gn-NM6" id="pHi-In-hwY"/>
@@ -288,6 +270,5 @@
     <resources>
         <image name="Back 40" width="40" height="40"/>
         <image name="Forward 40" width="40" height="40"/>
-        <image name="btn_heart_black_outline" width="24" height="24"/>
     </resources>
 </document>

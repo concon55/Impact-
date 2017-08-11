@@ -54,7 +54,7 @@ class User: NSObject {
     //MARK: - Properties
     
     let uid: String
-    let username: String
+    var username: String
     
     //MARK: - Init
     

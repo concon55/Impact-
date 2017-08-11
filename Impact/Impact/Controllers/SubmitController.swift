@@ -37,9 +37,9 @@ class SubmitController: UIViewController{
     
     @IBAction func doneButtonTapped(_ sender: UIBarButtonItem) {
         let ref = Database.database().reference()
-        ref.child("posts").child(User.current.uid).childByAutoId().setValue(nameTextField.text)
-        ref.child("posts").child(User.current.uid).childByAutoId().setValue(urlTextField.text)
-        ref.child("posts").child(User.current.uid).childByAutoId().setValue(descriptionTextField.text)
+        ref.child("recommendations").child(User.current.uid).childByAutoId().setValue(nameTextField.text)
+        ref.child("recommendations").child(User.current.uid).childByAutoId().setValue(urlTextField.text)
+        ref.child("recommendations").child(User.current.uid).childByAutoId().setValue(descriptionTextField.text)
         
         let alertController = UIAlertController(title: "Submitted", message: "Thank you for your recommendation", preferredStyle: .alert)
         

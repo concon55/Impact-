@@ -22,7 +22,6 @@
                         <segue destination="GVV-xc-qMI" kind="relationship" relationship="viewControllers" id="5tT-PG-jwt"/>
                         <segue destination="OKQ-90-8lx" kind="relationship" relationship="viewControllers" id="Epr-Fg-lTE"/>
                         <segue destination="pAZ-nI-zae" kind="relationship" relationship="viewControllers" id="jw8-Df-hzQ"/>
-                        <segue destination="mOA-7G-1lw" kind="relationship" relationship="viewControllers" id="uIG-oh-PtM"/>
                         <segue destination="K2f-hL-7hc" kind="relationship" relationship="viewControllers" id="Fs9-KQ-O4L"/>
                     </connections>
                 </tabBarController>
@@ -50,16 +49,6 @@
             </objects>
             <point key="canvasLocation" x="595" y="170"/>
         </scene>
-        <!--Favorites-->
-        <scene sceneID="bVH-ZE-ybc">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Favorites" id="mOA-7G-1lw" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Dz9-ni-Tub"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kF8-0b-We0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="589" y="103"/>
-        </scene>
         <!--Profile-->
         <scene sceneID="rQV-Bj-U0Q">
             <objects>
@@ -73,10 +62,10 @@
         <!--Search-->
         <scene sceneID="KL7-sM-fvm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zff-kp-0Vl" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="Search" id="pAZ-nI-zae" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="jLe-8x-Fd6"/>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zff-kp-0Vl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="588" y="227"/>
         </scene>

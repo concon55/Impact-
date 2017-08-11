@@ -23,14 +23,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rc-4y-nCD">
-                                <rect key="frame" x="70" y="334" width="274" height="68"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="49"/>
+                                <rect key="frame" x="70" y="336.66666666666669" width="274" height="62.666666666666629"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="45"/>
                                 <color key="textColor" red="0.18200626969337463" green="0.29534885287284851" blue="0.38324946165084839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2J-Lw-tJO">
-                                <rect key="frame" x="86" y="450" width="242" height="35"/>
+                                <rect key="frame" x="86" y="447.33333333333331" width="242" height="35"/>
                                 <color key="backgroundColor" red="0.18200626969337463" green="0.29534885287284851" blue="0.38324946165084839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="34S-4P-LP5"/>
