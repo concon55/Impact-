@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import Alamofire
 import SwiftyJSON
+import Alamofire
 import AlamofireImage
 
 class ListController: UITableViewController{
@@ -73,8 +73,10 @@ class ListController: UITableViewController{
         
         cell.listNameLabel.text = eachOrg.charityName
         cell.listCategoryLabel.text = eachOrg.categoryName
+        
         let listImageUrl = eachOrg.iconImage
         cell.listImageView.af_setImage(withURL: URL(string: listImageUrl)!)
+        
         return cell
     }
 

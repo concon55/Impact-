@@ -1,100 +1,101 @@
 {
-    "data": [{
-             "name": "Human Rights Watch",
-             "category": "Human and Civil Rights",
-             "imageUrl": "http://www.y-mun.org/assets/images/HRWatch.png",
-             "websiteUrl": "https://www.hrw.org",
-             "description": "Human Rights Watch investigates and exposes human rights abuses like torture, violence against women, and child exploitation. At any given time we are actively researching, reporting, and advocating for change that protects rights and saves lives in more than 90 countries around the world. In order to maintain our independence, we accept no money from any government, directly or indirectly. We rely solely on the generosity of people like you to defend human rights.",
-             "donateUrl": "https://donate.hrw.org/ea-action/action?ea.client.id=1908&ea.campaign.id=36711&ea.tracking.id=ED2017EVSCgl",
-             "iconImage": "https://www.hrw.org/sites/all/themes/hrw/logo.png"
+    "data": [
+             {
+             "name": "UNICEF",
+             "category": "International",
+             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/UNICEF_FLAG.png",
+             "websiteUrl": "https://www.unicef.org/",
+             "description": "UNICEF works for children in more than 190 countries and territories. Every child, no matter where they live, deserves a safe and healthy childhood. The U.S. Fund for UNICEF raises funds for UNICEF's work on child survival, child development, child protection and emergencies. We believe ZERO children should be abused, exploited or denied the right to health care, education and protection. It's an ambitious goal, but we believe that unwavering commitment is the only way to guarantee a better world for children. Your support will help us build that world.",
+             "donateUrl": "https://www.unicefusa.org/help/donate",
+             "iconImage": "https://lh5.googleusercontent.com/-CrELa3pxVEc/AAAAAAAAAAI/AAAAAAAAKSU/EdvsmLkJwgo/s0-c-k-no-ns/photo.jpg"
              },
              {
-             "name": "Human Rights Campaign",
+             "name": "Human Rights Watch",
+             "category": "International",
+             "imageUrl": "http://budapestbeacon.com/wp-content/uploads/2014/01/human-rights-watch.png",
+             "websiteUrl": "https://www.hrw.org",
+             "description": "Human Rights Watch is one of the world's leading independent organizations dedicated to defending and protecting human rights. By focusing international attention where human rights are violated, we give voice to the oppressed and hold oppressors accountable for their crimes. Our rigorous, objective investigations and strategic, targeted advocacy build intense pressure for action and raise the cost of human rights abuse. For 30 years, Human Rights Watch has worked tenaciously to lay the legal and moral groundwork for deep-rooted change and has fought to bring greater justice and security to people around the world.",
+             "donateUrl": "https://donate.hrw.org/ea-action/action?ea.client.id=1908&ea.campaign.id=36711&ea.tracking.id=ED2017EVSCgl",
+             "iconImage": "https://lh5.googleusercontent.com/-paKbuJJBfGE/AAAAAAAAAAI/AAAAAAAAAHg/9jvJhgSILy4/photo.jpg"
+             },
+             {
+             "name": "Human Rights Campaign Foundation",
              "category": "Human and Civil Rights",
              "imageUrl": "http://assets.hrc.org//files/images/blog/HRCLogo-WithWords-1600x900.png",
              "websiteUrl": "http://www.hrc.org/",
-             "description": "The Human Rights Campaign represents a force of more than 1.5 million members and supporters nationwide. As the largest national lesbian, gay, bisexual, transgender and queer civil rights organization, HRC envisions a world where LGBTQ people are ensured of their basic equal rights, and can be open, honest and safe at home, at work and in the community.",
+             "description": "Through research, educational efforts and outreach, the Human Rights Campaign (HRC) Foundation encourages gay, lesbian, bisexual and transgender Americans to live their lives openly and seeks to change the hearts and minds of Americans to the side of equality. Programs funded in part or in full through the HRC Foundation include: The HRC Coming Out Project, which encourages GLBT and straight-supportive Americans to come out and live openly; The HRC Family Project, which empowers members of the GLBT community to take action to protect their families; The HRC Historically Black Colleges and Universities Outreach Program, which trains student activists to sustain dialogue, build viable student-led GLBT organizations; The HRC Religion and Faith Program, The HRC Research Center, and The HRC Workplace Project.",
              "donateUrl": "https://give.hrc.org/ea-action/action?ea.client.id=1954&ea.campaign.id=51848&ea.tracking.id=or_gnr_hrc_homepage_donate&_ga=2.239043650.350421842.1501531494-1759916274.1501531494",
              "iconImage": "https://lh5.googleusercontent.com/-98y0cq22xV8/AAAAAAAAAAI/AAAAAAAAMZQ/r_gA-cd0PSA/s0-c-k-no-ns/photo.jpg"
              },
              {
              "name": "ACLU",
              "category": "Human and Civil Rights",
-             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/American_Civil_Liberties_Union_logo.svg/250px-American_Civil_Liberties_Union_logo.svg.png",
+             "imageUrl": "https://www.aclu.org/sites/all/themes/custom/aclu/logo.png",
              "websiteUrl": "https://www.aclu.org/",
-             "description": "For nearly 100 years, the ACLU has been our nation’s guardian of liberty, working in courts, legislatures, and communities to defend and preserve the individual rights and liberties that the Constitution and the laws of the United States guarantee everyone in this country. \nWhether it’s achieving full equality for LGBT people, establishing new privacy protections for our digital age of widespread government surveillance, ending mass incarceration, or preserving the right to vote or the right to have an abortion, the ACLU takes up the toughest civil liberties cases and issues to defend all people from government abuse and overreach. \nWith more than 2 million members, activists, and supporters, the ACLU is a nationwide organization that fights tirelessly in all 50 states, Puerto Rico, and Washington, D.C., to safeguard everyone’s rights.",
+             "description": "The American Civil Liberties Union (ACLU) Foundation is the arm of the ACLU that conducts litigation and communication efforts. The Foundation provides legal presentation in cases involving issues of civil liberties and constitutional rights ranging from administrative hearings to trials and appeals. In addition, the Foundation educates the public as to civil liberties and constitutional rights by disseminating literature and other publications. The ACLU Foundation preserves and promotes civil rights and liberties as guaranteed by the United States Constitution.",
              "donateUrl": "https://action.aclu.org/donate-aclu?ms=web_horiz_nav_hp",
              "iconImage": "http://www.rifuture.org/wp-content/uploads/aclu.jpg"
              },
              {
-             "name": "Sierra Club",
-             "category": "Environment",
-             "imageUrl": "http://www.riograndesierraclub.org/wp-content/uploads/2015/08/sierraclub-logo-green-cropped.jpg",
-             "websiteUrl": "http://www.sierraclub.org/",
-             "description": "To explore, enjoy, and protect the wild places of the earth; \nTo practice and promote the responsible use of the earth's ecosystems and resources; \nTo educate and enlist humanity to protect and restore the quality of the natural and human environment; and to use all lawful means to carry out these objectives.",
-             "donateUrl": "https://vault.sierraclub.org/ways-to-give/#join-maintab",
-             "iconImage": "https://lh3.googleusercontent.com/-55AxF0ljONY/AAAAAAAAAAI/AAAAAAAADh0/Bly097lRbAw/s640/photo.jpg"
-             },
-             {
              "name": "Doctors Without Borders",
-             "category": "Health",
-             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Msf_logo.svg/250px-Msf_logo.svg.png",
+             "category": "International",
+             "imageUrl": "https://newsthatmoves.org/en/wp-content/uploads/sites/7/2017/03/13MARCH-msfclinic.png",
              "websiteUrl": "http://www.doctorswithoutborders.org/",
-             "description": "We are Doctors Without Borders/Médecins Sans Frontières (MSF). We help people worldwide where the need is greatest, delivering emergency medical aid to people affected by conflict, epidemics, disasters, or exclusion from health care.",
+             "description": "Doctors Without Borders, USA (DWB-USA) was founded in 1990 in New York City to raise funds, create awareness, recruit field staff, and advocate with the United Nations and US government on humanitarian concerns. Doctors Without Borders/Médecins Sans Frontières (MSF) is an international medical humanitarian organization that provides aid in nearly 60 countries to people whose survival is threatened by violence, neglect, or catastrophe, primarily due to armed conflict, epidemics, malnutrition, exclusion from health care, or natural disasters.",
              "donateUrl": "https://donate.doctorswithoutborders.org/onetime.cfm",
              "iconImage": "https://pbs.twimg.com/profile_images/731136576047222784/dMbDwqUa.jpg"
              },
              {
              "name": "Kiva",
-             "category": "Economic Development",
-             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kiva.org_logo_2016.svg/210px-Kiva.org_logo_2016.svg.png",
+             "category": "International",
+             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kiva.org_logo_2016.svg/2000px-Kiva.org_logo_2016.svg.png",
              "websiteUrl": "https://www.kiva.org/",
-             "description": "Kiva is an international nonprofit, founded in 2005 and based in San Francisco, with a mission to connect people through lending to alleviate poverty. We celebrate and support people looking to create a better future for themselves, their families and their communities.",
+             "description": "Kiva.org is a non-profit organization with a mission to connect people through lending to alleviate poverty. Leveraging the internet and a worldwide network of microfinance institutions, Kiva lets individuals lend as little as $25 to help create opportunity around the world.",
              "donateUrl": "https://www.kiva.org/lend",
              "iconImage": "https://lh4.googleusercontent.com/-aylEFIriEDU/AAAAAAAAAAI/AAAAAAAANRk/np7xuMAy1uc/s0-c-k-no-ns/photo.jpg"
              },
              {
-             "name": "Rotary",
-             "category": "Human Services",
-             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Rotary_International_Logo.svg/250px-Rotary_International_Logo.svg.png",
+             "name": "Rotary Foundation ",
+             "category": "International",
+             "imageUrl": "http://www.marlboroughrotary.org/wp-content/uploads/2016/06/TRF_PMS-C.png",
              "websiteUrl": "https://www.rotary.org/",
-             "description": "Rotary is a global network of 1.2 million neighbors, friends, leaders, and problem-solvers who come together to make positive, lasting change in communities at home and abroad. \nSolving real problems takes real commitment and vision. For more than 110 years, Rotary members have used their passion, energy, and intelligence to take action on sustainable projects. From literacy and peace to water and health, we are always working to better our world, and we stay committed to the end.",
+             "description": "The Rotary Foundation is a not-for-profit corporation funded solely by voluntary contributions from members and friends of Rotary who support its mission to advance world understanding, goodwill, and peace. Using Rotary Foundation grants, Rotary's 34,000 clubs across the globe develop and carry out sustainable humanitarian projects and provide scholarships and professional training opportunities that promote peace, fight disease, provide clean water, sustain mothers and children, improve education, and strengthen local economies. The Foundation is a worldwide leader in the efforts to eradicate polio through its partnership with the World Health Organization, UNICEF, the U.S. Centers for Disease Control and Prevention, and the Bill & Melinda Gates Foundation. When Rotary launched its PolioPlus program in 1985, more than 350,000 people were afflicted with polio each year, and the disease was endemic in more than 125 countries. Since 1988, Rotary and its partners in the Global Polio Eradication Initiative have immunized over 2.5 billion children, reducing the incidence of polio by 99 percent and eradicating it from all but three countries. Rotary has contributed more than $1 billion and many thousands of hours to eradication effort. The Foundation also funds the training of hundreds of peacemakers through the Rotary Peace Center program, which enables fellows to pursue a master's degree or professional certificate at one of Rotary's partner universities. Through academic training, study, and practice, the fellows become leaders who promote peace and aid conflict resolution in their communities and around the world.",
              "donateUrl": "https://www.rotary.org/en/donate",
              "iconImage": "https://lh4.googleusercontent.com/-W5dgpuzKkKE/AAAAAAAAAAI/AAAAAAAAAZM/hFLpz2ScIu4/s0-c-k-no-ns/photo.jpg"
              },
              {
-             "name": "Feeding America",
-             "category": "Human Services",
-             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Feeding_America_logo.svg/198px-Feeding_America_logo.svg.png",
-             "websiteUrl": "www.feedingamerica.org/",
-             "description": "1 in 8 people struggle with hunger in the U.S. Feeding America is a hunger organization with a nationwide network of food banks feeding the hungry.",
-             "donateUrl": "https://secure.feedingamerica.org/site/Donation2;jsessionid=00000000.app213b?df_id=15040&15040.donation=form1&s_onsite_promo=MainNav_Donate&s_src=W177DIRCT&s_subsrc=http%3A%2F%2Fwww.feedingamerica.org%2F&_ga=2.66592045.249226212.1501532839-1248085890.1501532839&NONCE_TOKEN=ECFC3F5D88C8789B5D673657CA76E032",
-             "iconImage": "https://lh3.googleusercontent.com/-i7Mqtn1dlUY/AAAAAAAAAAI/AAAAAAAAAy4/4tzJbbCyiD4/s0-c-k-no-ns/photo.jpg"
+             "name": "Sierra Club Foundation",
+             "category": "Environment",
+             "imageUrl": "http://www.stevestenger.com/wp-content/uploads/2014/10/sierraclub-logo.png",
+             "websiteUrl": "http://www.sierraclub.org/",
+             "description": "The Sierra Club Foundation promotes efforts to educate and empower people to protect and improve the natural and human environment. We partner with individual and institutional donors to align financial resources with strategic outcomes, provide flexible funding for innovation, build capacity in the environmental movement, and create partnerships with a broad spectrum of allied organizations around shared values and goals. As the fiscal sponsor of the charitable programs of the Sierra Club, we provide resources to it and other nonprofit organizations to support scientific, educational, literary, organizing, advocacy, and legal programs that further our goals.",
+             "donateUrl": "https://vault.sierraclub.org/ways-to-give/#join-maintab",
+             "iconImage": "https://lh3.googleusercontent.com/-55AxF0ljONY/AAAAAAAAAAI/AAAAAAAADh0/Bly097lRbAw/s640/photo.jpg"
              },
              {
-             "name": "UNICEF",
+             "name": "Feeding America",
              "category": "Human Services",
-             "imageUrl": "http://www.montblanc.com/content/campaigns/montblanc/mtb-unicef-prod-20170427-1/images/logo-unicef.svg",
-             "websiteUrl": "https://www.unicef.org/",
-             "description": "For 70 years, UNICEF has worked to improve the lives of children and their families. \nDespite remarkable challenges around the world, UNICEF staffers fight for the rights of every child seeking safe shelter, nutrition, protection from disaster and conflicts, and equality.",
-             "donateUrl": "https://www.unicefusa.org/help/donate",
-             "iconImage": "https://lh5.googleusercontent.com/-CrELa3pxVEc/AAAAAAAAAAI/AAAAAAAAKSU/EdvsmLkJwgo/s0-c-k-no-ns/photo.jpg"
+             "imageUrl": "http://greaterlansingfoodbank.org/wp-content/uploads/2013/10/Feeding-America-Logo.jpg",
+             "websiteUrl": "http://www.feedingamerica.org/",
+             "description": "Feeding America is the nationwide network of 200 food banks that leads the fight against hunger in the United States. Together, we provide food to more than 46 million people through 60,000 food pantries and meal programs in communities across America. Feeding America also supports programs that improve food security among the people we serve; educates the public about the problem of hunger; and advocates for legislation that protects people from going hungry. Individuals, charities, businesses and government all have a role in ending hunger. Donate. Volunteer. Advocate. Educate. Together we can solve hunger.",
+             "donateUrl": "https://secure.feedingamerica.org/site/Donation2;jsessionid=00000000.app213b?df_id=15040&15040.donation=form1&s_onsite_promo=MainNav_Donate&s_src=W177DIRCT&s_subsrc=http%3A%2F%2Fwww.feedingamerica.org%2F&_ga=2.66592045.249226212.1501532839-1248085890.1501532839&NONCE_TOKEN=ECFC3F5D88C8789B5D673657CA76E032",
+             "iconImage": "https://lh3.googleusercontent.com/-i7Mqtn1dlUY/AAAAAAAAAAI/AAAAAAAAAy4/4tzJbbCyiD4/s0-c-k-no-ns/photo.jpg"
              },
              {
              "name": "American Red Cross",
              "category": "Human Services",
              "imageUrl": "https://www.pembrokemall.com/media/1075/American-Red-Cross.jpg",
              "websiteUrl": "http://www.redcross.org/",
-             "description": "Red Cross volunteers and staff work to deliver vital services – from providing relief and support to those in crisis, to helping you be prepared to respond in emergencies.",
+             "description": "Since its founding in 1881 by visionary leader Clara Barton, the American Red Cross has been the nation's premier emergency response organization. We bring shelter, food and comfort to those affected by disasters, large and small. We collect lifesaving donated blood and supply it to patients in need. We provide support to our men and women in military bases around the world, and to the families they leave behind. We train communities in CPR, first aid and other skills that save lives. And we assist our neighbors abroad with critical disaster response, preparedness and disease prevention efforts. We are able to do all this by mobilizing the power of volunteers and the generosity of donors.",
              "donateUrl": "https://www.redcross.org/donate/donation",
              "iconImage": "https://lh3.googleusercontent.com/-r7N7svPcX44/AAAAAAAAAAI/AAAAAAAACm0/D5I1qUoMKqg/s0-c-k-no-ns/photo.jpg"
              },
              {
              "name": "WWF",
-             "category": "Environment",
+             "category": "Animals",
              "imageUrl": "http://assets.wwf.org.uk/custom/lpr2016/media/do-it-for-your-planet.png",
              "websiteUrl": "http://wwf.panda.org/",
-             "description": "WWF's mission is to conserve nature and reduce the most pressing threats to the diversity of life on Earth. Our vision is to build a future where people live in harmony with nature.",
+             "description": "Founded in 1961, World Wildlife Fund's (WWF) mission is the conservation of nature. Using the best available scientific knowledge and advancing that knowledge where we can, we work to preserve the diversity and abundance of life on Earth and the health of ecological systems by: protecting natural areas and wild populations of plants and animals, including endangered species; promoting sustainable approaches to the use of renewable natural resources; and promoting more efficient use of resources and energy and the maximum reduction of pollution. We are committed to reversing the degradation of our planet's natural environment and to building a future in which human needs are met in harmony with nature. We recognize the critical relevance of human numbers, poverty and consumption patterns to meeting these goals.",
              "donateUrl": "http://wwf.panda.org/how_you_can_help/support_wwf/donate/",
              "iconImage": "http://d1diae5goewto1.cloudfront.net/_skins/pandaorg3/img/logo.png"
              },
@@ -103,7 +104,7 @@
              "category": "Animals",
              "imageUrl": "http://www.aspcapro.org/sites/default/files/aspca-low-res-color_logo.png",
              "websiteUrl": "https://www.aspca.org",
-             "description": "From rescue to recovery to adoption, the ASPCA is there for animals every step of the way. We pride ourselves in not just saving lives, but in changing them for the better—and none of it would be possible without the support of people like you. When you donate to the ASPCA today, you can help us continue to fight for animals on all fronts. Please make a gift right now.",
+             "description": "Founded in 1866, the American Society for the Prevention of Cruelty to Animals (ASPCA) was the first humane organization established in the Americas, and today has more than one million supporters throughout North America. The ASPCA's mission is to provide effective means for the prevention of cruelty to animals throughout the United States. The ASPCA provides local and national leadership in animal-assisted therapy, animal behavior, animal poison control, anti-cruelty, humane education, legislative services, and shelter outreach. The New York City headquarters houses a full-service, accredited animal hospital, adoption center, and mobile clinic outreach program. The Humane Law Enforcement department enforces New York's animal cruelty laws.",
              "donateUrl": "https://secure.aspca.org/donate/donate?ms=wb_top_homepage-donate&initialms=wb_top_homepage-donate&pcode=WEBMEMBER&lpcode=WEBGUARD",
              "iconImage": "https://lh4.googleusercontent.com/-U5FuCoT0KaM/AAAAAAAAAAI/AAAAAAAAVj4/fsT8K5HQglE/s0-c-k-no-ns/photo.jpg"
              },
@@ -111,8 +112,8 @@
              "name": "Greenpeace",
              "category": "Environment",
              "imageUrl": "http://www.greenpeace.org/usa/wp-content/uploads/2015/07/Greenpeace-logo.png",
-             "websiteUrl": "https://www.greenpeaceusa.org/",
-             "description": "Greenpeace is the leading independent campaigning organization that uses peaceful protest and creative communication to expose global environmental problems and promote solutions that are essential to a green and peaceful future.",
+             "websiteUrl": "www.greenpeaceusa.org/",
+             "description": "Greenpeace Fund promotes Greenpeace's mission: to halt environmental destruction and to promote solutions for future generations. Greenpeace Fund promotes Greenpeace's mission through public education, grassroots lobbying and grants to other environmental organizations. One of Greenpeace's unique strengths is our capacity to conduct international campaigns in countries around the world, giving us the ability to challenge environmental threats and promote change on issues that transcend national borders and require international cooperation. We continue to increasingly gain a reputation as a formidable force in the realm of international environmental policy through sophisticated strategies.",
              "donateUrl": "https://engage.us.greenpeace.org/onlineactions/0Dz8eFnSfEGAkQBffzy_1A2?&utm_source=website&utm_medium=homepage&utm_campaign=website_donation_form_(header)&r=true&am=15&_ga=2.214747284.208698634.1501788173-1366418029.1501788173",
              "iconImage": "https://media.licdn.com/mpr/mpr/shrink_100_100/p/1/000/01c/2e6/1d57d01.png"
              },
@@ -121,34 +122,25 @@
              "category": "Environment",
              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e7/Logo_for_the_Environmental_Defense_Fund_-_white_background.jpg",
              "websiteUrl": "https://www.edf.org/",
-             "description": "Environmental Defense Fund is dedicated to protecting the environmental rights of all people, including future generations. Among these rights are access to clean air and water, healthy and nourishing food, and flourishing ecosystems. \nGuided by science, Environmental Defense Fund evaluates environmental problems and works to create and advocate solutions that win lasting political, economic and social support because they are nonpartisan, cost-efficient and fair.",
+             "description": "Environmental Defense Fund's mission is to preserve the natural systems on which all life depends. \n\nWhat distinguishes EDF from others is the combination of what we protect and how we protect it. We work to solve the most critical environmental problems facing the planet, focusing on mitigating climate change, restoring the ocean's bounty, protecting wildlife and their habitats, and safeguarding our health. Since these topics are intertwined, our solutions take a multidisciplinary approach. We work in concert with other organizations-as well as with business, government and communities-and avoid duplicating work already being done effectively by others.",
              "donateUrl": "https://secure2.edf.org/site/Donation2?df_id=18393&18393.donation=form1&addl_info=nav-button_/",
              "iconImage": "https://lh3.googleusercontent.com/-OkiFAi_yePw/AAAAAAAAAAI/AAAAAAAACss/Q5SfTqCpsDo/photo.jpg"
-             },
-             {
-             "name": "White Helmets",
-             "category": "International",
-             "imageUrl": "https://pbs.twimg.com/media/CxaQYcXWIAAqvf9.jpg",
-             "websiteUrl": "https://www.whitehelmets.org/en",
-             "description": "When the bombs rain down, the Syrian Civil Defence rushes in. In a place where public services no longer function these unarmed volunteers risk their lives to help anyone in need - regardless of their religion or politics. Known as the White Helmets these volunteer rescue workers operate in the most dangerous place on earth.",
-             "donateUrl": "https://peoplesmillion.whitehelmets.org/act/peoples-million/?source=whweb",
-             "iconImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Syrian_Civil_Defense_logo.png/220px-Syrian_Civil_Defense_logo.png"
              },
              {
              "name": "Teach for America",
              "category": "Education",
              "imageUrl": "https://www.teachforamerica.org/profiles/tfa/themes/tfa/logo.png",
              "websiteUrl": "https://www.teachforamerica.org/",
-             "description": "Our mission is to enlist, develop, and mobilize as many as possible of our nation's most promising future leaders to grow and strengthen the movement for educational equity and excellence.",
+             "description": "Teach For America is the national corps of outstanding recent college graduates, professionals, or graduate students who commit to teach for two years in urban and rural public schools and become lifelong leaders in expanding educational opportunity. Teach For America's mission is to enlist, develop, and mobilize as many as possible of our nation's most promising future leaders to grow and strengthen the movement for educational equity and excellence. In the 2015-2016 school year, more than 8,000 first- and second-year Teach For America corps members are teaching in 52 regions across the United States. Since 1990, Teach For America corps members have reached more than 10 million students. Teach For America's 42,000 alumni are providing critical leadership -- as teachers, school and district leaders; elected officials and policy advisers; and founders and leaders of education and social reform initiatives -- to ensure all children have the opportunity to attain an excellent education.",
              "donateUrl": "https://www.teachforamerica.org/get-involved/donate?clientField.dispOpt=9",
              "iconImage": "https://lh3.googleusercontent.com/-oLOpx0fWtIA/AAAAAAAAAAI/AAAAAAAAEvc/p1Vk4mCCR-c/s0-c-k-no-ns/photo.jpg"
              },
              {
              "name": "World Food Programme",
-             "category": "Human Services",
+             "category": "International",
              "imageUrl": "http://www.humanrightscareers.com/wp-content/uploads/2016/11/world-food-programme-wfp.gif",
              "websiteUrl": "http://www1.wfp.org/",
-             "description": "WFP is the leading humanitarian organization fighting hunger worldwide, delivering food assistance in emergencies & working with communities to improve nutrition & build resilience. On average we assist 80 million people in around 80 countries each year.",
+             "description": "World Food Program USA is a 501(c)(3) charity that proudly supports the mission of the United Nations World Food Programme (WFP), the largest humanitarian agency addressing hunger worldwide. By mobilizing individuals, lawmakers and businesses in the United States to advance the global movement to end hunger, we bolster an enduring American legacy of feeding families in need around the world.",
              "donateUrl": "http://cdn.wfp.org/donate/",
              "iconImage": "https://lh6.googleusercontent.com/-hult3_nm-Yo/AAAAAAAAAAI/AAAAAAAASJ4/NszfLn5IK7k/photo.jpg"
              },
@@ -157,7 +149,7 @@
              "category": "Health",
              "imageUrl": "https://jobs.newscientist.com/getasset/9df069c4-b5ca-4ddd-9edc-45e69fadf0d2/",
              "websiteUrl": "https://www.stjude.org/",
-             "description": "St. Jude is leading the way the world understands, treats and defeats childhood cancer and other life-threatening diseases.",
+             "description": "ALSAC (American Lebanese Syrian Associated Charities) was founded in 1957 and exists for the sole purpose of raising funds to support the operating and maintenance of St. Jude Children's Research Hospital. The mission of St. Jude Children's Research Hospital is to find cures for children with cancer and other catastrophic diseases through research and treatment. It is supported primarily by donations raised by ALSAC. Research efforts are directed at understanding the molecular, genetic and chemical bases of catastrophic diseases in children; identifying cures for such diseases; and promoting their prevention. Research is focused specifically on cancers, some acquired and inherited immunodeficiencies, sickle cell disease, infectious diseases and genetic disorders.",
              "donateUrl": "https://shop.stjude.org/GiftCatalog/donation.do?cID=14262&pID=24671&sc_icid=header-btn-donate-now",
              "iconImage": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAc9AAAAJDg1MjY4ZjEzLWZkN2ItNGJiNi05Yzk1LTY3MWQ4Y2EzYmQ3ZQ.png"
              },
@@ -166,34 +158,25 @@
              "category": "Health",
              "imageUrl": "http://www.alz.org/au/images/alzimage.jpg",
              "websiteUrl": "http://www.alz.org/",
-             "description": "To eliminate Alzheimer's disease through the advancement of research; to provide and enhance care and support for all affected; and to reduce the risk of dementia through the promotion of brain health. Our vision is a world without Alzheimer's disease.",
+             "description": "Alzheimer's Association is the leading voluntary health organization in Alzheimer care, support and research. Our mission is to eliminate Alzheimer's disease through the advancement of research; to provide and enhance care and support for all affected; and to reduce the risk of dementia through the promotion of brain health. Founded in 1980, the Alzheimer's Association, today a multimillion-dollar organization, has been the catalyst and leader for a generation of advancements in Alzheimer research and care. Our organization's achievements and progress in the field have given thousands of people a better quality of life and brought hope for millions more.",
              "donateUrl": "https://act.alz.org/site/Donation2?df_id=32112&32112.donation=form1&",
              "iconImage": "https://lh6.googleusercontent.com/-KcG74zXLNQI/AAAAAAAAAAI/AAAAAAAAAqU/sr4y_u36yXQ/s0-c-k-no-ns/photo.jpg"
              },
              {
              "name": "International Rescue Committee",
              "category": "International",
-             "imageUrl": "https://img0bm.b8cdn.com/images/logo/03/1371803_logo_1462343874_n.png",
+             "imageUrl": "http://job.bangkokpost.com/img_company/thumbnail/prefix_1/0036/36/company-36-960X200.jpg",
              "websiteUrl": "https://www.rescue.org/",
-             "description": "International Rescue Committee (IRC) responds to the world’s worst humanitarian crises & helps people to survive, recover & gain control of their future.",
+             "description": "The International Rescue Committee (IRC) responds to the world's worst humanitarian crises, helping to restore health, safety, education, economic well being, and power to people devastated by conflict and disaster. Founded in 1933 at the call of Albert Einstein, the IRC is at work in over 40 countries and 26 U.S. cities helping people to survive, reclaim control of their future and strengthen their communities.",
              "donateUrl": "https://help.rescue.org/donate?ms=ws_resq_top_nav_btn_161010&initialms=ws_resq_top_nav_btn_161010",
              "iconImage": "https://lh5.googleusercontent.com/-NJ6anwslbKA/AAAAAAAAAAI/AAAAAAAAGKA/YUwikWQtMbM/s0-c-k-no-ns/photo.jpg"
              },
              {
-             "name": "Disabled American Veterans",
-             "category": "Human Services",
-             "imageUrl": "http://www.mi-dav.org/portals/0/logo.jpg",
-             "websiteUrl": "https://www.dav.org/",
-             "description": "DAV (Disabled American Veterans) is a leading nonprofit that provides a lifetime of support for veterans of all generations and their families. Every year, we help more than 1 million veterans in positive, life-changing ways by helping them access benefits they earned, like healthcare, education and disability, and connecting them to meaningful employment opportunities. DAV is the nation’s most resourceful veterans service organization, keeping the promise to support America’s veterans.",
-             "donateUrl": "https://secure.dav.org/site/Donation2;jsessionid=00000000.app311a?df_id=9420&9420.donation=form1&s_src=1402DRWEB01&NONCE_TOKEN=14337F87D5C7FEB790B39EEEDA19C72F",
-             "iconImage": "https://upload.wikimedia.org/wikipedia/en/e/ee/Disabled_American_Veterans_logo.jpg"
-             },
-             {
              "name": "National Audubon Society",
-             "category": "Animals",
+             "category": "Environment",
              "imageUrl": "http://www.campionadvocacyfund.org/wp-content/uploads/2015/08/grantee_audubon_logo.png",
              "websiteUrl": "http://www.audubon.org/",
-             "description": "The National Audubon Society protects birds and the places they need, today and tomorrow, throughout the Americas using science, advocacy, education, and on-the-ground conservation.",
+             "description": "The mission of the National Audubon Society is to conserve and restore natural ecosystems, focusing on birds, other wildlife, and their habitats for the benefit of humanity and the Earth's biological diversity. Our national network of community-based nature centers and chapters, scientific and educational programs, and advocacy on behalf of areas sustaining important bird populations engage millions of people of all ages and backgrounds in positive conservation experiences. Audubon is making progress protecting habitat on-the-ground, while its public policy office in Washington, D.C. connects Audubon with Congress, the executive branch, courts, and mass media to ensure our great natural heritage endures for generations.",
              "donateUrl": "https://action.audubon.org/donate/now",
              "iconImage": "http://www.sfiprogram.org/SFI/assets/Image/ConsGrants/rotator-logos-Audubon2.jpg"
              },
@@ -202,34 +185,34 @@
              "category": "International",
              "imageUrl": "https://mb4mh.files.wordpress.com/2012/01/waterorg_2clr_rgb_tm1.jpg",
              "websiteUrl": "https://water.org/",
-             "description": "With your help, we have empowered more than six million people with access to safe water and sanitation. And there's more to be done. With programs and people working in 14 countries, we're scaling and exploring new markets and solutions to help end the water crisis.",
+             "description": "Co-founded by Gary White and Matt Damon, Water.org has transformed hundreds of communities in Africa, South Asia, and Central America by providing access to safe water and sanitation. Water.org traces its roots back to the founding of WaterPartners in 1990. In July 2009, WaterPartners merged with H2O Africa, resulting in the launch of Water.org. Water.org works with local partners to deliver innovative solutions for long-term success. Its microfinance-based WaterCredit Initiative is pioneering sustainable giving in the sector. All of the projects Water.org supports are self-sustaining, with organizational and financial structures in place to allow communities to independently operate and maintain them. Projects have an active water committee governing the operation of the water system, and users paying a water bill to cover the costs of operating and maintaining the water system.",
              "donateUrl": "https://water.org/donate/",
              "iconImage": "https://yt3.ggpht.com/-z_upDQxzy2U/AAAAAAAAAAI/AAAAAAAAAAA/zSWml6IYu5A/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
              },
              {
              "name": "The Trevor Project",
-             "category": "Human Services",
+             "category": "Human and Civil Rights",
              "imageUrl": "http://www.thetrevorproject.org/page/-/files/resources/newTTP_ORANGE.png/",
              "websiteUrl": "http://www.thetrevorproject.org/",
-             "description": "Founded in 1998 by the creators of the Academy Award®-winning short film TREVOR, The Trevor Project is the leading national organization providing crisis intervention and suicide prevention services to lesbian, gay, bisexual, transgender and questioning (LGBTQ) young people ages 13-24.",
+             "description": "The Trevor Project is the leading and only accredited national organization providing crisis intervention and suicide prevention services to lesbian, gay, bisexual, transgender and questioning (LGBTQ) young people under the age of 25. \n\nThe Trevor Project offers a suite of crisis intervention and suicide prevention programs, including TrevorLifeline, TrevorText, and TrevorChat as well as a peer-to-peer social network support for LGBTQ young people under the age of 25, TrevorSpace. Trevor also offers an education program with resources for youth-serving adults and organizations, a legislative advocacy department fighting for pro-LGBTQ legislation and against anti-LGBTQ rhetoric/policy positions, and conducts research to discover the most effective means to help young LGBTQ people in crisis and end suicide. \n\nIf you or someone you know is feeling hopeless or suicidal, our Trevor Lifeline crisis counselors are available 24/7/365 at 866.488.7386. www.TheTrevorProject.org",
              "donateUrl": "https://give.thetrevorproject.org/checkout/donation?eid=63307",
              "iconImage": "https://pbs.twimg.com/profile_images/819233275696680960/cbcuZAEQ.jpg"
              },
              {
-             "name": "The Nature Conservancy",
+             "name": "The Nature Conservancy ",
              "category": "Environment",
              "imageUrl": "https://www.nature.org/cs/groups/webasset/documents/webasset/tnc-share-logo.gif",
-             "websiteUrl": "https://nature.org",
+             "websiteUrl": "nature.org",
              "description": "The Nature Conservancy is the leading conservation organization working around the world to protect ecologically important lands and waters for nature and people.",
              "donateUrl": "https://support.nature.org/site/Donation2?10420.donation=form1&df_id=10420&intc=nature.tnav.button.donate",
              "iconImage": "https://lh6.googleusercontent.com/-Jhd3smCU8hE/AAAAAAAAAAI/AAAAAAAAXSc/F_jImdnK8S0/s0-c-k-no-ns/photo.jpg"
              },
              {
-             "name": "Charity: Water",
+             "name": "charity: water",
              "category": "International",
              "imageUrl": "http://www.heaviland.net/wp-content/uploads/2013/04/charity-water-logo.jpg",
              "websiteUrl": "https://www.charitywater.org/",
-             "description": "charity: water is a non-profit bringing clean and safe drinking water to people in developing nations. In just ten years, we've funded more than 22,000 water projects in 24 developing countries. When complete, these projects will provide clean, safe drinking water for more than 7 million people. \nNearly 663 million people in our world don’t have access to clean drinking water. Unsafe water and lack of basic sanitation cause 80% of diseases and kill more people every year than all forms of violence, including war. \nThe good news: there are simple solutions, from deep drilled wells to water filtration systems. And with the help of 1,000,000+ donors and individual fundraisers, we're forming a strong force against the water crisis. Join us.",
+             "description": "charity: water is a nonprofit organization bringing clean and safe drinking water to people in developing countries. The organization inspires giving and empowers others to fundraise for sustainable water solutions. 100% of public donations are sent to local partners on the ground, who build and implement the projects. When the projects are completed, charity: water proves every one of them using GPS coordinates, photos and details of the community served.",
              "donateUrl": "https://www.charitywater.org/donate",
              "iconImage": "https://www.charitywater.org/_site/images/jerrycan.png"
              },
@@ -238,7 +221,7 @@
              "category": "Health",
              "imageUrl": "http://site.wish.org/assets/images/logos/Make-A-Wish-Logo-1-1024x631.jpg",
              "websiteUrl": "http://wish.org/",
-             "description": "We grant the wishes of children with life-threatening medical conditions to enrich the human experience with hope, strength and joy.",
+             "description": "Make-A-Wish America helps to grant the wishes of children with life-threatening medical conditions to enrich the human experience with hope, strength and joy. Based in Phoenix, the organization is one of the nation's leading children's charities, serving children in every community in the United States, Puerto Rico and Guam. With the help of generous donors and more than 25,000 volunteers, Make-A-Wish grants a wish every 38 minutes, on average. It has granted more than 225,000 wishes since its inception in 1980. Visit Make-A-Wish at www.wish.org and discover how you can share the power of a wish®.",
              "donateUrl": "https://secure2.wish.org/site/SPageServer?pagename=donate_now&chid=100-000#sm.0000pcpw7az3qfd2tl82gtoopyj4b",
              "iconImage": "https://lh5.googleusercontent.com/-Odfhsyf5f-E/AAAAAAAAAAI/AAAAAAAADHA/49TkDtQWi7g/s0-c-k-no-ns/photo.jpg"
              },
@@ -247,16 +230,16 @@
              "category": "Education",
              "imageUrl": "https://www.nationalgeographic.org/static/ngs/home/img/logo.e6616dca.png",
              "websiteUrl": "http://www.nationalgeographic.com/",
-             "description": "National Geographic gets you closer to the stories that matter. Through the world’s best scientists, photographers, journalists, and filmmakers, National Geographic captivates and entertains a global community through television channels, magazines, children’s media, travel expeditions, books, maps, consumer products, location-based entertainment and experiences, and some of the most engaging digital and social media platforms in the world. A joint venture with 21st Century Fox, National Geographic reinvests 27% of proceeds to help fund the conservation and education efforts of the National Geographic Society.",
+             "description": "National Geographic gets you closer to the stories that matter. Through the worldÍs best scientists, photographers, journalists, and filmmakers, National Geographic captivates and entertains a global community through television channels, magazines, childrenÍs media, travel expeditions, books, maps, consumer products, location-based entertainment and experiences, and some of the most engaging digital and social media platforms in the world. A joint venture with 21stæCentury Fox, National Geographic reinvests 27% of proceeds to help fund the conservation and education efforts of the National Geographic Society.",
              "donateUrl": "https://donate.nationalgeographic.org/17-ge-adw?gclid=EAIaIQobChMI4-iinrvI1QIV3lcNCh2dEgUMEAAYASAAEgJ5F_D_BwE",
              "iconImage": "http://images.nationalgeographic.com/wpf/sites/common/i/presentation/NGLogo560x430-cb1343821768.png"
              },
              {
              "name": "Wildlife Conservation Society",
-             "category": "Environment",
+             "category": "Animals",
              "imageUrl": "http://www.animalafrica.com/wp-content/uploads/2015/03/conservation1.jpg",
              "websiteUrl": "https://www.wcs.org/",
-             "description": "WCS's goal is to conserve the world's largest wild places in 16 priority regions, home to more than 50% of the world's biodiversity. \nThis is outlined in our 2020 strategy, which positions WCS to maintain its historic focus on the protection of species while developing an ambitious plan to engage with a rapidly changing world. \nThe challenges are greater than ever, but with the focus, dedication, and passion of a committed staff—combined with a unique mixture of field, zoo, and aquarium expertise—WCS will continue to set the bar for science, conservation action, and education that has driven our success in protecting wildlife and wild places for over a century. We hold ourselves to the highest standards, adhering to core values of respect, accountability and transparency, innovation, diversity and inclusion, collaboration, and integrity.",
+             "description": "The Wildlife Conservation Society (WCS), founded in 1895 saves wildlife and wild places worldwide. We do so through science, global conservation, education and the management of the world's largest system of urban wildlife parks, led by the flagship Bronx Zoo. Together these activities change attitudes towards nature and help people imagine wildlife and humans living in harmony. We currently manage about 500 conservation projects in more than 60 countries; and educate millions of visitors at our five living institutions in New York City on important issues affecting our planet. Our parks include: the Bronx Zoo, New York Aquarium, Central Park Zoo, Prospect Park Zoo and Queens Zoo. The WCS parks in New York City welcome 4 million visitors each year, including helping the city to educate millions of schoolchildren in science and conservation issues.",
              "donateUrl": "https://secure.wcs.org/donate/donate-and-help-save-wildlife",
              "iconImage": "https://lh4.googleusercontent.com/-t990-x0zvus/AAAAAAAAAAI/AAAAAAAADFs/Vhp03ltg5N4/s0-c-k-no-ns/photo.jpg"
              },
@@ -265,7 +248,7 @@
              "category": "International",
              "imageUrl": "https://www.mercycorps.org/sites/all/themes/mercycorps/static/logo-new-retina.png",
              "websiteUrl": "https://www.mercycorps.org/",
-             "description": "Since 1979, Mercy Corps has provided $1.7 billion in assistance to people in 107 nations. Our global programs are supported by headquarters in North America and Europe and field offices in some of the world's most troubled and challenging regions. \n Our mission is to alleviate suffering, poverty and oppression by helping people build secure, productive and just communities.",
+             "description": "Mercy Corps exists to alleviate suffering, poverty and oppression by helping people build secure, productive and just communities. We are a leading global organization powered by the belief that a better world is possible. In disaster, in hardship, in more than 40 countries around the world, we partner to put bold solutions into action - helping people triumph over adversity and build stronger communities from within. Now, and for the future.",
              "donateUrl": "https://www.mercycorps.org/donate",
              "iconImage": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAUuAAAAJGRmNjBjM2YzLWE4ODYtNDc3My1hZjcwLTg5ZmZiMjZiMTc4NQ.png"
              },
@@ -274,7 +257,7 @@
              "category": "Environment",
              "imageUrl": "https://www.nrdc.org/sites/all/themes/custom/nrdc/images/logofb.v2.png",
              "websiteUrl": "https://www.nrdc.org/",
-             "description": "NRDC works to safeguard the earth—its people, its plants and animals, and the natural systems on which all life depends. \nWe combine the power of more than two million members and online activists with the expertise of some 500 scientists, lawyers, and policy advocates across the globe to ensure the rights of all people to the air, the water, and the wild.",
+             "description": "The Natural Resources Defense Council's (NRDC) purpose is to safeguard the Earth: its people, its plants and animals and the natural systems on which all life depends. We work to restore the integrity of the elements that sustain life - air, land, and water - and to defend endangered natural places. We seek to establish sustainability and good stewardship of the Earth as central ethical imperatives of human society. NRDC affirms the integral place of human beings in the environment. We strive to protect nature in ways that advance the long-term welfare of present and future generations. We work to foster the fundamental right of all people to have a voice in decisions that affect their environment.",
              "donateUrl": "https://secure.nrdconline.org/site/Donation2?df_id=16977&16977.donation=form1&s_src=WBLFFCDONNGSC&_ga=2.14829878.168352304.1502302653-2028762965.1502302653",
              "iconImage": "http://maryscottnabers.com/wp-content/uploads/2016/07/ISD_NRDC-logo_web.jpg"
              },
@@ -282,17 +265,17 @@
              "name": "Planned Parenthood",
              "category": "Health",
              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Planned_Parenthood_logo.svg/1200px-Planned_Parenthood_logo.svg.png",
-             "websiteUrl": "https://plannedparenthood.org",
-             "description": "A trusted health care provider, an informed educator, a passionate advocate, and a global partner helping similar organizations around the world, Planned Parenthood delivers vital reproductive health care, sex education, and information to millions of women, men, and young people worldwide. For 100 years, Planned Parenthood has promoted a commonsense approach to women’s health and well-being, based on respect for each individual’s right to make informed, independent decisions about health, sex, and family planning.",
+             "websiteUrl": "plannedparenthood.org",
+             "description": "Planned Parenthood Federation of America (PPFA) is America's most trusted provider of reproductive health care. For more than 90 years, Planned Parenthood has promoted a commonsense approach to women's health and well-being, based on respect for each individual's right to make informed, independent decisions about health, sex, and family planning. PPFA works to provide trusted community healthcare; inform and educated the community; lead the reproductive health and rights movement; and advance global health. The heart of Planned Parenthood is in the local community. Our 94 unique, locally governed affiliates nationwide operate more than 850 health centers, which reflect the diverse needs of their communities.",
              "donateUrl": "https://secure.ppaction.org/site/Donation2?df_id=24756&24756.donation=form1",
              "iconImage": "https://lh3.googleusercontent.com/-asKoiXAhrxc/AAAAAAAAAAI/AAAAAAAAAXI/pAa3hf3l63E/photo.jpg"
              },
              {
              "name": "Safe Kids Worldwide",
-             "category": "Health",
+             "category": "Research and Public Policy",
              "imageUrl": "https://www.safekids.org/sites/default/files/Images/GetInvloved/team-safe-kids.jpg",
              "websiteUrl": "https://www.safekids.org/",
-             "description": "Safe Kids Worldwide is a global organization dedicated to preventing injuries in children, the number one killer of kids in the United States. Around the world, a child dies from an unintentional injury every 30 seconds. And millions of children are injured in ways that can affect them for a lifetime. \nWhen a child dies or is seriously injured, the lives of families and entire communities are changed forever. But these tragedies don’t have to happen. The important thing to remember about preventable injuries is that they are preventable. They often occur in predictable ways and can be completely avoided with the right education, awareness and planning. \nSafe Kids works with an extensive network of more than 400 coalitions in the United States and partners with organizations in 25 countries around the world to reduce injuries from motor vehicles, sports, drownings, falls, burns, poisonings and more. \nSince 1988, when Safe Kids was founded by Dr. Marty Eichelberger of the Children’s National Health System with support from founding sponsor, Johnson & Johnson, there has been a 60 percent decrease in the unintentional injury rate among children 19 years and younger. \nWorking together, we can do much more for kids everywhere.",
+             "description": "Safe Kids Worldwide is a global nonprofit organization dedicated to protecting kids from unintentional injuries, the number one cause of death to children ages 0-19 in the United States. Throughout the world, almost 1 million children die of injuries each year, and almost every one of these tragedies is preventable. Safe Kids works with an extensive network of more than 400 coalitions in the U.S. and with partners in more than 30 countries to reduce traffic injuries, drownings, falls, burns, poisonings and more. Since 1988, Safe Kids has helped reduce the U.S. childhood death rate from unintentional injury by 60 percent. Working together, we can do much more for to protect children on the move, at play and at home, so that they can grow up to do all the great things kids were meant to do.",
              "donateUrl": "https://salsa4.salsalabs.com/o/51121/p/salsa/donation/common/public/?donate_page_KEY=10600",
              "iconImage": "https://www.safekids.org/sites/default/files/SafeKidsLogo_corp_rgb_pos.jpg"
              },
@@ -301,7 +284,7 @@
              "category": "International",
              "imageUrl": "http://static.oxfamamerica.org.s3.amazonaws.com/images/logos/oxfam_logo_horizontal_green_rgb.png",
              "websiteUrl": "https://www.oxfam.org/",
-             "description": "Oxfam is a global movement of people working together to end the injustice of poverty. With 70 years of experience in more than 90 countries, Oxfam takes on the big issues that keep people poor: inequality, discrimination, and unequal access to resources including food, water, and land. We help people save lives in disasters, build stronger futures for themselves, and hold the powerful accountable.",
+             "description": "Oxfam is a global movement of people working together to end the injustice of poverty. With 70 years of experience in more than 90 countries, Oxfam takes on the big issues that keep people poor: inequality, discrimination, and unequal access to resources including food, water, and land. We help people save lives in disasters, build stronger futures for themselves, and hold the powerful accountable. Join us.",
              "donateUrl": "https://www.oxfamamerica.org/donate/",
              "iconImage": "http://www.cosmopolitalians.eu/wp-content/uploads/2015/07/OI-Oxfam-International-Logo.jpg"
              },
@@ -310,28 +293,927 @@
              "category": "Health",
              "imageUrl": "http://fightcf.cff.org/gs13/image/national/cystic-fibrosis-foundation-2x.png",
              "websiteUrl": "https://www.cff.org/",
-             "description": "The mission of the Cystic Fibrosis Foundation is to cure cystic fibrosis and to provide all people with the disease the opportunity to lead full, productive lives by funding research and drug development, promoting individualized treatment and ensuring access to high-quality, specialized care.",
+             "description": "The Cystic Fibrosis Foundation (CFF) was established in 1955 to assure the development of the means to cure and control cystic fibrosis (CF) and to improve the quality of life for those with the disease. The Foundation is the leading organization in the United States devoted to cystic fibrosis. It funds and accredits more than 115 CF care centers, 95 adult care programs and 50 affiliate programs, and has 80 chapters and branch offices nationwide. Cystic fibrosis is an inherited chronic disease that affects the lungs and digestive system of about 30,000 children and adults in the United States (70,000 worldwide). A defective gene and its protein product cause the body to produce unusually thick, sticky mucus.",
              "donateUrl": "https://secure2.convio.net/cffh/site/Donation2;jsessionid=74EF1DA9F9D559FFE65DCB760E0F8CDD.app212a?1761.donation=form1&df_id=1761&_ga=2.208674523.899662305.1502305383-574906743.1502305383",
              "iconImage": "https://lh6.googleusercontent.com/-L9-S5yNfZik/AAAAAAAAAAI/AAAAAAAAAKE/SsfoQXydouo/s0-c-k-no-ns/photo.jpg"
              },
              {
-             "name": "National Multiple Sclerosis Society",
+             "name": "National Multiple Sclerosis Society ",
              "category": "Health",
              "imageUrl": "http://www.nchc.org/wp-content/uploads/2017/04/National-Multiple-Sclerosis-Society-Logo.png",
              "websiteUrl": "http://www.nationalmssociety.org/",
-             "description": "The National MS Society's vision is a world free of MS. \nThe Society mobilizes people and resources so that everyone affected by MS can live their best lives as we stop MS in its tracks, restore what has been lost and end MS forever.",
+             "description": "The National MS Society is united in our collective power to do something about MS now. Our vision is a world free of multiple sclerosis and we act with urgency to find solutions and change the world for people with MS. This means that each person with MS can live their best life with more connections to information, resources, and others with shared experiences; that accelerated research breakthroughs change lives and end MS forever; that everyone who wants to do something about multiple sclerosis can fuel progress; and that the voices of people affected by MS are heard and drive change wherever it is needed.",
              "donateUrl": "http://www.nationalmssociety.org/Donate",
              "iconImage": "https://secure3.convio.net/nmss/images/content/pagebuilder/logo-nmss-square.jpg"
              },
              {
              "name": "Humane Society",
              "category": "Animals",
-             "imageUrl": "https://www.animalsheltering.org/sites/all/themes/aso/images/HSUSLogoDesktop.svg",
+             "imageUrl": "http://lavinedesign.weebly.com/uploads/4/9/7/3/4973839/134589_orig.jpg",
              "websiteUrl": "http://www.humanesociety.org/",
-             "description": "The Humane Society of the United States is the nation’s largest and most effective animal protection organization. \nWe and our affiliates provide hands-on care and services to more than 100,000 animals each year, and we professionalize the field through education and training for local organizations. We are the leading animal advocacy organization, seeking a humane world for people and animals alike. We are driving transformational change in the U.S. and around the world by combating large-scale cruelties such as puppy mills, animal fighting, factory farming, seal slaughter, horse cruelty, captive hunts and the wildlife trade.",
+             "description": "The Humane Society of the United States (HSUS) is the nation's largest and most effective animal protection organization. Established in 1954, The HSUS seeks a humane and sustainable world for all animals - a world that will also benefit people. We work to reduce suffering and to create meaningful social change for animals by advocating for sensible public policies, investigating cruelty and working to enforce existing laws, educating the public about animal issues, joining with corporations on behalf of animal-friendly policies, and conducting hands-on programs that make ours a more humane world. We are the lead disaster relief agency for animals, and we provide direct care for thousands of animals at our sanctuaries and rescue facilities, wildlife rehabilitation centers, and mobile veterinary clinics.",
              "donateUrl": "https://secure.humanesociety.org/site/Donation2?df_id=23356&23356.donation=form1&s_pDX=1&s_pFreq=m&s_pAmt=19&s_src=web_topnav_bd_monthly_lform_id93480558",
              "iconImage": "http://humanesocietycc.org/wp-content/uploads/2015/07/humanesocietylogo.jpeg"
+             },
+             {
+             "name": "Oceana",
+             "category": "Environment",
+             "imageUrl": "http://mms.businesswire.com/media/20131114006602/en/392370/5/OceanaHighRes.jpg",
+             "websiteUrl": "oceana.org",
+             "description": "Founded in 2001, Oceana is the largest international group focused solely on ocean conservation. Our offices in North America, South America and Europe, work together on a limited number of strategic, directed campaigns to achieve measurable outcomes that will help return our oceans to former levels of abundance. We believe in the importance of science in identifying problems and solutions. Our scientists lead our team of economists, lawyers, and advocates focused on achieving tangible results for the oceans. Saving the oceans may take decades, but in each of our campaigns we aim to accomplish an important milestone in that effort within two to five years.",
+             "donateUrl": "https://act.oceana.org/ea-action/action?ea.client.id=1997&ea.campaign.id=61286&ea.tracking.id=website&utm_source=navigation&utm_medium=website&prefill=1&amount_other=25",
+             "iconImage": "https://i.vimeocdn.com/portrait/9055845_640x640"
+             },
+             {
+             "name": "Defenders of Wildlife",
+             "category": "Animals",
+             "imageUrl": "https://www.charitychoices.com/sites/default/files/Defenders%20of%20Widlife%20-%20logo.jpg",
+             "websiteUrl": "http://www.defenders.org/",
+             "description": "Founded in 1947, Defenders of Wildlife is one of the country's leaders in science-based, results-oriented wildlife conservation. We are committed to saving imperiled wildlife and championing the Endangered Species Act, the landmark law that protects them. Defenders of Wildlife is a national membership organization dedicated to the protection of all native animals and plants in their natural communities. We work to protect and restore America's native wildlife, safeguard habitat, resolve conflicts, work across international borders and educate and mobilize the public.",
+             "donateUrl": "https://secure.defenders.org/site/SPageNavigator/Give_Monthly_Donate.html",
+             "iconImage": "https://www.charitychoices.com/sites/default/files/Defenders%20of%20Widlife%20-%20logo.jpg"
+             },
+             {
+             "name": "Big Cat Rescue",
+             "category": "Animals",
+             "imageUrl": "https://bigcatrescue.org/wp-content/uploads/2016/09/BigCatRescueWebsiteHeader6.jpg",
+             "websiteUrl": "https://bigcatrescue.org/",
+             "description": "Big Cat Rescue, founded in 1992, is an educational sanctuary devoted to rescuing and providing a permanent home for exotic (i.e. wild, not domestic) cats who have been abused, abandoned, bred to be pets, retired from performing acts, or saved from being slaughtered for fur coats, and to educating the public about these animals and the issues facing them in captivity and in the wild. The sanctuary houses the most diverse population of exotic cats in the world, with many species of wild cat represented among more than 80+ residents. Today the sanctuary is devoted to its vision of a world where animals are treated with respect, and its mission of providing the best possible home for the animals in our care.",
+             "donateUrl": "https://bigcatrescue.org/donate/",
+             "iconImage": "https://bigcatrescue.org/wp-content/uploads/2016/05/BCRLogoHighResTransparentcopy.png"
+             },
+             {
+             "name": "American Heart Association ",
+             "category": "Health",
+             "imageUrl": "http://main.diabetes.org/dorg/images/2013-template/ada-logo.png",
+             "websiteUrl": "http://www.diabetes.org/",
+             "description": "The American Heart Association is the nation's oldest and largest voluntary organization dedicated to fighting heart disease and stroke. \n\nTo improve the lives of all Americans, we provide public health education in a variety of ways. We're the nation's leader in CPR education training. We help people understand the importance of healthy lifestyle choices. We provide science-based treatment guidelines to healthcare professionals to help them provide quality care to their patients. We educate lawmakers, policymakers and the public as we advocate for changes to protect and improve the health of our communities. We have funded more than $3.8 billion in heart disease and stroke research, more than any organization outside the federal government. \n\nWith your help, we are working toward improving the cardiovascular health of all Americans by 20 percent, and reducing deaths from cardiovascular diseases and stroke by 20 percent, all by the year 2020.",
+             "donateUrl": "https://donations.diabetes.org/site/Donation2;jsessionid=00000000.app212b?df_id=19705&mfc_pref=T&19705.donation=form1&loc=dorg_header-donate-now&s_src=dorg&s_subsrc=header-donate-now&NONCE_TOKEN=2416445319B966127458DFF44383549D",
+             "iconImage": "https://cdnfiles.crowdrise.com/Prod_Large/event_photo-56fd7b4c237cc.png"
+             },
+             {
+             "name": "Boys & Girls Clubs of America",
+             "category": "Human Services",
+             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Bgcalogo.svg/1280px-Bgcalogo.svg.png",
+             "websiteUrl": "http://www.bgca.org/",
+             "description": "Formed in 1906, Boys & Girls Clubs of America (BGCA) is a national organization of local chapters which provide after-school programs for young people. Boys & Girls Clubs annually serve nearly 4 million young people, through membership and community outreach, in some 4,100 Club facilities throughout the country and BGCA-affiliated Youth Centers on U.S. military installations worldwide. The mission is to enable all young people, especially those who need us most, to reach their full potential as productive, caring, responsible citizens, by providing a world-class Club Experience that assures success is within reach of every young person who enters our doors, with all members on track to graduate from high school with a plan for the future, demonstrating good character and citizenship, and living a healthy lifestyle.",
+             "donateUrl": "https://donate.bgca.org/maindonationform/rc_connect__campaign_designform?id=70146000000QflfAAC&form=00P46000001FOuCEAW&_ga=2.73603218.1671436063.1502738905-7515418.1502738905",
+             "iconImage": "https://www.bgcmv.org/portal/image/image_gallery?uuid=b0235a68-8da1-44a2-a92d-e17bed85bc81&groupId=661878&t=1412084020921"
+             },
+             {
+             "name": "Habitat for Humanity",
+             "category": "Human Services",
+             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Habitat_for_humanity.svg/1200px-Habitat_for_humanity.svg.png",
+             "websiteUrl": "https://www.habitat.org/",
+             "description": "Driven by the vision that everyone needs a decent place to live, Habitat for Humanity has grown from a grassroots effort that began on a community farm in southern Georgia in 1976 to a global nonprofit housing organization in nearly 1,400 communities across the U.S. and in over 70 countries. People partner with Habitat for Humanity to build or improve a place they can call home. Habitat homeowners help build their own homes alongside volunteers and pay an affordable mortgage. Through financial support, volunteering, or adding a voice to support affordable housing, everyone can help families achieve the strength, stability and self-reliance they need to build better lives for themselves. Through shelter, we empower. ",
+             "donateUrl": "https://www.habitat.org/donate/?keyword=header",
+             "iconImage": "http://bbjtoday.com/wp-content/woo_custom/1692-habitat-for-humanity-web.jpg"
+             },
+             {
+             "name": "Wounded Warrior Project",
+             "category": "Human Services",
+             "imageUrl": "https://media.news4jax.com/photo/2016/01/28/Wounded_Warrior_Project_log_1453985824760_1955420_ver1.0_1280_720.jpg",
+             "websiteUrl": "https://www.woundedwarriorproject.org/",
+             "description": "The mission of Wounded Warrior Project is to honor and empower wounded warriors. Our purpose is: to raise awareness and enlist the public's aid for the needs of severely injured service men and women; to help severely injured service members aid and assist each other; and to provide unique, direct programs and services to meet the needs of severely injured service members.",
+             "donateUrl": "https://support.woundedwarriorproject.org/default.aspx?tsid=7792",
+             "iconImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Wounded_Warrior_Project_logo.svg/1151px-Wounded_Warrior_Project_logo.svg.png"
+             },
+             {
+             "name": "American Kidney Fund",
+             "category": "Health",
+             "imageUrl": "https://www.charitychoices.com/sites/default/files/americankidneyfund.gif",
+             "websiteUrl": "http://www.kidneyfund.org/",
+             "description": "American Kidney Fund (AKF) was founded in 1971, to help a single individual with kidney failure pay for dialysis. More than 45 years later, AKF has become the leading source of direct financial aid to dialysis patients across the nation. The American Kidney Fund leads the nation in providing charitable assistance to dialysis patients who need help with the costs associated with treating kidney failure. In 2015, more than 93,000 people--1 out of every 5 dialysis patients in the United States--received assistance from the American Kidney Fund for health insurance premiums and other treatment-related expenses. Millions of people nationwide benefit annually from the American Kidney Fund's efforts to fight kidney disease through public awareness campaigns, free health screenings, health education materials and courses, online outreach, and toll-free health information HelpLine (866-300-2900).",
+             "donateUrl": "https://secure2.convio.net/akf/site/SPageNavigator/2017_Honor_Memorial.html?s_src=rkd1707_mainform&s_subsrc=mainform_headeronetime&_ga=2.201541201.1705667566.1502738979-708366969.1502738979",
+             "iconImage": "http://www.kidneyfund.org/assets/images/nav-images/shop-the-akf-store.jpg"
+             },
+             {
+             "name": "EIF",
+             "category": "Health",
+             "imageUrl": "https://goodpitch.org/uploads/cache/org_image/max_600_400_entertainment-industry-foundation.jpg",
+             "websiteUrl": "http://www.eifoundation.org/",
+             "description": "Created in 1942, the Entertainment Industry Foundation (EIF) was established on the belief that the entertainment industry was in a unique position to truly help others. EIF harnesses the collective power of the entertainment industry and channels its unique assets to raise awareness and funds for critical health, educational and social issues in order to make a positive impact in our community and throughout the nation. Annually, the Entertainment Industry Foundation funds more than 300 charitable organizations within the greater Los Angeles area and throughout the nation.",
+             "donateUrl": "https://secure.eifoundation.org/site/Donation2;jsessionid=00000000.app315a?4140.donation=form1&df_id=4140&mfc_pref=T&NONCE_TOKEN=1A7C297EACB75A23F40C8E9C4AD69E22",
+             "iconImage": "https://cdnfiles.crowdrise.com/Prod_Large/eiflogo2.png"
+             },
+             {
+             "name": "Scholarship America Education",
+             "category": "Education",
+             "imageUrl": "https://scholarshipamerica.org/wp-content/uploads/2016/07/scholarship-america-logo-transparent.png",
+             "websiteUrl": "https://scholarshipamerica.org/",
+             "description": "Founded in 1958, Scholarship America has distributed more than two billion dollars to nearly two million students. Scholarship America is the nation's largest private scholarship and educational support organization. Our mission is to mobilize America, through scholarships and educational support, to make postsecondary education possible for all students. Scholarship America programs include Dollars for Scholars, Scholarship Management Services, and ScholarShop, and special initiatives include the Families of Freedom Scholarship Fund, the Learning Communities Initiative, and the Dreamkeepers Emergency Financial Aid program.",
+             "donateUrl": "https://donations.scholarshipamerica.org/index.php?",
+             "iconImage": "https://www1.itron.com/LandingPage/PublishingImages/scholarship_america_logo.jpg?Mobile=1"
+             },
+             {
+             "name": "Mercy for Animals",
+             "category": "Animals",
+             "imageUrl": "http://mfa.cachefly.net/mfa/images/mercy-for-animals-logo-color.png",
+             "websiteUrl": "http://www.mercyforanimals.org/",
+             "description": "Founded in 1999, MFA works to create a society where all animals are treated with the compassion and respect they so rightfully deserve. We serve as a voice for animals through proactive consumer education initiatives, cruelty investigations, corporate outreach, and legal advocacy.",
+             "donateUrl": "http://www.mercyforanimals.org/donate",
+             "iconImage": "https://static1.squarespace.com/static/54126d86e4b06f3fdeff9fac/t/545d7c87e4b0c6f575f897a7/1415412871053/photo.png?format=1000w"
+             },
+             {
+             "name": "International Rhino Foundation",
+             "category": "Animals",
+             "imageUrl": "http://www.stoprhinopoaching.com/UploadedFiles/Home%20Page/rhinoInternationalFoundation.png",
+             "websiteUrl": "http://rhinos.org/",
+             "description": "Founded in 1989, the International Rhino Foundation (IRF) is dedicated to the survival of the world's rhino species through conservation and research. For 24 years, IRF has funded and operated rhino conservation programs in Africa and Asia, focusing expertise and resources in areas where rhinos are most in need of protection, and where conservation efforts will do the most good. Since its founding, IRF has also provided funding for scientific research that enhances the ability to manage rhinoceros populations both in the wild and in captivity. IRF also works with conservation centers and zoos to provide linkages between captive and wild populations of rhinos, with the ultimate objective of helping captive populations become a truly integral part of conservation strategies for rhinos. At the heart of IRF's vision is the belief that these magnificent species should endure for future generations, and that protecting rhinos ensures the survival of many other species, including people.",
+             "donateUrl": "https://irf.z2systems.com/np/clients/irf/donation.jsp?campaign=7&",
+             "iconImage": "https://intlrhinofoundation.files.wordpress.com/2016/02/irf_logo_2c.jpg?w=250&h=81"
+             },
+             {
+             "name": "Jane Goodall Institute",
+             "category": "Animals",
+             "imageUrl": "https://www.esw.org/sites/default/files/Jane%20Goodall%20Institute.jpg",
+             "websiteUrl": "http://www.janegoodall.org/",
+             "description": "Founded in 1977, the Jane Goodall Institute advances the power of individuals to take informed and compassionate action to improve the environment of all living things. The objectives of the Institute are to: increase primate habitat conservation; increase awareness of, support for and training in issues related to our relationship with each other, the environment and other animals (leading to behavior change); expand non-invasive research programs on chimpanzees and other primates; and to promote activities that ensure the well-being of chimpanzees, other primates and animal welfare activities in general.",
+             "donateUrl": "http://www.janegoodall.org/make-a-difference/",
+             "iconImage": "http://www.wyps.org/images/logo_goodall.gif"
+             },
+             {
+             "name": "EESI",
+             "category": "Environment",
+             "imageUrl": "http://www.eesi.org/assets/img/ui/eesi-logo.png",
+             "websiteUrl": "www.eesi.org",
+             "description": "Founded in 1984, the Environmental and Energy Study Institute (EESI) is dedicated to promoting environmentally sustainable societies. EESI believes meeting this goal requires transitions to social and economic patterns that sustain people, the environment and the natural resources upon which present and future generations depend. EESI produces credible, timely information and innovative public policy initiatives that lead to these transitions. These products take the form of publications, briefings, work shops and task forces. EESI carries out policymaker education and analysis projects in the areas of energy efficiency and renewable energy, global climate change, agriculture, biofuels, smart-growth, and clean bus technologies.",
+             "donateUrl": "https://donatenow.networkforgood.org/1436212",
+             "iconImage": "https://pbs.twimg.com/profile_images/887758186614337538/bkuXUxHI.jpg"
+             },
+             {
+             "name": "The Children's Aid Society",
+             "category": "Human Services",
+             "imageUrl": "http://www.flhfhs.org/_/rsrc/1465910905710/children-s-aid-society/childrens%20aid.png?height=97&width=400",
+             "websiteUrl": "http://www.childrensaidsociety.org/",
+             "description": "Founded in 1853, The Children's Aid Society (CAS) works to ensure the physical and emotional well-being of children and families, and to provide each child with the support and opportunities needed to become a happy, healthy and productive adult. CAS fills the gaps between what children deserve and what life has dealt them. We have been serving children for more than 150 years, a longevity that is a testament to our ability to adapt to the always changing needs of today's youth. Today CAS serves more than 150,000 children and their families at more than 45 sites throughout New York City.",
+             "donateUrl": "https://secure3.convio.net/cas/site/Donation2?df_id=1480&mfc_pref=T&1480.donation=form1&_ga=2.208499026.1596943604.1502811280-2086644127.1502811280",
+             "iconImage": "https://upload.wikimedia.org/wikipedia/en/7/76/Childrensaidsocietyseal.jpeg"
+             },
+             {
+             "name": "PAWS",
+             "category": "Animals",
+             "imageUrl": "https://pawslondon.files.wordpress.com/2012/08/cropped-paws-again4.jpg",
+             "websiteUrl": "https://www.paws.org",
+             "description": "PAWS is a champion for animals--rehabilitating injured and orphaned wildlife, sheltering and adopting homeless cats and dogs, and educating people to make a better world for animals.",
+             "donateUrl": "https://www.paws.org/support/donate/single",
+             "iconImage": "https://www.paws.org/themes/paws/images/logo.gif"
+             },
+             {
+             "name": "Energy Outreach Colorado",
+             "category": "Human Services",
+             "imageUrl": "https://www.coloradononprofits.org/civicrm/contact/imagefile?photo=EOC_logo_63b78f6e21a50af2124e639872bb0711.JPG",
+             "websiteUrl": "http://www.energyoutreach.org/",
+             "description": "Energy Outreach Colorado is dedicated to keeping Colorado homes warm, healthy and safe by raising money for energy assistance. We assist people in emergency situations by helping pay the balances on their utility bills. We also help limited income families to be more self-sufficient by funding energy efficiency measures that lower energy costs in affordable housing across Colorado. Through the Charitable Energy Network and the Low-Income Energy Assistance Program (LEAP), we help those in need across Colorado. We also support Energy Efficiency Programs that provide long-term solutions to help needy Coloradoans control their energy use and lower their bills.",
+             "donateUrl": "https://secure2.convio.net/eoc/site/Donation2?df_id=2142&mfc_pref=T&2142.donation=form1&_ga=2.173483104.296269801.1502811645-490188513.1502811645",
+             "iconImage": "https://pbs.twimg.com/profile_images/687748766095429632/6HOgeP-4.jpg"
+             },
+             {
+             "name": "Institute for Justice",
+             "category": "Human and Civil Rights",
+             "imageUrl": "http://ij.org/wp-content/themes/ijorg/images/IJ-logo-stacked-reverse.jpg",
+             "websiteUrl": "ij.org",
+             "description": "Founded in 1991, the Institute for Justice (IJ) advances a rule of law under which individuals can control their destinies as free and responsible members of society. IJ litigates to secure economic liberty, school choice, private property rights, freedom of speech and other vital individual liberties and to restore constitutional limits on the power of government. IJ provides legal counsel to inner-city entrepreneurs, because their freedom to shape their own businesses directly affects their freedom to shape their own lives and communities. In addition, IJ trains law students, lawyers, policy activists and grassroots organizers in the tactics of public interest litigation and advocacy for liberty. Through these activities, IJ challenges the ideology of the welfare state and illustrates and extends the benefits of freedom to those whose full enjoyment of liberty is denied by government.",
+             "donateUrl": "https://ij.org/support/give-now",
+             "iconImage": "https://lh5.googleusercontent.com/-4E2nlNzZS9U/AAAAAAAAAAI/AAAAAAAAAGs/y9vc4p-nlSI/s0-c-k-no-ns/photo.jpg"
+             },
+             {
+             "name": "Robin Hood Foundation",
+             "category": "Community Development",
+             "imageUrl": "https://cdnfiles.crowdrise.com/Prod_Static/robinHoodLogo.jpg",
+             "websiteUrl": "https://www.robinhood.org/",
+             "description": "Since 1988, the Robin Hood Foundation has targeted poverty in New York City. By applying sound investment principles to philanthropy, we've helped the best programs save lives and change fates. Robin Hood's work comes in many forms. We partner with more than 240 of the best poverty-fighting nonprofit organizations in New York City. We initiate and run projects when we see unmet community needs. And we created and operate a 9/11 Relief Fund. While there is great diversity among these programs, they all have one thing in common: They work.",
+             "donateUrl": "https://www.robinhood.org/take-action",
+             "iconImage": "https://media.glassdoor.com/sqll/226317/robin-hood-foundation-squarelogo.png"
+             },
+             {
+             "name": "Medical Teams International",
+             "category": "International",
+             "imageUrl": "https://www.tendersontime.com/get-blog-image.php?id=Mzc3NA==",
+             "websiteUrl": "http://www.medicalteams.org/",
+             "description": "The mission of Medical Teams International is to demonstrate the love of Christ to people affected by disaster, conflict and poverty around the world. We are a Christian global health organization based in Portland, Oregon. We send teams of volunteer health professionals to carry out disaster relief, long-term development and community health programs in collaboration with local partners. ship millions in humanitarian aid to countries around the world, and provide mobile dental care to those in need in the U.S..",
+             "donateUrl": "https://www.medicalteams.org/take-action/donate/donate-money",
+             "iconImage": "http://www.medicalteams.org/Sitefinity/WebsiteTemplates/MedicalTeams/App_Themes/MedicalTeams/images/logo-medical-teams.png"
+             },
+             {
+             "name": "Helping Hand for Reief and Development",
+             "category": "International",
+             "imageUrl": "http://www.k12academics.com/sites/default/files/HHRD%20LOGO+WEB-01%20(1).jpg",
+             "websiteUrl": "https://www.hhrd.org/",
+             "description": "Helping Hand for Relief and Development is a global humanitarian relief and development organization responding to human sufferings in emergency and disastrous situations anywhere all over the world regardless race, gender, ethnicity, class, location, religion, color, cultural diversity and social background; with special focus on countries where the massive population is living below the poverty line. In addition to our emergency relief efforts in natural or man made disaster areas, we also work on long term relief and development programs like livelihood, economic empowerment, orphan and widows support program and skill development program.",
+             "donateUrl": "https://www.hhrd.org/QuickDonate",
+             "iconImage": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAeTAAAAJGM2OWY3ZDc0LTQxYjQtNDJkYS1hN2E3LWU2ZTUzN2Y1NTEzNg.png"
+             },
+             {
+             "name": "Mercy-USA for Aid and Development",
+             "category": "International",
+             "imageUrl": "https://www.google.com/search?q=mercy+for+aid+and+development&rlz=1C5CHFA_enUS699US699&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjY4aah5tnVAhUn6YMKHenQB-oQ_AUICygC&biw=1425&bih=441#imgrc=ITZku6mu2o83rM:",
+             "websiteUrl": "http://mercyusa.org/",
+             "description": "Mercy-USA for Aid and Development is dedicated to alleviating human suffering and supporting individuals and their communities in their efforts to become more self-sufficient. Our philosophy is \"Helping People Help Themselves\". Incorporated in the State of Michigan in 1988, Mercy-USA's projects focus on improving health, nutrition and access to safe water, as well as promoting economic and educational growth and providing disaster relief around the world.",
+             "donateUrl": "https://mercyusa.org/donate-now/",
+             "iconImage": "https://pbs.twimg.com/profile_images/672877190917324800/MzUIxwDR.jpg"
+             },
+             {
+             "name": "Child Foundation",
+             "category": "International",
+             "imageUrl": "https://www.globalhand.org/system/images/beec77bb489b235dde3d7427d6148a6e9616b262/logo/Child-Foundation-Logo-300x231.jpg?1444304514",
+             "websiteUrl": "http://www.childfoundation.org/",
+             "description": "Child Foundation helps children in need, who have been identified as high achievers, to remain in school. Since 1994, Child Foundation has provided basic necessities to children living in poverty or hardship. By providing access to education, Child Foundation hopes to eliminate children prematurely leaving school, and, in certain countries, early matrimony. We believe that education can move a child beyond the stigma of poverty, and give that child the tools to reach his or her true potential.",
+             "donateUrl": "https://childfoundation.wufoo.com/forms/one-time-donation/",
+             "iconImage": "https://www.globalhand.org/system/images/beec77bb489b235dde3d7427d6148a6e9616b262/logo/Child-Foundation-Logo-300x231.jpg?1444304514"
+             },
+             {
+             "name": "Islamic Relief",
+             "category": "International",
+             "imageUrl": "http://www.islamic-relief.org/wp-content/uploads/2014/06/irw-post-img-605x340.jpg",
+             "websiteUrl": "http://irusa.org/",
+             "description": "The Palestine Children's Relief Fund (PCRF) is a non-political organization established in 1991 by concerned people in the U.S. to address the medical and humanitarian crisis facing Palestinian youths in the Middle East. The main objective of the PCRF is to identify and treat every child in the Middle East in need of specialized surgery not available to them locally. We locate, sponsor and run volunteer medical missions to the Middle East in adult and pediatric cardiac surgery, pediatric cardiology, plastic and reconstructive surgery, maxillofacial surgery, pediatric urology, ophthalmology, vascular surgery, pediatric orthopedic surgery, occupational therapy, and other specialties. Since our founding, over 800 children have been, or currently are being treated, outside of the Middle East through the PCRF.",
+             "donateUrl": "https://secure.irusa.org/donate/donate-now?_ga=2.122139147.1852341201.1502819505-853881983.1502819505",
+             "iconImage": "https://upload.wikimedia.org/wikipedia/commons/4/45/IRW_Logo.jpg"
+             },
+             {
+             "name": "American Refugee Committee",
+             "category": "International",
+             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/ArcLogo.jpg/275px-ArcLogo.jpg",
+             "websiteUrl": "http://arcrelief.org/",
+             "description": "Founded in 1979, the American Refugee Committee International (ARC) is a humanitarian aid organization that works to help people take back control of their lives. ARC programs serve nearly 2.5 million people each year, providing health care, clean water, sanitation, shelter, gender-based violence prevention services, microenterprise development, disease prevention services, education, legal services, counseling and repatriation assistance. We work in DRC, Rwanda, Uganda, South Sudan, Sudan, Pakistan, Thailand, Myanmar, Somalia, Syria, and Jordan. ARC works with its constituents as partners. Of its 2,000 employees, 95 percent are hired locally.",
+             "donateUrl": "https://secure2.convio.net/refc/site/Donation2;jsessionid=00000000.app258a?df_id=2945&2945.donation=form1&mfc_pref=T&NONCE_TOKEN=5779EA54E92F8045DB98E5444DC4906B",
+             "iconImage": "https://media.glassdoor.com/sqll/31412/american-refugee-committee-squarelogo-1425965236632.png"
+             },
+             {
+             "name": "Corporation for Supportive Housing",
+             "category": "Community Development",
+             "imageUrl": "https://www.cornerstoneondemand.org/sites/default/files/styles/588cx308/public/blog/CSH_Blog_Hero_0.png?itok=7fNh7xBR",
+             "websiteUrl": "http://www.csh.org/",
+             "description": "CSH's mission is to advance housing solutions that deliver three powerful outcomes: 1) improved lives for the most vulnerable people 2) maximized public resources and 3) strong, healthy communities across the country. \n\nCSH is working to solve some of the most complex and costly social problems our country faces--like those related to homelessness. \n\nCSH envisions a future in which high-quality supportive housing solutions are integrated into the way every community serves the men, women and children in most need. ",
+             "donateUrl": "https://donatenow.networkforgood.org/csh",
+             "iconImage": "http://files.ctctcdn.com/4dd2e35a001/88349a35-ee8e-4d22-971e-7103ec531225.jpg"
+             },
+             {
+             "name": "HomeAid America",
+             "category": "Community Development",
+             "imageUrl": "https://photos.prnewswire.com/prnvar/20150504/213599LOGO",
+             "websiteUrl": "https://www.homeaid.org/",
+             "description": "Founded in 1989, HomeAid is a leading national provider of housing for today's homeless. The organization builds new lives for America's homeless families and individuals through housing and community outreach. HomeAid builds multi-unit housing for homeless families and individuals, then donates it to charities such as Family Promise, US Veteran's Initiative, Boys Hope Girls Hope, Mercy House, Salvation Army, Volunteers of America, YMCA, and others. Most HomeAid housing serves people who are temporarily homeless due to circumstances beyond their control: job loss, natural disasters and other catastrophes, illness and medical problems, domestic violence, and more. HomeAid has provided housing for more than 270,000 individuals.",
+             "donateUrl": "https://www.paypal.com/donate/?token=ffr9OcjSAi2BCtJxTG7XsM0SW4zIbRucBgFEUZ5UmfL_fYS1EK1UishTPsytHsqGJr7F6G&country.x=US&locale.x=US",
+             "iconImage": "https://pbs.twimg.com/profile_images/611304706615283712/EkRU9nlO_400x400.png"
+             },
+             {
+             "name": "The Actors Fund",
+             "category": "Arts, Culture, Humanities",
+             "imageUrl": "https://donate.actorsfund.org/image/af-logos/AF_logo_medblue.png",
+             "websiteUrl": "http://www.actorsfund.org/",
+             "description": "The Actors Fund is a national human services organization that helps everyone - performers and those behind the scenes - who works in performing arts and entertainment, helping more than 13,500 people directly each year and hundreds of thousands more online. Serving professionals in film, theatre, television, music, opera, radio and dance, The Fund's programs include social services and emergency financial assistance, health care and insurance counseling, housing, and employment and training services. With offices in New York, Los Angeles and Chicago, The Actors Fund has been a safety net for those in need, crisis and transition since 1882.",
+             "donateUrl": "https://secure2.convio.net/afa/site/Donation2;jsessionid=00000000.app20102b?idb=2064020303&1400.donation=form1&df_id=1400&mfc_pref=T&NONCE_TOKEN=25617CFA7EF3CA7547054E96044EF492&idb=0",
+             "iconImage": "https://donate.actorsfund.org/image/af-logos/AF_logo_medblue.png"
+             },
+             {
+             "name": "American Documentary ",
+             "category": "Arts, Culture, Humanities",
+             "imageUrl": "http://www.amdoc.org/assets/media/amdoc-social-media-1600x900.jpg",
+             "websiteUrl": "http://www.amdoc.org/",
+             "description": "American Documentary (AMDOC) is a leading nonprofit media organization dedicated to creating, identifying and presenting contemporary nonfiction stories that express opinions and perspectives rarely featured in mainstream media. Since 1988, American Documentary has produced the award-winning series P.O.V. for PBS, presenting over 365 of the most important documentary films of our time. Our films - coupled with our unsurpassed national reach and local collaborations - have brought powerful documentary storytelling into people's lives, and brought public dialogue on issues of national importance to a new level. American Documentary is a leader in extending the reach of documentaries online. American Documentary continues to pioneer new ways to use independent media as a springboard to engage the public.",
+             "donateUrl": "http://www.amdoc.org/",
+             "iconImage": "http://www.amdoc.org/assets/media/amdoc-social-media-1600x900.jpg"
+             },
+             {
+             "name": "Center for Asian American Media",
+             "category": "Arts, Culture, Humanities",
+             "imageUrl": "https://caamedia.org/wp-content/uploads/2015/01/caam-logo-gw.png?195aa0",
+             "websiteUrl": "http://caamedia.org/",
+             "description": "Founded in 1980 the Center for Asian American Media (CAAM), formerly known the National Asian American Telecommunications Association, has grown into the largest organization dedicated to the advancement of Asian Americans in independent media, specifically the areas of television and filmmaking. Dedicated to presenting stories that convey the richness and diversity of Asian American experiences to the broadest audience possible, CAAM funds, produces, distributes and exhibits works in film, television and digital media. Apart from their public television work, CAAM's most visible community contribution is their yearly San Francisco International Asian American Film Festival (SFIAAFF).",
+             "donateUrl": "http://prod3.agileticketing.net/websales/pages/DonationInfo.aspx?epguid=62e6dd8d-2a5e-4ff1-97c3-eae7a6f8b358&doninfo=57~ce43e99b-16f3-48c5-b0b9-de2e818786f1&",
+             "iconImage": "https://s3.amazonaws.com/avatars.itvs.org/b334a8a5-e60b-4670-b061-8d00809f7354.jpg"
+             },
+             {
+             "name": "National Guild for Community Arts Education",
+             "category": "Arts, Culture, Humanities",
+             "imageUrl": "http://dancetalks.org/files/2016/01/National-Guild-New-Logo-eps.jpg",
+             "websiteUrl": "http://www.nationalguild.org/Home.aspx",
+             "description": "The National Guild for Community Arts Education supports and advances lifelong learning opportunities in the arts. We foster the creation and development of community arts education organizations by providing research and information resources, professional development, networking opportunities, funding, and advocacy on behalf of the field. Our more than 400 member institutions include community schools of the arts; arts centers; and arts education divisions of performing arts institutions, universities, museums, and other institutions. They are located in urban, suburban, and rural communities in 45 states.",
+             "donateUrl": "http://www.nationalguild.org/Support.aspx",
+             "iconImage": "http://dancetalks.org/files/2016/01/National-Guild-New-Logo-eps.jpg"
+             },
+             {
+             "name": "ProPublica ",
+             "category": "Arts, Culture, Humanities",
+             "imageUrl": "https://www.propublica.org/images/ngen/gypsy_og_image/pp-logo-1200x630jpg_3.jpg",
+             "websiteUrl": "https://www.propublica.org/",
+             "description": "Founded in 2007, ProPublica is an independent, non-profit newsroom that produces investigative journalism in the public interest. Our work focuses exclusively on truly important stories, stories with “moral force.” We do this by producing journalism that shines a light on exploitation of the weak by the strong and on the failures of those with power to vindicate the trust placed in them. In the best traditions of American journalism in the public service, we seek to stimulate positive change. We uncover unsavory practices in order to stimulate reform. We do this in an entirely non-partisan and non-ideological manner, adhering to the strictest standards of journalistic impartiality.",
+             "donateUrl": "https://www.propublica.org/donate/",
+             "iconImage": "https://pbs.twimg.com/profile_images/660147326091182081/Q4TLW_Fe.jpg"
+             },
+             {
+             "name": "Smithsonian Institution",
+             "category": "Arts, Culture, Humanities",
+             "imageUrl": "https://static.skillshare.com/uploads/project/0a6c314eda7b674726e8073e2f7ed915/e712ddcb",
+             "websiteUrl": "https://www.si.edu/",
+             "description": "Our Mission is the increase and diffusion of knowledge.\n\nOur Vision is to shape the future by preserving our heritage, discovering new knowledge, and sharing our resources with the world.",
+             "donateUrl": "https://support.si.edu/site/Donation2?df_id=15824&15824.donation=form1&s_src=Z0000PWSWF&s_subsrc=web_I_P_N_si-edu-global-topnav_SI___",
+             "iconImage": "https://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0003/1438/brand.gif?itok=UEvVSROb"
+             },
+             {
+             "name": "Sundance Institute ",
+             "category": "Arts, Culture, Humanities",
+             "imageUrl": "http://www.sundance.org/images/sharing-thumbnails/SI-whiteOnYellow.png",
+             "websiteUrl": "http://www.sundance.org/",
+             "description": "Founded in 1981 by Robert Redford, the Sundance Institute is dedicated to the discovery and development of independent artists and audiences. Through its programs, the Institute seeks to discover, support, and inspire independent film and theatre artists from the United States and around the world, and to introduce audiences to their new work. The Institute's programs include the annual Sundance Film Festival, the Feature Film Program, the Documentary Film Program, the Film Music Program, the Theatre Program, the Independent Producers Conference, and the Native American Initiative. The Institute also maintains the Sundance Collection at UCLA to conserve and archive the history of independent film.",
+             "donateUrl": "http://www.sundance.org/support",
+             "iconImage": "https://upload.wikimedia.org/wikipedia/en/2/2f/Sundance_Institute_Logo.png"
+             },
+             {
+             "name": "Asian & Pacific Islander American Scholarship Fund",
+             "category": "Education",
+             "imageUrl": "http://3blaws.s3.amazonaws.com/images/APIASF_Logo_-_BLUE.jpg",
+             "websiteUrl": "http://www.apiasf.org/",
+             "description": "Based in Washington, D.C., the Asian & Pacific Islander American Scholarship Fund (APIASF) is the nation's largest non-profit organization devoted to providing college scholarships for Asian Americans and Pacific Islanders (AAPI). APIASF works to create opportunities for students to access, complete, and succeed after post-secondary education; thereby developing future leaders who will excel in their career, serve as role models in their communities, and will ultimately contribute to a vibrant America. Since 2003, APIASF has distributed more than $60 million in scholarships to deserving AAPI students. APIASF manages two scholarship programs: APIASF's general scholarship and the Gates Millennium Scholars/Asian Pacific Islander Americans funded by a grant from the Bill & Melinda Gates Foundation.",
+             "donateUrl": "https://donatenow.networkforgood.org/apiasf",
+             "iconImage": "https://media.glassdoor.com/sqll/779795/asian-and-pacific-islander-american-scholarship-fund-squarelogo-1451558587949.png"
+             },
+             {
+             "name": "American Indian College Fund",
+             "category": "Education",
+             "imageUrl": "http://collegefund.org/wp-content/themes/nmc_aicf/assets/logo-png.png",
+             "websiteUrl": "http://collegefund.org/",
+             "description": "The American Indian College Fund provides scholarships, internships opportunities, and other life skills and career readiness support to American Indian students. An education is often the difference between a happy, healthy, and self-sustaining productive life and one that is not. Approximately 13% of American Indians have a college degree, well below the national average. To strengthen our country as a whole, the American Indian College Fund seeks to strengthen native communities by empowering native people with skills, knowledge, and experience. The American Indian College Fund directly supports over 4,000 American Indian students annually, and thousands more through indirect services and support.",
+             "donateUrl": "https://collegefund.org/make-a-gift/?source=website",
+             "iconImage": "https://s-media-cache-ak0.pinimg.com/736x/76/2d/7f/762d7f28af3824a5fa2e8b53859a0f79--college-fund-college-students.jpg"
+             },
+             {
+             "name": "Hispanic Scholarship Fund",
+             "category": "Education",
+             "imageUrl": "https://www.hsf.net/documents/21739/0/hsflogo.png",
+             "websiteUrl": "https://www.hsf.net/",
+             "description": "The Hispanic Scholarship Fund (HSF) provides scholarships to Latino students, as well as related support services. HSF seeks to give students all the tools they need to apply to college, do well in their course work, graduate, enter a profession, excel, help lead our nation going forward, and mentor the generations to come.",
+             "donateUrl": "https://donate.hsf.net/en/donate#/donate",
+             "iconImage": "https://d17b1stq82ojj.cloudfront.net/wp-content/uploads/2016/02/Hispanic-Scholarship-Fund.jpg"
+             },
+             {
+             "name": "Khan Academy",
+             "category": "Education",
+             "imageUrl": "https://cdn.kastatic.org/images/khan-logo-dark-background.png",
+             "websiteUrl": "https://www.khanacademy.org/",
+             "description": "Khan Academy works to provide a free, world-class education for anyone, anywhere. Khan Academy offers practice exercises, instructional videos, and a personalized learning dashboard that empower learners to study at their own pace in and outside of the classroom. We tackle math, science, computer programming, history, art history, economics, and more. Our math missions guide learners from kindergarten to calculus using state-of-the-art, adaptive technology that identifies strengths and learning gaps. We've also partnered with institutions like NASA, The Museum of Modern Art, The California Academy of Sciences, and MIT to offer specialized content.",
+             "donateUrl": "https://www.khanacademy.org/donate",
+             "iconImage": "https://lh3.googleusercontent.com/CRg3JfMTySIYOM5toP6FwssfOoD8feGGv2QF71WuMYWf5MsdTbp_7qFaZz1xlFL5N1g=w300"
+             },
+             {
+             "name": "Society for Science & the Public",
+             "category": "Education",
+             "imageUrl": "https://static1.squarespace.com/static/5714fc67356fb008af8410f8/t/5755758b22482ee3339545e6/1465218458123/",
+             "websiteUrl": "https://www.societyforscience.org/",
+             "description": "Society for Science & the Public is a nonprofit 501(c)(3) membership organization dedicated to public engagement in scientific research and education. Our vision is to promote the understanding and appreciation of science and the vital role it plays in human advancement: to inform, educate and inspire. The Society is proud to continue to convey the world of science to our global community. Educating and informing students, parents, teachers and the greater community about the evolving and influential world of science, we inspire the endless possibilities they have to offer.",
+             "donateUrl": "https://www.societyforscience.org/donate",
+             "iconImage": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAToAAAAJDdhZjAyNmIzLTI3MmQtNGNjMi04ODc0LWYxMDJhMDVjOTg1NA.png"
+             },
+             {
+             "name": "Bigelow Laboratory for Ocean Sciences ",
+             "category": "Research and Public Policy",
+             "imageUrl": "https://studentsofbigelow.bigelow.org/wp-content/uploads/2016/03/bigelow.png",
+             "websiteUrl": "https://www.bigelow.org/",
+             "description": "Bigelow Laboratory for Ocean Sciences investigates the microbial drivers of global ocean processes through basic and applied research, education, and enterprise. What we are learning will be essential to the conservation and responsible use of the ocean and the many valuable services it provides. Research at Bigelow Laboratory for Ocean Sciences is organized around three core themes of Blue Biotechnology, Ocean Biogeochemistry and Climate Change, and Ocean Health. The Laboratory's 60,000 square-foot, shore-based campus is located in East Boothbay, Maine, on the Damariscotta River estuary.",
+             "donateUrl": "https://www.bigelow.org/support/",
+             "iconImage": "https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/bigelow.png"
+             },
+             {
+             "name": "AAA Foundation for Traffic Safety",
+             "category": "Research and Public Policy",
+             "imageUrl": "https://sites.ewu.edu/nwttap/files/2014/08/AAA-Foundation-for-Traffic-Safety.jpg",
+             "websiteUrl": "https://www.aaafoundation.org/",
+             "description": "The AAA Foundation for Traffic Safety is dedicated to saving lives and reducing injuries on the roads. Since 1947, the Foundation has funded over 200 research projects designed to discover the causes of traffic crashes, prevent them, and minimize injuries when they do occur. We have used this research to develop dozens of focused, high-impact educational materials for drivers, pedestrians, bicyclists and other road users. Government agencies and legislators--as well as automobile clubs, driving schools, and school districts--turn to the Foundation's research to guide them in creating policies that can save lives on our roads and highways, teach adults how to drive more responsibly, and teach children about vehicle, bicycle, and pedestrian safety.",
+             "donateUrl": "https://www.aaafoundation.org/donate",
+             "iconImage": "http://www.safehomealabama.gov/portals/0/Images/AAA/AAA.png"
+             },
+             {
+             "name": "American Council for an Energy-Efficient Economy",
+             "category": "Research and Public Policy",
+             "imageUrl": "http://aceee.org/files/image/logos/ACEEE_logo_block.jpg",
+             "websiteUrl": "http://aceee.org/",
+             "description": "The American Council for an Energy-Efficient Economy (ACEEE) acts as a catalyst to advance energy efficiency policies, programs, technologies, investments, and behaviors. We believe that the United States can harness the full potential of energy efficiency to achieve greater economic prosperity, energy security, and environmental protection for all its people. ACEEE carries out its mission by: conducting in-depth technical and policy analyses; advising policymakers and program managers; convening conferences and workshops; assisting and encouraging media to cover energy efficiency policy and technology issues; educating consumers and businesses through our reports, books, conference proceedings, press activities, and websites.",
+             "donateUrl": "http://aceee.org/about/latham-scholarship",
+             "iconImage": "https://media.glassdoor.com/sqll/264151/american-council-for-an-energy-efficient-economy-aceee-squarelogo.png"
+             },
+             {
+             "name": "Center for Food Safety",
+             "category": "Research and Public Policy",
+             "imageUrl": "http://www.centerforfoodsafety.org/files/logolg_58328.png",
+             "websiteUrl": "http://www.centerforfoodsafety.org/",
+             "description": "Founded in 1997, Center for Food Safety (CFS) works to protect human health and the environment by curbing the proliferation of harmful food production technologies and by promoting organic and other forms of sustainable agriculture. CFS combines multiple tools and strategies in pursuing its goals, including litigation and legal petitions for rulemaking, legal support for various sustainable agriculture and food safety constituencies, as well as public education, grassroots organizing and media outreach.",
+             "donateUrl": "https://secure.actblue.com/contribute/page/supportcfs",
+             "iconImage": "http://www.centerforfoodsafety.org/files/logosq_24216.png"
+             },
+             {
+             "name": "Direct Relief",
+             "category": "International",
+             "imageUrl": "https://writers.bitcoin.com/wp-content/uploads/2015/08/DR_Logo_CMYK_2400x648.png",
+             "websiteUrl": "directrelief.org",
+             "description": "Founded in 1948, Direct Relief is California's largest international humanitarian nonprofit organization. Direct Relief provides medical assistance to improve the health and lives of people affected by poverty and disaster - at home and throughout the world. Since 2000, Direct Relief has responded to a wide range of urgent and ongoing health emergencies, by providing more than $3.4 billion in essential material resources - medicines, supplies and equipment, including more than $500 million in assistance in the United States",
+             "donateUrl": "https://www.directrelief.org/ways-to-give/",
+             "iconImage": "https://www.directrelief.org/content/uploads/DirectRelief_Logomark_RGB.png"
+             },
+             {
+             "name": "American Composers Orchestra",
+             "category": "Arts, Culture, Humanities",
+             "imageUrl": "http://www.americancomposers.org/aco_wave_both.gif",
+             "websiteUrl": "http://www.americancomposers.org/",
+             "description": "Founded in 1975, American Composers Orchestra (ACO) identifies today's brightest emerging composers, champions prominent established composers as well as those lesser-known, and increases regional, national and international awareness of the infinite variety of American orchestral music, reflecting geographic, stylistic, and temporal diversity. To date, ACO has performed music by nearly 500 American composers, including more than 100 world premieres and newly commissioned works. In pursuit of its singular mission, ACO maintains an unparalleled range of activities including an annual concert series at Carnegie Hall, commissions, recordings, radio broadcasts, educational programs, and new music reading sessions. New initiatives include composer fellowships and special projects designed to serve and advance the field.",
+             "donateUrl": "http://www.americancomposers.org/support-aco/",
+             "iconImage": "http://www.americancomposers.org/aco_wave_both.gif"
+             },
+             {
+             "name": "Archaeological Conservancy",
+             "category": "Arts, Culture, Humanities",
+             "imageUrl": "http://www.archaeologicalconservancy.org/wp-content/uploads/2015/10/headerTest52.png",
+             "websiteUrl": "http://www.archaeologicalconservancy.org/",
+             "description": "The Archaeological Conservancy, established in 1980, is the only national non-profit organization dedicated to acquiring and preserving the best of our nation's remaining archaeological sites. Based in Albuquerque, New Mexico, the Conservancy also operates regional offices in Mississippi, Maryland, Ohio, and California. Every day, prehistoric and historic archaeological sites in the United States are lost forever--along with the precious information they contain. Modern-day looters use backhoes and bulldozers to recover artifacts for the international market. Urban development and agricultural methods such as land leveling and topsoil mining destroy ancient sites. The Conservancy protects these sites by acquiring the land on which they rest, preserving them for posterity.",
+             "donateUrl": "https://donate.archaeologicalconservancy.org/",
+             "iconImage": "http://www.gaultschool.org/application/files/9014/6645/1358/ArchCon.jpg"
+             },
+             {
+             "name": "Frameline",
+             "category": "Arts, Culture, Humanities",
+             "imageUrl": "http://www.underconsideration.com/brandnew/archives/frameline_logo_wordmark.png",
+             "websiteUrl": "https://www.frameline.org/",
+             "description": "Founded in 1977, Frameline's mission is to change the world through the power of queer cinema. As a media arts non-profit, Frameline's programs connect filmmakers and audiences in the San Francisco Bay Area and around the world. Frameline presents the San Francisco International LGBTQ Film Festival, the longest running, largest and most widely recognized LGBTQ film exhibition event in the world. Established in 1981, Frameline Distribution serves an international audience of hundreds of thousands and is the leading educational distributor solely dedicated to LGBTQ film and video. Since 1990, more than 134 films have been completed with assistance from the Frameline Completion Fund. Frameline Voices exhibits 100+ films serving underrepresented constituents within the LGBTQ community and available for free via online streaming. Finally, Frameline's Youth in Motion program provides professionally developed educational curricula and media to over 1,000 schools and GSA clubs nationwide.",
+             "donateUrl": "https://www.frameline.org/support",
+             "iconImage": "https://pbs.twimg.com/profile_images/867211191449513984/p_7dPHMX.jpg"
+             },
+             {
+             "name": "The Albertsons Companies Foundation",
+             "category": "Community Development",
+             "imageUrl": "https://s3.amazonaws.com/mda-liveunlimited/assets/uploads/2016/06/16202946/MDA_PartnerHeader_061616_Albertsons2.jpg",
+             "websiteUrl": "http://albertsonscompaniesfoundation.org/",
+             "description": "The Albertsons Companies Foundation is dedicated to bettering the lives of people in our neighborhoods. They support causes that impact their customers' lives. Their stores provide the opportunity to mobilize funding and create awareness in their neighborhoods through their employees' passion, partnerships with their vendors and the generous contributions by their customers. Carefully directing contributions, they work in collaboration with local organizations and seek to improve the quality of life in the communities they serve. They take pride in ensuring that the vast majority of the funds they raise stay in local communities and reflects what is important to their customers and employees.",
+             "donateUrl": "https://www.paypal.com/donate/?token=nQjqNmI4USXrp3O1foRo5iw8GusomGSdOSb0YciySOUXAKL51gzFRb91DAYIE8w8i8R-50&country.x=US&locale.x=US",
+             "iconImage": "https://s3.amazonaws.com/mda-liveunlimited/assets/uploads/2016/06/15204058/ALBERTSONS_SAFEWAY_FOUNDATION_0.png"
+             },
+             {
+             "name": "Enterprise Community Partners",
+             "category": "Community Development",
+             "imageUrl": "http://goeastjefferson.org/wp-content/uploads/2013/10/ENTERPRISE-7462C-SM.jpg",
+             "websiteUrl": "http://www.enterprisecommunity.org/",
+             "description": "Making Well-Designed Homes Affordable\nAs a proven and powerful nonprofit, Enterprise improves communities and people's lives by making well-designed homes affordable. We bring together nationwide know-how, partners, policy leadership and investment to multiply the impact of local affordable housing development.\n\nOur mission: To create opportunity for low- and moderate-income people through affordable housing in diverse, thriving communities. Over more than 30 years, Enterprise has created nearly 380,000 homes, invested $28.9 billion and touched millions of lives. \n",
+             "donateUrl": "https://donatenow.networkforgood.org/1443287?_ga=2.233589018.500361472.1502977469-587917994.1502977469",
+             "iconImage": "https://yt3.ggpht.com/-DmbbBNNjtYE/AAAAAAAAAAI/AAAAAAAAAAA/_0bx3DVYkv4/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
+             },
+             {
+             "name": "Sponsors for Educational Opportunity",
+             "category": "Education",
+             "imageUrl": "http://www.rootcause.org/images/SEO/131028_client_rotation_logo_SEO.png",
+             "websiteUrl": "http://www.seo-usa.org/",
+             "description": "SEO was founded in 1963 with a mission to provide talented and motivated young people from underserved and underrepresented communities with access to superior educational and career opportunities. Today, SEO runs three programs: SEO Scholars is an eight-year academic program that gets low-income public high school students to and through college-with a 95% college graduation rate; SEO Career is the nation's premier summer internship and training program for underrepresented college students, specializing in banking, private equity, corporate leadership, law, and non-profit; SEO Alternative Investments provides education, exposure, training and mentoring opportunities to talented professionals traditionally underrepresented in the alternative investments sector.",
+             "donateUrl": "http://www.seo-usa.org/donatenow",
+             "iconImage": "http://www.rootcause.org/images/SEO/131028_client_rotation_logo_SEO.png"
+             },
+             {
+             "name": "Chattahoochee Riverkeeper",
+             "category": "Environment",
+             "imageUrl": "http://www.downtownlagrange.com/wp-content/uploads/2015/05/chattahoochee-riverkeeper.jpg",
+             "websiteUrl": "https://chattahoochee.org/",
+             "description": "The Chattahoochee Riverkeeper's (CRK) works to advocate and secure the protection and stewardship of the Chattahoochee River, its tributaries and watershed, in order to restore and preserve their ecological health for the people, fish and wildlife that depend on the River system. Established in 1994, CRK is an environmental advocacy organization with more than 6,000 members dedicated solely to protecting and restoring the Chattahoochee River Basin - drinking water source for 4 million people. CRK actively uses advocacy, education, research, communication, cooperation, monitoring and legal actions to protect and preserve the Chattahoochee and its watershed.",
+             "donateUrl": "https://chattahoochee.wufoo.com/forms/q1jhz79o0vv19cg/",
+             "iconImage": "https://digitalscientists.com/system/images/164/original/icon-180px.png?1453983951"
+             },
+             {
+             "name": "Rainforest Trust",
+             "category": "Environment",
+             "imageUrl": "http://www.worldlandtrust.org/sites/default/files/rt-logo_0.jpg",
+             "websiteUrl": "https://www.rainforesttrust.org/",
+             "description": "Established in 1988, Rainforest Trust partners with local, in-country conservation organizations around the world to strategically purchase and protect lands vital for wildlife conservation. We specifically target rainforests and tropical habitats that are critical for preventing species extinctions and that are exceptionally rich in biological diversity. Celebrating over 27 years of lasting conservation action, we are proud to have saved more than 15.7 million acres of rainforests and tropical habitat across 20+ countries in 100+ protected areas and wildlife reserves.",
+             "donateUrl": "https://www.rainforesttrust.org/donate/",
+             "iconImage": "https://pbs.twimg.com/profile_images/378800000467190922/460529155b055efa773ee0ec2f2040ed_400x400.png"
+             },
+             {
+             "name": "Wild Earth Allies",
+             "category": "Environment",
+             "imageUrl": "https://wildearthallies.org/wp-content/uploads/2016/11/Wile-Earth-Allies-Logo-No-Tagline.png",
+             "websiteUrl": "https://wildearthallies.org/",
+             "description": "Wild Earth Allies, Inc. (formerly known as Fauna & Flora International, Inc.) joins forces with local organizations and individuals to protect the wildlife and habitats that are so critical to our global biodiversity and sustainability. \n\nOur mission is to protect vital areas of our natural world for the benefit of wildlife, habitats, and people by inspiring collaborative action. Our organization is built on important values-optimism, cultural respect, shared learning, and integrity.",
+             "donateUrl": "https://donatenow.networkforgood.org/wildearthallies",
+             "iconImage": "https://pbs.twimg.com/profile_images/798620564852211717/5HPWGdnn.jpg"
+             },
+             {
+             "name": "Arthritis National Research Foundation",
+             "category": "Health",
+             "imageUrl": "http://racingforacure.org/wp-content/uploads/2013/10/ANRF-R4C-Logo.jpg",
+             "websiteUrl": "https://www.curearthritis.org/",
+             "description": "To provide initial research funding to brilliant, investigative scientists with new ideas to cure arthritis and related autoimmune diseases.",
+             "donateUrl": "https://www.curearthritis.org/donate/",
+             "iconImage": "https://my.reason2race.com/uploads/NonProfit/2e4cfd76-1bf8-467e-8f6d-f926a4d43e3f.png"
+             },
+             {
+             "name": "Cure Alzheimer's Fund",
+             "category": "Health",
+             "imageUrl": "https://static.treato.com/carlos/non-versioned-resources/images/organizations/Cure%20Alzheimer%27s%20Fund.png",
+             "websiteUrl": "http://www.curealz.org/",
+             "description": "Cure Alzheimer's Fund was established to fund targeted research with the highest probability of slowing, stopping or reversing Alzheimer's disease through venture based philanthropy. All organizational expenses are paid for by the Founders and Board, allowing all other contributions to be applied directly to Alzheimer's Disease research. Our foundational research is focused on identifying all the genes and gene mutations that are linked to Alzheimer's Disease. We can then use this genetic information to reliably predict, early in life, those at greatest risk for the disease (with legal safeguards and genetic and psychological counseling). Our foundational research projects include: Alzheimer's Genome Project, Alzheimer's Genome Map, Alzheimer's Brain-Genetic Study, Alzheimer's Clinical-Genetic Study, Alzheimer's Gene Database, MicroRNA's and APP, and Alzheimer's Gene Discovery Project.",
+             "donateUrl": "https://app.etapestry.com/hosted/CureAlzFund/OnlineDonation.html",
+             "iconImage": "https://www.globalgiving.org/pfil/organ/4160/orglogo.jpg"
+             },
+             {
+             "name": "GBS/CIDP Foundation International ",
+             "category": "Health",
+             "imageUrl": "https://30g7el1b4b1n28kgpr414nuu-wpengine.netdna-ssl.com/wp-content/themes/gbs-cidp/images/gbs-logo.png",
+             "websiteUrl": "https://www.gbs-cidp.org/",
+             "description": "Founded in 1980, GBS/CIDP (Guillain-Barré Syndrome / Chronic Inflammatory Demyelinating Polyneuropathy) Foundation International works to improve the quality of life for individuals and families worldwide affected by GBS, CIDP and variants by: providing a network for all patients, their caregivers and families; providing public and professional educational programs worldwide designed to heighten awareness and improve the understanding and treatment of GBS, CIDP and variants; and expanding the Foundation's role in sponsoring research and engaging in patient advocacy. Guillain-Barré Syndrome is an inflammatory disorder of the peripheral nerves those outside the brain and spinal cord. Chronic Inflammatory Demyelinating Polyneuropathy is a rare disorder of the peripheral nerves characterized by gradually increasing weakness of the legs and, to a lesser extent, the arms.",
+             "donateUrl": "https://www.gbs-cidp.org/volunteer/",
+             "iconImage": "https://pbs.twimg.com/profile_images/3391732534/21c09b57eec689cff3c5151e99dd4f4f.jpeg"
+             },
+             {
+             "name": "Give Kids the World Village",
+             "category": "Health",
+             "imageUrl": "http://www.gktw.org/i/common/share-logo.png",
+             "websiteUrl": "http://www.gktw.org/",
+             "description": "Give Kids The World exists only to fulfill the wishes of all children with life-threatening illnesses and their families from around the world to experience a memorable, joyful, cost-free visit to the Central Florida attractions, and to enjoy the magic of Give Kids The World Village for as long as there is a need. Each day, Give Kids The World lives by this mission and has made a promise to never turn a child away. Since 1986, more than 122,000 children have had their dream come true at Give Kids The World. Through the tireless support of our volunteers, employees and generous partners, we dedicate each and every day to these special families.",
+             "donateUrl": "https://secure2.convio.net/gktw/site/Donation2;jsessionid=00000000.app260a?df_id=2642&mfc_pref=T&2642.donation=form1&s_src=default-donate-button&s_subsrc=/index.php&NONCE_TOKEN=E7B11402F81E7E4DF873E19FC004359E",
+             "iconImage": "http://www.gktw.org/i/common/share-logo.png"
+             },
+             {
+             "name": "Equal Justice Initiative",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://www.heisingsimons.org/hsf-content/uploads/2016/06/equal-justice-initiative.jpg",
+             "websiteUrl": "https://www.eji.org/",
+             "description": "The Equal Justice Initiative is a private, nonprofit organization that provides legal representation to indigent defendants and prisoners who have been denied fair and just treatment in the legal system. We litigate on behalf of condemned prisoners, juvenile offenders, people wrongly convicted or charged with violent crimes, poor people denied effective representation, and others whose trials are marked by racial bias or prosecutorial misconduct. EJI works with communities that have been marginalized by poverty and discouraged by unequal treatment.",
+             "donateUrl": "https://donatenow.networkforgood.org/eji",
+             "iconImage": "https://eji.org/sites/all/themes/eji/logo.png"
+             },
+             {
+             "name": "Physicians for Reproductive Health",
+             "category": "Human and Civil Rights",
+             "imageUrl": "http://larctaskforce.org/sites/default/files//styles/large/public/field/image/PRH%20LOGO_CMYK.jpg?itok=Z_BIvcVK",
+             "websiteUrl": "https://prh.org/",
+             "description": "Physicians for Reproductive Health (formerly Physicians for Reproductive Choice and Health) was founded in 1992 by a small committee of concerned physicians in New York City, where we opened our first national office in 1995. Physicians for Reproductive Health unites the medical community and concerned supporters. Together, we work to improve access to comprehensive reproductive health care, including contraception and abortion, especially to meet the health care needs of economically disadvantaged patients.",
+             "donateUrl": "https://secure2.convio.net/prch/site/Donation2?idb=1471799783&DONATION_LEVEL_ID_SELECTED=1&df_id=1542&mfc_pref=T&1542.donation=form1&idb=0",
+             "iconImage": "https://globaldoctorsforchoice.org/wp-content/themes/bones/ico/Facebook-thumb.png"
+             },
+             {
+             "name": "Army Emergency Relief",
+             "category": "Human Services",
+             "imageUrl": "https://wiesbaden.armymwr.com/application/files/8714/9335/0792/AER.png",
+             "websiteUrl": "https://www.aerhq.org/",
+             "description": "Established in 1942 by the Secretary of War, Army Emergency Relief (AER) is proud to have helped more than three million soldiers and their families overcome financial emergencies during these last 67 years. Since its founding, AER has always been where soldiers are stationed when they needed help. While active duty soldiers receive the bulk of our assistance, we continually help retired soldiers and widows/widowers also. We also have a robust education scholarship program that provides financial support for both dependent children and spouses.",
+             "donateUrl": "https://www.aerhq.org/Donate",
+             "iconImage": "http://www.fortcarsonmountaineer.com/wp-content/uploads/2015/09/09-11-15-AERlogo01.jpg"
+             },
+             {
+             "name": "Hope For The Warriors",
+             "category": "Human Services",
+             "imageUrl": "https://cdn.greatnonprofits.org/images/logos/Hope_For_The_Warriors-logoRBG300dpi.jpg",
+             "websiteUrl": "http://www.hopeforthewarriors.org/",
+             "description": "We believe those touched by military service can succeed at home by restoring their sense of self, family, and hope. Nationally, Hope For The Warriors® provides comprehensive support programs for service members, veterans, and military families that are focused on transition, health and wellness, peer engagement, and connections to community resources.",
+             "donateUrl": "http://www.hopeforthewarriors.org/about/make-a-donation/",
+             "iconImage": "https://cdn.greatnonprofits.org/images/logos/Hope_For_The_Warriors-logoRBG300dpi.jpg"
+             },
+             {
+             "name": "Hire Heroes USA",
+             "category": "Human Services",
+             "imageUrl": "https://www.hireheroesusa.org/wp-content/uploads/2017/03/logo.png",
+             "websiteUrl": "https://www.hireheroesusa.org/",
+             "description": "Hire Heroes USA empowers U.S. military members, veterans, and spouses to succeed in the civilian workforce. Our team of former military and business professionals effectively trains veterans in the skills of self-marketing, then supports their career search until they find good jobs with great companies. The hallmark of our program is a personal approach where each veteran receives dedicated assistance from a highly-trained staff member in order to help the veteran overcome barriers to employment. Signature services also include group workshops and connecting the job seeker with veteran-friendly companies and employment opportunities through the Hire Heroes USA Job Board.",
+             "donateUrl": "https://giving.hireheroesusa.org/checkout/donation?eid=75869",
+             "iconImage": "https://www.hireheroesusa.org/wp-content/uploads/2014/10/logo.png"
+             },
+             {
+             "name": "Project Sanctuary",
+             "category": "Human Services",
+             "imageUrl": "http://images04.military.com/media/benefits/veteran/projectsanctuary.jpg",
+             "websiteUrl": "https://projectsanctuary.us/",
+             "description": "Project Sanctuary is a therapeutic military family program that focuses on the needs, challenges, and concerns that our military families face every day. We work with veterans, active-duty service members, and their families with our exclusive three part A.R.T. program, combining counseling, education, self-development, and recreational therapy to help build well-adjusted families. We assist the military service members by helping them heal from the effects of war, providing a safe place to heal, helping reconnect the family unit and treating all members of the family at their level of need—which enables the service member to reintegrate into their family and community successfully. Our programs focus on the entire family's mental health and well-being first as we take them through the steps towards creating a sustainable balanced and thriving family– and life.",
+             "donateUrl": "https://projectsanctuary.us/get-involved/ways-to-give/",
+             "iconImage": "http://images04.military.com/media/benefits/veteran/projectsanctuary.jpg"
+             },
+             {
+             "name": "Boca Helping Hands",
+             "category": "Human Services",
+             "imageUrl": "https://media.licdn.com/media/AAEAAQAAAAAAAAAmAAAAJDdkMGY3ZTQ3LTY4MWEtNDg1Yi04MDQ0LTk5OGE3NjNkMTdiYQ.png",
+             "websiteUrl": "http://www.bocahelpinghands.org/",
+             "description": "Boca Helping Hands (BHH) first opened as a food center in November, 1998. Our mission is to provide food, medical and financial assistance to meet basic human needs and education, job training and guidance to create self-sufficiency. BHH serves lunch 6 days a week, Monday to Saturday and a Thursday Night Family Dinner; Distributes over 5,000 pantry bags monthly to qualified individuals; Reaching over 1,400 elementary students in ten schools through BHH Backpacks with 6 meals and 2 snacks; The Job Mentoring Program helps clients by offering \"Life Skills\" and computer classes, resume building plus online job searches. The Job Training Program includes: Hospitality, Home Health Care and CDL Training. The Resource Center helps qualified Boca Raton residents in crisis situations with limited financial help, budget planning and referrals to other agencies; CAP-helps working families with summer camp and after school fees.",
+             "donateUrl": "https://www.bocahelpinghands.org/Donate",
+             "iconImage": "http://cdn.trustedpartner.com/images/library/Bocahelpinghands2010/News/BHH-FINAL-%20small(1).jpg"
+             },
+             {
+             "name": "Navy SEAL Foundation",
+             "category": "Human Services",
+             "imageUrl": "https://navyseals.com/wp-content/uploads/2013/04/NSF.jpg",
+             "websiteUrl": "https://www.navysealfoundation.org/",
+             "description": "The Navy SEAL Foundation's mission is to provide educational and motivational support, promote health and welfare programs for the Naval Special Warfare Community, and perpetuate the history and heritage of the U.S. Naval Commandos. Our Foundation is strong, our leadership is dedicated, and our mission is noble. The Navy SEAL Foundation is proud to serve the Naval Special Warfare community including the U.S. Navy SEALs, SWCC, NSW Support Personnel, and their families. Our programs center around three pillars: health and welfare, including tragedy assistance and family events; education and motivation, including scholarships and tuition assistance; and history and heritage, including the funding of monuments and memorials.",
+             "donateUrl": "https://www.navysealfoundation.org/donate/",
+             "iconImage": "https://navyseals.com/wp-content/uploads/2013/04/NSF.jpg"
+             },
+             {
+             "name": "Last Chance for Animals",
+             "category": "Animals",
+             "imageUrl": "http://www.websitegrowth.com/wp-content/uploads/bfi_thumb/Last-Chance-For-Animals-2z2y2cz9j6g1auytvc54wa.jpg",
+             "websiteUrl": "http://www.lcanimal.org/",
+             "description": "Founded in 1984, Last Chance for Animals (LCA) recognizes that animals have the ability to experience pain, and as such they deserve certain basic rights protecting them from pain caused by humans. LCA believes that non-human animals should not be subjected to suffering and exploitation by humans because alternatives exist for nearly every traditional usage of animals. LCA opposes the use of animals for scientific curiosity, entertainment, clothing, and food. LCA recognizes the use of non-human animals in medical experimentation as both immoral and of questionable scientific validity due to the tremendous biological difference between species. LCA's work advocates conscious and informed lifestyle decisions, and LCA is committed to disseminating truthful information about societal animal abuse to improve the treatment of animals.",
+             "donateUrl": "http://www.lcanimal.org/index.php/get-involved",
+             "iconImage": "https://yt3.ggpht.com/-hazpnLLL8mA/AAAAAAAAAAI/AAAAAAAAAAA/GgB7I1yrV64/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
+             },
+             {
+             "name": "Puppies Behind Bars",
+             "category": "Animals",
+             "imageUrl": "http://www.veterinarybytes.com/wp-content/uploads/2016/11/Screen-Shot-2016-11-03-at-10.27.46-AM.png",
+             "websiteUrl": "http://www.puppiesbehindbars.com/home",
+             "description": "Puppies Behind Bars (PBB) trains prison inmates to raise service dogs for wounded war veterans and explosive-detection canines for law enforcement. The puppies live in prison with their inmate raisers from the age of 8 weeks to 24 months. Since 1997, PBB has raised more than 900 puppies. Through our Dog Tags program we place service dogs, free of charge, with wounded veterans returning from Iraq and Afghanistan. The dogs learn special commands to help mitigate the effects of post-traumatic stress disorder (PTSD) and TBI (traumatic brain injury). Since our first Dog Tags placement in 2008, we have paired 87 service dogs with wounded veterans in 27 states (as of May '16). We pair approximately 15 more exceptional service dogs with veterans each year. Additionally, more than 400 PBB-trained explosive-detection canines work with law enforcement agencies around the country. The dogs we raise transform the lives of the inmates who train them, and the lives of those they go on to serve.",
+             "donateUrl": "http://www.puppiesbehindbars.com/support-us",
+             "iconImage": "https://21homestead.files.wordpress.com/2013/03/screen-shot-2013-04-05-at-11-33-05-am.png"
+             },
+             {
+             "name": "Dogs for the Deaf",
+             "category": "Animals",
+             "imageUrl": "http://jacksonvilleoregon.com/wp-content/uploads/2016/05/Dog-for-the-Deaf-Logo.png",
+             "websiteUrl": "https://www.dogsforthedeaf.org/",
+             "description": "Established in 1977, Dogs for the Deaf is a non-profit organization that rescues, trains and places dogs with people who have different disabilities and needs throughout the United States. Hearing Dogs, Autism Assistance Dogs, Program Assistance Dogs (dogs that work with teachers, counselors, and physicians), and Career Change Dogs are free to clients after a $50 application fee and refundable deposit.\n\nOut of town visitors and local residents can visit and learn more about Dogs for the Deaf by taking a free tour of the facility weekdays at 11 a.m. or 1 p.m. The address is 10175 Wheeler Road, Central Point, Ore., 97502. For more information visit www.DogsForTheDeaf.org or call 1-800-990-DOGS (3647). ",
+             "donateUrl": "https://www.dogsforthedeaf.org/support-us/",
+             "iconImage": "http://jacksonvilleoregon.com/wp-content/uploads/2016/05/Dog-for-the-Deaf-Logo.png"
+             },
+             {
+             "name": "RAINN",
+             "category": "Human Services",
+             "imageUrl": "http://blog.uncommongoods.com/wp-content/uploads/2017/02/RAINN_Logo-_Blue-Tagline.png",
+             "websiteUrl": "https://www.rainn.org/",
+             "description": "The Rape, Abuse & Incest National Network (RAINN) is the nation's largest anti-sexual assault organization. RAINN operates the National Sexual Assault Hotline at 1.800.656.HOPE and rainn.org and publicizes the hotlines' free, confidential services; educates the public about sexual assault; and leads national efforts to prevent sexual assault, improve services to victims and ensure that rapists are brought to justice. RAINN is a frequent resource for television, radio and print news outlets - as well as local, state and national policymakers, law enforcement and rape treatment professionals - on the issues related to rape and sexual assault.",
+             "donateUrl": "https://www.rainn.org/get-involved",
+             "iconImage": "https://pbs.twimg.com/profile_images/859081015322705923/jY9daqP0.jpg"
+             },
+             {
+             "name": "Joyful Heart Foundation",
+             "category": "Human Services",
+             "imageUrl": "http://www.joyfulheartfoundation.org/sites/all/themes/JHF/images/logo_0_new.png",
+             "websiteUrl": "http://www.joyfulheartfoundation.org/",
+             "description": "The vision of the Joyful Heart Foundation is a world free of sexual assault, domestic violence and child abuse.\n\nOur mission is to transform society's response to sexual assault, domestic violence, and child abuse, support survivors' healing, and end this violence forever.",
+             "donateUrl": "http://www.joyfulheartfoundation.org/get-involved",
+             "iconImage": "http://www.bluemaize.net/im/automotive/joyful-heart-foundation-9.jpg"
+             },
+             {
+             "name": "SafeHouse Center",
+             "category": "Human Services",
+             "imageUrl": "https://sapac.umich.edu/files/sapac/field/image/SafeHouse%20-%20Small.jpg",
+             "websiteUrl": "https://www.safehousecenter.org/",
+             "description": "SafeHouse Center provides support for those impacted by domestic violence or sexual assault. SafeHouse provides free and confidential services for any person victimized that lives or works in Washtenaw County. Our services include emergency shelter for those in danger of being hurt or killed, counseling, legal advocacy, support groups, and especially, hope.",
+             "donateUrl": "http://www.safehousecenter.org/donor-information/ways-you-can-help/",
+             "iconImage": "https://sapac.umich.edu/files/sapac/field/image/SafeHouse%20-%20Small.jpg"
+             },
+             {
+             "name": "Laura's House",
+             "category": "Human Services",
+             "imageUrl": "http://www.volunteerlocal.com/blog/wp-content/uploads/Laura.jpg",
+             "websiteUrl": "https://www.laurashouse.org/",
+             "description": "Laura's House provides domestic violence-related services to the 915,000 residents of Orange County, California and beyond. Since our founding in 1994, Laura's House has provided shelter and support services to more than 4,596 abused women and children and counseling, life skills education and legal assistance to over 51,740 persons. Today, Laura's House continues to be the only state-approved comprehensive domestic violence agency in South Orange County. Annually, Laura's House provides residential shelter services, counseling and legal services to hundreds of women and children. Thousands of crisis calls come in each year on our Crisis Hotline.",
+             "donateUrl": "https://www.laurashouse.org/donate",
+             "iconImage": "https://cdnfiles.crowdrise.com/Prod_Large/House300x200-578fb7414b58a.jpg"
+             },
+             {
+             "name": "Breast Cancer Research Foundation",
+             "category": "Health",
+             "imageUrl": "https://www.bcrfcure.org/sites/all/themes/bcrf/bcrf-logo-fb.png",
+             "websiteUrl": "https://www.bcrfcure.org/",
+             "description": "The Breast Cancer Research Foundation (BCRF), founded in 1993 by Evelyn H. Lauder, works to achieve prevention and a cure for breast cancer in our lifetime by providing critical funding for innovative clinical and translational research at leading medical centers worldwide, and increasing public awareness about good breast health. Since its inception, the Foundation has raised over $650 million to support research at medical institutions across the globe conducting the most advanced and promising breast cancer research that will help lead to prevention and a cure.",
+             "donateUrl": "https://give.bcrfcure.org/checkout/donation?eid=31404&_ga=2.164980733.354808495.1502985215-1151453111.1502985215",
+             "iconImage": "http://curebowl.com/media/uploads/2014/09/BCRF_LogoGray-pink.png"
+             },
+             {
+             "name": "Dr. Susan Love Research Foundation",
+             "category": "Health",
+             "imageUrl": "http://media.mbcalliance.org/Dr_Susan_Love-413x232.png",
+             "websiteUrl": "https://www.drsusanloveresearch.org/",
+             "description": "The Mission of the Dr. Susan Love Research Foundation is to create a future without breast cancer by focusing on the cause and prevention. We will meet this challenge by being fast, flexible, and project-based. We will identify needs and determine how these needs can be quickly met, not by emulating existing nonprofit organizations but by designing a new model specific to the tasks at hand. We will find the most effective route to breast cancer eradication, whether it is in the not-for-profit arena, the for-profit arena, or both. We will approach problems by collaborating and coordinating with other organizations. We will facilitate solutions to be adopted by others.",
+             "donateUrl": "https://www.classy.org/checkout/donation?eid=53799-a",
+             "iconImage": "https://c394391.ssl.cf2.rackcdn.com/full_20529-1436375759.png"
+             },
+             {
+             "name": "Living Beyond Breast Cancer",
+             "category": "Health",
+             "imageUrl": "http://www.lbbc.org/sites/default/files/LBBC-Horizontal-Logo-R-mark-resized-1.png",
+             "websiteUrl": "http://www.lbbc.org/",
+             "description": "Living Beyond Breast Cancer (LBBC), founded in 1991, is a national nonprofit organization that provides information and support to individuals diagnosed with breast cancer and their caregivers. \n\nLBBC addresses the current needs of people impacted by breast cancer, whether they are newly diagnosed, in treatment, recovery, living with a history of breast cancer or managing a metastatic form of the disease. Resources are developed in collaboration with the nation's leading oncologists, health professionals and related organizations and are delivered by people who understand the physical and emotional complexities of breast cancer. \n\nLBBC offers its communications in a variety of printed and digital formats, as well as in person and through its toll-free Breast Cancer Helpline. ",
+             "donateUrl": "https://secure3.convio.net/lbbc/site/Donation2;jsessionid=00000000.app340b?df_id=1480&mfc_pref=T&1480.donation=form1&_ga=2.116877504.752279170.1502985329-27613830.1502985329&NONCE_TOKEN=C3ED3E9E2516A383B24F0BC1F8C7E01C",
+             "iconImage": "http://breastcancersurvivorsclub.com/file/pic/user/7.jpg"
+             },
+             {
+             "name": "Anita Borg Institute",
+             "category": "Education",
+             "imageUrl": "https://ps-etouches-com.s3.amazonaws.com/anita-borg-institute/grace-hopper-2016/ehome/img/ABI%20logo%20-%20horizontal%20short%20version.png",
+             "websiteUrl": "https://anitaborg.org/",
+             "description": "The Anita Borg Institute (ABI) seeks to increase the impact of women on all aspects of technology, and increase the positive impact of technology on the world's women. Since 1997, ABI has developed tools and programs designed to help industry, academia and government recruit, retain and develop women technology leaders. By providing inclusive platforms designed to ensure women's voices, ideas and spirits will result in higher levels of technical innovation, ABI delivers programs that are changing the world for women and for technology.",
+             "donateUrl": "https://anitaborg.org/donate/",
+             "iconImage": "https://pbs.twimg.com/profile_images/617414611579473921/vWPULaZ5_400x400.png"
+             },
+             {
+             "name": "Asian Americans Advancing Justice",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://www.advancingjustice.org/images/AAAJ-transparent.png",
+             "websiteUrl": "http://advancingjustice-aajc.org/",
+             "description": "Asian Americans Advancing Justice | AAJC is a national nonprofit founded in 1991 to protect civil and human rights. As a national advocate for Asian Americans based in Washington, D.C., we serve our country's newest American community by promoting justice for all Americans, empowering our communities, bringing local and national constituencies together, and ensuring Asian Americans are able to fully participate in our democracy. Rooted in the dreams of immigrants and inspired by the promise of opportunity, Advancing Justice | AAJC advocates for an America in which all Americans are able to equally benefit from, and contribute to, the American dream.",
+             "donateUrl": "https://secure.donationpay.org/aajc/",
+             "iconImage": "https://advancingjustice-la.org/sites/default/files/AAAJ%20torch%20transparent.png"
+             },
+             {
+             "name": "NAACP Legal Defense and Educational Fund",
+             "category": "Human and Civil Rights",
+             "imageUrl": "http://blackpoliticsontheweb.com/wp-content/uploads/2013/08/LDFlogowithnamebw1.jpg",
+             "websiteUrl": "http://www.naacpldf.org/",
+             "description": "The NAACP Legal Defense and Educational Fund (LDF) was founded in 1940 under the leadership of Thurgood Marshall. Although LDF's primary purpose was to provide legal assistance to poor African Americans, its work over the years has brought greater justice to all Americans. Originally affiliated with the National Association for the Advancement of Colored People (NAACP), LDF has been an entirely separate organization since 1957. LDF has been involved in more cases before the U.S. Supreme Court than any organization except the U.S. Department of Justice. Although LDF works primarily through the courts, its strategies include advocacy, educational outreach, legislation monitoring, coalition building and policy research. Additionally, it provides scholarships for exceptional African-American students.",
+             "donateUrl": "https://org2.salsalabs.com/o/6857/p/salsa/donation/common/public/?donate_page_KEY=11561",
+             "iconImage": "http://equitythroughresearch.com/wp-content/uploads/2016/11/NAACP-Legal-Defense-Fund-1.jpg"
+             },
+             {
+             "name": "LatinoJustice PRLDEF",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://media.licdn.com/media/AAEAAQAAAAAAAANMAAAAJDJmNjExMDFjLTQwMTctNDY0Ni05YTAzLWVkNzMyMWZiMjJmZA.png",
+             "websiteUrl": "http://latinojustice.org/",
+             "description": "For the past 40 years, LatinoJustice PRLDEF has been changing the way Latinos live their lives in the United States and the way our country has lived up to its ideals. By litigating precedent-setting impact cases across the country and training young people to be leaders in their community, LatinoJustice PRLDEF has profoundly improved the way Latinos are treated in U.S. society, working to ensure that they have more opportunities for political, economic, social and educational equality. Litigation has proven to be the best vehicle to pursue social change for national racial/ethnic minorities in the face of a recalcitrant executive and legislative branch.",
+             "donateUrl": "http://latinojustice.org/support/",
+             "iconImage": "http://latinojustice.org/briefing_room/newsletters/LJ_Logo_Square.png"
+             },
+             {
+             "name": "Muslim Advocates",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://www.muslimadvocates.org/files/MALogobig-1-300x127.jpg",
+             "websiteUrl": "https://www.muslimadvocates.org/",
+             "description": "Muslim Advocates envisions a world in which equality, liberty, and justice are guaranteed for all, regardless of faith, and in which the Muslim American legal community is vital to promoting and protecting these values. In pursuit of this vision, Muslim Advocates' mission is to promote equality, liberty, and justice for all by providing leadership through legal advocacy, policy engagement, and civic education, and by serving as a legal resource to promote the full and meaningful participation of Muslims in American public life.",
+             "donateUrl": "https://www.muslimadvocates.org/donate/",
+             "iconImage": "https://pbs.twimg.com/profile_images/595661012256292865/PDGblHjM.png"
+             },
+             {
+             "name": "Mexican American Legal Defense and Educational Fund",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://constitutionwarrior.files.wordpress.com/2013/10/maldef-logo.png",
+             "websiteUrl": "http://www.maldef.org/",
+             "description": "Founded in 1968, the Mexican American Legal Defense and Educational Fund (MALDEF) is the nation's leading nonprofit Latino legal organization. Often described as the law firm of the Latino community, MALDEF promotes equality and justice through litigation, advocacy, public policy, and community education in the areas of employment, immigrants' rights, voting rights, education, and language rights. MALDEF strives to implement programs that are structured to bring Latinos into the mainstream of American political and socio-economic life; providing better educational opportunities; encouraging participation in all aspects of society; and offering a positive vision for the future. Unique to MALDEF is an approach that combines advocacy, educational outreach, and litigation strategies to achieve socio-economic change.",
+             "donateUrl": "http://www.maldef.org/ways_to_donate/index.html",
+             "iconImage": "http://cbcse.org/wordpress/wp-content/uploads/2012/09/mexican-american-legal-defense-education-fund.png"
+             },
+             {
+             "name": "Girls Educational & Mentoring Services ",
+             "category": "Human Services",
+             "imageUrl": "http://latinalista.com/wp-content/uploads/2013/02/GEMS-large.jpg",
+             "websiteUrl": "http://www.gems-girls.org/",
+             "description": "Girls Educational & Mentoring Services (GEMS) was founded in 1998 by Rachel Lloyd, a young woman who had been commercially sexually exploited as a teenager. GEMS is the only organization in New York State specifically designed to serve girls and young women who have experienced commercial sexual exploitation and domestic trafficking. GEMS has helped hundreds of young women and girls, ages 12-24, who have experienced commercial sexual exploitation and domestic trafficking to exit the commercial sex industry and develop to their full potential. GEMS provides young women with empathetic, consistent support and viable opportunities for positive change. GEMS advocates at the local, state, and national level to promote policies that support young women who have been commercially sexually exploited and domestically trafficked.",
+             "donateUrl": "https://donatenow.networkforgood.org/115003?uniqueID=634002927677396525",
+             "iconImage": "https://cdnfiles.crowdrise.com/Prod_Large/gems3.jpg?5978322391b3c"
+             },
+             {
+             "name": "Young Women's Leadership Network",
+             "category": "Education",
+             "imageUrl": "http://www.supportingeducation.org/wp-content/uploads/2013/04/YWLN-jenny-farrelly.jpeg",
+             "websiteUrl": "http://www.ywln.org/",
+             "description": "Young Women's Leadership Network helps low-income minority youth break the cycle of poverty through education. Our two critical programs provide college readiness and access to at-risk students from the 6th - 12th grades: CollegeBound Initiative, a school-based college guidance program for coed and single-sex public schools, and The Young Women's Leadership Schools, a high-performing network of all-girls public schools. We are in the business of raising expectations, improving student performance, and inspiring leadership. Our first school, which made history and headlines, is the highly renowned and successful Young Women's Leadership School of East Harlem in New York City.",
+             "donateUrl": "https://www.ywln.org/invest-in-the-future",
+             "iconImage": "http://www.capalino.com/wp-content/uploads/2015/06/YWLN-logo-no-text.jpeg"
+             },
+             {
+             "name": "Catholics for Choice",
+             "category": "Human and Civil Rights",
+             "imageUrl": "http://www.catholicleague.org/wp-content/uploads/2016/09/catholics-for-choice.png",
+             "websiteUrl": "http://www.catholicsforchoice.org/",
+             "description": "Catholics for Choice (CFC) was founded in 1973 to serve as a voice for Catholics who believe that the Catholic tradition supports a woman's moral and legal right to follow her conscience in matters of sexuality and reproductive health. CFC shapes and advances sexual and reproductive ethics that are based on justice, reflect a commitment to women's well being and respect and affirm the moral capacity of women and men to make sound decisions about their lives. Through discourse, education and advocacy, CFC works in the US and internationally to infuse these values into public policy, community life and Catholic social thinking and teaching.",
+             "donateUrl": "http://www.catholicsforchoice.org/contribute-to-catholics-for-choice/",
+             "iconImage": "http://www.catholicsforchoice.org/wp-content/uploads/2014/01/cfcavatar.jpg"
+             },
+             {
+             "name": "Equal Rights Advocates",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://media.licdn.com/media/p/1/000/23a/2a8/30849de.png",
+             "websiteUrl": "http://www.equalrights.org/",
+             "description": "Equal Rights Advocates (ERA) has led the legal fight for women's equality since 1974. We have worked to protect and secure equal rights and economic opportunities for women and girls through litigation and advocacy. We work to eradicate illegal discriminatory practices that deny women advancement opportunities, equal compensation, and access to certain occupations. ERA demands that employers provide women with a work environment that is free of sexual harassment and in compliance with health and safety laws. We enforce family and medical leave and pregnancy protection laws, and is active in the effort to establish paid family and medical leave.",
+             "donateUrl": "https://salsa4.salsalabs.com/o/51454/p/salsa/donation/common/public/?donate_page_KEY=11733",
+             "iconImage": "https://equalrightsadvocates.files.wordpress.com/2011/03/logo-full-name.jpg"
+             },
+             {
+             "name": "National Family Planning & Reproductive Health Association",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://www.nationalfamilyplanning.org/image/NFPRHA-logo-for-print-blue.jpg",
+             "websiteUrl": "https://www.nationalfamilyplanning.org/",
+             "description": "The National Family Planning & Reproductive Health Association (NFPRHA), founded in 1971, is a membership organization established to ensure access to voluntary, comprehensive, and culturally sensitive family planning and reproductive health care services and to support reproductive freedom for all. NFPRHA advocates on a range of issues related to family planning and sexual health, including: protecting Title X funding, health care reform, contraceptive coverage, sexuality education, STD and HIV prevention, and abortion care.",
+             "donateUrl": "https://www.nationalfamilyplanning.org/donate",
+             "iconImage": "https://pbs.twimg.com/profile_images/879790648286752770/5CWmC7Cx.jpg"
+             },
+             {
+             "name": "Institute for Women's Policy Research",
+             "category": "Research and Public Policy",
+             "imageUrl": "https://daughtersandsonstowork.org/wp-content/uploads/2015/07/Institute-for-Womens-Policy-Research.jpg",
+             "websiteUrl": "https://iwpr.org/",
+             "description": "The Institute for Women's Policy Research (IWPR) conducts rigorous research and disseminates its findings to address the needs of women, promote public dialogue, and strengthen families, communities, and societies. IWPR focuses on issues of poverty and welfare, employment and earnings, work and family issues, health and safety, and women's civic and political participation. The Institute works with policymakers, scholars, and public interest groups around the country to design, execute, and disseminate research that illuminates economics and social policy issues affecting women and families, and to build a network of individuals and organizations that conduct and use women-oriented policy research.",
+             "donateUrl": "https://www.givedirect.org/donate/?cid=848",
+             "iconImage": "http://equitythroughresearch.com/wp-content/uploads/2016/11/Institute-Women-Policy-Research-1.jpg"
+             },
+             {
+             "name": "Equality Now",
+             "category": "International",
+             "imageUrl": "https://www.human-dignity-foundation.org/wp-content/uploads/2017/02/Equality-Now-e1476895910885.png",
+             "websiteUrl": "https://www.equalitynow.org/",
+             "description": "Equality Now was founded in 1992 to work for the protection and promotion of the human rights of women around the world. Working with national human rights organizations and individual activists, Equality Now documents violence and discrimination against women and mobilizes international action to support their efforts to stop these human rights abuses. Through its Women's Action Network of concerned groups and individuals around the world, Equality Now distributes information about human rights violations; takes action to protest these violations; and brings public attention to human rights violations against women.",
+             "donateUrl": "https://org2.salsalabs.com/o/6208/donate_page/donate",
+             "iconImage": "http://www.girlsnotbrides.org/wp-content/uploads/2012/10/Equality-Now-Logo.jpg"
+             },
+             {
+             "name": "Ovarian Cancer National Alliance",
+             "category": "Health",
+             "imageUrl": "http://restoringarizona.com/uploads/sites/36/ovariannationalalliance.gif",
+             "websiteUrl": "https://ocrfa.org/",
+             "description": "The Ovarian Cancer National Alliance advances the interests of women with ovarian cancer.",
+             "donateUrl": "https://secure3.convio.net/ocrfa/site/Donation2;jsessionid=00000000.app334b?1400.donation=form1&df_id=1400&mfc_pref=T&NONCE_TOKEN=51187C1A7851AE1A1171F126517061CF",
+             "iconImage": "https://cdnfiles.crowdrise.com/Prod_Large/ovarion-4dd575c5cde0a.png"
+             },
+             {
+             "name": "Bonnie J. Addario Lung Cancer Foundation",
+             "category": "Health",
+             "imageUrl": "http://www.biddingowl.com/Images/Auction/1456195660118.png",
+             "websiteUrl": "https://www.lungcancerfoundation.org/",
+             "description": "The mission of the Bonnie J. Addario Lung Cancer Foundation is to extend and enhance the lives of patients and families affected by Lung Cancer. Our ultimate goal is to be the global leader fighting Lung Cancer and the largest source of non-profit funding dedicated to turning Lung Cancer into a manageable, chronic disease and ultimately, a curable disease. Arising from the experience of our founder, the Bonnie J. Addario Lung Cancer Foundation will always be patient focused, funded and driven. We believe that patients, individually and collectively, hold the key to our mission's success. We are in a hurry to increase the Lung Cancer patient survival rate, stagnant and inexcusably low (15.5%) for too long due to the stigma of Lung Cancer as a smoker's disease.",
+             "donateUrl": "http://www.lungcancerfoundation.org/contribute/donate/",
+             "iconImage": "http://www.lungcancerfoundation.org/downloads/logos/ALCF-vertical-logo-1379x1736-white-bg.png"
+             },
+             {
+             "name": "Neuroendocrine Tumor Research Foundation",
+             "category": "Health",
+             "imageUrl": "https://www.charitygiftcertificates.org/images/image_gen_charities.aspx?char_id=656",
+             "websiteUrl": "https://netrf.org/",
+             "description": "The mission of the Neuroendocrine Tumor Research Foundation is to fund research to discover cures and more effective treatments for carcinoid, pancreatic, and related neuroendocrine cancers. To achieve rapid discovery of cures, the NET Research Foundation directs its donations to fund breakthrough scientific research of neuroendocrine cancers. Since its inception, the NET Research Foundation has awarded over $14 million in large-scale, multi-year research grants to leading scientists at renowned research institutions, and has funded research at 7 of the top 10 U.S. cancer centers.",
+             "donateUrl": "https://netrf.org/donate/",
+             "iconImage": "https://rarediseases.org/wp-content/uploads/2015/10/Feat-Image2.jpg"
+             },
+             {
+             "name": "Carnegie Institution for Science",
+             "category": "Research and Public Policy",
+             "imageUrl": "http://claslite.ciw.edu/.static/images/carnegielogo.png",
+             "websiteUrl": "https://carnegiescience.edu/",
+             "description": "Andrew Carnegie founded the Carnegie Institution for Science (formerly known as Carnegie Institution of Washington) in 1902 as an organization for scientific discovery. The Carnegie Institution works to devote resources to exceptional individuals so that they can explore the most intriguing scientific questions in an atmosphere of complete freedom. Carnegie investigators are leaders in the fields of plant biology, developmental biology, Earth and planetary sciences, astronomy, and global ecology. They seek answers to questions about the structure of the universe, the formation of our solar system and other planetary systems, the behavior and transformation of matter when subjected to extreme conditions, the origin of life, the function of genes, and the development of organisms from single-celled egg to adult.",
+             "donateUrl": "https://carnegiescience.edu/donate",
+             "iconImage": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAWGAAAAJDRhZWNjYmQ2LTFkMTYtNGE1Mi05ZjEzLWQ3YTczNTc4NDk1NA.png"
+             },
+             {
+             "name": "American Association for the Advancement of Science",
+             "category": "Research and Public Policy",
+             "imageUrl": "https://www.aaas.org/sites/all/themes/aaas_bootstrap/images/blueAAASlogo.png",
+             "websiteUrl": "https://www.aaas.org/",
+             "description": "Founded in 1848, the American Association for the Advancement of Science (AAAS) is an international organization dedicated to advancing science around the world by serving as an educator, leader, spokesperson and professional association. AAAS fulfills its mission to advance science and serve society through initiatives in science policy; international programs; science education; and more. AAAS serves some 262 affiliated societies and academies of science, serving 10 million individuals. In addition to organizing membership activities, AAAS publishes the journal Science, as well as many scientific newsletters, books and reports, and spearheads programs that raise the bar of understanding for science worldwide.",
+             "donateUrl": "https://www.supportaaas.org/sslpage.aspx?pid=298&__utma=89778187.301481132.1502993162.1502993162.1502993162.1&__utmb=89778187.2.9.1502993176452&__utmc=89778187&__utmx=-&__utmz=89778187.1502993162.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)&__utmv=-&__utmk=98869207",
+             "iconImage": "https://science.iit.edu/sites/science/files/elements/che/images/aaas_drop.gif"
+             },
+             {
+             "name": "Bermuda Institute of Ocean Sciences",
+             "category": "Research and Public Policy",
+             "imageUrl": "http://www.funbermuda.com/uploads/files/2013/05/bermuda-institute-of-ocean-sciences-science-museums-bm1.jpg",
+             "websiteUrl": "http://www.bios.edu/#!/who-we-are",
+             "description": "BIOS's mission is to seek and share fundamental knowledge of the oceans through state-of-the-art scientific research, world-class field expeditions and comprehensive educational experiences.",
+             "donateUrl": "http://www.bios.edu/support-us/",
+             "iconImage": "http://www.funbermuda.com/uploads/files/2013/05/bermuda-institute-of-ocean-sciences-science-museums-bm1.jpg"
+             },
+             {
+             "name": "Food Allergy Research & Education",
+             "category": "Health",
+             "imageUrl": "http://foodallergyednetwork.org/wp-content/uploads/2014/05/fare_logo_h_rgb-official.jpg",
+             "websiteUrl": "https://www.foodallergy.org/",
+             "description": "Food Allergy Research & Education (FARE) works on behalf of the 15 million Americans with food allergies, including all those at risk for life-threatening anaphylaxis. This potentially deadly disease affects 1 in 13 children in the United States - or roughly two in every classroom. FARE is a 501(c)(3) nonprofit organization that was formed in 2012 as the result of a merger between the Food Allergy & Anaphylaxis Network and the Food Allergy Initiative.",
+             "donateUrl": "https://secure2.convio.net/fare/site/Donation2;jsessionid=00000000.app205b?df_id=1500&amp;mfc_pref=T&amp;1500.donation=form1&NONCE_TOKEN=BF4C348136C60EEACF4125FCA7D0563B#_ga=2.58041070.530464309.1502993338-2066211061.1502993338",
+             "iconImage": "https://yt3.ggpht.com/-kfCW8K1Nk3A/AAAAAAAAAAI/AAAAAAAAAAA/dovt4K7lLmw/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
+             },
+             {
+             "name": "Common Cause Education Fund",
+             "category": "Human and Civil Rights",
+             "imageUrl": "http://res.cloudinary.com/makingworks/image/twitter_name/w_200/CommonCause.jpg",
+             "websiteUrl": "commoncause.org",
+             "description": "Founded in 2000, Common Cause Education Fund (CCEF) is the public education and research affiliate of Common Cause, a nonpartisan lobbying organization. Together, Common Cause and CCEF programs serve the organization's overall mission to strengthen public participation and faith in our institutions of self-government; ensure that government and the political process serve the general interest, rather than special interests; curb the excessive influence of money on government decisions and elections; promote fair and honest elections and high ethical standards for government officials; and protect the civil rights and civil liberties of all Americans.",
+             "donateUrl": "https://secure2.convio.net/comcau/site/SPageServer/;jsessionid=00000000.app262a?NONCE_TOKEN=3444DC06883A776608E18C2629981A05&pagename=api_donation&_ga=2.247047170.768615577.1502993606-369187199.1502993606",
+             "iconImage": "http://res.cloudinary.com/makingworks/image/twitter_name/w_200/CommonCause.jpg"
+             },
+             {
+             "name": "Environmental Research and Education Foundation",
+             "category": "Environment",
+             "imageUrl": "https://erefdn.org/wp-content/uploads/2015/04/logo.png",
+             "websiteUrl": "https://erefdn.org/",
+             "description": "EREF is a 501(c)3 class charity that funds and directs scientific research and educational initiatives for waste management practices to benefit industry participants and the communities they serve. For more complete information on EREF funded research, its scholarship program and how to donate to this great cause, visit www.erefdn.org.",
+             "donateUrl": "https://erefdn.org/donate/",
+             "iconImage": "http://cdn.recyclingproductnews.com/files/companies/image_logo/tiny/0025/6225_0_fed81_12215_environmental-research-education-foundation-logo.jpg"
+             },
+             {
+             "name": "Foundation for Individual Rights in Education",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/08/Foundation_for_Individual_Rights_in_Education_%28logo%29.png",
+             "websiteUrl": "https://www.thefire.org/",
+             "description": "Founded in 1999, the Foundation for Individual Rights in Education (FIRE) seeks to defend and sustain individual rights at America's colleges and universities. These rights include freedom of speech, legal equality, due process, religious liberty, and sanctity of conscience - the essential qualities of individual liberty and dignity. FIRE's core mission is to protect the unprotected and to educate the public and communities of concerned Americans about the threats to these rights on our campuses and about the means to preserve them.",
+             "donateUrl": "https://www.thefire.org/donate/",
+             "iconImage": "https://www.atlasnetwork.org/assets/uploads/global-directory/Foundation_for_Individual_Rights_in_Education.jpg"
+             },
+             {
+             "name": "Institute for Educational Advancement",
+             "category": "Education",
+             "imageUrl": "http://www.itszerozero.com/wp-content/uploads/2014/09/IEA-logo-1.jpg",
+             "websiteUrl": "http://educationaladvancement.org/",
+             "description": "The Institute for Educational Advancement (IEA) is dedicated to supporting our nation's most talented young people to identify and develop their fullest potential. IEA focuses its attention on creating and supporting educational practices and policies that are student-centered and that promote academic rigor, high standards, excellence in the arts and educational innovation. The Institute crosses traditional educational boundaries by working in public, independent, parochial and alternative schools. IEA initiatives foster intellectual curiosity, the acquisition of knowledge, confidence, creativity, responsibility and moral decisiveness.",
+             "donateUrl": "http://educationaladvancement.org/contribute/",
+             "iconImage": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAWpAAAAJDM5NjU4NzlmLWZlMGMtNDFiNi1hYTYzLTQxNDE0NTc0ZjBiZA.png"
+             },
+             {
+             "name": "Thurgood Marshall College Fund ",
+             "category": "Education",
+             "imageUrl": "http://www.blackenterprise.com/wp-content/blogs.dir/1/files/2014/11/Thurgood-Marshall-College-Fund.jpg",
+             "websiteUrl": "https://tmcf.org/",
+             "description": "Founded in 1987, Thurgood Marshall College Fund (TMCF) provides scholarships, capacity building and programmatic support, and advocacy for students and public Historically Black Colleges and Universities (HBCUs). Its mission is to increase access, retention and graduation rates of students attending its member schools, identify and prepare member schools' students who have significant leadership potential, and create a pipeline for employers of highly-qualified member-schools, students and alumni.",
+             "donateUrl": "https://tmcf.org/our-give",
+             "iconImage": "https://tmcf.org/wp-content/uploads/2015/06/logo-for-open-graph.png"
              }
-    ]
+        ]
 }
-

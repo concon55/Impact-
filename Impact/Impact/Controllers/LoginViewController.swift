@@ -27,6 +27,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginButtonTapped(_ sender: Any) {
         // 1: access FUIAuth default auth UI singleton
+        
         guard let authUI = FUIAuth.defaultAuthUI()
             else { return }
         
@@ -37,7 +38,6 @@ class LoginViewController: UIViewController {
         let authViewController = authUI.authViewController()
         present(authViewController, animated: true)
     }
-
 }
 
 extension LoginViewController: FUIAuthDelegate {
@@ -67,3 +67,4 @@ extension LoginViewController: FUIAuthDelegate {
         }
     }
 }
+

@@ -1,80 +1,112 @@
 {
-    "data": [{
-             "name": "White Helmets",
-             "category": "Civil Defense",
-             "imageUrl": "https://pbs.twimg.com/media/CxaQYcXWIAAqvf9.jpg",
-             "websiteUrl": "https://www.whitehelmets.org/en",
-             "description": "When the bombs rain down, the Syrian Civil Defence rushes in. In a place where public services no longer function these unarmed volunteers risk their lives to help anyone in need - regardless of their religion or politics. Known as the White Helmets these volunteer rescue workers operate in the most dangerous place on earth.",
-             "donateUrl": "https://peoplesmillion.whitehelmets.org/act/peoples-million/?source=whweb",
-             "iconImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Syrian_Civil_Defense_logo.png/220px-Syrian_Civil_Defense_logo.png"
-        },
+    "data": [
+         {
+         "name": "ACLU",
+         "category": "Human and Civil Rights",
+         "imageUrl": "https://www.aclu.org/sites/all/themes/custom/aclu/logo.png",
+         "websiteUrl": "https://www.aclu.org/",
+         "description": "The American Civil Liberties Union (ACLU) Foundation is the arm of the ACLU that conducts litigation and communication efforts. The Foundation provides legal presentation in cases involving issues of civil liberties and constitutional rights ranging from administrative hearings to trials and appeals. In addition, the Foundation educates the public as to civil liberties and constitutional rights by disseminating literature and other publications. The ACLU Foundation preserves and promotes civil rights and liberties as guaranteed by the United States Constitution.",
+         "donateUrl": "https://action.aclu.org/donate-aclu?ms=web_horiz_nav_hp",
+         "iconImage": "http://www.rifuture.org/wp-content/uploads/aclu.jpg"
+         },
+         {
+         "name": "American Refugee Committee",
+         "category": "International",
+         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/ArcLogo.jpg/275px-ArcLogo.jpg",
+         "websiteUrl": "http://arcrelief.org/",
+         "description": "Founded in 1979, the American Refugee Committee International (ARC) is a humanitarian aid organization that works to help people take back control of their lives. ARC programs serve nearly 2.5 million people each year, providing health care, clean water, sanitation, shelter, gender-based violence prevention services, microenterprise development, disease prevention services, education, legal services, counseling and repatriation assistance. We work in DRC, Rwanda, Uganda, South Sudan, Sudan, Pakistan, Thailand, Myanmar, Somalia, Syria, and Jordan. ARC works with its constituents as partners. Of its 2,000 employees, 95 percent are hired locally.",
+         "donateUrl": "https://secure2.convio.net/refc/site/Donation2;jsessionid=00000000.app258a?df_id=2945&2945.donation=form1&mfc_pref=T&NONCE_TOKEN=5779EA54E92F8045DB98E5444DC4906B",
+         "iconImage": "https://media.glassdoor.com/sqll/31412/american-refugee-committee-squarelogo-1425965236632.png"
+         },
+         {
+         "name": "WWF",
+         "category": "Animals",
+         "imageUrl": "http://assets.wwf.org.uk/custom/lpr2016/media/do-it-for-your-planet.png",
+         "websiteUrl": "http://wwf.panda.org/",
+         "description": "Founded in 1961, World Wildlife Fund's (WWF) mission is the conservation of nature. Using the best available scientific knowledge and advancing that knowledge where we can, we work to preserve the diversity and abundance of life on Earth and the health of ecological systems by: protecting natural areas and wild populations of plants and animals, including endangered species; promoting sustainable approaches to the use of renewable natural resources; and promoting more efficient use of resources and energy and the maximum reduction of pollution. We are committed to reversing the degradation of our planet's natural environment and to building a future in which human needs are met in harmony with nature. We recognize the critical relevance of human numbers, poverty and consumption patterns to meeting these goals.",
+         "donateUrl": "http://wwf.panda.org/how_you_can_help/support_wwf/donate/",
+         "iconImage": "http://d1diae5goewto1.cloudfront.net/_skins/pandaorg3/img/logo.png"
+         },
+         {
+         "name": "Human Rights Watch",
+         "category": "International",
+         "imageUrl": "http://budapestbeacon.com/wp-content/uploads/2014/01/human-rights-watch.png",
+         "websiteUrl": "https://www.hrw.org",
+         "description": "Human Rights Watch is one of the world's leading independent organizations dedicated to defending and protecting human rights. By focusing international attention where human rights are violated, we give voice to the oppressed and hold oppressors accountable for their crimes. Our rigorous, objective investigations and strategic, targeted advocacy build intense pressure for action and raise the cost of human rights abuse. For 30 years, Human Rights Watch has worked tenaciously to lay the legal and moral groundwork for deep-rooted change and has fought to bring greater justice and security to people around the world.",
+         "donateUrl": "https://donate.hrw.org/ea-action/action?ea.client.id=1908&ea.campaign.id=36711&ea.tracking.id=ED2017EVSCgl",
+         "iconImage": "https://lh5.googleusercontent.com/-paKbuJJBfGE/AAAAAAAAAAI/AAAAAAAAAHg/9jvJhgSILy4/photo.jpg"
+         },
         {
-			"name": "Human Rights Watch",
-			"category": "Human Rights, Civil Liberties",
-			"imageUrl": "http://www.y-mun.org/assets/images/HRWatch.png",
-			"websiteUrl": "https://www.hrw.org",
-			"description": "Human Rights Watch investigates and exposes human rights abuses like torture, violence against women, and child exploitation. At any given time we are actively researching, reporting, and advocating for change that protects rights and saves lives in more than 90 countries around the world. In order to maintain our independence, we accept no money from any government, directly or indirectly. We rely solely on the generosity of people like you to defend human rights.",
-			"donateUrl": "https://donate.hrw.org/ea-action/action?ea.client.id=1908&ea.campaign.id=36711&ea.tracking.id=ED2017EVSCgl"
-		},
+         "name": "UNICEF",
+         "category": "International",
+         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/UNICEF_FLAG.png",
+         "websiteUrl": "https://www.unicef.org/",
+         "description": "UNICEF works for children in more than 190 countries and territories. Every child, no matter where they live, deserves a safe and healthy childhood. The U.S. Fund for UNICEF raises funds for UNICEF's work on child survival, child development, child protection and emergencies. We believe ZERO children should be abused, exploited or denied the right to health care, education and protection. It's an ambitious goal, but we believe that unwavering commitment is the only way to guarantee a better world for children. Your support will help us build that world.",
+         "donateUrl": "https://www.unicefusa.org/help/donate",
+         "iconImage": "https://lh5.googleusercontent.com/-CrELa3pxVEc/AAAAAAAAAAI/AAAAAAAAKSU/EdvsmLkJwgo/s0-c-k-no-ns/photo.jpg"
+         },
         {
-             "name": "Planned Parenthood",
-             "category": "Health",
-             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Planned_Parenthood_logo.svg/1200px-Planned_Parenthood_logo.svg.png",
-             "websiteUrl": "https://plannedparenthood.org",
-             "description": "A trusted health care provider, an informed educator, a passionate advocate, and a global partner helping similar organizations around the world, Planned Parenthood delivers vital reproductive health care, sex education, and information to millions of women, men, and young people worldwide. For 100 years, Planned Parenthood has promoted a commonsense approach to women’s health and well-being, based on respect for each individual’s right to make informed, independent decisions about health, sex, and family planning.",
-             "donateUrl": "https://secure.ppaction.org/site/Donation2?df_id=24756&24756.donation=form1",
-             "iconImage": "https://lh3.googleusercontent.com/-asKoiXAhrxc/AAAAAAAAAAI/AAAAAAAAAXI/pAa3hf3l63E/photo.jpg"
-        },
-        {
-             "name": "WWF",
-             "category": "Environment",
-             "imageUrl": "http://assets.wwf.org.uk/custom/lpr2016/media/do-it-for-your-planet.png",
-             "websiteUrl": "http://wwf.panda.org/",
-             "description": "WWF's mission is to conserve nature and reduce the most pressing threats to the diversity of life on Earth. Our vision is to build a future where people live in harmony with nature.",
-             "donateUrl": "http://wwf.panda.org/how_you_can_help/support_wwf/donate/",
-             "iconImage": "http://d1diae5goewto1.cloudfront.net/_skins/pandaorg3/img/logo.png"
-        },
-        {
-             "name": "International Rescue Committee",
-             "category": "International",
-             "imageUrl": "http://job.bangkokpost.com/img_company/thumbnail/prefix_1/0036/36/company-36-960X200.jpg",
-             "websiteUrl": "https://www.rescue.org/",
-             "description": "International Rescue Committee (IRC) responds to the world’s worst humanitarian crises & helps people to survive, recover & gain control of their future.",
-             "donateUrl": "https://help.rescue.org/donate?ms=ws_resq_top_nav_btn_161010&initialms=ws_resq_top_nav_btn_161010",
-             "iconImage": "https://lh5.googleusercontent.com/-NJ6anwslbKA/AAAAAAAAAAI/AAAAAAAAGKA/YUwikWQtMbM/s0-c-k-no-ns/photo.jpg"
-        },
-        {
-             "name": "Disabled American Veterans",
-             "category": "Human Services",
-             "imageUrl": "http://www.mi-dav.org/portals/0/logo.jpg",
-             "websiteUrl": "https://www.dav.org/",
-             "description": "DAV (Disabled American Veterans) is a leading nonprofit that provides a lifetime of support for veterans of all generations and their families. Every year, we help more than 1 million veterans in positive, life-changing ways by helping them access benefits they earned, like healthcare, education and disability, and connecting them to meaningful employment opportunities. DAV is the nation’s most resourceful veterans service organization, keeping the promise to support America’s veterans.",
-             "donateUrl": "https://secure.dav.org/site/Donation2;jsessionid=00000000.app311a?df_id=9420&9420.donation=form1&s_src=1402DRWEB01&NONCE_TOKEN=14337F87D5C7FEB790B39EEEDA19C72F",
-             "iconImage": "https://upload.wikimedia.org/wikipedia/en/e/ee/Disabled_American_Veterans_logo.jpg"
-        },
-		{
-			"name": "Human Rights Campaign",
-			"category": "Human Rights, Civil Liberties",
-			"imageUrl": "http://assets.hrc.org//files/images/blog/HRCLogo-WithWords-1600x900.png",
-			"websiteUrl": "http://www.hrc.org/",
-			"description": "The Human Rights Campaign represents a force of more than 1.5 million members and supporters nationwide. As the largest national lesbian, gay, bisexual, transgender and queer civil rights organization, HRC envisions a world where LGBTQ people are ensured of their basic equal rights, and can be open, honest and safe at home, at work and in the community.",
-			"donateUrl": "https://give.hrc.org/ea-action/action?ea.client.id=1954&ea.campaign.id=51848&ea.tracking.id=or_gnr_hrc_homepage_donate&_ga=2.239043650.350421842.1501531494-1759916274.1501531494"
-		},
-		{
-			"name": "ACLU",
-			"category": "Human Rights, Civil Liberties",
-			"imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/American_Civil_Liberties_Union_logo.svg/250px-American_Civil_Liberties_Union_logo.svg.png",
-			"websiteUrl": "https://www.aclu.org/",
-			"description": "For nearly 100 years, the ACLU has been our nation’s guardian of liberty, working in courts, legislatures, and communities to defend and preserve the individual rights and liberties that the Constitution and the laws of the United States guarantee everyone in this country. \nWhether it’s achieving full equality for LGBT people, establishing new privacy protections for our digital age of widespread government surveillance, ending mass incarceration, or preserving the right to vote or the right to have an abortion, the ACLU takes up the toughest civil liberties cases and issues to defend all people from government abuse and overreach. \nWith more than 2 million members, activists, and supporters, the ACLU is a nationwide organization that fights tirelessly in all 50 states, Puerto Rico, and Washington, D.C., to safeguard everyone’s rights.",
-			"donateUrl": "https://action.aclu.org/donate-aclu?ms=web_horiz_nav_hp"
-		},
-        {
-			"name": "Sierra Club",
-			"category": "Environment",
-			"imageUrl": "http://www.riograndesierraclub.org/wp-content/uploads/2015/08/sierraclub-logo-green-cropped.jpg",
-			"websiteUrl": "http://www.sierraclub.org/",
-			"description": "To explore, enjoy, and protect the wild places of the earth; \nTo practice and promote the responsible use of the earth's ecosystems and resources; \nTo educate and enlist humanity to protect and restore the quality of the natural and human environment; and to use all lawful means to carry out these objectives.",
-			"donateUrl": "https://vault.sierraclub.org/ways-to-give/#join-maintab"
-		}
-	]
+         "name": "Human Rights Campaign Foundation",
+         "category": "Human and Civil Rights",
+         "imageUrl": "http://assets.hrc.org//files/images/blog/HRCLogo-WithWords-1600x900.png",
+         "websiteUrl": "http://www.hrc.org/",
+         "description": "Through research, educational efforts and outreach, the Human Rights Campaign (HRC) Foundation encourages gay, lesbian, bisexual and transgender Americans to live their lives openly and seeks to change the hearts and minds of Americans to the side of equality. Programs funded in part or in full through the HRC Foundation include: The HRC Coming Out Project, which encourages GLBT and straight-supportive Americans to come out and live openly; The HRC Family Project, which empowers members of the GLBT community to take action to protect their families; The HRC Historically Black Colleges and Universities Outreach Program, which trains student activists to sustain dialogue, build viable student-led GLBT organizations; The HRC Religion and Faith Program, The HRC Research Center, and The HRC Workplace Project.",
+         "donateUrl": "https://give.hrc.org/ea-action/action?ea.client.id=1954&ea.campaign.id=51848&ea.tracking.id=or_gnr_hrc_homepage_donate&_ga=2.239043650.350421842.1501531494-1759916274.1501531494",
+         "iconImage": "https://lh5.googleusercontent.com/-98y0cq22xV8/AAAAAAAAAAI/AAAAAAAAMZQ/r_gA-cd0PSA/s0-c-k-no-ns/photo.jpg"
+         },
+         {
+         "name": "International Rescue Committee",
+         "category": "International",
+         "imageUrl": "http://job.bangkokpost.com/img_company/thumbnail/prefix_1/0036/36/company-36-960X200.jpg",
+         "websiteUrl": "https://www.rescue.org/",
+         "description": "The International Rescue Committee (IRC) responds to the world's worst humanitarian crises, helping to restore health, safety, education, economic well being, and power to people devastated by conflict and disaster. Founded in 1933 at the call of Albert Einstein, the IRC is at work in over 40 countries and 26 U.S. cities helping people to survive, reclaim control of their future and strengthen their communities.",
+         "donateUrl": "https://help.rescue.org/donate?ms=ws_resq_top_nav_btn_161010&initialms=ws_resq_top_nav_btn_161010",
+         "iconImage": "https://lh5.googleusercontent.com/-NJ6anwslbKA/AAAAAAAAAAI/AAAAAAAAGKA/YUwikWQtMbM/s0-c-k-no-ns/photo.jpg"
+         },
+         {
+         "name": "Planned Parenthood",
+         "category": "Health",
+         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Planned_Parenthood_logo.svg/1200px-Planned_Parenthood_logo.svg.png",
+         "websiteUrl": "plannedparenthood.org",
+         "description": "Planned Parenthood Federation of America (PPFA) is America's most trusted provider of reproductive health care. For more than 90 years, Planned Parenthood has promoted a commonsense approach to women's health and well-being, based on respect for each individual's right to make informed, independent decisions about health, sex, and family planning. PPFA works to provide trusted community healthcare; inform and educated the community; lead the reproductive health and rights movement; and advance global health. The heart of Planned Parenthood is in the local community. Our 94 unique, locally governed affiliates nationwide operate more than 850 health centers, which reflect the diverse needs of their communities.",
+         "donateUrl": "https://secure.ppaction.org/site/Donation2?df_id=24756&24756.donation=form1",
+         "iconImage": "https://lh3.googleusercontent.com/-asKoiXAhrxc/AAAAAAAAAAI/AAAAAAAAAXI/pAa3hf3l63E/photo.jpg"
+         },
+         {
+         "name": "Wounded Warrior Project",
+         "category": "Human Services",
+         "imageUrl": "https://media.news4jax.com/photo/2016/01/28/Wounded_Warrior_Project_log_1453985824760_1955420_ver1.0_1280_720.jpg",
+         "websiteUrl": "https://www.woundedwarriorproject.org/",
+         "description": "The mission of Wounded Warrior Project is to honor and empower wounded warriors. Our purpose is: to raise awareness and enlist the public's aid for the needs of severely injured service men and women; to help severely injured service members aid and assist each other; and to provide unique, direct programs and services to meet the needs of severely injured service members.",
+         "donateUrl": "https://support.woundedwarriorproject.org/default.aspx?tsid=7792",
+         "iconImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Wounded_Warrior_Project_logo.svg/1151px-Wounded_Warrior_Project_logo.svg.png"
+         },
+         {
+         "name": "Islamic Relief",
+         "category": "International",
+         "imageUrl": "http://www.islamic-relief.org/wp-content/uploads/2014/06/irw-post-img-605x340.jpg",
+         "websiteUrl": "http://irusa.org/",
+         "description": "The Palestine Children's Relief Fund (PCRF) is a non-political organization established in 1991 by concerned people in the U.S. to address the medical and humanitarian crisis facing Palestinian youths in the Middle East. The main objective of the PCRF is to identify and treat every child in the Middle East in need of specialized surgery not available to them locally. We locate, sponsor and run volunteer medical missions to the Middle East in adult and pediatric cardiac surgery, pediatric cardiology, plastic and reconstructive surgery, maxillofacial surgery, pediatric urology, ophthalmology, vascular surgery, pediatric orthopedic surgery, occupational therapy, and other specialties. Since our founding, over 800 children have been, or currently are being treated, outside of the Middle East through the PCRF.",
+         "donateUrl": "https://secure.irusa.org/donate/donate-now?_ga=2.122139147.1852341201.1502819505-853881983.1502819505",
+         "iconImage": "https://upload.wikimedia.org/wikipedia/commons/4/45/IRW_Logo.jpg"
+         },
+         {
+         "name": "American Indian College Fund",
+         "category": "Education",
+         "imageUrl": "http://collegefund.org/wp-content/themes/nmc_aicf/assets/logo-png.png",
+         "websiteUrl": "http://collegefund.org/",
+         "description": "The American Indian College Fund provides scholarships, internships opportunities, and other life skills and career readiness support to American Indian students. An education is often the difference between a happy, healthy, and self-sustaining productive life and one that is not. Approximately 13% of American Indians have a college degree, well below the national average. To strengthen our country as a whole, the American Indian College Fund seeks to strengthen native communities by empowering native people with skills, knowledge, and experience. The American Indian College Fund directly supports over 4,000 American Indian students annually, and thousands more through indirect services and support.",
+         "donateUrl": "https://collegefund.org/make-a-gift/?source=website",
+         "iconImage": "https://s-media-cache-ak0.pinimg.com/736x/76/2d/7f/762d7f28af3824a5fa2e8b53859a0f79--college-fund-college-students.jpg"
+         },
+         {
+         "name": "Water.org",
+         "category": "International",
+         "imageUrl": "https://mb4mh.files.wordpress.com/2012/01/waterorg_2clr_rgb_tm1.jpg",
+         "websiteUrl": "https://water.org/",
+         "description": "Co-founded by Gary White and Matt Damon, Water.org has transformed hundreds of communities in Africa, South Asia, and Central America by providing access to safe water and sanitation. Water.org traces its roots back to the founding of WaterPartners in 1990. In July 2009, WaterPartners merged with H2O Africa, resulting in the launch of Water.org. Water.org works with local partners to deliver innovative solutions for long-term success. Its microfinance-based WaterCredit Initiative is pioneering sustainable giving in the sector. All of the projects Water.org supports are self-sustaining, with organizational and financial structures in place to allow communities to independently operate and maintain them. Projects have an active water committee governing the operation of the water system, and users paying a water bill to cover the costs of operating and maintaining the water system.",
+         "donateUrl": "https://water.org/donate/",
+         "iconImage": "https://yt3.ggpht.com/-z_upDQxzy2U/AAAAAAAAAAI/AAAAAAAAAAA/zSWml6IYu5A/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
+         },
+     ]
 }

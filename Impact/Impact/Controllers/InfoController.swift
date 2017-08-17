@@ -7,9 +7,9 @@
 //
 
 import UIKit
+import AlamofireImage
 import Alamofire
 import SwiftyJSON
-import AlamofireImage
 
 class InfoController: UIViewController{
     
@@ -17,6 +17,7 @@ class InfoController: UIViewController{
     var organizations = [OrganizationClass]()
     var filtered = [OrganizationClass]()
     
+    @IBOutlet weak var favoriteButton: UIButton!
     @IBOutlet weak var donateButton: UIButton!
     @IBOutlet weak var websiteButton: UIButton!
     @IBOutlet weak var infoDescriptionLabel: UILabel!
@@ -25,11 +26,13 @@ class InfoController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         websiteButton.setTitle(org?.websiteUrl, for: .normal)
         infoNameLabel.text = org?.charityName
         infoDescriptionLabel.text = org?.description
         infoDescriptionLabel.lineBreakMode = .byWordWrapping
         infoDescriptionLabel.numberOfLines = 0
+        
         let imageUrl = org?.imageUrl
         infoImageView.af_setImage(withURL: URL(string: imageUrl!)!)
     }

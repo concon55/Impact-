@@ -72,13 +72,13 @@ extension CategoriesController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell", for: indexPath) as! CategoriesTableViewCell
-//        if indexPath.row == 0{
-//            cell.categoryLabel.text = "All"
-//        } else {
-            let category = categories[indexPath.row]
+        let category = categories[indexPath.row]
+        cell.categoryLabel.text = category.categoryName
         
-            cell.categoryLabel.text = category.categoryName
-//        }
+//        let cellColors = [UIColor(red:0.42, green:0.67, blue:0.88, alpha:1)]
+//        let bgColor = cellColors[indexPath.row % cellColors.count]
+//        cell.categoryLabel.backgroundColor = bgColor
+//        cell.backgroundColor = bgColor
         return cell
     }
     

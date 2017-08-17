@@ -7,19 +7,24 @@
 //
 
 import UIKit
-import Alamofire
 import SwiftyJSON
+import Alamofire
 import AlamofireImage
 
 class FeaturedController: UIViewController {
     
-    var featuredOrganizations = [OrganizationClass]()
+    var featuredOrganizations = [OrganizationClass]() {
+        didSet {
+            tableView.reloadData()
+        }
+    }
     
     @IBOutlet weak var tableView: UITableView!
     
     override func viewWillAppear(_ animated: Bool) {
         self.tableView.reloadData()
     }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,14 +72,23 @@ extension FeaturedController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "OrgCell", for: indexPath) as! FeaturedTableViewCell
         let featuredOrg = featuredOrganizations[indexPath.row]
+        print(featuredOrg)
         cell.orgNameLabel.text = featuredOrg.charityName
+        
+        //cell.featuredImage?.image = nil
         let featuredImageUrl = featuredOrg.imageUrl
         cell.featuredImage.af_setImage(withURL: URL(string: featuredImageUrl)!)
+       
+        
         let cellColors = [UIColor(red:0.28, green:0.16, blue:0.23, alpha:0.75), UIColor(red:0.29, green:0.35, blue:0.40, alpha:0.75), UIColor(red:0.10, green:0.20, blue:0.26, alpha:0.75), UIColor(red:0.44, green:0.42, blue:0.41, alpha:0.75)]
         let bgColor = cellColors[indexPath.row % cellColors.count]
         cell.orgNameLabel.backgroundColor = bgColor
         return cell
     }
+
+
 }
+
+
 
 

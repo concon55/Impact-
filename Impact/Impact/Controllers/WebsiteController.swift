@@ -14,8 +14,8 @@ import AlamofireImage
 
 class WebsiteController: UIViewController, UIWebViewDelegate{
 
-    
     @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var websiteActivityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var forwardButton: UIButton!
     
@@ -30,6 +30,16 @@ class WebsiteController: UIViewController, UIWebViewDelegate{
         }
     }
     
+    func webViewDidStartLoad(_ webView: UIWebView) {
+        websiteActivityIndicator.startAnimating()
+    }
+    
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        websiteActivityIndicator.stopAnimating()
+        websiteActivityIndicator.isHidden = true
+    }
+    
+
     @IBAction func forwardButtonTapped(_ sender: UIButton) {
         if webView.canGoForward{
             webView.goForward()

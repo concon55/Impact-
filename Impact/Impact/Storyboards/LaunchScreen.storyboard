@@ -21,33 +21,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KpS-RY-TZz">
-                                <rect key="frame" x="0.0" y="304" width="414" height="128"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfv-gv-Set">
-                                        <rect key="frame" x="125.66666666666669" y="32.666666666666686" width="163" height="62.666666666666629"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="163" id="rHe-uK-u3g"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="45"/>
-                                        <color key="textColor" red="0.1820062697" green="0.29534885290000001" blue="0.38324946170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.99019607840000001" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.84313725490000002" green="1" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="kfv-gv-Set" firstAttribute="centerY" secondItem="KpS-RY-TZz" secondAttribute="centerY" id="30d-HJ-gSe"/>
-                                    <constraint firstAttribute="height" constant="128" id="Srg-jr-can"/>
-                                    <constraint firstItem="kfv-gv-Set" firstAttribute="centerX" secondItem="KpS-RY-TZz" secondAttribute="centerX" id="uas-IX-wbK"/>
-                                </constraints>
-                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4O2-U8-0Pa">
+                                <rect key="frame" x="138" y="337" width="138" height="62"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="45"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.84313725490196079" green="1" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.16470588235294117" green="0.2627450980392157" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="KpS-RY-TZz" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8xh-tk-Fnz"/>
-                            <constraint firstItem="KpS-RY-TZz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IBM-e6-2zg"/>
-                            <constraint firstItem="KpS-RY-TZz" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="op1-4V-vYa"/>
+                            <constraint firstItem="4O2-U8-0Pa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Kxt-ZY-SYK"/>
+                            <constraint firstItem="4O2-U8-0Pa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="afa-NL-J3Q"/>
                         </constraints>
                     </view>
                 </viewController>

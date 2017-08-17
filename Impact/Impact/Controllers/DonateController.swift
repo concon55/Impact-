@@ -12,7 +12,7 @@ class DonateController: UIViewController, UIWebViewDelegate{
     
    
     @IBOutlet weak var donateWebView: UIWebView!
-   
+    @IBOutlet weak var donateActivityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var donateBackButton: UIButton!
     
     @IBOutlet weak var donateForwardButton: UIButton!
@@ -27,6 +27,16 @@ class DonateController: UIViewController, UIWebViewDelegate{
             donateWebView.loadRequest(request)
         }
     }
+    
+    func webViewDidStartLoad(_ webView: UIWebView) {
+        donateActivityIndicator.startAnimating()
+    }
+    
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        donateActivityIndicator.stopAnimating()
+        donateActivityIndicator.isHidden = true
+    }
+
     
     @IBAction func donateBackTapped(_ sender: UIButton) {
         if donateWebView.canGoBack{

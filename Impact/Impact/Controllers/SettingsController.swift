@@ -22,14 +22,12 @@ class SettingsController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SubmitController.dismissKeyboard))
         
         view.addGestureRecognizer(tap)
 
     }
 
-    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
@@ -42,17 +40,17 @@ class SettingsController: UIViewController {
         
         let alertController = UIAlertController(title: "Delete Account", message: "Are you sure you would like to delete your account?", preferredStyle: .alert)
         
+        
         let cancel = UIAlertAction(title: "Cancel", style: .default) { (UIAlertAction) in
             self.dismiss(animated: true, completion: nil)
         }
         
         let action = UIAlertAction(title: "Delete", style: .default) { (UIAlertAction) in
-            
-            
+        
             Auth.auth().currentUser?.delete(completion: { (err) in
                 print(err?.localizedDescription as Any)
-                
             })
+            
             // dismiss popup
             self.dismiss(animated: true, completion: nil)
             let storyboard = UIStoryboard(name: "Login", bundle: .main)
@@ -74,6 +72,27 @@ class SettingsController: UIViewController {
         
         Auth.auth().currentUser?.updateEmail(to: emailTextField.text!) { (error) in
             print(error)
+            if error != nil{
+                guard let errorCode = AuthErrorCode(rawValue: (error?._code)!) else {return}
+               
+                if errorCode == AuthErrorCode.emailAlreadyInUse {
+                    let loginAlert = UIAlertController(title: "Error", message: "Email already in use.", preferredStyle: .alert)
+                    let ok = UIAlertAction(title: "OK", style: .default) { (UIAlertAction) in
+                        self.dismiss(animated: true, completion: nil)
+                    }
+                    loginAlert.addAction(ok)
+                    self.present(loginAlert, animated: true, completion: nil)
+                }
+
+                else if errorCode == AuthErrorCode.requiresRecentLogin {
+                    let loginAlert = UIAlertController(title: "Login Again", message: "Please log in again to change your email.", preferredStyle: .alert)
+                    let cancel = UIAlertAction(title: "OK", style: .default) { (UIAlertAction) in
+                        self.dismiss(animated: true, completion: nil)
+                    }
+                    loginAlert.addAction(cancel)
+                    self.present(loginAlert, animated: true, completion: nil)
+                }
+            }
         }
         
         let changeRequest = Auth.auth().currentUser?.createProfileChangeRequest()
@@ -90,7 +109,6 @@ class SettingsController: UIViewController {
     
     
     func dismissKeyboard() {
-        //Causes the view (or one of its embedded text fields) to resign the first responder status.
         view.endEditing(true)
     }
     

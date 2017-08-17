@@ -48,7 +48,7 @@ class ProfileController: UIViewController{
             print("Invalid filename/path.")
         }
         
-        let range = quotes.count + 1
+        let range = quotes.count 
         let random = Int(arc4random_uniform(UInt32(range)))
         quoteLabel.text = quotes[random].quote
 
@@ -56,20 +56,9 @@ class ProfileController: UIViewController{
         let username = User.current.username
         usernameLabel.text = username
         
-        authHandle = Auth.auth().addStateDidChangeListener() { [unowned self] (auth, user) in
-            guard user == nil else { return }
-            
-            let loginViewController = UIStoryboard.initialViewController(for: .login)
-            self.view.window?.rootViewController = loginViewController
-            self.view.window?.makeKeyAndVisible()
-        }
+
     }
     
-    deinit {
-        if let authHandle = authHandle {
-            Auth.auth().removeStateDidChangeListener(authHandle)
-        }
-    }
     
     @IBAction func logoutButtonTapped(_ sender: UIBarButtonItem) {
         do {
@@ -77,6 +66,12 @@ class ProfileController: UIViewController{
         } catch let error as NSError {
             assertionFailure("Error signing out: \(error.localizedDescription)")
         }
+        let storyboard = UIStoryboard(name: "Login", bundle: .main)
+        if let initialViewController = storyboard.instantiateInitialViewController() {
+            self.view.window?.rootViewController = initialViewController
+            self.view.window?.makeKeyAndVisible()
+        }
+
     }
     
     
