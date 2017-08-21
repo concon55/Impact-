@@ -1214,6 +1214,96 @@
              "description": "Founded in 1987, Thurgood Marshall College Fund (TMCF) provides scholarships, capacity building and programmatic support, and advocacy for students and public Historically Black Colleges and Universities (HBCUs). Its mission is to increase access, retention and graduation rates of students attending its member schools, identify and prepare member schools' students who have significant leadership potential, and create a pipeline for employers of highly-qualified member-schools, students and alumni.",
              "donateUrl": "https://tmcf.org/our-give",
              "iconImage": "https://tmcf.org/wp-content/uploads/2015/06/logo-for-open-graph.png"
+             },
+             {
+             "name": "ADL",
+             "category": "Human and Civil Rights",
+             "imageUrl": "http://www.adweek.com/wp-content/uploads/sites/8/2013/03/adl.jpg",
+             "websiteUrl": "https://www.adl.org/",
+             "description": "The Anti-Defamation League (ADL) was founded in 1913 to stop the defamation of the Jewish people and to secure justice and fair treatment to all. Now the nation's premier civil rights and human relations agency fighting anti-Semitism and all forms of bigotry, ADL defends democratic ideals and advocates for and protects civil rights. ADL builds bridges of communication, understanding and respect among diverse communities, carrying out its mission through a network of 27 regional and satellite offices in the United States and Israel. A leader in the development of materials, programs and services, the League is a critical resource for government, media, law enforcement, educators and the public.",
+             "donateUrl": "https://secure2.convio.net/adl/site/SPageNavigator/donate/MainDonation.html?_ga=2.256140683.1468955329.1503065013-926034168.1503065013",
+             "iconImage": "http://newengland.adl.org/wp-content/themes/adl_regional_template/images/adllogo.png"
+             },
+             {
+             "name": "Southern Poverty Law Center",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://capitalresearch.org/app/uploads/SPLC_Logo.jpg",
+             "websiteUrl": "https://www.splcenter.org/",
+             "description": "The Southern Poverty Law Center (SPLC) was founded in 1971 as a small civil rights law firm. Today, SPLC is internationally known for its tolerance education programs, its legal victories against white supremacists and its tracking of hate groups. Throughout its history, SPLC has worked to make the nation's Constitutional ideals a reality. The SPLC legal department fights all forms of discrimination and works to protect society's most vulnerable members, handling innovative cases that few lawyers are willing to take. The SPLC Intelligence Project monitors hate groups and tracks extremist activity throughout the U.S. To combat the causes of hate, SPLC in 1991 established Teaching Tolerance, an educational program to help K-12 teachers foster respect and understanding in the classroom.",
+             "donateUrl": "https://donate.splcenter.org/sslpage.aspx?pid=463",
+             "iconImage": "https://www.splcenter.org/sites/default/files/10426930_10152512727559700_2647771730634151427_n.png"
+             },
+             {
+             "name": "Black Lives Matter",
+             "category": "Human and Civil Rights",
+             "imageUrl": "http://blacklivesmatter.com/wp-content/uploads/2015/09/1014182_187274628110457_946782098_n.jpg",
+             "websiteUrl": "http://blacklivesmatter.com/",
+             "description": "Black Lives Matter is a chapter-based national organization working for the validity of Black life. We are working to (re)build the Black liberation movement.\nThis is Not a Moment, but a Movement.",
+             "donateUrl": "https://donate.thousandcurrents.org/checkout/donation?eid=66399",
+             "iconImage": "https://pbs.twimg.com/profile_images/564864902561415168/r9vlzWLs_400x400.jpeg"
+             },
+             {
+             "name": "Stop Hate Project",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://pbs.twimg.com/profile_images/866654053362749441/aM7f6ueQ_400x400.jpg",
+             "websiteUrl": "https://lawyerscommittee.org/project/stop-hate-project/",
+             "description": "The Stop Hate Project seeks to strengthen the capacity of community leaders, law enforcement, and organizations around the country to combat hate by connecting these groups with established legal and social services resources.",
+             "donateUrl": "https://8449nohate.org/make-a-donation/",
+             "iconImage": "https://pbs.twimg.com/profile_images/866654053362749441/aM7f6ueQ_400x400.jpg"
+             },
+             {
+             "name": "Charlottesville's Congregation Beth Israel ",
+             "category": "Religion",
+             "imageUrl": "https://s-media-cache-ak0.pinimg.com/avatars/congregation_b_1450795443_280.jpg",
+             "websiteUrl": "https://cbicville.org/",
+             "description": "Congregation Beth Israel is dedicated to:\n\nInvesting in the future of Jewish life in Charlottesville through education in the heritage, culture, language beliefs, and practices of Judaism;\nProviding a joyful, vibrant and accepting environment for a diverse community of all ages, cultural backgrounds and experiences, worship styles, and lifestyles;\nSupporting fellow congregants and members of the community during times of joy, challenge, and sorrow;\nImproving the wellbeing of the local community through activism in social justice and charitable giving (tzedakah).\n",
+             "donateUrl": "https://cbicville.org/content/waystogive",
+             "iconImage": "https://s-media-cache-ak0.pinimg.com/avatars/congregation_b_1450795443_280.jpg"
+             },
+             {
+             "name": "The Outreach Foundaiton",
+             "category": "Religion",
+             "imageUrl": "https://theoutreachfoundationblog.files.wordpress.com/2012/01/cropped-logo-horizontal.jpg",
+             "websiteUrl": "https://www.theoutreachfoundation.org/",
+             "description": "The Outreach Foundation seeks to engage Presbyterians in Christ-centered evangelistic mission for the salvation of humankind. Through relationships with missionaries and projects with global partners, we help to create and sustain mission partnerships that build up the body of Christ for God's mission in the U.S. and around the world. We are a validated mission support group of the Presbyterian Church (USA), working in and beyond our denomination to help individuals and congregations participate in the amazing things that God is doing in the world.",
+             "donateUrl": "https://www.theoutreachfoundation.org/give/",
+             "iconImage": "https://static1.squarespace.com/static/524c23d0e4b09b795fb0cfbe/t/57aa220a3e00be75ae7bbb40/1501795046684/?format=1500w"
+             },
+             {
+             "name": "Catholic Relief Services",
+             "category": "International",
+             "imageUrl": "https://www.dioceseofjoliet.org/siteimages/missions/catholic-relief-services-logo.jpg",
+             "websiteUrl": "https://www.crs.org/",
+             "description": "Catholic Relief Services was founded in 1943 by the Catholic Bishops of the United States to serve World War II survivors in Europe. Since then, we have expanded in size to reach more than 100 million people in more than 100 countries on five continents. Our mission is to assist impoverished and disadvantaged people overseas, working in the spirit of Catholic Social Teaching to promote the sacredness of human life and the dignity of the human person. Although our mission is rooted in the Catholic faith, our operations serve people based solely on need, regardless of their race, religion or ethnicity. Within the United States, CRS engages Catholics to live their faith in solidarity with the poor and suffering of the world.",
+             "donateUrl": "https://secure.crs.org/site/Donation2?9523.donation=form1&df_id=9523&_ga=2.90378841.2135612961.1503068001-1224224618.1503068001",
+             "iconImage": "http://www.ncregister.com/images/editorial/CRS.jpg"
+             },
+             {
+             "name": "ShelterBox",
+             "category": "International",
+             "imageUrl": "http://www.6thbeeston.co.uk/wp-content/uploads/2013/07/shelterbox-banner-large.png",
+             "websiteUrl": "http://www.shelterboxusa.org/",
+             "description": "Every year, millions of families around the world are made homeless because of humanitarian crises and natural disasters such as earthquakes, tsunamis and floods. \n\nShelterBox is an international, nonprofit organization that responds immediately, by providing humanitarian relief in the form of supplies that bring hope, independence and a sense of normalcy to the most vulnerable people.\n\nSince 2000, the organization has delivered boxes of aid and other supplies such as tents, water filters, stoves, blankets and other tools to help families survive and rebuild their lives in the aftermath of more than 200 disasters in over 92 countries worldwide.",
+             "donateUrl": "https://www.shelterboxusa.org/donate/",
+             "iconImage": "http://rotarydistrict7450.org/wp-content/uploads/2014/04/SB.jpg"
+             },
+             {
+             "name": "Legal Aid Justice Center",
+             "category": "Human and Civil Rights",
+             "imageUrl": "http://c.ymcdn.com/sites/www.vba.org/resource/resmgr/Pro_Bono_Council/Legal_Aid_Justice_Center_log.jpg",
+             "websiteUrl": "https://www.justice4all.org/",
+             "description": "The Legal Aid Justice Center provides legal representation for low-income individuals in Virginia. Our mission is to serve those in our communities who have the least access to legal resources. The Legal Aid Justice Center is committed to providing a full range of services to our clients, including services our federal and state governments choose not to fund. Legal Aid Justice Center's staff of 40 work from offices in Charlottesville, Falls Church, Petersburg and Richmond.",
+             "donateUrl": "https://salsa4.salsalabs.com/o/51626/p/salsa/donation/common/public/?donate_page_KEY=11637",
+             "iconImage": "https://www.justice4all.org/wp-content/uploads/2014/03/logo.jpg"
+             },
+             {
+             "name": "UNHCR",
+             "category": "International",
+             "imageUrl": "http://www.unhcr.org/assets/img/unhcr-logo.png",
+             "websiteUrl": "http://www.unhcr.org/en-us",
+             "description": "UNHCR, the UN Refugee Agency, is a global organization dedicated to saving lives, protecting rights and building a better future for refugees, forcibly displaced communities and stateless people.",
+             "donateUrl": "https://donate.unrefugees.org/ea-action/action?ea.client.id=1873&ea.campaign.id=67052&ea.tracking.id=D15XRX172XXS&utm_source=unhcr.org&utm_medium=referral&utm_campaign=US_EN_GENERAL_201704&utm_content=monthly",
+             "iconImage": "http://www.unhcr.org/images/sharelogo.jpg"
              }
         ]
 }

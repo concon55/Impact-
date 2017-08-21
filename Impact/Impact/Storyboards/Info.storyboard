@@ -62,8 +62,8 @@
                                                         <color key="textColor" red="0.10196078431372549" green="0.19607843137254902" blue="0.25882352941176467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MI8-ed-VZE">
-                                                        <rect key="frame" x="166" y="46" width="62" height="77"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="MI8-ed-VZE">
+                                                        <rect key="frame" x="0.0" y="46" width="394" height="77"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                         <state key="normal" title="Website"/>
                                                         <connections>
@@ -100,6 +100,7 @@
                                             <constraint firstItem="1yn-w9-lPy" firstAttribute="top" secondItem="p20-Iv-LgI" secondAttribute="top" constant="54" id="A6a-Al-AkS"/>
                                             <constraint firstItem="a3Z-Gn-NM6" firstAttribute="width" secondItem="p20-Iv-LgI" secondAttribute="width" constant="-20" id="E9w-FG-7ix"/>
                                             <constraint firstItem="V8f-oN-Egw" firstAttribute="top" secondItem="1yn-w9-lPy" secondAttribute="bottom" constant="55" id="Fnb-hV-fYs"/>
+                                            <constraint firstItem="MI8-ed-VZE" firstAttribute="width" secondItem="p20-Iv-LgI" secondAttribute="width" constant="-20" id="NsU-LI-Boh"/>
                                             <constraint firstAttribute="trailing" secondItem="V8f-oN-Egw" secondAttribute="trailing" id="ZYX-zo-Nzb"/>
                                             <constraint firstAttribute="height" priority="250" constant="736" id="hIE-Az-rLY"/>
                                             <constraint firstItem="V8f-oN-Egw" firstAttribute="leading" secondItem="p20-Iv-LgI" secondAttribute="leading" id="yHy-Xr-JQQ"/>
@@ -150,23 +151,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cl6-Fg-Axx">
-                                <rect key="frame" x="20" y="677" width="80" height="40"/>
+                                <rect key="frame" x="20" y="683" width="40" height="34"/>
                                 <color key="tintColor" red="0.16639342900000001" green="0.26416450740000003" blue="0.34455296400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Back" image="Back 40"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.023775868117809296" green="0.47760850191116333" blue="0.98472350835800171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="backButtonTapped:" destination="0SO-Bs-PhB" eventType="touchUpInside" id="ZVP-tk-nPd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIo-IK-lBN">
-                                <rect key="frame" x="62" y="678" width="107" height="40"/>
-                                <color key="tintColor" red="0.16639342900000001" green="0.26416450740000003" blue="0.34455296400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Forward" image="Forward 40"/>
-                                <connections>
-                                    <action selector="forwardButtonTapped:" destination="0SO-Bs-PhB" eventType="touchUpInside" id="fnz-rp-VTy"/>
-                                </connections>
-                            </button>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wwI-e3-0sb">
-                                <rect key="frame" x="0.0" y="64" width="414" height="596"/>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wwI-e3-0sb">
+                                <rect key="frame" x="0.0" y="64" width="414" height="602"/>
                                 <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="delegate" destination="0SO-Bs-PhB" id="vBb-Qh-GB1"/>
@@ -175,6 +170,16 @@
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="E2z-gt-SN8">
                                 <rect key="frame" x="197" y="158" width="20" height="20"/>
                             </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIo-IK-lBN">
+                                <rect key="frame" x="327" y="684" width="67" height="34"/>
+                                <color key="tintColor" red="0.16639342900000001" green="0.26416450740000003" blue="0.34455296400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Forward">
+                                    <color key="titleColor" red="0.023775868120000002" green="0.47760850189999998" blue="0.9847235084" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="forwardButtonTapped:" destination="0SO-Bs-PhB" eventType="touchUpInside" id="fnz-rp-VTy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -183,7 +188,7 @@
                             <constraint firstItem="E2z-gt-SN8" firstAttribute="centerX" secondItem="8EL-Z0-dNE" secondAttribute="centerX" id="J1H-Kw-PNY"/>
                             <constraint firstItem="E2z-gt-SN8" firstAttribute="top" secondItem="3zf-48-kMX" secondAttribute="bottom" constant="94" id="RTU-Kr-buc"/>
                             <constraint firstItem="pIo-IK-lBN" firstAttribute="top" secondItem="wwI-e3-0sb" secondAttribute="bottom" constant="18" id="YDX-Bk-MKQ"/>
-                            <constraint firstItem="pIo-IK-lBN" firstAttribute="leading" secondItem="8EL-Z0-dNE" secondAttribute="leadingMargin" constant="42" id="lO5-cV-H0p"/>
+                            <constraint firstItem="pIo-IK-lBN" firstAttribute="trailing" secondItem="8EL-Z0-dNE" secondAttribute="trailingMargin" id="Ysl-SX-24Q"/>
                             <constraint firstItem="wwI-e3-0sb" firstAttribute="leading" secondItem="8EL-Z0-dNE" secondAttribute="leading" id="ppf-4g-S4N"/>
                             <constraint firstItem="wSt-Dx-ZVd" firstAttribute="top" secondItem="pIo-IK-lBN" secondAttribute="bottom" constant="18" id="qrS-3N-8JC"/>
                             <constraint firstAttribute="trailing" secondItem="wwI-e3-0sb" secondAttribute="trailing" id="zg1-tF-Fiu"/>
@@ -215,30 +220,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JeA-rZ-F02">
-                                <rect key="frame" x="20" y="677" width="80" height="40"/>
+                                <rect key="frame" x="20" y="683" width="40" height="34"/>
                                 <color key="tintColor" red="0.16639342900000001" green="0.26416450740000003" blue="0.34455296400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Back" image="Back 40"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.023775868120000002" green="0.47760850189999998" blue="0.9847235084" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="backButtonTapped:" destination="0SO-Bs-PhB" eventType="touchUpInside" id="Nz2-Mu-4gv"/>
                                     <action selector="donateBackTapped:" destination="R7X-UE-Ked" eventType="touchUpInside" id="kMu-o7-gnd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwe-xJ-Xn6">
-                                <rect key="frame" x="62" y="678" width="107" height="40"/>
-                                <color key="tintColor" red="0.16639342900000001" green="0.26416450740000003" blue="0.34455296400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Forward" image="Forward 40"/>
-                                <connections>
-                                    <action selector="donateForwardTapped:" destination="R7X-UE-Ked" eventType="touchUpInside" id="xem-TJ-d37"/>
-                                    <action selector="forwardButtonTapped:" destination="0SO-Bs-PhB" eventType="touchUpInside" id="qbb-u3-TZc"/>
-                                </connections>
-                            </button>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zQs-KQ-bs1">
-                                <rect key="frame" x="0.0" y="64" width="414" height="605"/>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zQs-KQ-bs1">
+                                <rect key="frame" x="0.0" y="64" width="414" height="611"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="bhM-Zu-j1c">
                                 <rect key="frame" x="197" y="158" width="20" height="20"/>
                             </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwe-xJ-Xn6">
+                                <rect key="frame" x="327" y="684" width="67" height="34"/>
+                                <color key="tintColor" red="0.16639342900000001" green="0.26416450740000003" blue="0.34455296400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Forward">
+                                    <color key="titleColor" red="0.023775868117809296" green="0.47760850191116333" blue="0.98472350835800171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="donateForwardTapped:" destination="R7X-UE-Ked" eventType="touchUpInside" id="xem-TJ-d37"/>
+                                    <action selector="forwardButtonTapped:" destination="0SO-Bs-PhB" eventType="touchUpInside" id="qbb-u3-TZc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -247,11 +256,11 @@
                             <constraint firstItem="zQs-KQ-bs1" firstAttribute="leading" secondItem="QES-zu-D7i" secondAttribute="leading" id="2QH-Ry-EYu"/>
                             <constraint firstItem="bhM-Zu-j1c" firstAttribute="top" secondItem="iWJ-OA-mfB" secondAttribute="bottom" constant="94" id="2nv-bE-vlU"/>
                             <constraint firstItem="bhM-Zu-j1c" firstAttribute="centerX" secondItem="QES-zu-D7i" secondAttribute="centerX" id="O4n-Oa-pyS"/>
+                            <constraint firstItem="fwe-xJ-Xn6" firstAttribute="trailing" secondItem="QES-zu-D7i" secondAttribute="trailingMargin" id="SJl-QT-lfQ"/>
                             <constraint firstAttribute="trailing" secondItem="zQs-KQ-bs1" secondAttribute="trailing" id="aZL-PD-DVl"/>
                             <constraint firstItem="zQs-KQ-bs1" firstAttribute="top" secondItem="QES-zu-D7i" secondAttribute="top" constant="64" id="lme-l7-C64"/>
                             <constraint firstItem="JeA-rZ-F02" firstAttribute="leading" secondItem="QES-zu-D7i" secondAttribute="leadingMargin" id="q00-T0-WhJ"/>
                             <constraint firstItem="q47-in-53c" firstAttribute="top" secondItem="JeA-rZ-F02" secondAttribute="bottom" constant="19" id="uqO-fg-kvk"/>
-                            <constraint firstItem="fwe-xJ-Xn6" firstAttribute="leading" secondItem="QES-zu-D7i" secondAttribute="leadingMargin" constant="42" id="xhi-dD-KZ2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Support" id="nx3-25-jal"/>
@@ -285,8 +294,4 @@
             <point key="canvasLocation" x="-366.66666666666669" y="13.043478260869566"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Back 40" width="40" height="40"/>
-        <image name="Forward 40" width="40" height="40"/>
-    </resources>
 </document>

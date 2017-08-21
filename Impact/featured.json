@@ -1,112 +1,174 @@
 {
     "data": [
-         {
-         "name": "ACLU",
-         "category": "Human and Civil Rights",
-         "imageUrl": "https://www.aclu.org/sites/all/themes/custom/aclu/logo.png",
-         "websiteUrl": "https://www.aclu.org/",
-         "description": "The American Civil Liberties Union (ACLU) Foundation is the arm of the ACLU that conducts litigation and communication efforts. The Foundation provides legal presentation in cases involving issues of civil liberties and constitutional rights ranging from administrative hearings to trials and appeals. In addition, the Foundation educates the public as to civil liberties and constitutional rights by disseminating literature and other publications. The ACLU Foundation preserves and promotes civil rights and liberties as guaranteed by the United States Constitution.",
-         "donateUrl": "https://action.aclu.org/donate-aclu?ms=web_horiz_nav_hp",
-         "iconImage": "http://www.rifuture.org/wp-content/uploads/aclu.jpg"
-         },
-         {
-         "name": "American Refugee Committee",
-         "category": "International",
-         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/ArcLogo.jpg/275px-ArcLogo.jpg",
-         "websiteUrl": "http://arcrelief.org/",
-         "description": "Founded in 1979, the American Refugee Committee International (ARC) is a humanitarian aid organization that works to help people take back control of their lives. ARC programs serve nearly 2.5 million people each year, providing health care, clean water, sanitation, shelter, gender-based violence prevention services, microenterprise development, disease prevention services, education, legal services, counseling and repatriation assistance. We work in DRC, Rwanda, Uganda, South Sudan, Sudan, Pakistan, Thailand, Myanmar, Somalia, Syria, and Jordan. ARC works with its constituents as partners. Of its 2,000 employees, 95 percent are hired locally.",
-         "donateUrl": "https://secure2.convio.net/refc/site/Donation2;jsessionid=00000000.app258a?df_id=2945&2945.donation=form1&mfc_pref=T&NONCE_TOKEN=5779EA54E92F8045DB98E5444DC4906B",
-         "iconImage": "https://media.glassdoor.com/sqll/31412/american-refugee-committee-squarelogo-1425965236632.png"
-         },
-         {
-         "name": "WWF",
-         "category": "Animals",
-         "imageUrl": "http://assets.wwf.org.uk/custom/lpr2016/media/do-it-for-your-planet.png",
-         "websiteUrl": "http://wwf.panda.org/",
-         "description": "Founded in 1961, World Wildlife Fund's (WWF) mission is the conservation of nature. Using the best available scientific knowledge and advancing that knowledge where we can, we work to preserve the diversity and abundance of life on Earth and the health of ecological systems by: protecting natural areas and wild populations of plants and animals, including endangered species; promoting sustainable approaches to the use of renewable natural resources; and promoting more efficient use of resources and energy and the maximum reduction of pollution. We are committed to reversing the degradation of our planet's natural environment and to building a future in which human needs are met in harmony with nature. We recognize the critical relevance of human numbers, poverty and consumption patterns to meeting these goals.",
-         "donateUrl": "http://wwf.panda.org/how_you_can_help/support_wwf/donate/",
-         "iconImage": "http://d1diae5goewto1.cloudfront.net/_skins/pandaorg3/img/logo.png"
-         },
-         {
-         "name": "Human Rights Watch",
-         "category": "International",
-         "imageUrl": "http://budapestbeacon.com/wp-content/uploads/2014/01/human-rights-watch.png",
-         "websiteUrl": "https://www.hrw.org",
-         "description": "Human Rights Watch is one of the world's leading independent organizations dedicated to defending and protecting human rights. By focusing international attention where human rights are violated, we give voice to the oppressed and hold oppressors accountable for their crimes. Our rigorous, objective investigations and strategic, targeted advocacy build intense pressure for action and raise the cost of human rights abuse. For 30 years, Human Rights Watch has worked tenaciously to lay the legal and moral groundwork for deep-rooted change and has fought to bring greater justice and security to people around the world.",
-         "donateUrl": "https://donate.hrw.org/ea-action/action?ea.client.id=1908&ea.campaign.id=36711&ea.tracking.id=ED2017EVSCgl",
-         "iconImage": "https://lh5.googleusercontent.com/-paKbuJJBfGE/AAAAAAAAAAI/AAAAAAAAAHg/9jvJhgSILy4/photo.jpg"
-         },
-        {
-         "name": "UNICEF",
-         "category": "International",
-         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/UNICEF_FLAG.png",
-         "websiteUrl": "https://www.unicef.org/",
-         "description": "UNICEF works for children in more than 190 countries and territories. Every child, no matter where they live, deserves a safe and healthy childhood. The U.S. Fund for UNICEF raises funds for UNICEF's work on child survival, child development, child protection and emergencies. We believe ZERO children should be abused, exploited or denied the right to health care, education and protection. It's an ambitious goal, but we believe that unwavering commitment is the only way to guarantee a better world for children. Your support will help us build that world.",
-         "donateUrl": "https://www.unicefusa.org/help/donate",
-         "iconImage": "https://lh5.googleusercontent.com/-CrELa3pxVEc/AAAAAAAAAAI/AAAAAAAAKSU/EdvsmLkJwgo/s0-c-k-no-ns/photo.jpg"
-         },
-        {
-         "name": "Human Rights Campaign Foundation",
-         "category": "Human and Civil Rights",
-         "imageUrl": "http://assets.hrc.org//files/images/blog/HRCLogo-WithWords-1600x900.png",
-         "websiteUrl": "http://www.hrc.org/",
-         "description": "Through research, educational efforts and outreach, the Human Rights Campaign (HRC) Foundation encourages gay, lesbian, bisexual and transgender Americans to live their lives openly and seeks to change the hearts and minds of Americans to the side of equality. Programs funded in part or in full through the HRC Foundation include: The HRC Coming Out Project, which encourages GLBT and straight-supportive Americans to come out and live openly; The HRC Family Project, which empowers members of the GLBT community to take action to protect their families; The HRC Historically Black Colleges and Universities Outreach Program, which trains student activists to sustain dialogue, build viable student-led GLBT organizations; The HRC Religion and Faith Program, The HRC Research Center, and The HRC Workplace Project.",
-         "donateUrl": "https://give.hrc.org/ea-action/action?ea.client.id=1954&ea.campaign.id=51848&ea.tracking.id=or_gnr_hrc_homepage_donate&_ga=2.239043650.350421842.1501531494-1759916274.1501531494",
-         "iconImage": "https://lh5.googleusercontent.com/-98y0cq22xV8/AAAAAAAAAAI/AAAAAAAAMZQ/r_gA-cd0PSA/s0-c-k-no-ns/photo.jpg"
-         },
-         {
-         "name": "International Rescue Committee",
-         "category": "International",
-         "imageUrl": "http://job.bangkokpost.com/img_company/thumbnail/prefix_1/0036/36/company-36-960X200.jpg",
-         "websiteUrl": "https://www.rescue.org/",
-         "description": "The International Rescue Committee (IRC) responds to the world's worst humanitarian crises, helping to restore health, safety, education, economic well being, and power to people devastated by conflict and disaster. Founded in 1933 at the call of Albert Einstein, the IRC is at work in over 40 countries and 26 U.S. cities helping people to survive, reclaim control of their future and strengthen their communities.",
-         "donateUrl": "https://help.rescue.org/donate?ms=ws_resq_top_nav_btn_161010&initialms=ws_resq_top_nav_btn_161010",
-         "iconImage": "https://lh5.googleusercontent.com/-NJ6anwslbKA/AAAAAAAAAAI/AAAAAAAAGKA/YUwikWQtMbM/s0-c-k-no-ns/photo.jpg"
-         },
-         {
-         "name": "Planned Parenthood",
-         "category": "Health",
-         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Planned_Parenthood_logo.svg/1200px-Planned_Parenthood_logo.svg.png",
-         "websiteUrl": "plannedparenthood.org",
-         "description": "Planned Parenthood Federation of America (PPFA) is America's most trusted provider of reproductive health care. For more than 90 years, Planned Parenthood has promoted a commonsense approach to women's health and well-being, based on respect for each individual's right to make informed, independent decisions about health, sex, and family planning. PPFA works to provide trusted community healthcare; inform and educated the community; lead the reproductive health and rights movement; and advance global health. The heart of Planned Parenthood is in the local community. Our 94 unique, locally governed affiliates nationwide operate more than 850 health centers, which reflect the diverse needs of their communities.",
-         "donateUrl": "https://secure.ppaction.org/site/Donation2?df_id=24756&24756.donation=form1",
-         "iconImage": "https://lh3.googleusercontent.com/-asKoiXAhrxc/AAAAAAAAAAI/AAAAAAAAAXI/pAa3hf3l63E/photo.jpg"
-         },
-         {
-         "name": "Wounded Warrior Project",
-         "category": "Human Services",
-         "imageUrl": "https://media.news4jax.com/photo/2016/01/28/Wounded_Warrior_Project_log_1453985824760_1955420_ver1.0_1280_720.jpg",
-         "websiteUrl": "https://www.woundedwarriorproject.org/",
-         "description": "The mission of Wounded Warrior Project is to honor and empower wounded warriors. Our purpose is: to raise awareness and enlist the public's aid for the needs of severely injured service men and women; to help severely injured service members aid and assist each other; and to provide unique, direct programs and services to meet the needs of severely injured service members.",
-         "donateUrl": "https://support.woundedwarriorproject.org/default.aspx?tsid=7792",
-         "iconImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Wounded_Warrior_Project_logo.svg/1151px-Wounded_Warrior_Project_logo.svg.png"
-         },
-         {
-         "name": "Islamic Relief",
-         "category": "International",
-         "imageUrl": "http://www.islamic-relief.org/wp-content/uploads/2014/06/irw-post-img-605x340.jpg",
-         "websiteUrl": "http://irusa.org/",
-         "description": "The Palestine Children's Relief Fund (PCRF) is a non-political organization established in 1991 by concerned people in the U.S. to address the medical and humanitarian crisis facing Palestinian youths in the Middle East. The main objective of the PCRF is to identify and treat every child in the Middle East in need of specialized surgery not available to them locally. We locate, sponsor and run volunteer medical missions to the Middle East in adult and pediatric cardiac surgery, pediatric cardiology, plastic and reconstructive surgery, maxillofacial surgery, pediatric urology, ophthalmology, vascular surgery, pediatric orthopedic surgery, occupational therapy, and other specialties. Since our founding, over 800 children have been, or currently are being treated, outside of the Middle East through the PCRF.",
-         "donateUrl": "https://secure.irusa.org/donate/donate-now?_ga=2.122139147.1852341201.1502819505-853881983.1502819505",
-         "iconImage": "https://upload.wikimedia.org/wikipedia/commons/4/45/IRW_Logo.jpg"
-         },
-         {
-         "name": "American Indian College Fund",
-         "category": "Education",
-         "imageUrl": "http://collegefund.org/wp-content/themes/nmc_aicf/assets/logo-png.png",
-         "websiteUrl": "http://collegefund.org/",
-         "description": "The American Indian College Fund provides scholarships, internships opportunities, and other life skills and career readiness support to American Indian students. An education is often the difference between a happy, healthy, and self-sustaining productive life and one that is not. Approximately 13% of American Indians have a college degree, well below the national average. To strengthen our country as a whole, the American Indian College Fund seeks to strengthen native communities by empowering native people with skills, knowledge, and experience. The American Indian College Fund directly supports over 4,000 American Indian students annually, and thousands more through indirect services and support.",
-         "donateUrl": "https://collegefund.org/make-a-gift/?source=website",
-         "iconImage": "https://s-media-cache-ak0.pinimg.com/736x/76/2d/7f/762d7f28af3824a5fa2e8b53859a0f79--college-fund-college-students.jpg"
-         },
-         {
-         "name": "Water.org",
-         "category": "International",
-         "imageUrl": "https://mb4mh.files.wordpress.com/2012/01/waterorg_2clr_rgb_tm1.jpg",
-         "websiteUrl": "https://water.org/",
-         "description": "Co-founded by Gary White and Matt Damon, Water.org has transformed hundreds of communities in Africa, South Asia, and Central America by providing access to safe water and sanitation. Water.org traces its roots back to the founding of WaterPartners in 1990. In July 2009, WaterPartners merged with H2O Africa, resulting in the launch of Water.org. Water.org works with local partners to deliver innovative solutions for long-term success. Its microfinance-based WaterCredit Initiative is pioneering sustainable giving in the sector. All of the projects Water.org supports are self-sustaining, with organizational and financial structures in place to allow communities to independently operate and maintain them. Projects have an active water committee governing the operation of the water system, and users paying a water bill to cover the costs of operating and maintaining the water system.",
-         "donateUrl": "https://water.org/donate/",
-         "iconImage": "https://yt3.ggpht.com/-z_upDQxzy2U/AAAAAAAAAAI/AAAAAAAAAAA/zSWml6IYu5A/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
-         },
-     ]
+             {
+             "section": "Support Charlottesville",
+             "name": "ADL",
+             "category": "Human and Civil Rights",
+             "imageUrl": "http://www.adweek.com/wp-content/uploads/sites/8/2013/03/adl.jpg",
+             "websiteUrl": "https://www.adl.org/",
+             "description": "The Anti-Defamation League (ADL) was founded in 1913 to stop the defamation of the Jewish people and to secure justice and fair treatment to all. Now the nation's premier civil rights and human relations agency fighting anti-Semitism and all forms of bigotry, ADL defends democratic ideals and advocates for and protects civil rights. ADL builds bridges of communication, understanding and respect among diverse communities, carrying out its mission through a network of 27 regional and satellite offices in the United States and Israel. A leader in the development of materials, programs and services, the League is a critical resource for government, media, law enforcement, educators and the public.",
+             "donateUrl": "https://secure2.convio.net/adl/site/SPageNavigator/donate/MainDonation.html?_ga=2.256140683.1468955329.1503065013-926034168.1503065013",
+             "iconImage": "http://newengland.adl.org/wp-content/themes/adl_regional_template/images/adllogo.png"
+             },
+             {
+             "section": "Support Charlottesville",
+             "name": "Southern Poverty Law Center",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://capitalresearch.org/app/uploads/SPLC_Logo.jpg",
+             "websiteUrl": "https://www.splcenter.org/",
+             "description": "The Southern Poverty Law Center (SPLC) was founded in 1971 as a small civil rights law firm. Today, SPLC is internationally known for its tolerance education programs, its legal victories against white supremacists and its tracking of hate groups. Throughout its history, SPLC has worked to make the nation's Constitutional ideals a reality. The SPLC legal department fights all forms of discrimination and works to protect society's most vulnerable members, handling innovative cases that few lawyers are willing to take. The SPLC Intelligence Project monitors hate groups and tracks extremist activity throughout the U.S. To combat the causes of hate, SPLC in 1991 established Teaching Tolerance, an educational program to help K-12 teachers foster respect and understanding in the classroom.",
+             "donateUrl": "https://donate.splcenter.org/sslpage.aspx?pid=463",
+             "iconImage": "https://www.splcenter.org/sites/default/files/10426930_10152512727559700_2647771730634151427_n.png"
+             },
+             {
+             "section": "Support Charlottesville",
+             "name": "Legal Aid Justice Center",
+             "category": "Human and Civil Rights",
+             "imageUrl": "http://c.ymcdn.com/sites/www.vba.org/resource/resmgr/Pro_Bono_Council/Legal_Aid_Justice_Center_log.jpg",
+             "websiteUrl": "https://www.justice4all.org/",
+             "description": "The Legal Aid Justice Center provides legal representation for low-income individuals in Virginia. Our mission is to serve those in our communities who have the least access to legal resources. The Legal Aid Justice Center is committed to providing a full range of services to our clients, including services our federal and state governments choose not to fund. Legal Aid Justice Center's staff of 40 work from offices in Charlottesville, Falls Church, Petersburg and Richmond.",
+             "donateUrl": "https://salsa4.salsalabs.com/o/51626/p/salsa/donation/common/public/?donate_page_KEY=11637",
+             "iconImage": "https://www.justice4all.org/wp-content/uploads/2014/03/logo.jpg"
+             },
+             {
+             "section": "Support Charlottesville",
+             "name": "Stop Hate Project",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://pbs.twimg.com/profile_images/866654053362749441/aM7f6ueQ_400x400.jpg",
+             "websiteUrl": "https://lawyerscommittee.org/project/stop-hate-project/",
+             "description": "The Stop Hate Project seeks to strengthen the capacity of community leaders, law enforcement, and organizations around the country to combat hate by connecting these groups with established legal and social services resources.",
+             "donateUrl": "https://8449nohate.org/make-a-donation/",
+             "iconImage": "https://pbs.twimg.com/profile_images/866654053362749441/aM7f6ueQ_400x400.jpg"
+             },
+             {
+             "section": "Support Charlottesville",
+             "name": "Charlottesville's Congregation Beth Israel ",
+             "category": "Religion",
+             "imageUrl": "https://s-media-cache-ak0.pinimg.com/avatars/congregation_b_1450795443_280.jpg",
+             "websiteUrl": "https://cbicville.org/",
+             "description": "Congregation Beth Israel is dedicated to:\n\nInvesting in the future of Jewish life in Charlottesville through education in the heritage, culture, language beliefs, and practices of Judaism;\nProviding a joyful, vibrant and accepting environment for a diverse community of all ages, cultural backgrounds and experiences, worship styles, and lifestyles;\nSupporting fellow congregants and members of the community during times of joy, challenge, and sorrow;\nImproving the wellbeing of the local community through activism in social justice and charitable giving (tzedakah).\n",
+             "donateUrl": "https://cbicville.org/content/waystogive",
+             "iconImage": "https://s-media-cache-ak0.pinimg.com/avatars/congregation_b_1450795443_280.jpg"
+             },
+             {
+             "section": "Support Syrian Refugees",
+             "name": "Islamic Relief",
+             "category": "International",
+             "imageUrl": "http://www.islamic-relief.org/wp-content/uploads/2014/06/irw-post-img-605x340.jpg",
+             "websiteUrl": "http://irusa.org/",
+             "description": "The Palestine Children's Relief Fund (PCRF) is a non-political organization established in 1991 by concerned people in the U.S. to address the medical and humanitarian crisis facing Palestinian youths in the Middle East. The main objective of the PCRF is to identify and treat every child in the Middle East in need of specialized surgery not available to them locally. We locate, sponsor and run volunteer medical missions to the Middle East in adult and pediatric cardiac surgery, pediatric cardiology, plastic and reconstructive surgery, maxillofacial surgery, pediatric urology, ophthalmology, vascular surgery, pediatric orthopedic surgery, occupational therapy, and other specialties. Since our founding, over 800 children have been, or currently are being treated, outside of the Middle East through the PCRF.",
+             "donateUrl": "https://secure.irusa.org/donate/donate-now?_ga=2.122139147.1852341201.1502819505-853881983.1502819505",
+             "iconImage": "https://upload.wikimedia.org/wikipedia/commons/4/45/IRW_Logo.jpg"
+             },
+             {
+             "section": "Support Syrian Refugees",
+             "name": "American Refugee Committee",
+             "category": "International",
+             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/ArcLogo.jpg/275px-ArcLogo.jpg",
+             "websiteUrl": "http://arcrelief.org/",
+             "description": "Founded in 1979, the American Refugee Committee International (ARC) is a humanitarian aid organization that works to help people take back control of their lives. ARC programs serve nearly 2.5 million people each year, providing health care, clean water, sanitation, shelter, gender-based violence prevention services, microenterprise development, disease prevention services, education, legal services, counseling and repatriation assistance. We work in DRC, Rwanda, Uganda, South Sudan, Sudan, Pakistan, Thailand, Myanmar, Somalia, Syria, and Jordan. ARC works with its constituents as partners. Of its 2,000 employees, 95 percent are hired locally.",
+             "donateUrl": "https://secure2.convio.net/refc/site/Donation2;jsessionid=00000000.app258a?df_id=2945&2945.donation=form1&mfc_pref=T&NONCE_TOKEN=5779EA54E92F8045DB98E5444DC4906B",
+             "iconImage": "https://media.glassdoor.com/sqll/31412/american-refugee-committee-squarelogo-1425965236632.png"
+             },
+             {
+             "section": "Support Syrian Refugees",
+             "name": "The Outreach Foundaiton",
+             "category": "Religion",
+             "imageUrl": "https://theoutreachfoundationblog.files.wordpress.com/2012/01/cropped-logo-horizontal.jpg",
+             "websiteUrl": "https://www.theoutreachfoundation.org/",
+             "description": "The Outreach Foundation seeks to engage Presbyterians in Christ-centered evangelistic mission for the salvation of humankind. Through relationships with missionaries and projects with global partners, we help to create and sustain mission partnerships that build up the body of Christ for God's mission in the U.S. and around the world. We are a validated mission support group of the Presbyterian Church (USA), working in and beyond our denomination to help individuals and congregations participate in the amazing things that God is doing in the world.",
+             "donateUrl": "https://www.theoutreachfoundation.org/give/",
+             "iconImage": "https://static1.squarespace.com/static/524c23d0e4b09b795fb0cfbe/t/57aa220a3e00be75ae7bbb40/1501795046684/?format=1500w"
+             },
+             {
+             "section": "Support Syrian Refugees",
+             "name": "UNHCR",
+             "category": "International",
+             "imageUrl": "http://www.unhcr.org/assets/img/unhcr-logo.png",
+             "websiteUrl": "http://www.unhcr.org/en-us",
+             "description": "UNHCR, the UN Refugee Agency, is a global organization dedicated to saving lives, protecting rights and building a better future for refugees, forcibly displaced communities and stateless people.",
+             "donateUrl": "https://donate.unrefugees.org/ea-action/action?ea.client.id=1873&ea.campaign.id=67052&ea.tracking.id=D15XRX172XXS&utm_source=unhcr.org&utm_medium=referral&utm_campaign=US_EN_GENERAL_201704&utm_content=monthly",
+             "iconImage": "http://www.unhcr.org/images/sharelogo.jpg"
+             },
+             {
+             "section": "Support Syrian Refugees",
+             "name": "ShelterBox",
+             "category": "International",
+             "imageUrl": "http://www.6thbeeston.co.uk/wp-content/uploads/2013/07/shelterbox-banner-large.png",
+             "websiteUrl": "http://www.shelterboxusa.org/",
+             "description": "Every year, millions of families around the world are made homeless because of humanitarian crises and natural disasters such as earthquakes, tsunamis and floods. \n\nShelterBox is an international, nonprofit organization that responds immediately, by providing humanitarian relief in the form of supplies that bring hope, independence and a sense of normalcy to the most vulnerable people.\n\nSince 2000, the organization has delivered boxes of aid and other supplies such as tents, water filters, stoves, blankets and other tools to help families survive and rebuild their lives in the aftermath of more than 200 disasters in over 92 countries worldwide.",
+             "donateUrl": "https://www.shelterboxusa.org/donate/",
+             "iconImage": "http://rotarydistrict7450.org/wp-content/uploads/2014/04/SB.jpg"
+             },
+             {
+             "section": "Support Syrian Refugees",
+             "name": "UNICEF",
+             "category": "International",
+             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/UNICEF_FLAG.png",
+             "websiteUrl": "https://www.unicef.org/",
+             "description": "UNICEF works for children in more than 190 countries and territories. Every child, no matter where they live, deserves a safe and healthy childhood. The U.S. Fund for UNICEF raises funds for UNICEF's work on child survival, child development, child protection and emergencies. We believe ZERO children should be abused, exploited or denied the right to health care, education and protection. It's an ambitious goal, but we believe that unwavering commitment is the only way to guarantee a better world for children. Your support will help us build that world.",
+             "donateUrl": "https://www.unicefusa.org/help/donate",
+             "iconImage": "https://lh5.googleusercontent.com/-CrELa3pxVEc/AAAAAAAAAAI/AAAAAAAAKSU/EdvsmLkJwgo/s0-c-k-no-ns/photo.jpg"
+             },
+             {
+             "section": "Support Women's Rights",
+             "name": "Planned Parenthood",
+             "category": "Health",
+             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Planned_Parenthood_logo.svg/1200px-Planned_Parenthood_logo.svg.png",
+             "websiteUrl": "plannedparenthood.org",
+             "description": "Planned Parenthood Federation of America (PPFA) is America's most trusted provider of reproductive health care. For more than 90 years, Planned Parenthood has promoted a commonsense approach to women's health and well-being, based on respect for each individual's right to make informed, independent decisions about health, sex, and family planning. PPFA works to provide trusted community healthcare; inform and educated the community; lead the reproductive health and rights movement; and advance global health. The heart of Planned Parenthood is in the local community. Our 94 unique, locally governed affiliates nationwide operate more than 850 health centers, which reflect the diverse needs of their communities.",
+             "donateUrl": "https://secure.ppaction.org/site/Donation2?df_id=24756&24756.donation=form1",
+             "iconImage": "https://lh3.googleusercontent.com/-asKoiXAhrxc/AAAAAAAAAAI/AAAAAAAAAXI/pAa3hf3l63E/photo.jpg"
+             },
+             {
+             "section": "Support Women's Rights",
+             "name": "Catholics for Choice",
+             "category": "Human and Civil Rights",
+             "imageUrl": "http://www.catholicleague.org/wp-content/uploads/2016/09/catholics-for-choice.png",
+             "websiteUrl": "http://www.catholicsforchoice.org/",
+             "description": "Catholics for Choice (CFC) was founded in 1973 to serve as a voice for Catholics who believe that the Catholic tradition supports a woman's moral and legal right to follow her conscience in matters of sexuality and reproductive health. CFC shapes and advances sexual and reproductive ethics that are based on justice, reflect a commitment to women's well being and respect and affirm the moral capacity of women and men to make sound decisions about their lives. Through discourse, education and advocacy, CFC works in the US and internationally to infuse these values into public policy, community life and Catholic social thinking and teaching.",
+             "donateUrl": "http://www.catholicsforchoice.org/contribute-to-catholics-for-choice/",
+             "iconImage": "http://www.catholicsforchoice.org/wp-content/uploads/2014/01/cfcavatar.jpg"
+             },
+             {
+             "section": "Support Women's Rights",
+             "name": "Equal Rights Advocates",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://media.licdn.com/media/p/1/000/23a/2a8/30849de.png",
+             "websiteUrl": "http://www.equalrights.org/",
+             "description": "Equal Rights Advocates (ERA) has led the legal fight for women's equality since 1974. We have worked to protect and secure equal rights and economic opportunities for women and girls through litigation and advocacy. We work to eradicate illegal discriminatory practices that deny women advancement opportunities, equal compensation, and access to certain occupations. ERA demands that employers provide women with a work environment that is free of sexual harassment and in compliance with health and safety laws. We enforce family and medical leave and pregnancy protection laws, and is active in the effort to establish paid family and medical leave.",
+             "donateUrl": "https://salsa4.salsalabs.com/o/51454/p/salsa/donation/common/public/?donate_page_KEY=11733",
+             "iconImage": "https://equalrightsadvocates.files.wordpress.com/2011/03/logo-full-name.jpg"
+             },
+             {
+             "section": "Support Women's Rights",
+             "name": "National Family Planning & Reproductive Health Association",
+             "category": "Human and Civil Rights",
+             "imageUrl": "https://www.nationalfamilyplanning.org/image/NFPRHA-logo-for-print-blue.jpg",
+             "websiteUrl": "https://www.nationalfamilyplanning.org/",
+             "description": "The National Family Planning & Reproductive Health Association (NFPRHA), founded in 1971, is a membership organization established to ensure access to voluntary, comprehensive, and culturally sensitive family planning and reproductive health care services and to support reproductive freedom for all. NFPRHA advocates on a range of issues related to family planning and sexual health, including: protecting Title X funding, health care reform, contraceptive coverage, sexuality education, STD and HIV prevention, and abortion care.",
+             "donateUrl": "https://www.nationalfamilyplanning.org/donate",
+             "iconImage": "https://pbs.twimg.com/profile_images/879790648286752770/5CWmC7Cx.jpg"
+             },
+             {
+             "section": "Support Women's Rights",
+             "name": "Institute for Women's Policy Research",
+             "category": "Research and Public Policy",
+             "imageUrl": "https://daughtersandsonstowork.org/wp-content/uploads/2015/07/Institute-for-Womens-Policy-Research.jpg",
+             "websiteUrl": "https://iwpr.org/",
+             "description": "The Institute for Women's Policy Research (IWPR) conducts rigorous research and disseminates its findings to address the needs of women, promote public dialogue, and strengthen families, communities, and societies. IWPR focuses on issues of poverty and welfare, employment and earnings, work and family issues, health and safety, and women's civic and political participation. The Institute works with policymakers, scholars, and public interest groups around the country to design, execute, and disseminate research that illuminates economics and social policy issues affecting women and families, and to build a network of individuals and organizations that conduct and use women-oriented policy research.",
+             "donateUrl": "https://www.givedirect.org/donate/?cid=848",
+             "iconImage": "http://equitythroughresearch.com/wp-content/uploads/2016/11/Institute-Women-Policy-Research-1.jpg"
+             },
+             {
+             "section": "Support Women's Rights",
+             "name": "Equality Now",
+             "category": "International",
+             "imageUrl": "https://www.human-dignity-foundation.org/wp-content/uploads/2017/02/Equality-Now-e1476895910885.png",
+             "websiteUrl": "https://www.equalitynow.org/",
+             "description": "Equality Now was founded in 1992 to work for the protection and promotion of the human rights of women around the world. Working with national human rights organizations and individual activists, Equality Now documents violence and discrimination against women and mobilizes international action to support their efforts to stop these human rights abuses. Through its Women's Action Network of concerned groups and individuals around the world, Equality Now distributes information about human rights violations; takes action to protest these violations; and brings public attention to human rights violations against women.",
+             "donateUrl": "https://org2.salsalabs.com/o/6208/donate_page/donate",
+             "iconImage": "http://www.girlsnotbrides.org/wp-content/uploads/2012/10/Equality-Now-Logo.jpg"
+             }
+        ]
 }

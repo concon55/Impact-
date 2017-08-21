@@ -27,6 +27,7 @@ class InfoController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        websiteButton.titleLabel?.textAlignment = .center
         websiteButton.setTitle(org?.websiteUrl, for: .normal)
         infoNameLabel.text = org?.charityName
         infoDescriptionLabel.text = org?.description

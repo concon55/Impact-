@@ -22,8 +22,10 @@ struct OrganizationClass: Equatable{
     let categoryName: String
     let imageUrl: String
     let iconImage: String
+    let section: String
     
     init(json: JSON) {
+        self.section = json["section"].stringValue
         self.categoryName = json["category"].stringValue
         self.charityName = json["name"].stringValue
         self.description = json["description"].stringValue
