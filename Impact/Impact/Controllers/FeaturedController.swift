@@ -16,11 +16,11 @@ class FeaturedController: UIViewController {
     var featuredOrganizations = [OrganizationClass]()
     var sections = [String]()
     var namesOfSection: [String] = []
-//    var dictionary = [String: [String]]()
-    var section1 = [String]()
-    var section2 = [String]()
-    var section3 = [String]()
-    var sectionData: [Int: [String]] = [:]
+    var dictionary = [String: [Any?]]()
+    var section1 = [OrganizationClass]()
+    var section2 = [OrganizationClass]()
+    var section3 = [OrganizationClass]()
+    var sectionData: [Int: [OrganizationClass]] = [:]
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -32,6 +32,7 @@ class FeaturedController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         if let path = Bundle.main.path(forResource: "featured", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped)
@@ -39,30 +40,22 @@ class FeaturedController: UIViewController {
                 if jsonObj != JSON.null {
                     //print("jsonData:\(jsonObj)")
                     let allOrganizations = jsonObj["data"].arrayValue
-                    
                     for i in 0..<allOrganizations.count{
-                        
                         let eachOrg = OrganizationClass.init(json: allOrganizations[i])
-                        
-//                        dictionary[eachOrg.section]!.append(eachOrg.charityName)
-                        
                         featuredOrganizations.append(eachOrg)
                         namesOfSection.append(eachOrg.section)
                         
                         if eachOrg.section == "Support Charlottesville" {
-                            section1.append(eachOrg.charityName)
+                            section1.append(eachOrg)
                         }else if eachOrg.section == "Support Syrian Refugees" {
-                            section2.append(eachOrg.charityName)
+                            section2.append(eachOrg)
                         }else{
-                            section3.append(eachOrg.charityName)
+                            section3.append(eachOrg)
                         }
                         sectionData = [0:section1, 1:section2, 2:section3]
                         
                     }
                     sections = uniqueElementsFrom(array: namesOfSection)
-
-                    print(sections)
-                    
                 } else {
                     print("Could not get json from file, make sure that file contains valid json.")
                 }
@@ -72,6 +65,7 @@ class FeaturedController: UIViewController {
         } else {
             print("Invalid filename/path.")
         }
+        
     }
     
     func uniqueElementsFrom(array: [String]) -> [String] {
@@ -95,7 +89,7 @@ class FeaturedController: UIViewController {
         if let identifier = segue.identifier {
             if identifier == "toInfo"{
                 let indexPath = tableView.indexPathForSelectedRow!
-                let eachOrg = featuredOrganizations[indexPath.row]
+                let eachOrg = sectionData[indexPath.section]![indexPath.row]
                 let infoController = segue.destination as! InfoController
                 infoController.org = eachOrg
                 
@@ -103,8 +97,8 @@ class FeaturedController: UIViewController {
         }
     }
 }
-
 extension FeaturedController: UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return (sectionData[section]?.count)!
     }
@@ -117,18 +111,13 @@ extension FeaturedController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return sections.count
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "OrgCell", for: indexPath) as! FeaturedTableViewCell
-        let featuredOrg = featuredOrganizations[indexPath.row]
-        cell.orgNameLabel.text = sectionData[indexPath.section]![indexPath.row]
-        
-        //cell.featuredImage?.image = nil
-        let featuredImageUrl = featuredOrg.imageUrl
-        cell.featuredImage.af_setImage(withURL: URL(string: featuredImageUrl)!)
-       
-        
+        //let featuredOrg = featuredOrganizations[indexPath.row]
+        cell.orgNameLabel.text = sectionData[indexPath.section]![indexPath.row].charityName
+        //let featuredImageUrl = featuredOrg.imageUrl
+        cell.featuredImage.af_setImage(withURL: URL(string: sectionData[indexPath.section]![indexPath.row].imageUrl)!)
         let cellColors = [UIColor(red:0.28, green:0.16, blue:0.23, alpha:0.85), UIColor(red:0.29, green:0.35, blue:0.40, alpha:0.85), UIColor(red:0.10, green:0.20, blue:0.26, alpha:0.85), UIColor(red:0.44, green:0.42, blue:0.41, alpha:0.85)]
         let bgColor = cellColors[indexPath.row % cellColors.count]
         cell.orgNameLabel.backgroundColor = bgColor
@@ -152,9 +141,8 @@ extension FeaturedController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 70
     }
-   
-
 }
+
 
 
 

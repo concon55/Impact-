@@ -22,15 +22,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rc-4y-nCD">
-                                <rect key="frame" x="70" y="336.66666666666669" width="274" height="63"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="45"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rc-4y-nCD">
+                                <rect key="frame" x="30" y="335.33333333333331" width="354" height="65.333333333333371"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="47"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2J-Lw-tJO">
-                                <rect key="frame" x="86" y="447.66666666666669" width="242" height="35"/>
+                                <rect key="frame" x="86" y="425" width="242" height="35"/>
                                 <color key="backgroundColor" red="0.10980392156862745" green="0.062745098039215685" blue="0.090196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="34S-4P-LP5"/>
@@ -51,13 +51,13 @@
                         <color key="backgroundColor" red="0.16470588235294117" green="0.2627450980392157" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="v2J-Lw-tJO" firstAttribute="leading" secondItem="Qbe-Dz-K6t" secondAttribute="leadingMargin" constant="66" id="7rg-g0-Psp"/>
-                            <constraint firstItem="1rc-4y-nCD" firstAttribute="centerY" secondItem="Qbe-Dz-K6t" secondAttribute="centerY" id="Csl-S8-8CQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="1rc-4y-nCD" secondAttribute="trailing" constant="50" id="RP6-2e-Y5N"/>
-                            <constraint firstItem="1rc-4y-nCD" firstAttribute="leading" secondItem="Qbe-Dz-K6t" secondAttribute="leadingMargin" constant="50" id="XZS-jq-NLQ"/>
-                            <constraint firstItem="v2J-Lw-tJO" firstAttribute="top" secondItem="1rc-4y-nCD" secondAttribute="bottom" constant="48" id="Zax-Fw-VQo"/>
+                            <constraint firstItem="1rc-4y-nCD" firstAttribute="centerX" secondItem="Qbe-Dz-K6t" secondAttribute="centerX" id="FPy-0T-hjg"/>
+                            <constraint firstItem="v2J-Lw-tJO" firstAttribute="top" secondItem="1rc-4y-nCD" secondAttribute="bottom" constant="24.5" id="Vaq-Eb-cUB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1rc-4y-nCD" secondAttribute="trailing" constant="10" id="bfb-2M-BLi"/>
                             <constraint firstItem="v2J-Lw-tJO" firstAttribute="centerX" secondItem="Qbe-Dz-K6t" secondAttribute="centerX" id="eB2-Oo-J1w"/>
-                            <constraint firstItem="1rc-4y-nCD" firstAttribute="centerX" secondItem="Qbe-Dz-K6t" secondAttribute="centerX" id="nd2-M2-faV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="v2J-Lw-tJO" secondAttribute="trailing" constant="66" id="sUN-6t-Fcr"/>
+                            <constraint firstItem="1rc-4y-nCD" firstAttribute="centerY" secondItem="Qbe-Dz-K6t" secondAttribute="centerY" id="tTB-Aa-dB9"/>
+                            <constraint firstItem="1rc-4y-nCD" firstAttribute="leading" secondItem="Qbe-Dz-K6t" secondAttribute="leadingMargin" constant="10" id="xzb-Qy-UvM"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="grc-LX-OQd"/>
@@ -68,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8pA-pk-VJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2009" y="98"/>
+            <point key="canvasLocation" x="2008.6956521739132" y="97.826086956521749"/>
         </scene>
         <!--Create Username Controller-->
         <scene sceneID="yq3-y5-RhG">

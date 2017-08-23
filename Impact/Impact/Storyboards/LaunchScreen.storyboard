@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,21 +21,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4O2-U8-0Pa">
-                                <rect key="frame" x="30" y="337" width="354" height="62"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="45"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo " translatesAutoresizingMaskIntoConstraints="NO" id="POd-km-9B7">
+                                <rect key="frame" x="145" y="306" width="124" height="124"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.16470588235294117" green="0.2627450980392157" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="4O2-U8-0Pa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="4TG-YQ-kbH"/>
-                            <constraint firstItem="4O2-U8-0Pa" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="10" id="6ma-Se-uRJ"/>
-                            <constraint firstItem="4O2-U8-0Pa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9fo-nn-hTR"/>
-                            <constraint firstItem="4O2-U8-0Pa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Kxt-ZY-SYK"/>
-                            <constraint firstItem="4O2-U8-0Pa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="afa-NL-J3Q"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="4O2-U8-0Pa" secondAttribute="trailing" constant="10" id="hpa-GS-B81"/>
+                            <constraint firstItem="POd-km-9B7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Eqx-VU-zgA"/>
+                            <constraint firstItem="POd-km-9B7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="OOU-x4-3iT"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -45,4 +37,7 @@
             <point key="canvasLocation" x="50.724637681159422" y="374.18478260869568"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo " width="124" height="124"/>
+    </resources>
 </document>
