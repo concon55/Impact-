@@ -22,7 +22,6 @@
 		794CCEB61F3C938E00E11A31 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794CCEB51F3C938E00E11A31 /* SettingsController.swift */; };
 		794CCEB81F3DF92A00E11A31 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 794CCEB71F3DF92A00E11A31 /* quotes.json */; };
 		794CCEBA1F3DFB3E00E11A31 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794CCEB91F3DFB3E00E11A31 /* Quotes.swift */; };
-		796A99491F43302D005C88FA /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796A99481F43302D005C88FA /* FavoritesTableViewController.swift */; };
 		798CE31C1F30ED4F00406EFB /* featured.json in Resources */ = {isa = PBXBuildFile; fileRef = 798CE31B1F30ED4F00406EFB /* featured.json */; };
 		798CE3201F30F5B800406EFB /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CE31F1F30F5B800406EFB /* SearchController.swift */; };
 		798CE3231F32190500406EFB /* SubmitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CE3221F32190500406EFB /* SubmitController.swift */; };
@@ -63,7 +62,6 @@
 		794CCEB51F3C938E00E11A31 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsController.swift; path = Controllers/SettingsController.swift; sourceTree = "<group>"; };
 		794CCEB71F3DF92A00E11A31 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
 		794CCEB91F3DFB3E00E11A31 /* Quotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Quotes.swift; path = Impact/Models/Quotes.swift; sourceTree = "<group>"; };
-		796A99481F43302D005C88FA /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoritesTableViewController.swift; path = Controllers/FavoritesTableViewController.swift; sourceTree = "<group>"; };
 		798CE31B1F30ED4F00406EFB /* featured.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = featured.json; sourceTree = "<group>"; };
 		798CE31F1F30F5B800406EFB /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchController.swift; path = Controllers/SearchController.swift; sourceTree = "<group>"; };
 		798CE3221F32190500406EFB /* SubmitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitController.swift; path = Controllers/SubmitController.swift; sourceTree = "<group>"; };
@@ -201,7 +199,6 @@
 				794CCEAD1F3A414000E11A31 /* NewAccountController.swift */,
 				794CCEB31F3B491300E11A31 /* CreateUsernameController.swift */,
 				794CCEB51F3C938E00E11A31 /* SettingsController.swift */,
-				796A99481F43302D005C88FA /* FavoritesTableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -395,7 +392,6 @@
 				79DFC9451F2798C3005502DB /* FeaturedController.swift in Sources */,
 				79DFC9371F26885A005502DB /* User.swift in Sources */,
 				798CE3201F30F5B800406EFB /* SearchController.swift in Sources */,
-				796A99491F43302D005C88FA /* FavoritesTableViewController.swift in Sources */,
 				7940613E1F2A4B3500D42FA1 /* OrganizationClass.swift in Sources */,
 				79DFC92D1F26774F005502DB /* LoginViewController.swift in Sources */,
 				79DFC9471F2798D9005502DB /* CategoriesController.swift in Sources */,

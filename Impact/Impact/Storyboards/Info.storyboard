@@ -85,7 +85,7 @@
                                                             <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <segue destination="R7X-UE-Ked" kind="show" identifier="toDonate" id="e66-6I-6sd"/>
+                                                            <action selector="donateButtonTapped:" destination="bh0-6P-Nkn" eventType="touchUpInside" id="D0P-P0-dDL"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -136,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pyo-9A-eAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="488" y="13"/>
+            <point key="canvasLocation" x="486.95652173913049" y="12.228260869565219"/>
         </scene>
         <!--Website-->
         <scene sceneID="1nN-lC-6Yu">
@@ -206,74 +206,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jie-RO-anN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1378.2608695652175" y="-324.45652173913044"/>
-        </scene>
-        <!--Support-->
-        <scene sceneID="fXN-Vl-dE4">
-            <objects>
-                <viewController id="R7X-UE-Ked" customClass="DonateController" customModule="Impact" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="iWJ-OA-mfB"/>
-                        <viewControllerLayoutGuide type="bottom" id="q47-in-53c"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QES-zu-D7i">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JeA-rZ-F02">
-                                <rect key="frame" x="20" y="683" width="40" height="34"/>
-                                <color key="tintColor" red="0.16639342900000001" green="0.26416450740000003" blue="0.34455296400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.023775868120000002" green="0.47760850189999998" blue="0.9847235084" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="backButtonTapped:" destination="0SO-Bs-PhB" eventType="touchUpInside" id="Nz2-Mu-4gv"/>
-                                    <action selector="donateBackTapped:" destination="R7X-UE-Ked" eventType="touchUpInside" id="kMu-o7-gnd"/>
-                                </connections>
-                            </button>
-                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zQs-KQ-bs1">
-                                <rect key="frame" x="0.0" y="64" width="414" height="611"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="bhM-Zu-j1c">
-                                <rect key="frame" x="197" y="158" width="20" height="20"/>
-                            </activityIndicatorView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwe-xJ-Xn6">
-                                <rect key="frame" x="327" y="684" width="67" height="34"/>
-                                <color key="tintColor" red="0.16639342900000001" green="0.26416450740000003" blue="0.34455296400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Forward">
-                                    <color key="titleColor" red="0.023775868117809296" green="0.47760850191116333" blue="0.98472350835800171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="donateForwardTapped:" destination="R7X-UE-Ked" eventType="touchUpInside" id="xem-TJ-d37"/>
-                                    <action selector="forwardButtonTapped:" destination="0SO-Bs-PhB" eventType="touchUpInside" id="qbb-u3-TZc"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="fwe-xJ-Xn6" firstAttribute="top" secondItem="zQs-KQ-bs1" secondAttribute="bottom" constant="9" id="0nH-9N-mZ8"/>
-                            <constraint firstItem="q47-in-53c" firstAttribute="top" secondItem="fwe-xJ-Xn6" secondAttribute="bottom" constant="18" id="1E8-2E-wgQ"/>
-                            <constraint firstItem="zQs-KQ-bs1" firstAttribute="leading" secondItem="QES-zu-D7i" secondAttribute="leading" id="2QH-Ry-EYu"/>
-                            <constraint firstItem="bhM-Zu-j1c" firstAttribute="top" secondItem="iWJ-OA-mfB" secondAttribute="bottom" constant="94" id="2nv-bE-vlU"/>
-                            <constraint firstItem="bhM-Zu-j1c" firstAttribute="centerX" secondItem="QES-zu-D7i" secondAttribute="centerX" id="O4n-Oa-pyS"/>
-                            <constraint firstItem="fwe-xJ-Xn6" firstAttribute="trailing" secondItem="QES-zu-D7i" secondAttribute="trailingMargin" id="SJl-QT-lfQ"/>
-                            <constraint firstAttribute="trailing" secondItem="zQs-KQ-bs1" secondAttribute="trailing" id="aZL-PD-DVl"/>
-                            <constraint firstItem="zQs-KQ-bs1" firstAttribute="top" secondItem="QES-zu-D7i" secondAttribute="top" constant="64" id="lme-l7-C64"/>
-                            <constraint firstItem="JeA-rZ-F02" firstAttribute="leading" secondItem="QES-zu-D7i" secondAttribute="leadingMargin" id="q00-T0-WhJ"/>
-                            <constraint firstItem="q47-in-53c" firstAttribute="top" secondItem="JeA-rZ-F02" secondAttribute="bottom" constant="19" id="uqO-fg-kvk"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Support" id="nx3-25-jal"/>
-                    <connections>
-                        <outlet property="donateActivityIndicator" destination="bhM-Zu-j1c" id="fy5-Du-L7x"/>
-                        <outlet property="donateBackButton" destination="JeA-rZ-F02" id="PUD-2m-Sfg"/>
-                        <outlet property="donateForwardButton" destination="fwe-xJ-Xn6" id="7dd-UO-wb3"/>
-                        <outlet property="donateWebView" destination="zQs-KQ-bs1" id="Byo-DD-qUv"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BDg-fN-L8t" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1379.7101449275362" y="375.81521739130437"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gch-7R-iGI">

@@ -1261,7 +1261,7 @@
              "iconImage": "https://s-media-cache-ak0.pinimg.com/avatars/congregation_b_1450795443_280.jpg"
              },
              {
-             "name": "The Outreach Foundaiton",
+             "name": "The Outreach Foundation",
              "category": "Religion",
              "imageUrl": "https://theoutreachfoundationblog.files.wordpress.com/2012/01/cropped-logo-horizontal.jpg",
              "websiteUrl": "https://www.theoutreachfoundation.org/",
@@ -1304,6 +1304,105 @@
              "description": "UNHCR, the UN Refugee Agency, is a global organization dedicated to saving lives, protecting rights and building a better future for refugees, forcibly displaced communities and stateless people.",
              "donateUrl": "https://donate.unrefugees.org/ea-action/action?ea.client.id=1873&ea.campaign.id=67052&ea.tracking.id=D15XRX172XXS&utm_source=unhcr.org&utm_medium=referral&utm_campaign=US_EN_GENERAL_201704&utm_content=monthly",
              "iconImage": "http://www.unhcr.org/images/sharelogo.jpg"
+             },
+             {
+             "name": "Bright Hope International",
+             "category": "Religion",
+             "imageUrl": "https://s3.amazonaws.com/eventimages/events/1300/icon.png?v=18",
+             "websiteUrl": "http://www.brighthope.org/index",
+             "description": "Founded in 1968, Bright Hope serves the extreme poor - those living on less than $1 a day. Bright Hope envisions a world where under-resourced, indigenous churches transform their communities and bring Hope to the extreme poor. Their efforts include a holistic program with physical aid, economic development and spiritual growth in each of their partnerships in Africa, Asia and Latin America. This aspect of their ministry is called Hope for today, tomorrow and eternity.\n\nThe following are types of assistance and support, depending on the needs of the local partners: disaster, crisis and refugee response; healthcare; food and water; education; orphan and vulnerable children care; job creation; micro-enterprise; infrastructure; agriculture programs; church planting; evangelism and church leadership development.",
+             "donateUrl": "https://brighthope.secure.nonprofitsoapbox.com/donate",
+             "iconImage": "https://cafo.org/wp-content/uploads/2015/07/Bright-Hope.jpg"
+             },
+             {
+             "name": "Catholic Near East Welfare Association",
+             "category": "Religion",
+             "imageUrl": "http://www.cnewa.ca/splashpgcanada_01.jpg",
+             "websiteUrl": "http://www.cnewa.org/home.aspx?ID=26&pagetypeID=12&sitecode=HQ",
+             "description": "Catholic Near East Welfare Association was founded by the Holy Father to share the love of Christ with the churches and peoples of the East. We work for, through and with the Eastern Catholic Churches to identify needs and implement solutions. Together, we build up the Church, affirm human dignity, alleviate poverty, encourage dialogue--and inspire hope.",
+             "donateUrl": "http://www.cnewa.org/default.aspx?ID=195&pagetypeID=24&sitecode=HQ&pageno=1",
+             "iconImage": "http://www.pressreleasepoint.com/files/imagecache/user_image_large/pictures/picture-72866.jpg"
+             },
+             {
+             "name": "Hebrew Free Burial Association",
+             "category": "Religion",
+             "imageUrl": "https://jewishhome.org/wp-content/uploads/2015/01/hebrew-burial.jpg",
+             "websiteUrl": "https://www.hebrewfreeburial.org/",
+             "description": "The Hebrew Free Burial Association (HFBA) began in the 1880's as a free burial society serving the residents of Manhattan's Lower East Side and was incorporated in 1889. As the need grew in adjacent Jewish communities, HFBA also grew to serve the broader metropolitan area of New York City. HFBA is currently the largest free burial society outside of Israel. HFBA is unique in that it cares for impoverished, marginalized Jews after death. Typically, an indigent person in New York City is buried in an anonymous mass grave in Potter's Field after lying in a morgue for up to a month or may be transferred to a medical school for dissection and research. HFBA, through its contacts with city and social service agencies, is notified about Jewish decedents and makes arrangements so that every Jew receives a prompt, dignified Jewish funeral and burial.",
+             "donateUrl": "https://www.hebrewfreeburial.org/donate/",
+             "iconImage": "http://www.nachumsegal.com/wp-content/uploads/2013/10/hebrewfreeburial2011.jpg"
+             },
+             {
+             "name": "Hazon",
+             "category": "Religion",
+             "imageUrl": "https://hazon.org/wp-content/uploads/2013/07/Hazon-Logo.png",
+             "websiteUrl": "https://hazon.org/",
+             "description": "Hazon means vision. We create healthier and more sustainable communities in the Jewish world and beyond. Our programs are multi-generational and give entry points for Jews of all backgrounds who are concerned about the environment and the world. Hazon serves a national and international population; members of every denomination and those who are unaffiliated; intergenerational from children to seniors – including families and singles, with a particular focus on young adults interested in developing the skills to take on leadership roles in their communities and make a difference in the world.",
+             "donateUrl": "https://secure3.convio.net/jewish/site/Donation2?df_id=4708&mfc_pref=T&4708.donation=form1",
+             "iconImage": "https://pbs.twimg.com/profile_images/1011759569/hazonFavicon_400x400.png"
+             },
+             {
+             "name": "Joni and Friends",
+             "category": "Religion",
+             "imageUrl": "https://dwchurch.com/wp-content/uploads/2013/07/joni-and-friends-logo.jpg",
+             "websiteUrl": "http://www.joniandfriends.org/",
+             "description": "Founded by Joni Eareckson Tada in 1979, Joni and Friends communicates the gospel and equips Christ-honoring churches worldwide to evangelize and disciple people affected by disabilities. We present the clear and concise Gospel of Jesus Christ to all people with disabilities and their families served through our programs. We train, disciple, and mentor people affected by disability to exercise their gifts of leadership and service in the church and their communities. We energize the church to move from lack of awareness to including disabled persons into the fabric of worship, fellowship, and outreach.",
+             "donateUrl": "https://www.joniandfriends.org/donate/",
+             "iconImage": "https://pbs.twimg.com/profile_images/799739973595381760/9Shod3HZ.jpg"
+             },
+             {
+             "name": "Urban Youth Impact",
+             "category": "Religion",
+             "imageUrl": "https://www.tfaforms.com/forms/get_image/173680/1af5285195765fbc8d3b100806738e28-UYI_CMYK_LOGO.png",
+             "websiteUrl": "https://urbanyouthimpact.com/",
+             "description": "Urban Youth Impact (UYI) exists to love, equip and empower inner-city youth and their parents to fulfill their God-given purpose. Founded in 1997, UYI seeks to reverse troubling trends and fulfill its mission by offering programs designed to develop critical life-skills that result in less juvenile crime, fewer teen pregnancies, less substance abuse, less child abuse/domestic violence, and fewer school drop-outs.",
+             "donateUrl": "https://urbanyouthimpact.com/donate/",
+             "iconImage": "http://www.wadads.com/wp-content/uploads/2015/09/UYI-logo.jpg"
+             },
+             {
+             "name": "Accion East",
+             "category": "Community Development",
+             "imageUrl": "http://www.nybdc.com/img/news/Community_Partner_Highlight_Paul_Quintero_CEO_at_Accion_East_and_Online_w6fvxsv3.gif",
+             "websiteUrl": "",
+             "description": "Accion East (formerly ACCION USA) is a non-profit microfinance organization that empowers low- to moderate-income small business owners through access to capital and education. With economic opportunity, Accion East's clients-predominantly minorities, immigrants and women-go on to build assets, support their families, create jobs and revitalize their local communities. Since opening its doors in 1991, Accion East has put over 22,000 microloans totaling over $140 million into the hands of hardworking entrepreneurs and families across the country. Accion East is a certified Community Development Financial Institution by the U.S. Department of the Treasury, a sanctioned SBA Intermediary Microlender, and a member of the Accion U.S. Network, the largest microfinance network in the United States.",
+             "donateUrl": "https://donatenow.networkforgood.org/accioneast?uniqueID=633790329644707802",
+             "iconImage": "https://pbs.twimg.com/profile_images/531854331243274241/Qz7qB4QZ.png"
+             },
+             {
+             "name": "Asian Pacific Environmental Network",
+             "category": "Community Development",
+             "imageUrl": "http://www.generativesomatics.org/sites/default/files/images/APEN-logo.jpg",
+             "websiteUrl": "https://apen4ej.org/",
+             "description": "Founded in 1993, the Asian Pacific Environmental Network (APEN) seeks to empower low-income Asian Pacific Islander (API) communities to achieve environmental and social justice. APEN believes that the environment includes everything around us: where we live, work and play. We strive to build grassroots organizations that will improve the health, well-being and political strength of our communities. APEN currently works on three levels: direct organizing in local communities; building a network of API organizations; and working in multiracial alliances to affect regional and national social change.",
+             "donateUrl": "https://apen4ej.org/get-involved/donate/",
+             "iconImage": "https://www.catchafire.org/media/29142/images/np_logos/APEN_logo-fb_profile_175x175_cropped.png"
+             },
+             {
+             "name": "Center for Community Change",
+             "category": "Community Development",
+             "imageUrl": "http://changeaction.electricembers.net/housingtrustfundproject/wp-content/themes/housingtrustfund/images/logo.png",
+             "websiteUrl": "https://www.communitychange.org/",
+             "description": "Founded in 1968, the Center for Community Change strengthens, connects and mobilizes grassroots groups to enhance their leadership, voice and power. We believe that vibrant community-based organizations, led by the people most affected by social and economic injustice, are key to putting an end to the failed go-it-alone politics of the past and building a better America for everyone based on community values. The Center is one of the longest-standing champions for low-income people and communities of color. We amplify community voices, combine grassroots power to win, and build the social movements of tomorrow.",
+             "donateUrl": "https://join.communitychange.org/page/contribute/donate-now-center-for-community-change",
+             "iconImage": "http://peasleecenter.org/wp-content/uploads/2015/01/CenterforCommunityChange.jpg"
+             },
+             {
+             "name": "Commonwealth",
+             "category": "Community Development",
+             "imageUrl": "https://buildcommonwealth.org/theme/images/commonwealth-logo.png",
+             "websiteUrl": "https://buildcommonwealth.org/",
+             "description": "D2D Fund is now Commonwealth\n\nWe have spent more than a year reflecting on our first 15 years and thinking deeply about the future - all to realize our fundamental purpose for the next 15 years, to create a stronger and more prosperous society where everyone has financial opportunity.\nUnfortunately, too many people in the U.S. today lack financial stability. For people to pursue their full potential, we need more wealth - of opportunity, of tools, of financial assets - and we need that wealth to be more widespread. \n\nWe aspire to accomplish that by building innovative solutions that make people financially secure. We collaborate with consumers, the financial services industry, policy makers, and mission-driven organizations to discover ideas, pilot solutions, and drive innovations to scale so wealth can become possible for everyone.",
+             "donateUrl": "https://www.networkforgood.org/donation/ExpressDonation.aspx?ORGID2=043540147&vlrStratCode=y6quAyiljdzRlbuOp%2fjWexoi5kDGOmDlkWzfJk068ocNzN8LR1Ms0Exlo2FOyEdR",
+             "iconImage": "https://pbs.twimg.com/profile_images/780401208506716160/FEoUZ9Ue.jpg"
+             },
+             {
+             "name": "Indian Muslim Relief and Charities",
+             "category": "International",
+             "imageUrl": "https://www.imrcusa.org/wp-content/uploads/2016/02/IMRC-Logo.png",
+             "websiteUrl": "https://www.imrcusa.org/",
+             "description": "Indian Muslim Relief and Charities (IMRC) is dedicated to alleviating poverty in India. The donations it raises, from individuals throughout the United States, fund its charitable projects in India. Even the smallest of donations can greatly benefit an orphaned child or a widowed woman. Charity has always been an integral aspect of a Muslim society. The Quran places great emphasis on giving to the poor, and our beloved Prophet (pbuh) is reported to have said that wealth does not diminish by charity. When you donate to IMRC, you are supporting a network of more than 100 Muslim organizations in India. These organizations provide educational and financial support to thousands of orphans, destitute children and needy families. Your generous donations also support medical clinics, women's training centers and other social welfare institutions.",
+             "donateUrl": "https://www.imrcusa.org/donate/",
+             "iconImage": "https://s3.amazonaws.com/berkley-center/IndianMuslimReliefCharities.jpg"
              }
         ]
 }

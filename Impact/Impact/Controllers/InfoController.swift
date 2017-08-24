@@ -17,7 +17,7 @@ class InfoController: UIViewController{
     var organizations = [OrganizationClass]()
     var filtered = [OrganizationClass]()
     
-    @IBOutlet weak var favoriteButton: UIButton!
+    
     @IBOutlet weak var donateButton: UIButton!
     @IBOutlet weak var websiteButton: UIButton!
     @IBOutlet weak var infoDescriptionLabel: UILabel!
@@ -38,7 +38,13 @@ class InfoController: UIViewController{
         infoImageView.af_setImage(withURL: URL(string: imageUrl!)!)
     }
     
-    @IBAction func favoriteButtonTapped(_ sender: UIButton) {
+    
+    @IBAction func donateButtonTapped(_ sender: UIButton) {
+        let donate = org?.donationURL
+        if let url = URL(string: donate!) {
+            UIApplication.shared.open(url, options: [:])
+        }
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -47,12 +53,6 @@ class InfoController: UIViewController{
                 let website = org?.websiteUrl
                 let websiteController = segue.destination as! WebsiteController
                 websiteController.websiteUrl = website!
-            }
-            
-            if identifier == "toDonate"{
-                let donate = org?.donationURL
-                let donateController = segue.destination as! DonateController
-                donateController.donateUrl = donate!
             }
         }
     }

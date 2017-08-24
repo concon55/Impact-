@@ -61,16 +61,31 @@ class ProfileController: UIViewController{
     
     
     @IBAction func logoutButtonTapped(_ sender: UIBarButtonItem) {
-        do {
-            try Auth.auth().signOut()
-        } catch let error as NSError {
-            assertionFailure("Error signing out: \(error.localizedDescription)")
+        
+        let alertController = UIAlertController(title: "Log Out", message: "Are you sure you would like to log out?", preferredStyle: .alert)
+        
+        let cancel = UIAlertAction(title: "Cancel", style: .default) { (UIAlertAction) in
+            self.dismiss(animated: true, completion: nil)
         }
-        let storyboard = UIStoryboard(name: "Login", bundle: .main)
-        if let initialViewController = storyboard.instantiateInitialViewController() {
-            self.view.window?.rootViewController = initialViewController
-            self.view.window?.makeKeyAndVisible()
+        
+        let action = UIAlertAction(title: "Log out", style: .default) { (UIAlertAction) in
+            do {
+                try Auth.auth().signOut()
+            } catch let error as NSError {
+                assertionFailure("Error signing out: \(error.localizedDescription)")
+            }
+            self.dismiss(animated: true, completion: nil)
+            
+            let storyboard = UIStoryboard(name: "Login", bundle: .main)
+            if let initialViewController = storyboard.instantiateInitialViewController() {
+                self.view.window?.rootViewController = initialViewController
+                self.view.window?.makeKeyAndVisible()
+            }
         }
+        
+        alertController.addAction(action)
+        alertController.addAction(cancel)
+        self.present(alertController, animated: true, completion: nil)
 
     }
     

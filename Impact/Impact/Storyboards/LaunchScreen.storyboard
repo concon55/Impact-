@@ -21,14 +21,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo " translatesAutoresizingMaskIntoConstraints="NO" id="POd-km-9B7">
-                                <rect key="frame" x="145" y="306" width="124" height="124"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTY-ng-jmm">
+                                <rect key="frame" x="128.66666666666669" y="336" width="157.00000000000006" height="64"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="47"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.16470588235294117" green="0.2627450980392157" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="POd-km-9B7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Eqx-VU-zgA"/>
-                            <constraint firstItem="POd-km-9B7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="OOU-x4-3iT"/>
+                            <constraint firstItem="CTY-ng-jmm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lhU-zc-Sh1"/>
+                            <constraint firstItem="CTY-ng-jmm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="njV-wA-sJ5"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,7 +40,4 @@
             <point key="canvasLocation" x="50.724637681159422" y="374.18478260869568"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="logo " width="124" height="124"/>
-    </resources>
 </document>

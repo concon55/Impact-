@@ -12,7 +12,7 @@ import UIKit
 
 class SearchController: UITableViewController, UISearchResultsUpdating{
     
-    var org: OrganizationClass?
+    //var org: OrganizationClass?
     var unfilteredOrgs = [OrganizationClass]()
     var filteredOrgs = [OrganizationClass]()
     let searchController = UISearchController(searchResultsController: nil)
