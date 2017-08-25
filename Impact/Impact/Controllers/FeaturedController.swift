@@ -116,6 +116,7 @@ extension FeaturedController: UITableViewDataSource {
         //let featuredOrg = featuredOrganizations[indexPath.row]
         cell.orgNameLabel.text = sectionData[indexPath.section]![indexPath.row].charityName
         //let featuredImageUrl = featuredOrg.imageUrl
+        cell.featuredImage?.image = nil
         cell.featuredImage.af_setImage(withURL: URL(string: sectionData[indexPath.section]![indexPath.row].imageUrl)!)
         let cellColors = [UIColor(red:0.28, green:0.16, blue:0.23, alpha:0.85), UIColor(red:0.29, green:0.35, blue:0.40, alpha:0.85), UIColor(red:0.10, green:0.20, blue:0.26, alpha:0.85), UIColor(red:0.44, green:0.42, blue:0.41, alpha:0.85)]
         let bgColor = cellColors[indexPath.row % cellColors.count]
