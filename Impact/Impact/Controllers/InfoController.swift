@@ -47,15 +47,13 @@ class InfoController: UIViewController{
         
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let identifier = segue.identifier {
-            if identifier == "toWebView"{
-                let website = org?.websiteUrl
-                let websiteController = segue.destination as! WebsiteController
-                websiteController.websiteUrl = website!
-            }
+    @IBAction func websiteButtonTapped(_ sender: UIButton) {
+        let website = org?.websiteUrl
+        if let url = URL(string: website!) {
+            UIApplication.shared.open(url, options: [:])
         }
     }
+        
 
     
     

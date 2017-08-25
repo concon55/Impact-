@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -67,7 +66,7 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                         <state key="normal" title="Website"/>
                                                         <connections>
-                                                            <segue destination="0SO-Bs-PhB" kind="show" identifier="toWebView" id="zcy-v3-ZRR"/>
+                                                            <action selector="websiteButtonTapped:" destination="bh0-6P-Nkn" eventType="touchUpInside" id="2Z4-hs-xKE"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7q-5O-ayI">
@@ -137,75 +136,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pyo-9A-eAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="486.95652173913049" y="12.228260869565219"/>
-        </scene>
-        <!--Website-->
-        <scene sceneID="1nN-lC-6Yu">
-            <objects>
-                <viewController id="0SO-Bs-PhB" customClass="WebsiteController" customModule="Impact" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="3zf-48-kMX"/>
-                        <viewControllerLayoutGuide type="bottom" id="wSt-Dx-ZVd"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8EL-Z0-dNE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cl6-Fg-Axx">
-                                <rect key="frame" x="20" y="683" width="40" height="34"/>
-                                <color key="tintColor" red="0.16639342900000001" green="0.26416450740000003" blue="0.34455296400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.023775868117809296" green="0.47760850191116333" blue="0.98472350835800171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="backButtonTapped:" destination="0SO-Bs-PhB" eventType="touchUpInside" id="ZVP-tk-nPd"/>
-                                </connections>
-                            </button>
-                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wwI-e3-0sb">
-                                <rect key="frame" x="0.0" y="64" width="414" height="602"/>
-                                <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <outlet property="delegate" destination="0SO-Bs-PhB" id="vBb-Qh-GB1"/>
-                                </connections>
-                            </webView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="E2z-gt-SN8">
-                                <rect key="frame" x="197" y="158" width="20" height="20"/>
-                            </activityIndicatorView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIo-IK-lBN">
-                                <rect key="frame" x="327" y="684" width="67" height="34"/>
-                                <color key="tintColor" red="0.16639342900000001" green="0.26416450740000003" blue="0.34455296400000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Forward">
-                                    <color key="titleColor" red="0.023775868120000002" green="0.47760850189999998" blue="0.9847235084" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="forwardButtonTapped:" destination="0SO-Bs-PhB" eventType="touchUpInside" id="fnz-rp-VTy"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="wwI-e3-0sb" firstAttribute="top" secondItem="8EL-Z0-dNE" secondAttribute="topMargin" constant="64" id="1Fb-Yg-yUm"/>
-                            <constraint firstItem="cl6-Fg-Axx" firstAttribute="leading" secondItem="8EL-Z0-dNE" secondAttribute="leadingMargin" id="6F1-LI-IAm"/>
-                            <constraint firstItem="E2z-gt-SN8" firstAttribute="centerX" secondItem="8EL-Z0-dNE" secondAttribute="centerX" id="J1H-Kw-PNY"/>
-                            <constraint firstItem="E2z-gt-SN8" firstAttribute="top" secondItem="3zf-48-kMX" secondAttribute="bottom" constant="94" id="RTU-Kr-buc"/>
-                            <constraint firstItem="pIo-IK-lBN" firstAttribute="top" secondItem="wwI-e3-0sb" secondAttribute="bottom" constant="18" id="YDX-Bk-MKQ"/>
-                            <constraint firstItem="pIo-IK-lBN" firstAttribute="trailing" secondItem="8EL-Z0-dNE" secondAttribute="trailingMargin" id="Ysl-SX-24Q"/>
-                            <constraint firstItem="wwI-e3-0sb" firstAttribute="leading" secondItem="8EL-Z0-dNE" secondAttribute="leading" id="ppf-4g-S4N"/>
-                            <constraint firstItem="wSt-Dx-ZVd" firstAttribute="top" secondItem="pIo-IK-lBN" secondAttribute="bottom" constant="18" id="qrS-3N-8JC"/>
-                            <constraint firstAttribute="trailing" secondItem="wwI-e3-0sb" secondAttribute="trailing" id="zg1-tF-Fiu"/>
-                            <constraint firstItem="wSt-Dx-ZVd" firstAttribute="top" secondItem="cl6-Fg-Axx" secondAttribute="bottom" constant="19" id="zzJ-MJ-2bE"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Website" id="aij-s4-UV2"/>
-                    <connections>
-                        <outlet property="backButton" destination="cl6-Fg-Axx" id="iHG-Ev-nhO"/>
-                        <outlet property="forwardButton" destination="pIo-IK-lBN" id="anD-db-D4Y"/>
-                        <outlet property="webView" destination="wwI-e3-0sb" id="kiK-RF-FTd"/>
-                        <outlet property="websiteActivityIndicator" destination="E2z-gt-SN8" id="XXg-qD-o3p"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jie-RO-anN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1378.2608695652175" y="-324.45652173913044"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gch-7R-iGI">
